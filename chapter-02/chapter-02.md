@@ -203,3 +203,176 @@ https://docs.google.com/forms/d/e/1FAIpQLSf50lRgCkX84aNEuHV86LSFNVgvwaYceiN8OfUQ
 12. ¿Qué tan dispuesto estaría a cambiar sus hábitos para lograr un ahorro de luz?
 13. ¿Estaría dispuesto a adquirir un servicio que le ofreciera este tipo de reportes y control sobre su consumo energético?
 ####
+
+### 2.2.2. Registro de entrevistas
+
+
+Esta sección se dedica a la documentación sistemática de cada entrevista con los segmentos objetivo. Se organiza la información para presentar el perfil de cada entrevistado, junto con sus respuestas directas y los hallazgos más significativos. Este registro es crucial para comprender la perspectiva del usuario y validar las hipótesis iniciales del proyecto.
+
+Link del Video: https://shorturl.at/l63Qm
+
+**ENTREVISTAS SEGMENTO OBJETIVO 1: PROPIETARIOS DE VIVIENDA**
+
+**ENTREVISTA 1**
+
+![Entrevista-1-Propietario.png](assets/Entrevista-1-Propietario.png)
+
+
+Inicia: 0 minutos y 0 segundos
+
+Duración: 5 minutos y 24 segundos
+
+Nombre: Yusnury Hilda Vivar Olivos
+
+Edad: 28 años
+
+Distrito: San Miguel
+
+Resumen: Yusnury Vivar trabaja en el área receptivo de una agencia de viajes y vive en una casa propia con su familia. Considera muy importante la eficiencia energética y en su hogar aplican prácticas como apagar luces, usar focos LED y desconectar cargadores. Aunque solo revisa su recibo de luz a fin de mes, reconoce que electrodomésticos como la refrigeradora, lavadora/secadora y computadoras elevan su consumo. Le interesan marcas como Xiaomi, TP-Link y Amazon Alexa por su accesibilidad y compatibilidad. Le gustaría una solución que le ofrezca reportes claros por aparato y que sea fácil de usar, con soporte y garantía de ahorro, ya que estaría dispuesta a adoptar nuevas tecnologías que aporten comodidad, control y cuidado del medio ambiente.
+
+Información extra:
+
+* Dispositivos:
+    + iPhone (uso constante).
+    + Computadora y laptop (para trabajo).
+
+* Personalidad:
+
+    + Tiene alta disposición a innovar y probar nuevas tecnologías para el hogar.
+    + Su motivación va más allá del ahorro económico: le interesa el cuidado del medio ambiente, la comodidad y la modernidad.
+
+**ENTREVISTA 2**
+
+![Entrevista-2-Propietario.png](assets/Entrevista-2-Propietario.png)
+
+Inicia:  5 minutos y 24 segundos
+
+Duración:  3 minutos y 42 segundos
+
+Nombre: Augusta Sessarego
+
+Edad:  54
+
+Distrito: Jesús María
+
+Resumen: Augusta Sessarego(54) trabaja como secretaria en una agencia de salud, vive en su casa con su hijo y una mascota. Ella considera de suma importancia tener una eficiencia sobre el consumo energético en su vivienda, en estos últimos meses ha estado aplicando prátcias como desenchufar aparatos que no se usen y usar regularmentes dispositivos para que no consuman demasiada energía. Cada mes ella revisa su recibo de luz solo una vez que normalmente son los 30 o 31, según su experiencia los electrodomésticos como la terma, el microondas, y la refrigeradora son los que más consumo energía por día. Del mismo modo no es una persona que se fije en las marcas de dispositivos simplemente se deja llevar por el precio y calidad aunque si afirma haberse comprado un Amazon Alexa. Por último si le gustaria una solución que le ofrezca reportes díarios de su consumo energético para así poder optimizar por dispositivo la cantidad de energía generada en su vivienda.
+
+Información extra:
+
+* Dispositivos:
+    + Android (uso constante).
+    + Computadora y laptop (para trabajo).
+
+* Personalidad:
+    + Le gusta comprar nuevas cosas que le ayuden en el día a día en su hogar.
+    + Su motivación para ahorrar va más alla de lo económico, si no le gustaría poder reducir su huella de carbono para contribuir al cuidado del medio ambiente.
+
+**ENTREVISTA 3**
+
+![Entrevista1-Segmento1.png](assets/Entrevista1-Segmento1.png)
+
+
+Inicia: 9 minutos y 17 segundos
+
+Duración: 7 minutos y 5 segundos
+
+Nombre: Moisés de la Cruz
+
+Edad: 29
+
+Distrito: Chorrillos
+
+Resumen:El entrevistado señaló que en su empresa textil controlan el consumo de energia de forma manual, leyendo el medidor al inicio y fin de mes. Han tenido problemas con facturas excesivamente altas. , Considera que el uso eficiente de energia en su modelo de negocio es muy importante. Considera útil una app con alertas semanales y de fácil uso, especialmente para que sus padres también la puedan manejar.
+
+Información extra:
+
+* Dispositivos:
+    + iPhone (uso constante).
+    + MacBooks (para trabajo).
+    + Navegador Chrome (uso constante).
+* Personalidad:
+    + Alta disposición a innovar y probar nuevas tecnologías para el hogar y para su familia.
+    + Su motivación va más allá del ahorro económico: le interesa modernizar el ambiente en el cual convive con su familia.
+
+**ENTREVISTAS SEGMENTO OBJETIVO 2: ESTUDIANTES QUE ALQUILAN**
+
+**ENTREVISTA 1**
+
+![Entrevista-1-Estudiante.jpeg](assets/Entrevista-1-Estudiante.jpeg)
+
+
+Inicia: 16 minutos y 23 segundos
+
+Duración: 3 minutos y 32 segundos
+
+Nombre: Johnny Ricardo Mallqui Cueva
+
+Edad: 19
+
+Distrito: Chorrillos
+
+Resumen: Johnny Mallqui (19 años) estudia en la UPC y alquila un cuarto en Chorrillos, se relaciaona a menudo con la tecnología ya que estudia ingeniería de Sistemas. Nos comento que tiene un presupuesto mensual, incluyendo alquiler y servicios. Aunque ha intentado reducir su gasto de energía electrica apagando luces y desconectando dispositivos, a menudo se sorprende con facturas altas. Le gustaría una aplicación que le muestre su consumo en tiempo real con los picos altos y bajos, que le envíe alertas para evitar sorpresas y estaría dispuesto a cambiar sus hábitos para tratar ahorrar más.
+
+Información extra:
+
+* Dispositivos:
+    + Samsung (uso constante).
+    + Computadora (para estudios).
+* Personalidad:
+    + Carrera: Ingeniería de Sistemas.
+    + Estresado por las facturas elevadas, quiere reducir ese gasto.
+    + Prefiere una plataforma en la cual pueda monitorear el consumo de energía.
+
+**ENTREVISTA 2**
+
+![Entrevista-2-Estudiante.jpeg](assets/Entrevista-2-Estudiante.jpeg)
+
+Inicia: 19 minutos y 55 segundos
+
+Duración: 4 minutos y 6 segundos
+
+Nombre: Stephano José Espinoza Cueva
+
+Edad: 20
+
+Distrito: La Victoria
+
+Resumen: Stephano Espinoza (20 años) estudia en la UPC y alquila un departamento en La Victoria con amigos, se encuentra cursando la carrera de ingenieria de Software con sus amigos, cuya carrera esta relaciona con un ambiente tecnólogico. Ellos se dividen los gastos, pero a veces se sorprenden con facturas elevadas. El nos comenta que, como medidas para reducir los gastos, desconectan dispositivos, no usan frecuentemente dispositivos de alto consumo y tratan de usar luces LED. A él gustaría una aplicación que le envíe alertas para estar prevenido si es un dispositivo esta consumiendo demasiada energía, que a traves del consumo genere un historial con un balance para darle un feedback con posibles sugerencias.
+
+Información extra:
+
+* Dispositivos:
+    + iPhone (uso constante).
+    + Computadora y laptop (para estudios).
+
+* Personalidad:
+    + Carrera: Ingeniería de Software.
+    + Preocupado por el consumo excesivo de energía en su departamento.
+    + Prefiere una aplicación que le alerte cuando hay un consumo excesivo y que le de consejos de mejora.
+
+
+**ENTREVISTA 3**
+
+![Entrevista-3-Estudiante.jpeg](assets/Entrevista-3-Estudiante.jpeg)
+
+Inicia: 24 minutos y 2 segundos
+
+Duración: 2 minutos y 8 segundos
+
+Nombre: Simón Gabriel Molina Chirinos
+
+Edad: 19
+
+Distrito: Pueblo Libre
+
+Resumen: Simón Molina es un estudiante de 19 años que alquila un cuarto para estar más cerca de la universidad. Usualmente, calcula sus ingresos y gastos con el objetivo de no gastar de más. Él, considera que es muy consciente con respecto a su consumo energético. Además, que ha inentado reducir sus gastos energéticos mediante evitar dejar encendidas las luces o enchufados los electrodomésticos. Hay veces en las que su factura varía más a pesar de casi no cambiar su consumo. Prefiere dispositivos inteligentes que sean fáciles de utilizar y no sean tan caros. Le gustaría tener información sobre cuánto gasta diariamente y qué dispositivo consume más energía. Asimismo, considera que las alertas de consumo son muy útiles para el ahorro energético. También, menciona que está buscando una aplicación fácil de usar y que realmente ayude a ahorrar. Finalmente, menciona que está interesado en un producto que brinde confianza al momento de ahorrar energía y que sea accesible monetariamente.
+
+Información extra:
+* Dispositivos:
+    + Samsung (uso constante).
+    + Computadora y laptop (para estudios).
+
+* Personalidad:
+    + Carrera: Ingeniería de Sistemas.
+    + Se preocupa por su consumo energético.
+    + Busca una aplicación barata que resuelva su problema energético.
