@@ -159,3 +159,8 @@ Espacios Inteligentes Perú es una plataforma que se especializa en la implement
 ## **Enfoque en el mercado peruano**
 **• Estrategia:** Aprovechar conocimiento local del contexto de consumo residencial (28.6% del total nacional).  
 **• Táctica:** Solución adaptada específicamente a patrones de uso en hogares peruanos.
+
+## 2.2. Entrevistas
+
+Las entrevistas estarán dirigidas a propietarios de vivienda y estudiantes que alquilan, con el objetivo de comprender sus necesidades específicas en el acceso a información sobre arrendamientos, condiciones de vivienda, mantenimiento y servicios, así como conocer más sobre sus gastos.
+
