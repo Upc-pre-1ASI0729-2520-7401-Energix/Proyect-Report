@@ -97,3 +97,23 @@
 | 0.3.4   | 20/09/2025 | Mateo Loechle   | Subió el design responsive de la landing page.                                                                                             |
 | 0.3.5   | 20/09/2025 | Iker Barturen   | Realizo el deployment en la rama release-1.0 como primera versión de la landing page.                                                      |
 | 0.3.6   | 20/09/2025 | Iker Barturen   | Realizo el Sprint 1 del capitulo 5                                                                                                         |
+
+# Project Report Collaboration Insights
+
+#### Repositorio del informe del proyecto
+El informe del proyecto se encuentra alojado en el siguiente repositorio de la organización de GitHub del equipo:
+
+🔗 Enlace del repositorio: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Energix-Proyect-Report
+
+Entrega TB1:
+
+A continuación, se detallan las actividades realizadas en cada entrega, la participación de los miembros del equipo, y las evidencias correspondientes.
+
+Analíticos de colaboración:
+
+![Contributors.png](assets/Contributors.png)
+![Contributors-team.png](assets/Contributors-team.png)
+
+Commits del equipo:
+
+![Commits.jpeg](assets/Commits.jpeg)
