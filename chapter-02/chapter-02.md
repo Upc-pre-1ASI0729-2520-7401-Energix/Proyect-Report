@@ -387,3 +387,15 @@ Información extra:
 ## 2.3. Needfinding
 
 Utilizando la información recolectada, hemos realizado un análisis de las necesidades de los usuarios, que nos permitirá identificar y priorizar las funcionalidades que se incluirán en la plataforma. El resultado es la elaboración de los arquetipos User Persona, que representan a los usuarios finales de la plataforma, el User Task Matrix, User Journey Maps, Empathy Mapping y As-Is Scenario Mapping.
+
+#### 2.3.1. User Personas
+En esta sección del documento, se presentarán perfiles ficticios que representan a los grupos de interés intrevistados. La información proporcionada incluye datos demográficos, rasgos de personalidad, motivaciones, preferencias, metas, desafíos y comportamientos típicos. Estos detalles están basados en las entrevistas realizadas previamente. Se han utilizado herramientas de UXPressia para facilitar la elaboración de estos perfiles
+#
+- **User Persona para Propietarios**
+La "User Person" de Jane Smith representa a propietarios de vivienda que desean tener una herramienta que les ayude a optimizar su consumo de energía en sus hogares. Jane es una secretaria de 35 años, motivado por las nuevas tecnologías y la rapidez de la evolución de estas mismas las cuales le ayudarán en su desempeño como secretaria. Las frustraciones que presenta son el elevado monto de la factura que recibe cada mes debido al alto consumo energético que genera día a día y el no tener una herramienta que le ayude a optimizar este consumo. 
+    ![User-Person-1.png](assets/User-Person-1.png)
+#
+- **User Persona para Estudiantes**
+
+  La "User Person" de Marío Nuñez representa a los estudiantes que alquilan viviendas. Interesados en reducir su consumo energético para poder ahorrar dinero para sus demás necesidades. Marío Nuñez de 20 años es un estudiante de la carrera de ingenieria de software, utiliza herrameientas tecnológicas de modernas debido a que su carre lo demanda. Sus motivaciones son poder disminuir el consumo energético generado cada mes. Sus frustaciones son los elevados costos de la factura de luz lo que le obliga a gastar de más del preosupuesto que tenía para el mes.
+    ![User-Person-2.png](assets/User-Person-2.png)
