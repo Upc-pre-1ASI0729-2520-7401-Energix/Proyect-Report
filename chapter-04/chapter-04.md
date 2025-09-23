@@ -18,7 +18,7 @@ En esta seccion se establecen las bases con las que realizaremos y organizaremos
 - - - - Web: Títulos 50px, cuerpo y subtítulos 50px.
 - - Colores
 - - - Utilizaremos la siguiente paleta de colores:
-      <img src="../assets/blue.png" width="50"/> <img src="../assets/alice-blue.png" width="50"/> <img src="../assets/gray.png" width="50"/><img src="../assets/white.png" width="50"/><img src="../assets/black.png" width="50"/>
+      <img src="assets/blue.png" width="50"/> <img src="assets/alice-blue.png" width="50"/> <img src="assets/gray.png" width="50"/><img src="assets/white.png" width="50"/><img src="assets/black.png" width="50"/>
 - - - - Este azul moderno, representa confianza y presición para la navegación, Se usará en la parte del encabezado guiando al usuario de forma clara. Evocando la fiabilidad de las herrameintas establecidad.  #0277BD
 - - - - Este tono de azul más claro, llamado "Alice Blue", representa frecusra y tranquilidad. Se usará en la parte inferior de la página web, dandole una la sensación al usuario de paz y pureza. #E1F5FE
 - - - - Este gris cálido simple simboliza el punto neutro e imparcial representando comodidad y claridad. Se usará tanto en los botones de acción como en los subtítulos del pié de página. #808080
