@@ -106,7 +106,7 @@
 #### Repositorio del informe del proyecto
 El informe del proyecto se encuentra alojado en el siguiente repositorio de la organización de GitHub del equipo:
 
-🔗 Enlace del repositorio: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Energix-Proyect-Report
+🔗 Enlace del repositorio: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Proyect-Report
 
 Entrega TB1:
 
