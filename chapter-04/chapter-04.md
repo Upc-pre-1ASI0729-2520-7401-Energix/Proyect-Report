@@ -94,3 +94,7 @@ Esta sección detalla los lineamientos visuales para los componentes de la landi
 ![Buttons-Energix.png](assets/Buttons-Energix.png)
 ![Footer-Energix.png](assets/Footer-Energix.png)
 ![Colors-Energix.jpg](assets/Colors-Energix.jpg)
+
+## 4.2. Information Architecture
+
+En esta seccion mostramos las decisiones de Arquitectura de Informacion para organizar el contenido de nuestra aplicacion de tal manera que los usuarios puedan tener una experiencia eficiente. Se incluyen las secciones de Organization Systems, Labeling Systems, Navigation Systems y Searching Systems.
