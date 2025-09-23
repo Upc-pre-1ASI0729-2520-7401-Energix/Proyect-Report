@@ -429,3 +429,35 @@ El análisis del User Task Matrix revela tareas que resultan altamente frecuente
     + También coinciden en el valor de las recomendaciones personalizadas, aunque los propietarios las aplican de manera más analítica, mientras que los estudiantes las usan de forma más básica.
 
 Este análisis permite enfocar el diseño de la plataforma en torno a las tareas más críticas de cada grupo: control avanzado y planificación para propietarios, y ahorro inmediato y facilidad de uso para estudiantes, lo que facilita priorizar funcionalidades en el backlog y asegurar que cada segmento perciba un alto valor en el sistema.
+
+### 2.3.3. User Journey Mapping
+
+Con el propósito de profundizar en la comprensión de los perfiles de usuario y su relación con el consumo energético, se elaboraron Customer Journey Maps mediante la herramienta UXPressia. Esta dinámica permitió representar de forma clara el camino que recorren los usuarios desde que detectan una necesidad hasta la valoración final de la solución, identificando tanto sus motivaciones como los obstáculos que enfrentan.
+
+El análisis se enfocó en dos perfiles representativos:
+
+1. Jane Smith, ingeniera y propietaria de vivienda interesada en soluciones confiables que le permitan gestionar el consumo energético de toda su familia.
+
+1. Mario Núñez, estudiante universitario que alquila un cuarto y busca herramientas simples y económicas para reducir el gasto en electricidad.
+
+Cada Journey Map contempla:
+
+- Las etapas principales del recorrido (conciencia, búsqueda, adopción, uso y evaluación).
+
+- Los objetivos específicos en cada fase.
+
+- Los procesos y canales empleados por los usuarios.
+
+- Las emociones que experimentan, expresadas mediante un sistema visual de sentimientos.
+
+- Los puntos de fricción y las oportunidades de mejora detectadas.
+
+El uso de UXPressia facilitó plasmar de manera visual y ordenada estas experiencias, aportando una mirada empática que enriquece la toma de decisiones. Gracias a este ejercicio, se pudo comprender mejor las diferencias entre estudiantes y propietarios, y orientar el diseño de soluciones más útiles, accesibles y alineadas con sus necesidades reales.
+
+Segmento objetivo #1: Propietarios de Vivienda
+
+![User-Journey-Mapping-1.png](assets/User-Journey-Mapping-1.png)
+
+Segmento objetivo #2: Estudiantes que alquilan
+
+![User-Journey-Mapping-2.png](assets/User-Journey-Mapping-2.png)
