@@ -98,3 +98,10 @@ Esta sección detalla los lineamientos visuales para los componentes de la landi
 ## 4.2. Information Architecture
 
 En esta seccion mostramos las decisiones de Arquitectura de Informacion para organizar el contenido de nuestra aplicacion de tal manera que los usuarios puedan tener una experiencia eficiente. Se incluyen las secciones de Organization Systems, Labeling Systems, Navigation Systems y Searching Systems.
+
+### 4.2.1. Organization Systems
+
+Aplicación web:
+Dentro de la app, el sistema de organización se basa en un menú lateral que agrupa las funciones principales (Dashboard, Reportes, Consumo, Configuración, Perfil). Esto permite que el usuario mantenga un control claro de su progreso y pueda acceder rápidamente a las herramientas según sus metas.
+
+![organizationsystem-diagram.png](assets/organizationsystem-diagram.png)
