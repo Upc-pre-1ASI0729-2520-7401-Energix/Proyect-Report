@@ -1,6 +1,8 @@
 <div align="center"> 
 
+
 <img src="assets/upc-logo.png" alt="UPC Logo" width="200"/>
+
 
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 
@@ -54,6 +56,7 @@
 --- 
 
 ### Ciclo 2025-20
+
 
 </div>
 
@@ -229,4 +232,7 @@ del ABET – EAC - Student Outcome 3.
 | Comunica por escrito con efectividad a diferentes rangos de audiencia   | TB1: Andrés Torres: Aporté elaborando el perfil de la solución, análisis de competidores y guías de estilo generales del producto. Desarrollé las hipótesis para el proceso Lean UX, documenté estrategias frente a competidores, creé el Big Picture Event Storming y contribuí con los sistemas de etiquetado, wireframes y la tercera sección de la landing page, asegurando contenido comprensible y bien estructurado.                                      | Elaboramos informes técnicos siguiendo los estándares establecidos para el desarrollo de proyectos de ingeniería, asegurando la calidad del contenido antes de su entrega. Nos esforzamos por transmitir ideas y conceptos clave de forma clara y empática, adaptando el nivel de detalle y el lenguaje escrito a las características del público, independientemente de su especialidad o jerarquía. Seleccionamos de manera cuidadosa los medios y formatos más adecuados para facilitar la comprensión del mensaje, y verificamos sistemáticamente que todos los atributos de calidad estén presentes antes de la presentación final. |
 | Comunica oralmente con efectividad a diferentes rangos de audiencia.    | TB1: Alexis Encalada: Participé activamente en las reuniones aportando ideas sobre la estructura de base de datos, creación de User Personas y definición del lenguaje ubicuo. Durante las sesiones de trabajo, expliqué la estructuración de entrevistas, facilité la comprensión de SEO Tags y Meta Tags, y coordiné presentaciones sobre diagramas de base de datos y Userflow, facilitando la alineación del equipo en conceptos clave.                      | Adaptamos nuestra forma de comunicarnos según el perfil de la audiencia, utilizando códigos y recursos adecuados para asegurar la correcta transmisión del mensaje. Empleamos medios audiovisuales pertinentes al contenido presentado, y verificamos constantemente que la comunicación haya sido clara y efectiva. Durante la presentación de resultados, orientamos nuestro discurso hacia los objetivos específicos, garantizando la comprensión del mensaje. Además, practicamos la escucha activa y objetiva antes de emitir juicios, promoviendo siempre el diálogo y la conciliación.                                            |
 | Comunica por escrito con efectividad a diferentes rangos de audiencia   | TB1: Alexis Encalada: Contribuí a la documentación mediante la redacción de antecedentes, problemática y creación del Lean UX Canvas. Desarrollé la estructuración de la sección de entrevistas, creé User Personas, definí el Ubiquitous Language y directrices de estilo generales. Además, documenté SEO Tags y Meta Tags, elaboré el diagrama de base de datos y contribuí con la cuarta sección de la landing page, asegurando información clara y precisa. | Elaboramos informes técnicos siguiendo los estándares establecidos para el desarrollo de proyectos de ingeniería, asegurando la calidad del contenido antes de su entrega. Nos esforzamos por transmitir ideas y conceptos clave de forma clara y empática, adaptando el nivel de detalle y el lenguaje escrito a las características del público, independientemente de su especialidad o jerarquía. Seleccionamos de manera cuidadosa los medios y formatos más adecuados para facilitar la comprensión del mensaje, y verificamos sistemáticamente que todos los atributos de calidad estén presentes antes de la presentación final. |
+
+=======
+</div>
 

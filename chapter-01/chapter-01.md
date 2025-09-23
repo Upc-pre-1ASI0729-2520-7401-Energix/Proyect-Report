@@ -11,3 +11,4 @@ Nuestra misión es contribuir a la reducción de costos energéticos mediante el
 - Logo de la Startup:
 
 <img src="assets/energix-logo.png" alt="Logo de Energix" width="200"/>
+
