@@ -433,3 +433,40 @@ Los diagramas de arquitectura de software son herramientas clave para diseñar y
 
 ### 4.6.1. Design-Level Event Storming
 ![eventStorming.jpg](assets/eventStorming.jpg)
+
+### 4.6.2. Software Architecture Context Diagram
+
+El diagrama de contexto de SEMS (Smart Energy Management System) muestra la visión más externa de la plataforma y posiciona a sus actores principales junto con los sistemas con los que se conecta. En este nivel se identifican tres roles clave: el propietario de vivienda, que busca monitorear y optimizar el consumo energético de su hogar; el estudiante que alquila, interesado en reducir gastos y simplificar el control compartido de la energía; y el soporte técnico, encargado de acompañar a los usuarios en la resolución de problemas y la adopción de la herramienta.
+
+SEMS se apoya además en tres sistemas externos que amplían sus capacidades sin comprometer el núcleo de la solución: el medidor inteligente, que provee datos de consumo en tiempo real; los dispositivos del hogar, que pueden ser encendidos o apagados de forma remota para optimizar el uso energético; y el proveedor de servicios eléctricos, que ofrece información sobre tarifas, consumo histórico y posibles incidencias en el suministro.
+
+Esta integración permite que SEMS funcione como un ecosistema completo para el control y la gestión energética doméstica. Al reunir usuarios, dispositivos y datos bajo una infraestructura digital modular, la plataforma fortalece su propuesta de valor: ofrecer a las personas un sistema confiable, accesible y proactivo que contribuya tanto al ahorro económico como a la sostenibilidad ambiental.
+
+![Context-Diagram.png](assets/Context-Diagram.png)
+
+### 4.6.3. Software Architecture Container Diagrams
+
+- Este diagrama de contenedores ilustra los componentes clave de la plataforma ENERGIX y cómo interactúan entre sí y con sistemas externos. Se destacan la **Aplicación web**, **la API Backend**, **la Base de Datos** y **servicios externos** como xxx xxx y xxx xxx. Cada contenedor cumple una función específica para asegurar el funcionamiento integral del sistema.
+
+- ![Container-Diagram.png](assets/Container-Diagram.png)
+
+### 4.6.4. Software Architecture Components Diagrams
+
+El diagrama de componentes profundiza en la arquitectura interna de la plataforma Energix, enfocándose en la estructura del contenedor REST API. Este diagrama ilustra cómo las responsabilidades de la lógica de negocios se dividen en capas distintas: Controladores, Servicios y Repositorios, lo que garantiza una clara separación de preocupaciones y un código más mantenible.
+
+**Capas del Diagrama**
+
+- **Controladores**: Los controladores (AuthController, DeviceController, AutomationController, ReportController, AlertController) actúan como el punto de entrada principal desde el Frontend Web SPA. Procesan las solicitudes de los usuarios y las dirigen a los servicios correspondientes para su procesamiento.
+- **Servicios**: Los servicios (AuthService, DeviceService, AutomationService, ReportService, AlertService) encapsulan la lógica de negocio de la plataforma. Cada servicio maneja un contexto funcional específico: AuthService gestiona la autenticación, DeviceService se encarga de los dispositivos, AutomationService administra las reglas de automatización, ReportService genera informes y AlertService maneja las notificaciones.
+- **Repositorios**: Los repositorios (UserRepository, DeviceRepository, AutomationRepository, ReportRepository, AlertRepository) son la capa de acceso a datos. Gestionan la persistencia y la recuperación de información desde la base de datos externa (Database) para sus respectivos servicios.
+
+**Integración de Componentes Externos**
+
+La plataforma se comunica con otros sistemas y contenedores para ofrecer su funcionalidad completa.  La capa de servicios interactúa con contenedores externos clave: DeviceService y AlertService utilizan el Message Broker para la comunicación asíncrona y la gestión de eventos en tiempo real.
+
+- ReportService y AlertService se conectan con el File Storage para almacenar informes generados y archivos adjuntos de notificaciones, respectivamente.
+- Por último, todos los repositorios se comunican con la Database para almacenar y recuperar la información esencial del sistema, como datos de usuarios, dispositivos, automatizaciones, reportes y alertas.
+
+Esta estructura modular y desacoplada facilita el desarrollo, las pruebas y el mantenimiento del sistema, permitiendo que cada componente se evolucione de forma independiente sin afectar a los demás.
+
+![Component-Diagram.png](assets/Component-Diagram.png)
