@@ -215,3 +215,16 @@ Enlaces contextuales dentro de cada módulo para profundizar en funciones (ejemp
 Una barra superior (Navbar) con accesos rápidos a Notificaciones, Fecha y Hora, Perfil de Usuario.
 
 Estructura jerárquica clara: Sidebar (categorías principales) → Body (contenido detallado).
+
+## 4.3. Landing Page UI Design
+
+El diseño de la landing page de Energix se ha concebido para ofrecer una experiencia visual atractiva y funcional, alineada con los objetivos de la plataforma. La estructura de la página está organizada en secciones claras que guían al usuario a través de la propuesta de valor, los productos y las opciones de suscripción. Cada sección ha sido diseñada con un enfoque en la usabilidad y la estética, utilizando una paleta de colores coherente y una tipografía legible que refuerza la identidad de la marca.
+
+### 4.3.1. Landing Page Wireframe
+![Wireframe-Inicio.png](assets/Wireframe-Inicio.png)
+![Wireframe-Beneficios.png](assets/Wireframe-Beneficios.png)
+![Wireframe-Producto.png](assets/Wireframe-Producto.png)
+![Wireframe-Suscripcion.png](assets/Wireframe-Suscripcion.png)
+![Wireframe-About-the-Team.png](assets/Wireframe-About-the-Team.png)
+![Wireframe-Nuestro-Equipo.png](assets/Wireframe-Nuestro-Equipo.png)
+![Wireframe-Footer.png](assets/Wireframe-Footer.png)
