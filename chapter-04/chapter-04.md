@@ -257,7 +257,7 @@ La fase de diseño de wireframes se ha enfocado en la creación meticulosa de la
 - Login: La puerta de entrada a la plataforma se presenta con un diseño minimalista y enfocado. La vista se centra en los campos de Username/Email y Password, que permiten al usuario autenticarse de forma segura. La progresión en este flujo es lineal y clara, guiando al usuario del ingreso de credenciales al botón principal de "Log in", con una opción secundaria para acceder a través de "Log in with Google".
 
 
-![Web-Wireframes-LogIn.PNG](../assets/Web-Wireframes-LogIn.PNG)
+![Web-Wireframes-LogIn.PNG](assets/Web-Wireframes-LogIn.PNG)
 
 
 - Dashboard: Esta es la vista central de la aplicación y la primera que el usuario ve después de iniciar sesión. Se estructura como un panel de control con múltiples tarjetas que ofrecen un resumen del consumo de energía y las alertas clave. La información se presenta de forma progresiva, desde un resumen general hasta visualizaciones más detalladas como gráficos de línea, que muestran el consumo en diferentes períodos y por categoría. La sección de alertas y una lista de dispositivos ofrecen una vista de alto nivel y un acceso rápido a la información más importante.
