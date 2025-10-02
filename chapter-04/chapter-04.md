@@ -143,3 +143,23 @@ Al acceder a la plataforma web de Energix, los usuarios pueden explorar los serv
 - **"Más información"**: Enlaces a recursos externos y temas de interés relacionados.
 - **"Contáctanos"**: Sección con el formulario de suscripción por correo.
 - **"Redes Sociales"**: Iconos que enlazan a los perfiles sociales de la empresa.
+
+### 4.2.3. SEO Tags and Meta Tags
+
+- Los SEO Tag y Meta Tags ayudarán a que la página estática y la aplicación web sea posible de analizar fácilmente y se pueda gestionar de manera eficiente y optima.
+
+- **Charset:** Define la codificación de caracteres del documento:
+- ```html 
+  <meta charset="UTF-8" />
+
+- **Compatibilidad IE: Asegura compatibilidad con versiones de Internet Explorer:**
+- ```html 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+- **Viewport:** Controla cómo se muestra la página en dispositivos móviles:
+- ```html 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+- **Título:** El título actual de la página:
+- ```html 
+  <title>Energix</title>
