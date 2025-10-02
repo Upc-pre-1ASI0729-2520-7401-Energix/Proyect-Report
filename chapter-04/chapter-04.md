@@ -300,6 +300,24 @@ La fase de diseño de wireframes se ha enfocado en la creación meticulosa de la
 
 ![Web-Wireframes-Settings.PNG](assets/Web-Wireframes-Settings.PNG)
 
+### 4.4.2. Web Applications Wireflow Diagrams
+
+- User goal 1: Iniciar sesión para poder obversar el dashboard informativo
+
+![Wireflow-1.png](assets/Wireflow-1.png)
+
+- User goal 2: Entrar al dashboard informativo para luego entrar en la opción de Reportes y descargar mi reporte generado a lo largo del mes
+
+![Wireflow-2.png](assets/Wireflow-2.png)
+
+- User goal 3: Estabelcer preferencias para todos los dispositivos que tengo configurados en la aplicación y guargar configuraciones predeterminadas
+
+![Wireflow-3.png](assets/Wireflow-3.png)
+
+- User goal 4: Entrar al dashboard interactivo para luego ir a la opción de perfil y poder modificar sus datos
+
+![Wireflow-4.png](assets/Wireflow-4.png)
+
 - Happy y Unhappy paths de cada User goal:
 - **User goal 1**:
 - - (Happy path) El usuario entra a la landing page y encuentra el botón de Iniciar sesión, como ya tiene una cuenta ingresa sus credenciales y son validadas por el sistema, una vez todo correcto es redirigido al dashboard informativo donde podrá interactuar con las diferentes herrameintas disponibles.
