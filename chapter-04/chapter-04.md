@@ -470,3 +470,39 @@ La plataforma se comunica con otros sistemas y contenedores para ofrecer su func
 Esta estructura modular y desacoplada facilita el desarrollo, las pruebas y el mantenimiento del sistema, permitiendo que cada componente se evolucione de forma independiente sin afectar a los demás.
 
 ![Component-Diagram.png](assets/Component-Diagram.png)
+
+## 4.7. Software Object-Oriented Design
+
+Esta sección presenta el diseño orientado a objetos del sistema, definiendo las clases principales, sus atributos y relaciones.
+
+### 4.7.1. Class Diagrams
+
+**Identity and Access Management**
+
+![Identity-and-Access-Management.jpeg](assets/Identity-and-Access-Management.jpeg)
+
+Este diagrama muestra la arquitectura en capas (Aplicación, Dominio, Infraestructura) para el Bounded Context de Identidad y Gestión de Acceso. La capa de Aplicación (AuthController y AuthService) se encarga de recibir las peticiones de autenticación y registro. El núcleo es la capa de Dominio, que se centra en las entidades User y Role, que definen las reglas de negocio, y las interfaces UserRepository y TokenService, que establecen los contratos para la persistencia y la gestión de tokens. La capa de Infraestructura (UserRepositoryImpl y Database) implementa estas interfaces, gestionando la conexión y las operaciones de persistencia con la base de datos. La dependencia del sistema siempre apunta hacia la capa de Dominio, lo que asegura que la lógica central no dependa de los detalles de la implementación.
+
+**Connected Device Management**
+
+![Connected-Device-Management.jpeg](assets/Connected-Device-Management.jpeg)
+
+Este diagrama detalla la arquitectura en capas (Aplicación, Dominio, Infraestructura) para el Bounded Context de Gestión de Dispositivos Conectados. La capa de Aplicación (DeviceController y DeviceService) gestiona las peticiones para el registro, monitoreo y configuración de los dispositivos. El corazón del sistema es la capa de Dominio, que se centra en el agregado Device, y las entidades relacionadas como DeviceConfig, DeviceStatus y DeviceType, que encapsulan la lógica de negocio de los dispositivos inteligentes. El Dominio también define la interfaz DeviceRepository. La capa de Infraestructura (DeviceRepositoryImpl y SmartDeviceService) implementa la persistencia a través de la base de datos y se comunica con los dispositivos reales, garantizando que la lógica de negocio esté desacoplada de los detalles técnicos de la comunicación.
+
+**Report Management**
+
+![Report-Management.jpeg](assets/Report-Management.jpeg)
+
+Este diagrama ilustra la arquitectura en capas (Aplicación, Dominio, Infraestructura) del Bounded Context de Gestión de Reportes. La capa de Aplicación (ReportController y ReportService) se encarga de coordinar la generación y consulta de reportes, recibiendo las peticiones de los usuarios. El centro de la arquitectura es la capa de Dominio, centrada en el agregado Report y sus componentes internos como ReportData y ReportType, que definen la estructura y las reglas de negocio de los reportes. El Dominio también establece la interfaz ReportRepository. La capa de Infraestructura (ReportRepositoryImpl y FileStorage) implementa la lógica de persistencia, con ReportRepositoryImpl gestionando la base de datos y FileStorage almacenando los archivos de reportes en un sistema externo, manteniendo así la lógica de negocio independiente de la forma de almacenamiento.
+
+**Alert and Notification Management**
+
+![Alert-and-Notification-Management.jpeg](assets/Alert-and-Notification-Management.jpeg)
+
+Este diagrama presenta la arquitectura en capas (Aplicación, Dominio, Infraestructura) del Bounded Context de Gestión de Alertas y Notificaciones. La capa de Aplicación (AlertController y AlertService) gestiona la creación, actualización y eliminación de alertas. El núcleo es la capa de Dominio, centrada en la entidad Alert y sus subtipos AlertType y AlertSeverity, que encapsulan las reglas de negocio para los distintos tipos de alertas y su severidad. Las interfaces AlertRepository y NotificationService definen los contratos para la persistencia y el envío de notificaciones. La capa de Infraestructura (AlertRepositoryImpl y MessageBroker) implementa estos contratos, con AlertRepositoryImpl gestionando la base de datos y MessageBroker interactuando con un sistema externo para el envío de mensajes, asegurando que la lógica de negocio principal sea agnóstica a la tecnología de mensajería.
+
+**Automation Management**
+
+![Automation-Management.jpeg](assets/Automation-Management.jpeg)
+
+Este diagrama muestra la arquitectura en capas (Aplicación, Dominio, Infraestructura) del Bounded Context de Gestión de Automatizaciones. La capa de Aplicación (AutomationController y AutomationService) coordina la lógica para la creación y gestión de las reglas de automatización. El corazón del sistema es la capa de Dominio, que se centra en el agregado Automation y sus objetos internos AutomationTrigger, AutomationAction y Schedule, que definen las reglas de negocio y el comportamiento de las automatizaciones. El Dominio también especifica la interfaz AutomationRepository. La capa de Infraestructura (AutomationRepositoryImpl y TaskScheduler) implementa la persistencia y la ejecución de las tareas programadas, desacoplando la lógica de negocio del mecanismo específico de programación, lo que permite una mayor flexibilidad y escalabilidad.
