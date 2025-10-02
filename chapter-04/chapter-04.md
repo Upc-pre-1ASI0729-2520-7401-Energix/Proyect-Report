@@ -228,3 +228,16 @@ El diseño de la landing page de Energix se ha concebido para ofrecer una experi
 ![Wireframe-About-the-Team.png](assets/Wireframe-About-the-Team.png)
 ![Wireframe-Nuestro-Equipo.png](assets/Wireframe-Nuestro-Equipo.png)
 ![Wireframe-Footer.png](assets/Wireframe-Footer.png)
+
+### 4.3.2. Landing Page Mock-up
+
+![Barra-de-Navegacion.png](assets/Barra-de-Navegacion.png)
+![Inicio.png](assets/Inicio.png)
+![Beneficios.png](assets/Beneficios.png)
+![Producto.png](assets/Producto.png)
+![Suscripciones.png](assets/Suscripciones.png)
+![About-the-Team.png](assets/About-the-Team.png)
+![Nuestro-Equipo.png](assets/Nuestro-Equipo.png)
+![Preguntas-Frecuentes.png](assets/Preguntas-Frecuentes.png)
+![Footer.png](assets/Footer.png)
+
