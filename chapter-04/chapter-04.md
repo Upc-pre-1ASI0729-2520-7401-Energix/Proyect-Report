@@ -193,3 +193,25 @@ En Reportes: los reportes filtrados aparecen en lista y pueden abrirse individua
 En Alertas: las alertas se muestran en un listado reducido según los criterios de búsqueda.
 
 Resaltado de coincidencias: las palabras clave buscadas se destacan para facilitar la identificación de información relevante.
+
+### 4.2.5. Navigation Systems
+
+El sistema de navegación en Energix está diseñado para guiar al usuario de forma intuitiva tanto en la Landing Page como en la Aplicación Web, asegurando que logre sus objetivos de manera eficiente.
+
+#### Navegación en la Landing Page
+
+Una barra de navegación superior con secciones principales: Inicio, Características, Planes, Contacto.
+
+Botones de llamada a la acción (CTA) ubicados estratégicamente para llevar al usuario hacia el registro, inicio de sesión o exploración de funciones.
+
+Estructura de desplazamiento (scrolling) con enlaces ancla para moverse entre secciones (ejemplo: beneficios, precios, testimonios).
+
+#### Navegación en la Aplicación Web
+
+Un sidebar fijo con los módulos clave: Dashboard, Consumo, Alertas, Consejos & Ahorro, Reportes, Configuración, Cerrar sesión.
+
+Enlaces contextuales dentro de cada módulo para profundizar en funciones (ejemplo: en Consumo → filtros por dispositivo o por tiempo).
+
+Una barra superior (Navbar) con accesos rápidos a Notificaciones, Fecha y Hora, Perfil de Usuario.
+
+Estructura jerárquica clara: Sidebar (categorías principales) → Body (contenido detallado).
