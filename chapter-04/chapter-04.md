@@ -248,3 +248,54 @@ La sección de Diseño UX/UI se centra en la arquitectura de la información, el
 Se elaboraron wireframes detallados para la versión de escritorio, definiendo la disposición de elementos en pantallas clave como el Dashboard principal, los Reportes de Consumo, la Gestión de Dispositivos y la Configuración de Preferencias. A partir de estos esquemas de baja fidelidad, se diseñaron los mockups de alta fidelidad, alineados con un sistema visual consistente que respeta los principios de simplicidad y claridad.
 
 Los componentes y la navegación fueron organizados siguiendo flujos de usuario validados para garantizar que cada acción tenga un propósito claro dentro del recorrido del usuario. La estructura y las interacciones fueron pensadas para ofrecer una experiencia inclusiva, aplicando criterios de accesibilidad (a11y) y soporte para la visualización de datos en diferentes formatos. En los próximos sprints, se desarrollarán de manera progresiva las vistas, integrando las funcionalidades de monitoreo de energía en tiempo real y permitiendo la validación de las interacciones más importantes del sistema.
+
+### 4.4.1. Web Applications Wireframes
+
+La fase de diseño de wireframes se ha enfocado en la creación meticulosa de la arquitectura visual y la experiencia de usuario para la solución digital de gestión de energía. Cada una de las vistas ha sido concebida como un componente fundamental que, al unirse, forma los flujos de interacción del usuario de manera fluida y lógica. Estos esquemas de baja fidelidad no solo definen la disposición de los elementos, sino que también establecen la jerarquía de la información, asegurando que cada acción y dato tengan un propósito claro. Son la estructura del producto, validando la funcionalidad y la navegación antes de proceder al diseño de alta fidelidad.
+
+
+- Login: La puerta de entrada a la plataforma se presenta con un diseño minimalista y enfocado. La vista se centra en los campos de Username/Email y Password, que permiten al usuario autenticarse de forma segura. La progresión en este flujo es lineal y clara, guiando al usuario del ingreso de credenciales al botón principal de "Log in", con una opción secundaria para acceder a través de "Log in with Google".
+
+
+![Web-Wireframes-LogIn.PNG](../assets/Web-Wireframes-LogIn.PNG)
+
+
+- Dashboard: Esta es la vista central de la aplicación y la primera que el usuario ve después de iniciar sesión. Se estructura como un panel de control con múltiples tarjetas que ofrecen un resumen del consumo de energía y las alertas clave. La información se presenta de forma progresiva, desde un resumen general hasta visualizaciones más detalladas como gráficos de línea, que muestran el consumo en diferentes períodos y por categoría. La sección de alertas y una lista de dispositivos ofrecen una vista de alto nivel y un acceso rápido a la información más importante.
+
+
+![Web-Wireframes-Dashboard.png](assets/Web-Wireframes-Dashboard.png)
+
+- Notifications (Pop-up): Este elemento es una ventana emergente que se superpone a la pantalla principal. Muestra una lista de mensajes y alertas importantes para el usuario, como alertas de alto consumo o recordatorios, asegurando que la información crítica sea visible de inmediato sin tener que navegar a otra sección.
+
+
+![Web-Wireframes-Notifications.PNG](assets/Web-Wireframes-Notifications.PNG)
+
+
+- Profile: Diseñada para la gestión de datos personales, esta pantalla presenta una estructura clara y organizada. Los campos para First Name, Last Name, Email, Linked Adress y Number permiten al usuario mantener su información actualizada. El flujo de interacción es directo, centrado en el ingreso y la edición de datos. Se utiliza una progresión visual para la foto de perfil, mostrando un espacio para la imagen y un botón para cargarla, asegurando que el usuario pueda personalizar su cuenta.
+
+
+![Web-Wireframes-Profile.PNG](assets/Web-Wireframes-Profile.PNG)
+
+
+- Devices: La visualización se presenta como una tabla lineal y detallada, donde cada dispositivo conectado al sistema ocupa su propia fila. Se utiliza una estructura consistente que permite al usuario explorar el estado de cada dispositivo de un vistazo. Las columnas desglosan información clave como el nombre y categoría del dispositivo, su estado en tiempo real (indicando si está encendido o apagado), la última vez que registró actividad, un historial de alertas y el consumo de energía acumulado.
+
+
+![Web-Wireframes-Devices.PNG](assets/Web-Wireframes-Devices.PNG)
+
+
+- Preferences: Esta vista está diseñada para que el usuario personalice su experiencia de monitoreo. Se estructura como una matriz de opciones de "checkbox" donde cada una corresponde a una categoría o función de seguimiento. El diseño fomenta la selección múltiple, permitiendo al usuario decidir de forma granular qué datos desea que la aplicación recolecte y muestre. Los botones en la parte inferior de la pantalla actúan como controles para aplicar o descartar los cambios realizados en las preferencias, cerrando un ciclo de interacción claro y seguro.
+
+
+![Web-Wireframes-Preferences.PNG](assets/Web-Wireframes-Preferences.PNG)
+
+
+- Reports: La pantalla de reportes es el centro de análisis de la aplicación. Incluye un gráfico de barras para el ranking de dispositivos que consumen más energía, mostrando el consumo total en kilovatios-hora (kWh). También presenta un gráfico de tendencias de consumo semanal, un resumen con datos clave y una sección para exportar o descargar reportes.
+
+
+![Web-Wireframes-Reports.PNG](assets/Web-Wireframes-Reports.PNG)
+
+
+- Settings: Esta vista consolida diversas opciones de configuración en secciones claras y modulares. Se presenta un flujo de interacción centrado en el usuario, permitiéndole gestionar desde las automatizaciones de ahorro (Automatic Saving Mode) con interruptores de encendido y apagado (toggles), hasta las notificaciones y reportes personalizados. También ofrece acceso directo a secciones de ayuda y soporte (Support and Help) y opciones para gestionar la seguridad y la privacidad de la cuenta (Security and Privacy). El diseño organiza la información de manera lógica y progresiva para que el usuario pueda encontrar y ajustar fácilmente cualquier configuración.
+
+
+![Web-Wireframes-Settings.PNG](../assets/Web-Wireframes-Settings.PNG)
