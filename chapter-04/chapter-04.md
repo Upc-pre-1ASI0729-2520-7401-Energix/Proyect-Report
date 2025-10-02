@@ -332,3 +332,42 @@ La fase de diseño de wireframes se ha enfocado en la creación meticulosa de la
 - - (Happy path) El usuario navega por la landing page, entra al dashboard informativo mediante el botón Iniciar Sesión, luego de la validación entra al dashboard y hace click en la opción de Profile, donde puede visualizar correctamente sus datos personales, información de contacto y configuraciones de la cuenta.- - (Unhappy path) El usuario navega por la landing page, entra al dashboard informativo mediante el botón Iniciar Sesión, luego de la validación entra al dashboard y hace click en la opción de Consumo, al momemto de entar el usuario no podrá visualizar los datos completos, estarán imcompletos o desactualizados en los indicadores principales, por lo que no podrá visualizar la información detallada.
 - - (Unhappy path) El usuario navega por la landing page, entra al dashboard informativo mediante el botón Iniciar Sesión, luego de la validación entra al dashboard y hace click en la opción de Profile. Al momento de ingresar, el usuario no podrá visualizar sus datos completos; la información estará incompleta o desactualizada, por lo que no podrá revisar correctamente sus datos personales ni realizar ajustes en su perfil.
 
+### 4.4.2. Web Applications Mock-ups
+
+El diseño de mockups representa la fase de alta fidelidad de la solución, donde la interfaz se concibe con elementos visuales, tipografía y colores definitivos. Esta etapa transforma los wireframes en una experiencia de usuario tangible y estilizada.
+
+Se ha priorizado una estética limpia y moderna para cada vista, utilizando una paleta de colores que guía la atención del usuario hacia las métricas y acciones más importantes. Desde el Dashboard con sus gráficos informativos, pasando por la visualización tabular de "Mis Dispositivos", hasta los ajustes detallados de "Preferencias", cada pantalla ha sido diseñada para ser funcionalmente intuitiva y visualmente atractiva.
+
+La coherencia visual entre todos los mockups asegura un sistema de diseño unificado, facilitando la navegación y reforzando la marca de la solución. El resultado es una interfaz que no solo muestra datos, sino que cuenta una historia de consumo y ahorro de energía de manera clara y directa.
+
+- Login: Esta vista propone una interfaz minimalista y funcional diseñada para la autenticación del usuario. Se presenta con campos de entrada estilizados para el correo electrónico y la contraseña, centrando la atención en el proceso de acceso. Se prioriza la usabilidad al incluir un botón de “Log in with Google” como alternativa, agilizando el flujo de autenticación para quienes prefieren esta opción.
+
+![Web-MockUps-LogIn.PNG](assets/Web-MockUps-LogIn.PNG)
+
+- Dashboard: El dashboard se concibe como el centro de mando de la plataforma, proporcionando un resumen visual y detallado del consumo energético. En la parte superior, se muestra un conjunto de tarjetas de indicadores clave (KPIs) con métricas esenciales como el consumo de energía, los ahorros estimados y la factura estimada. El espacio principal es dominado por gráficos que desglosan el consumo diario y por categorías, facilitando una rápida comprensión de los patrones de uso. Las notificaciones de alertas se integran de manera prominente, asegurando que la información crítica no pase desapercibida.
+
+![Web-MockUps-Dashboard.png](assets/Web-MockUps-Dashboard.png)
+
+- Notifications (Pop-up): Este componente es un elemento de notificación de alta prioridad que se superpone a la pantalla principal, diseñado para alertar al usuario de forma inmediata. Se utiliza una jerarquía visual para distinguir entre mensajes de logros, como “Goal Achievement”, y alertas de consumo elevado. Se prioriza la inmediatez y la claridad de la información, asegurando que el usuario pueda tomar acciones rápidas cuando sea necesario.
+
+![Web-MockUps-Notifications.png](assets/Web-MockUps-Notifications.png)
+
+- Profile: La sección de perfil presenta una arquitectura clara y editable para la gestión de datos personales. Se muestra una estructura con campos prellenados para la información del usuario, cada uno acompañado de un botón de “Edit”, lo que otorga al usuario el control para actualizar su información. Un espacio dedicado a la foto de perfil refuerza la personalización de la cuenta, priorizando la capacidad de adaptación y el control del usuario sobre sus propios datos.
+
+![Web-MockUps-Profile.png](assets/Web-MockUps-Profile.png)
+
+- Devices: Esta pantalla está diseñada para el monitoreo detallado y estructurado de los dispositivos conectados. Se utiliza un formato de tabla para presentar de forma organizada el estado en tiempo real, la última actividad registrada, el historial de alertas y el consumo de energía. La interfaz prioriza la transparencia y la accesibilidad de los datos, permitiendo al usuario obtener una visión completa del rendimiento de cada dispositivo.
+
+![Web-MockUps-Devices.png](assets/Web-MockUps-Devices.png)
+
+- Preferences: Este mockup profundiza en el control granular que el usuario tiene sobre el sistema de monitoreo. La interfaz se presenta como una matriz de opciones de "checkbox" que permiten al usuario activar o desactivar el seguimiento para diversas categorías de dispositivos y tipos de alertas. Esta vista prioriza la personalización, invitando al usuario a definir exactamente qué datos desea que la aplicación recolecte y qué notificaciones desea recibir.
+
+![Web-MockUps-Preferences.png](assets/Web-MockUps-Preferences.png)
+
+- Reports: La sección de reportes se enfoca en la visualización y análisis de datos históricos. Dos gráficos de barras de alta fidelidad, "Device Ranking" y "Weekly Consumption Trend", dominan la vista, facilitando la identificación de los mayores consumidores y la comparación de patrones de uso semanales. La funcionalidad de "Export Report" permite al usuario descargar sus datos en formatos PDF o CSV, lo cual es fundamental para el análisis externo y el registro personal.
+
+![Web-MockUps-Reports.png](assets/Web-MockUps-Reports.png)
+
+- Settings: Este mockup de configuraciones presenta una arquitectura modular que consolida todas las opciones de personalización del sistema. Se muestra de manera clara la sección “Automatic Saving Mode”, que permite la creación de reglas de automatización, y “Notifications and Alerts”, donde el usuario puede definir qué notificaciones desea recibir. El diseño de la interfaz prioriza la organización y el acceso intuitivo, garantizando que el usuario pueda ajustar cada aspecto de la plataforma de manera eficiente.
+
+![Web-MockUps-Settings.png](assets/Web-MockUps-Settings.png)
