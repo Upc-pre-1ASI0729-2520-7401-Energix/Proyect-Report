@@ -163,3 +163,33 @@ Al acceder a la plataforma web de Energix, los usuarios pueden explorar los serv
 - **Título:** El título actual de la página:
 - ```html 
   <title>Energix</title>
+
+### 4.2.4. Searching Systems
+
+El sistema de búsqueda en Energix se centra en evitar la sobrecarga de información y en ayudar al usuario a localizar rápidamente los datos que necesita.
+
+Opciones de búsqueda ofrecidas
+
+Barra de búsqueda global: disponible en la Navbar para encontrar dispositivos, reportes o alertas de forma directa.
+
+Filtros específicos por módulo:
+
+Consumo: filtros por tiempo (diario, semanal, mensual) y por dispositivo.
+
+Reportes: filtros por tipo de reporte (semanal, mensual, cumplimiento de metas, ranking de dispositivos).
+
+Alertas: filtros por estado (leídas/no leídas, activas/inactivas).
+
+Consejos & Ahorro: filtros por categoría (buenas prácticas, estimación de ahorro, horarios de menor costo).
+
+Visualización de los resultados de búsqueda
+
+Los resultados se mostrarán en listas o gráficos, dependiendo del contexto:
+
+En Consumo: los gráficos se actualizan dinámicamente según los filtros aplicados.
+
+En Reportes: los reportes filtrados aparecen en lista y pueden abrirse individualmente.
+
+En Alertas: las alertas se muestran en un listado reducido según los criterios de búsqueda.
+
+Resaltado de coincidencias: las palabras clave buscadas se destacan para facilitar la identificación de información relevante.
