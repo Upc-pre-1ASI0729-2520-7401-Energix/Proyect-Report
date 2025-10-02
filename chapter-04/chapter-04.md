@@ -241,3 +241,10 @@ El diseño de la landing page de Energix se ha concebido para ofrecer una experi
 ![Preguntas-Frecuentes.png](assets/Preguntas-Frecuentes.png)
 ![Footer.png](assets/Footer.png)
 
+## 4.4. Web Applications UX/UI Design
+
+La sección de Diseño UX/UI se centra en la arquitectura de la información, el diseño de la interfaz y la experiencia de usuario para las aplicaciones web de la solución Energix. Esta etapa abarca la creación de vistas funcionales y flujos de interacción completos, asegurando una experiencia intuitiva y centrada en el usuario.
+
+Se elaboraron wireframes detallados para la versión de escritorio, definiendo la disposición de elementos en pantallas clave como el Dashboard principal, los Reportes de Consumo, la Gestión de Dispositivos y la Configuración de Preferencias. A partir de estos esquemas de baja fidelidad, se diseñaron los mockups de alta fidelidad, alineados con un sistema visual consistente que respeta los principios de simplicidad y claridad.
+
+Los componentes y la navegación fueron organizados siguiendo flujos de usuario validados para garantizar que cada acción tenga un propósito claro dentro del recorrido del usuario. La estructura y las interacciones fueron pensadas para ofrecer una experiencia inclusiva, aplicando criterios de accesibilidad (a11y) y soporte para la visualización de datos en diferentes formatos. En los próximos sprints, se desarrollarán de manera progresiva las vistas, integrando las funcionalidades de monitoreo de energía en tiempo real y permitiendo la validación de las interacciones más importantes del sistema.
