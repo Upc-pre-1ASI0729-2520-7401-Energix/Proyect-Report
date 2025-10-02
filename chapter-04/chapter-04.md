@@ -427,3 +427,9 @@ A través de estos prototipos, se simula el recorrido del usuario a través de l
 
 Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210513_upc_edu_pe/EbK0zgZImC5Nm6USAh19_aoBa9UNerHtDBz4iBQn80qlnQ?e=U92QIh
 
+## 4.6. Domain-Driven Software Architecture
+
+Los diagramas de arquitectura de software son herramientas clave para diseñar y comprender la estructura de un sistema. Al aplicar el enfoque de Domain Driven Design (DDD), estos diagramas nos permiten representar visualmente los distintos elementos del dominio, sus límites y las relaciones entre ellos, lo que facilita una mejor planificación y comunicación del diseño
+
+### 4.6.1. Design-Level Event Storming
+![eventStorming.jpg](assets/eventStorming.jpg)
