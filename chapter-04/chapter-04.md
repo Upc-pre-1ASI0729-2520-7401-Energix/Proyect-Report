@@ -403,3 +403,27 @@ La coherencia visual entre todos los mockups asegura un sistema de diseño unifi
 - **User goal 4**:
 - - (Happy path) El usuario navega por la landing page, entra al dashboard informativo mediante el botón Iniciar Sesión, luego de la validación entra al dashboard y hace click en la opción de Profile, donde puede visualizar correctamente sus datos personales, información de contacto y configuraciones de la cuenta.- - (Unhappy path) El usuario navega por la landing page, entra al dashboard informativo mediante el botón Iniciar Sesión, luego de la validación entra al dashboard y hace click en la opción de Consumo, al momemto de entar el usuario no podrá visualizar los datos completos, estarán imcompletos o desactualizados en los indicadores principales, por lo que no podrá visualizar la información detallada.
 - - (Unhappy path) El usuario navega por la landing page, entra al dashboard informativo mediante el botón Iniciar Sesión, luego de la validación entra al dashboard y hace click en la opción de Profile. Al momento de ingresar, el usuario no podrá visualizar sus datos completos; la información estará incompleta o desactualizada, por lo que no podrá revisar correctamente sus datos personales ni realizar ajustes en su perfil.
+
+4.5. Web Applications Prototyping
+Esta sección explora el diseño de interfaz de usuario (UI) para la aplicación web de Energix, con un enfoque primordial en la experiencia de escritorio. Al priorizar las pantallas de mayor tamaño, el diseño se centra en presentar la información de manera clara y en ofrecer controles precisos para la gestión energética. La creación de estos prototipos no solo se alinea con los flujos de usuario definidos, sino que también sirve como una validación visual de la arquitectura de la información del sistema.
+
+Las decisiones de interacción se han tomado para que la aplicación sea tanto analítica para el usuario proactivo como intuitiva para el usuario reactivo. Estos son los criterios clave que han guiado el diseño:
+
+Navegación Intuitiva y Persistente
+
+Para asegurar una navegación fluida, la aplicación cuenta con una barra lateral izquierda fija. Esta estructura pone las secciones principales—Dashboard, Dispositivos, Reportes, y Configuración—siempre al alcance del usuario, eliminando la necesidad de memorizar rutas de navegación. Esta elección de diseño refleja una jerarquía de información lógica y facilita la transición entre la revisión de datos y la acción de control.
+
+Diseño Orientado al Análisis y la Toma de Decisiones
+
+La sección de Reportes es un claro ejemplo de cómo la interfaz empodera al usuario para analizar sus datos de consumo. Mediante gráficos interactivos y una vista tabular detallada, el usuario puede identificar rápidamente tendencias y picos de consumo. El sistema de interacción es directo y familiar, permitiendo al usuario exportar sus datos en formatos estándar como CSV o PDF, lo que convierte la información en una herramienta práctica y tangible.
+
+Retroalimentación Visual Clara
+
+La aplicación proporciona retroalimentación visual efectiva sobre el estado del consumo. El Dashboard actualiza sus gráficos y métricas para reflejar los cambios significativos, mientras que las notificaciones emergentes informan al usuario sobre eventos críticos, como un alto consumo detectado o el cumplimiento de un objetivo de ahorro. Esta claridad en la retroalimentación es esencial, ya que permite a los usuarios reaccionar con agilidad ante un problema o sentirse motivados por un logro.
+
+Validación de Flujos de Navegación
+
+A través de estos prototipos, se simula el recorrido del usuario a través de la aplicación. Se demuestra cómo se puede pasar sin problemas de una notificación a la pantalla de Dispositivos para tomar una acción correctiva, o de la Dashboard a los Reportes para un análisis más profundo. Estas interacciones validan la coherencia de los flujos de usuario y garantizan una experiencia de navegación lógica y sin fricciones.
+
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210513_upc_edu_pe/EbK0zgZImC5Nm6USAh19_aoBa9UNerHtDBz4iBQn80qlnQ?e=U92QIh
+
