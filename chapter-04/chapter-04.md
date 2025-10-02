@@ -506,3 +506,45 @@ Este diagrama presenta la arquitectura en capas (Aplicación, Dominio, Infraestr
 ![Automation-Management.jpeg](assets/Automation-Management.jpeg)
 
 Este diagrama muestra la arquitectura en capas (Aplicación, Dominio, Infraestructura) del Bounded Context de Gestión de Automatizaciones. La capa de Aplicación (AutomationController y AutomationService) coordina la lógica para la creación y gestión de las reglas de automatización. El corazón del sistema es la capa de Dominio, que se centra en el agregado Automation y sus objetos internos AutomationTrigger, AutomationAction y Schedule, que definen las reglas de negocio y el comportamiento de las automatizaciones. El Dominio también especifica la interfaz AutomationRepository. La capa de Infraestructura (AutomationRepositoryImpl y TaskScheduler) implementa la persistencia y la ejecución de las tareas programadas, desacoplando la lógica de negocio del mecanismo específico de programación, lo que permite una mayor flexibilidad y escalabilidad.
+
+## 4.8. Database Design
+
+El diseño lógico de la base de datos es la columna vertebral de la arquitectura funcional del sistema. Cada Bounded Context (BC) cuenta con sus propias entidades y relaciones específicas, las cuales están alineadas con las responsabilidades y reglas de negocio de su dominio correspondiente.
+
+La estructura de la base de datos se basa en los principios de separación de responsabilidades y un enfoque orientado a microservicios. Esto permite escalar, mantener y modificar cada parte del sistema de forma independiente. La implementación se adhiere al Domain-Driven Design (DDD), lo que permite a cada contexto manejar sus propias entidades y relaciones sin depender directamente de otros, salvo a través de integraciones o referencias controladas. Este enfoque asegura que la base de datos es robusta, escalable y fácil de manejar a medida que la solución evoluciona.
+
+### 4.8.1. Database Diagrams
+
+Para el diseño de la base de datos, se ha optado por un enfoque de Modelado de Entidad-Relación (ER), representando cada uno de los Bounded Contexts mediante diagramas creados con PlantUML. Estos diagramas no solo ilustran las tablas principales, sino que también detallan las claves primarias y foráneas, junto con las relaciones que definen la estructura interna de cada contexto. Este método permite una comprensión clara de la arquitectura de la información y las interconexiones entre las entidades.
+
+A continuación, se presenta una descripción detallada del diseño de la base de datos para cada uno de los cinco bounded context que conforman la arquitectura de la solución:
+
+**Identity and Access Management**
+
+En este contexto se modela la gestión de usuarios y sus permisos dentro de la plataforma. El modelo de datos se centra en la entidad principal "users", que representa a los usuarios con atributos como nombre, correo electrónico y una contraseña encriptada. Se relaciona con la entidad "roles" para definir los distintos niveles de acceso, los cuales a su vez se asocian con permisos específicos "permissions" a través de una tabla intermedia "role_permissions". Este diseño permite un control granular sobre las acciones que cada usuario puede realizar en el sistema, asegurando la seguridad y la correcta asignación de responsabilidades. Además, la entidad "user_sessions" se encarga de gestionar las sesiones activas, permitiendo la persistencia y la autenticación continua del usuario.
+
+![Diagrama-BD-Identity-and-Access-Management.jpeg](assets/Diagrama-BD-Identity-and-Access-Management.jpeg)
+
+**Connected Device Management**
+
+El contexto define la arquitectura de datos para la administración de los dispositivos inteligentes del hogar. La entidad central es "devices", que representa cada dispositivo físico vinculado al sistema. Se relaciona directamente con "device_types" para clasificar los dispositivos, y con "device_configurations" para almacenar ajustes personalizados de cada equipo, como límites de consumo o programaciones de autoapagado. La tabla "device_status" registra el estado actual del dispositivo en tiempo real, incluyendo si está activo, su consumo de energía, etc. Este diseño permite una supervisión integral y centralizada de todos los aparatos del hogar.
+
+![Diagrama-BD-Connected-Device-Management.jpeg](assets/Diagrama-BD-Connected-Device-Management.jpeg)
+
+**Report Management**
+
+En este contexto se define la arquitectura de datos para la generación y almacenamiento de reportes de consumo. La entidad principal es "reports", que almacena cada informe generado con metadatos como el periodo de tiempo y el formato de archivo. La entidad "report_data" contiene las métricas detalladas del reporte, como el consumo total, el consumo promedio y los costos. La tabla "report_types" define los distintos tipos de informes que la plataforma puede generar. Finalmente, "scheduled_reports" permite a los usuarios programar la generación automática y periódica de sus reportes, optimizando la gestión de la información.
+
+![Diagrama-BD-Report-Management.jpeg](assets/Diagrama-BD-Report-Management.jpeg)
+
+**Alert and Notification Management**
+
+En este contexto se establece el modelo para el sistema de alertas y su configuración. La entidad principal "alerts" que registra cada alerta generada, conteniendo información como el umbral que se ha superado. Esta entidad se relaciona con "notifications", que almacena los mensajes específicos enviados al usuario. El modelo se complementa con la entidad "notification_preferences", que permite al usuario definir sus preferencias de notificación (por ejemplo, si desea recibir correos o notificaciones push), y "alert_types", que define los tipos de alertas predeterminados.
+
+![Diagrama-BD-Alert-and-Notification-Management.jpeg](assets/Diagrama-BD-Alert-and-Notification-Management.jpeg)
+
+**Automation Management**
+
+Este contexto se enfoca en la creación y ejecución de reglas de automatización personalizadas para los dispositivos. La entidad principal es "automations", que representa una regla o rutina de automatización definida por el usuario. Se vincula con "automation_triggers" para definir las condiciones que inician la automatización (por ejemplo, un umbral de consumo o una hora específica), y con "automation_actions" para especificar la acción a ejecutar (por ejemplo, apagar un dispositivo). La entidad "automation_schedules" gestiona la recurrencia de las automatizaciones. Este modelo de datos permite a los usuarios configurar reglas complejas para optimizar su consumo energético de manera autónoma.
+
+![Diagrama-BD-Automation-Management.jpeg](assets/Diagrama-BD-Automation-Management.jpeg)
