@@ -346,31 +346,31 @@ La coherencia visual entre todos los mockups asegura un sistema de diseño unifi
 
 - Dashboard: El dashboard se concibe como el centro de mando de la plataforma, proporcionando un resumen visual y detallado del consumo energético. En la parte superior, se muestra un conjunto de tarjetas de indicadores clave (KPIs) con métricas esenciales como el consumo de energía, los ahorros estimados y la factura estimada. El espacio principal es dominado por gráficos que desglosan el consumo diario y por categorías, facilitando una rápida comprensión de los patrones de uso. Las notificaciones de alertas se integran de manera prominente, asegurando que la información crítica no pase desapercibida.
 
-![Web-MockUps-Dashboard.png](assets/Web-MockUps-Dashboard.png)
+![Web-MockUps-Dashboard.PNG](assets/Web-MockUps-Dashboard.PNG)
 
 - Notifications (Pop-up): Este componente es un elemento de notificación de alta prioridad que se superpone a la pantalla principal, diseñado para alertar al usuario de forma inmediata. Se utiliza una jerarquía visual para distinguir entre mensajes de logros, como “Goal Achievement”, y alertas de consumo elevado. Se prioriza la inmediatez y la claridad de la información, asegurando que el usuario pueda tomar acciones rápidas cuando sea necesario.
 
-![Web-MockUps-Notifications.png](assets/Web-MockUps-Notifications.png)
+![Web-MockUps-Notifications.PNG](assets/Web-MockUps-Notifications.PNG)
 
 - Profile: La sección de perfil presenta una arquitectura clara y editable para la gestión de datos personales. Se muestra una estructura con campos prellenados para la información del usuario, cada uno acompañado de un botón de “Edit”, lo que otorga al usuario el control para actualizar su información. Un espacio dedicado a la foto de perfil refuerza la personalización de la cuenta, priorizando la capacidad de adaptación y el control del usuario sobre sus propios datos.
 
-![Web-MockUps-Profile.png](assets/Web-MockUps-Profile.png)
+![Web-MockUps-Profile.PNG](assets/Web-MockUps-Profile.PNG)
 
 - Devices: Esta pantalla está diseñada para el monitoreo detallado y estructurado de los dispositivos conectados. Se utiliza un formato de tabla para presentar de forma organizada el estado en tiempo real, la última actividad registrada, el historial de alertas y el consumo de energía. La interfaz prioriza la transparencia y la accesibilidad de los datos, permitiendo al usuario obtener una visión completa del rendimiento de cada dispositivo.
 
-![Web-MockUps-Devices.png](assets/Web-MockUps-Devices.png)
+![Web-MockUps-Devices.PNG](assets/Web-MockUps-Devices.PNG)
 
 - Preferences: Este mockup profundiza en el control granular que el usuario tiene sobre el sistema de monitoreo. La interfaz se presenta como una matriz de opciones de "checkbox" que permiten al usuario activar o desactivar el seguimiento para diversas categorías de dispositivos y tipos de alertas. Esta vista prioriza la personalización, invitando al usuario a definir exactamente qué datos desea que la aplicación recolecte y qué notificaciones desea recibir.
 
-![Web-MockUps-Preferences.png](assets/Web-MockUps-Preferences.png)
+![Web-MockUps-Preferences.PNG](assets/Web-MockUps-Preferences.PNG)
 
-- Reports: La sección de reportes se enfoca en la visualización y análisis de datos históricos. Dos gráficos de barras de alta fidelidad, "Device Ranking" y "Weekly Consumption Trend", dominan la vista, facilitando la identificación de los mayores consumidores y la comparación de patrones de uso semanales. La funcionalidad de "Export Report" permite al usuario descargar sus datos en formatos PDF o CSV, lo cual es fundamental para el análisis externo y el registro personal.
+- Reports: La sección de reportes se enfoca en la visualización y el análisis de datos históricos. Dos gráficos de barras de alta fidelidad, "Device Ranking" y "Weekly Consumption Trend", dominan la vista, facilitando la identificación de los mayores consumidores y la comparación de patrones de uso semanales. La funcionalidad de "Export Report" permite al usuario descargar sus datos en formatos PDF o CSV, lo cual es fundamental para el análisis externo y el registro personal.
 
-![Web-MockUps-Reports.png](assets/Web-MockUps-Reports.png)
+![Web-MockUps-Reports.PNG](assets/Web-MockUps-Reports.PNG)
 
 - Settings: Este mockup de configuraciones presenta una arquitectura modular que consolida todas las opciones de personalización del sistema. Se muestra de manera clara la sección “Automatic Saving Mode”, que permite la creación de reglas de automatización, y “Notifications and Alerts”, donde el usuario puede definir qué notificaciones desea recibir. El diseño de la interfaz prioriza la organización y el acceso intuitivo, garantizando que el usuario pueda ajustar cada aspecto de la plataforma de manera eficiente.
 
-![Web-MockUps-Settings.png](assets/Web-MockUps-Settings.png)
+![Web-MockUps-Settings.PNG](assets/Web-MockUps-Settings.PNG)
 
 ### 4.4.3. Web Applications User Flow Diagrams
 
