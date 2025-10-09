@@ -667,19 +667,18 @@ Se verificó la correcta publicación de la Landing Page en la siguiente URL: ht
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
-En esta sección se evidencia la colaboración de cada integrante en el repositorio de la Landing Page.
+En esta sección se evidencia la colaboración de cada integrante en el repositorio del Frontend de la Aplicación Web.
 
-Repositorio de Landing Page: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page#
+Repositorio del Frontend de la Aplicación Web: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
 
 | **Integrante**                       | **Actividad**                                                                                          |  
 |--------------------------------------|--------------------------------------------------------------------------------------------------------|
-| **Huaman Olivos, Yeira Shari**       | Implementación de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
-| **Loechle Arias, Mateo Ítalo**       | Implementación de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
-| **Barturen Panez, Iker Gabriel**     | Implementación de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
-| **Encalada Salazar, Alexis**         | Implementación de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
-| **Torres Lavandera, Andrés Rodrigo** | Implementación de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Huaman Olivos, Yeira Shari**       | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Loechle Arias, Mateo Ítalo**       | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Barturen Panez, Iker Gabriel**     | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Encalada Salazar, Alexis**         | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Torres Lavandera, Andrés Rodrigo** | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
 
-**chapter 1, 2, 3, 4, 5.md**
 
 # Conclusiones
 
