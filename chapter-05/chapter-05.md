@@ -472,7 +472,7 @@ Durante el Sprint 2 se estableció el desarrollo de la aplicación web de la pla
     <td colspan="8">Iker Gabriel Barturen Panez</td>
 </tr>
 <tr>
-    <td colspan="5">Attendees (to planning meeting)</td>
+    <td colspan="5">Attendees (to a planning meeting)</td>
     <td colspan="8">Alexis Encalada Salazar, Yeira Shari Huaman Olivos, Andrés Rodrigo Torres Lavandera, Iker Gabriel Barturen Panez, Mateo Italo Loechle Arias</td>
 </tr>
 
@@ -485,11 +485,11 @@ Durante el Sprint 2 se estableció el desarrollo de la aplicación web de la pla
 </tr>
 <tr>
     <td colspan="5">Sprint 2 Velocity</td>
-    <td colspan="8"></td>
+    <td colspan="8">10</td>
 </tr>
 <tr>
     <td colspan="5">Sum of Story Points</td>
-    <td colspan="8"></td>
+    <td colspan="8">89</td>
 </tr>
 </table>
 
