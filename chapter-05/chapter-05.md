@@ -759,20 +759,51 @@ Este primer sprint, centrado en la interfaz gráfica y experiencia inicial, sien
 
 ### Recomendaciones
 
-- Mantener la sistematización en la gestión de requisitos y la validación continua con usuarios reales para asegurar la alineación con sus necesidades.
-- Priorizar la escalabilidad y mantenibilidad en el diseño arquitectónico, reforzando la modularidad y separación de responsabilidades.
-- Continuar aplicando principios de Lean UX y Domain-Driven Design en los siguientes sprints, especialmente en la integración de servicios backend y APIs.
-- Fortalecer la colaboración y comunicación del equipo, promoviendo el uso de herramientas ágiles y buenas prácticas de desarrollo.
-- Realizar pruebas de usabilidad y accesibilidad en cada iteración para garantizar una experiencia inclusiva y eficiente.
-- Documentar exhaustivamente los avances y decisiones técnicas para facilitar la transferencia de conocimiento y el onboarding de nuevos miembros.
+- Optimizar la experiencia de usuario en las vistas principales, incorporando mejoras de navegación, internacionalización y accesibilidad conforme a los estándares actuales.
+- Implementar pruebas automatizadas para los componentes clave del frontend y los endpoints del backend, garantizando la calidad y estabilidad de la plataforma.
+- Documentar los procesos de despliegue y configuración de la infraestructura (Vercel, Render), facilitando la replicabilidad y el mantenimiento del entorno productivo.
+- Promover la revisión cruzada de código y la actualización continua de las guías de estilo, reforzando la coherencia técnica y la colaboración entre los miembros del equipo.
+- Monitorear el rendimiento de la aplicación web y los servicios, aplicando métricas y herramientas de observabilidad para anticipar posibles incidencias y escalar la solución.
 
 # Bibliografía
 
+**Angular**
+- Versión actual: v20
+- Angular. (2025). _Angular Documentation_. Recuperado de https://angular.dev
 
+**TypeScript**
+- TypeScript. (2025). _TypeScript Handbook_. Recuperado de https://www.typescriptlang.org
+
+**CSS**
+- Versión actual: CSS3
+- Mozilla Foundation. (2025). _MDN CSS Reference_. Recuperado de https://developer.mozilla.org/es/docs/Web/CSS
+
+**HTML**
+- Versión actual: HTML5
+- Mozilla Foundation. (2025). _MDN HTML Reference_. Recuperado de https://developer.mozilla.org/es/docs/Web/HTML
+
+**JavaScript**
+- Mozilla Foundation. (2025). _MDN JavaScript Reference_. Recuperado de https://developer.mozilla.org/es/docs/Web/JavaScript
+
+**JSON**
+- Versión actual: Estándar RFC 8259
+- JSON.org. (2024). _Introducing JSON_. Recuperado de https://www.json.org/json-es.html
 
 # Anexos
 
 - Link de la Organización
   https://github.com/Upc-pre-1ASI0729-2520-7401-Energix
+- Link del Repositorio del Reporte
+  https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Proyect-Report
+- Link de la Repositorio de la landing Page
+  https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page
+- Link de la Repositorio del Frontend de la Aplicación Web
+  https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
+- Link de la landing page
+  https://energixlp.netlify.app
+- Link del Frontend de la Aplicación Web
+  https://frontend-sems.vercel.app
 - Link del Figma
   https://www.figma.com/design/tmJAly092Cbckme5PFfA6Z/Energix?node-id=26-4210&t=4xEBZLNYgT1IM6IQ-1
+- Link del video de la presentación
+  https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/EatERr_u0z9PsPV9zBCf2qMBBoBO00PC-Phz8dJyZh1iqw?e=RAb0qG
