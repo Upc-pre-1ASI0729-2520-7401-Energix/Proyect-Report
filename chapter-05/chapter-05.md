@@ -502,13 +502,13 @@ Durante el Sprint 2 se estableció el desarrollo de la aplicación web de la pla
 
 Con la finalidad de mejorar la colaboración en equipo a cada integrante se asignó un rol de líder por cada aspecto. Los aspectos están relacionados con los entregables.
 
-| Team member (LastName, First Name) | GitHub UserName       | Aspect 1: Landing Page Leader (L) / Collaborator (C) | Aspect 2: Diseños Figma: Leader (L) / Collaborator (C) | Aspect 3: Reporte (L) / Collaborator (C) |
-|------------------------------------|-----------------------|------------------------------------------------------|--------------------------------------------------------|------------------------------------------|
-| Alexis Encalada                    | Alexiz248             | C                                                    | C                                                      | L                                        |
-| Yeira Sharia                       | YeiShari              | L                                                    | L                                                      | L                                        |
-| Andrés Torres                      | AndresTorres202312557 | C                                                    | L                                                      | L                                        |
-| Iker Barturen                      | krxxg04               | L                                                    | L                                                      | L                                        |
-| Mateo Loechle                      | LowMathzzz            | C                                                    | C                                                      | L                                        |
+| Team member (LastName, First Name) | GitHub UserName       | Aspect 1: Dashboard & Devices View | Aspect 2: Profile View and UI Design | Aspect 3: Reports View | Aspect 4: Notifications View | Aspect 5: Settings View |
+|------------------------------------|-----------------------|------------------------------------|--------------------------------------------------------------------|------------------------|------------------------------|-------------------------|
+| Alexis Encalada                    | Alexiz248             | C                                  | C                                                                  | C                      | C                            | L                       |
+| Yeira Sharia                       | YeiShari              | C                                  | L                                                                  | C                      | C                            | C                       |
+| Andrés Torres                      | AndresTorres202312557 | C                                  | C                                                                  | L                      | C                            | C                       |
+| Iker Barturen                      | krxxg04               | L                                  | C                                                                  | C                      | C                            | C                       |
+| Mateo Loechle                      | LowMathzzz            | C                                  | C                                                                  | C                      | L                            | C                       |
 
 #### 5.2.2.3. Sprint Backlog 1
 
