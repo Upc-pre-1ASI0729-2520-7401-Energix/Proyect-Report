@@ -510,7 +510,7 @@ Con la finalidad de mejorar la colaboración en equipo a cada integrante se asig
 | Iker Barturen                      | krxxg04               | L                                  | C                                                                  | C                      | C                            | C                       |
 | Mateo Loechle                      | LowMathzzz            | C                                  | C                                                                  | C                      | L                            | C                       |
 
-#### 5.2.2.3. Sprint Backlog 1
+#### 5.2.2.3. Sprint Backlog 2
 
 <table border="1">
   <tr>
@@ -651,7 +651,7 @@ Durante el desarrollo del sprint se lograron completar todos los puntos plantead
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-Como se mencionó previamente, Este sprint solo tuvo como objetivo el desarrollo de Landing Page. Aún no se han implementado ni documentado Endpoints con OpenAPI, ya que el desarrollo de los servicios web está planificado para los siguientes Sprints, conforme al roadmap del proyecto.
+El Sprint 2 de Energix se centró en la implementación funcional de la aplicación web, integrando la interfaz con una API desplegada que simula un backend mediante la estructura del archivo db.json para el consumo de información. Este avance permitió el desarrollo e integración de las vistas principales de la plataforma (Dashboard, Profile, Reports, etc.), garantizando coherencia visual y navegación fluida con el contenido dinámico simulado. Se habilitaron funcionalidades interactivas clave (como la edición de datos de usuario y la gestión por roles) y se reforzó la internacionalización (i18n). Aunque no se implementó una capa backend con lógica de negocio avanzada, la arquitectura utiliza endpoints REST que consumen db.json, sentando una base plenamente operativa y preparada para la posterior incorporación de la persistencia real y lógica de negocio.
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
