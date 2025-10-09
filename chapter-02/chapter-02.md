@@ -461,3 +461,28 @@ Segmento objetivo #1: Propietarios de Vivienda
 Segmento objetivo #2: Estudiantes que alquilan
 
 ![User-Journey-Mapping-2.png](assets/User-Journey-Mapping-2.png)
+
+## 2.4. Big Picture Event Storming.
+
+## 2.5. Ubiquitous Language
+- **SEMS**: Nombre del producto compuesto por cuatros palabras en inglés: "Smart" (Inteligente), "Energy"(Energía), "Management"(Gestión), "System"(Sistema).
+
+- **Suscripción**: Un pago asociado a la funcionalidad de **SEMS** que ofrece tres planes diseñados para adaptarse a diferentes necesidades y niveles de consumo.
+
+- **Monitoreo en tiempo real**: Información actualizda instantáneamente sobre los consumos energéticos de las diferentes viviendas.
+
+- **Dashboard interactivo**: Herramienta visual de gestión de información que muestra gráficos del consumo de cada dispositivo.
+
+- **Histórico de consumo**: Un registro del total de consumo generado por el usuario, que incluye detalles como fecha, hora, dispositivos registrados y total de consumo.
+
+- **Control remoto básico**: Herramienta que permitirá al usuario poder controlar los dispositivos registrados en la base de datos.
+
+- **Backend**: Infraestuctura que aloja y gestiona los datos de la apliacación, incluyendo la disponibilidad de espacios y la información de los usuarios.
+
+- **Interfaz de usuario(UI)**: Parte visual de la aplicación con la que los usuarios interactúan para realizar monitoreos, recibir alertas y notifiaciones y controlar sus dispositivos.
+
+- **Usuario**: Persona que utiliza la aplicación para monitoerar, gestionar su consumo y controlar sus dispositivos.
+
+- **Alertas de consumo inusual**: Alertas enviadas,en tiempo real, al usuario para informarles sobre picos inusuales de consumo de energía detectados.
+
+- **Recomendaciones inteligentes**: Notificaciones personalizadas hacia el usuario brindándoles consejos únicos para que optimizar sus consumos energéticos. 
