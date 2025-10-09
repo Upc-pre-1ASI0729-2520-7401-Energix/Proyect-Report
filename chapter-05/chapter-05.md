@@ -645,13 +645,87 @@ Enlace al repositorio de la Landing Page: https://github.com/Upc-pre-1ASI0729-25
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
-Durante el desarrollo del sprint se lograron completar todos los puntos planteados. A continuación se muestran evidencias del landing page logrado.
+Durante el desarrollo del sprint se lograron completar todos los puntos para la implementación de las funcionalidades esenciales para el sistema de gestión Energix, estableciendo una base sólida para la administración de energía en los hogares. Las principales características desarrolladas fueron:
 
+1. Sistema de autenticación completo con diferentes campos para rellenar según el rol del usuario, si es dueño o estudiante.
+
+2. Personalización de perfil, permitiendo al usaurio modificar a su preferencia su experiencia en la aplicación.    
+
+3. Visualización y descarga de reportes, con la posibilidad de filtrar por fecha y tipo de reporte y poder descargar los datos acumulados en diferentes formatos.
+
+4. Gestión de dispositivos, facilitando el control entre los diferentes dispositivos registrados.
+
+5. Internalización (i18n) para soportar dos idiomas en la plataforma.
+
+6. Cierre se sesión seguro, permitiendo al usuario salir de la aplicación de manera segura y facil, dandole la optortunidad al usaurio de inicar sesión con las mismas credenciales.   
+
+7. Sistema de navegación robusto entre páginas con manejo de rutas protegidas y página 4040 personalizada. 
+
+**Capturas de pantalla de las principales vistas**
+
+
+Login y Auntenticación
+
+![login.png](assets/login.png)
+
+Dashboard principal
+
+![dashboard.png](assets/dashboard.png)
+
+Mis dispositivos
+
+![devices.png](assets/devices.png)
+
+Reportes
+
+![reports.png](assets/reports.png)
+
+Configuración
+
+![configuration.png](assets/configuration.png)
 
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-El Sprint 2 de Energix se centró en la implementación funcional de la aplicación web, integrando la interfaz con una API desplegada que simula un backend mediante la estructura del archivo db.json para el consumo de información. Este avance permitió el desarrollo e integración de las vistas principales de la plataforma (Dashboard, Profile, Reports, etc.), garantizando coherencia visual y navegación fluida con el contenido dinámico simulado. Se habilitaron funcionalidades interactivas clave (como la edición de datos de usuario y la gestión por roles) y se reforzó la internacionalización (i18n). Aunque no se implementó una capa backend con lógica de negocio avanzada, la arquitectura utiliza endpoints REST que consumen db.json, sentando una base plenamente operativa y preparada para la posterior incorporación de la persistencia real y lógica de negocio.
+Introducción
+
+Durante el sprint 2, hemos implementado una estrategia de despliegue completa para el sistema de Energix, abarcando tanto el frontend como los servicios de backend que soportan la aplicación. Nuestro enfoque principal ha sido crear una infraestuctura robusta y unificada que facilite tanto el desarrollo como la experiencia del usuario final.
+
+**Implementación de API centralizada en render**
+
+Decidimos migrar de una arquitectura distribuida con multiples enpoints a una solución más centralizada y más robusta utilizando Render. Esta desición nos permitió superar las limitaciones al momento de llamar a la API y tener un mayor control sobre nuestra infraestructura.
+
+La URL base para todos los recurso de nuestra API ahora es:
+
+https://sems-fake-api.onrender.com/
+
+Esta URL base sirve como punto de entrada principal para todos los recursos del sistema, simplificando considerablemente la configuración y mantenimiento de la aplicación.
+
+**Configuración del servidor en Render**
+
+El proceso de implementación en Render involucró varias etapas para asegurar un despliegue exitoso. Comenzamos creando una nueva cuenta y proyecto en la plataforma, configurándolo específicamente para trabajar con Node.js como entorno de ejecución.
+
+Conectamos nuestro repositorio de GitHub para habilitar el despliegue automático, lo que nos permite mantener sincronizado el entorno de producción con la rama principal del proyecto. Esto ha resultado en un flujo de trabajo más eficiente, donde cada merge a la rama principal actualiza automáticamente nuestra API.
+
+| Método HTTP | Endpoint               | Descripción                                            | Ejemplo de uso                             |
+|-------------|------------------------|--------------------------------------------------------|--------------------------------------------|
+| GET         | /users                 | Obtiene todos los usuarios                             | Listar supervisores o técnicos registrados |
+| GET         | /users/:id             | Obtiene un usuario específico                          | Consultar datos de un usuario              |
+| POST        | /users                 | Crea un nuevo usuario                                  | Registrar nuevo supervisor o técnico       |
+| PUT         | /users/:id             | Actualiza datos de un usuario                          | Modificar información de contacto          |
+| DELETE      | /users/:id             | Elimina un usuario existente                           | Dar de baja a un supervisor                |
+| GET         | /dashboardStas         | Obtiene estadísticas del panel principal               | Visualizar métricas generales del sistema  |
+| GET         | /deilyConsumption      | Obtiene consumo diario de energía o recursos           | Mostrar gráfico de consumo del día         |
+| GET         | /consumptionByCategory | Obtiene consumo dividido por categorías                | Comparar consumo entre áreas o tipos       |
+| GET         | /monthlyComparasion    | Obtiene comparación mensual de consumo                 | Ver evolución del consumo mes a mes        |
+| GET         | /devices               | Obtiene lista de dispositivos registrados              | Listar sensores o equipos conectados       |
+| POST        | /devices               | Agrega un nuevo dispositivo                            | Registrar sensor o medidor nuevo           |
+| PUT         | /device/:id            | Actualiza un dispositivo existente                     | Editar nombre o estado de un dispositivo   |
+| DELETE      | /device/:id            | Elimina un dispositivo                                 | Dar de baja un sensor fuera de servicio    |
+| GET         | /alerts                | Obtiene lista de alertas activas                       | Mostrar alertas de consumo o fallos        |
+| GET         | /notification          | Obtiene notificaciones generadas                       | Mostrar avisos al usuario                  |
+| GET         | /devicePreferences     | Obtiene configuración de preferencias por dispositivo  | Mostrar ajustes personalizados             |
+
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
