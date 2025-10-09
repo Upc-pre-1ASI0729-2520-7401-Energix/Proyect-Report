@@ -441,11 +441,6 @@ Repositorio de Landing Page: https://github.com/Upc-pre-1ASI0729-2520-7401-Energ
 | **Encalada Salazar, Alexis**         | Implementación de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
 | **Torres Lavandera, Andrés Rodrigo** | Implementación de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
 
-**chapter 1, 2, 3, 4, 5.md**
-
-
-
-**Landing Page**
 
 ### 5.2.2. Sprint 2
 
@@ -511,124 +506,95 @@ Con la finalidad de mejorar la colaboración en equipo a cada integrante se asig
 | Mateo Loechle                      | LowMathzzz            | C                                  | C                                                                  | C                      | L                            | C                       |
 
 #### 5.2.2.3. Sprint Backlog 2
+<table>
+  <tr>
+    <th colspan="7">Sprint 2 – Work Items / Tasks (Aplicación Web Energix)</th>
+  </tr>
+  <tr>
+    <th>User Story ID</th>
+    <th>Task ID</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation</th>
+    <th>Assigned To</th>
+    <th>Status</th>
+  </tr>
 
-<table border="1">
-  <tr>
-    <th colspan="3">Sprint 1</th>
-    <th colspan="10">Sprint 1</th>
-  </tr>
-  <tr>
-    <td colspan="3">User Story</td>
-    <td colspan="10">Work-Item/Task</td>
-  </tr>
-  <tr>
-    <td>ID</td>
-    <td colspan="2">Title</td>
-    <td>ID</td>
-    <td colspan="2">Title</td>
-    <td colspan="3">Description</td>
-    <td>Estimation</td>
-    <td colspan="2">Assigned to</td>
-    <td>Status</td>
-  </tr>
-  <tr>
-    <td>US31</td>
-    <td colspan="2">Consultar la propuesta de valor</td>
-    <td>UT01</td>
-    <td colspan="2">Redactar contenido de propuesta de valor</td>
-    <td colspan="3">Crear el texto que explique los beneficios y el valor de la plataforma.</td>
-    <td>2h</td>
-    <td colspan="2">Iker Barturen</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan="2"></td>
-    <td>UT02</td>
-    <td colspan="2">Diseñar sección de propuesta de valor</td>
-    <td colspan="3">Implementar la sección en la landing page con diseño atractivo y responsivo.</td>
-    <td>2h</td>
-    <td colspan="2">Iker Barturen</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US32</td>
-    <td colspan="2">Acceder a preguntas frecuentes (FAQ)</td>
-    <td>UT03</td>
-    <td colspan="2">Redactar preguntas y respuestas frecuentes</td>
-    <td colspan="3">Crear listado de dudas comunes y sus respuestas.</td>
-    <td>2h</td>
-    <td colspan="2">Yeira Huaman</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan="2"></td>
-    <td>UT04</td>
-    <td colspan="2">Implementar sección FAQ</td>
-    <td colspan="3">Desarrollar componente visual (acordeón/collapsible) para mostrar las preguntas frecuentes.</td>
-    <td>2h</td>
-    <td colspan="2">Yeira Huaman</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US33</td>
-    <td colspan="2">Revisar planes de suscripción</td>
-    <td>UT05</td>
-    <td colspan="2">Redactar información de planes</td>
-    <td colspan="3">Crear contenido sobre los distintos planes, precios y beneficios.</td>
-    <td>3h</td>
-    <td colspan="2">Andrés Torres</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan="2"></td>
-    <td>UT06</td>
-    <td colspan="2">Implementar sección de comparación de planes</td>
-    <td colspan="3">Diseñar tabla o cards para comparar los planes en la landing page.</td>
-    <td>3h</td>
-    <td colspan="2">Andrés Torres</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US34</td>
-    <td colspan="2">Consultar información del equipo</td>
-    <td>UT07</td>
-    <td colspan="2">Redactar información del equipo</td>
-    <td colspan="3">Crear contenido sobre la misión, visión y miembros del equipo.</td>
-    <td>2h</td>
-    <td colspan="2">Alexis Encalada</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td colspan="2"></td>
-    <td>UT08</td>
-    <td colspan="2">Implementar sección del equipo</td>
-    <td colspan="3">Diseñar e integrar la sección del equipo en la landing page.</td>
-    <td>2h</td>
-    <td colspan="2">Alexis Encalada</td>
-    <td>Done</td>
-  </tr>
-  <tr>
-    <td>US35</td>
-    <td colspan="2">Cambiar idioma</td>
-    <td>UT09</td>
-    <td colspan="2">Implementar selector de idioma</td>
-    <td colspan="3">Desarrollar funcionalidad para cambiar entre español e inglés en la landing page.</td>
-    <td>4h</td>
-    <td colspan="2">Mateo Italo</td>
-    <td>Done</td>
-  </tr>
+  <!-- EP01 -->
+  <tr><td colspan="7"><b>EP01 – Autenticación y Perfil de Usuario</b></td></tr>
+  <tr><td>US01</td><td>UT01</td><td>Diseñar formulario de registro</td><td>Diseñar el formulario con campos de correo, contraseña y validación.</td><td>3h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td></td><td>UT02</td><td>Implementar backend de registro</td><td>Crear endpoint de registro y validaciones de correo duplicado.</td><td>4h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US02</td><td>UT03</td><td>Implementar inicio de sesión</td><td>Crear pantalla de login y autenticación JWT.</td><td>3h</td><td>Iker Barturen</td><td>Done</td></tr>
+  <tr><td></td><td>UT04</td><td>Manejo de errores en login</td><td>Mostrar mensajes por credenciales inválidas o usuario inexistente.</td><td>2h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td>US03</td><td>UT05</td><td>Configurar perfil inicial</td><td>Crear formulario de configuración inicial (tipo de vivienda, dispositivos).</td><td>3h</td><td>Andrés Torres</td><td>Done</td></tr>
+  <tr><td></td><td>UT06</td><td>Validar configuración</td><td>Verificar información incompleta en perfil inicial.</td><td>2h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td>US04</td><td>UT07</td><td>Flujo de recuperación de contraseña</td><td>Crear formulario para restablecer contraseña y envío de correo.</td><td>3h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td></td><td>UT08</td><td>Actualizar contraseña desde enlace</td><td>Implementar vista para establecer nueva contraseña.</td><td>2h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US05</td><td>UT09</td><td>Implementar cierre de sesión</td><td>Desarrollar logout seguro y cierre automático por inactividad.</td><td>3h</td><td>Iker Barturen</td><td>Done</td></tr>
+
+  <!-- EP02 -->
+  <tr><td colspan="7"><b>EP02 – Conexión y Monitoreo de Dispositivos</b></td></tr>
+  <tr><td>US06</td><td>UT10</td><td>Vincular dispositivos</td><td>Crear flujo para conectar dispositivos compatibles con la plataforma.</td><td>4h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td></td><td>UT11</td><td>Validar compatibilidad</td><td>Mostrar error si el dispositivo no es compatible.</td><td>2h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US07</td><td>UT12</td><td>Identificación automática</td><td>Implementar reconocimiento automático de dispositivos conectados.</td><td>3h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td></td><td>UT13</td><td>Definición manual</td><td>Permitir al usuario definir dispositivo si no se identifica.</td><td>2h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td>US08</td><td>UT14</td><td>Monitoreo en tiempo real</td><td>Mostrar consumo en tiempo real de dispositivos conectados.</td><td>4h</td><td>Iker Barturen</td><td>Done</td></tr>
+  <tr><td></td><td>UT15</td><td>Manejo de desconexiones</td><td>Notificar al usuario cuando un dispositivo se desconecta.</td><td>2h</td><td>Yeira Huamán</td><td>Done</td></tr>
+
+  <!-- EP03 -->
+  <tr><td colspan="7"><b>EP03 – Alertas y Recordatorios de Consumo</b></td></tr>
+  <tr><td>US09</td><td>UT16</td><td>Alertas de consumo elevado</td><td>Configurar sistema de alertas automáticas por exceso de consumo.</td><td>3h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td></td><td>UT17</td><td>Registrar alertas</td><td>Guardar las alertas generadas con fecha y hora.</td><td>2h</td><td>Andrés Torres</td><td>Done</td></tr>
+  <tr><td>US10</td><td>UT18</td><td>Recordatorios por inactividad</td><td>Enviar notificaciones para desconectar dispositivos en reposo.</td><td>3h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td></td><td>UT19</td><td>Configuración de recordatorios</td><td>Permitir ajustar frecuencia de avisos.</td><td>2h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td>US11</td><td>UT20</td><td>Configurar umbrales personalizados</td><td>Definir límites de consumo por usuario y restablecimiento a valores predeterminados.</td><td>4h</td><td>Iker Barturen</td><td>Done</td></tr>
+
+  <!-- EP04 -->
+  <tr><td colspan="7"><b>EP04 – Reportes y Facturación</b></td></tr>
+  <tr><td>US12</td><td>UT21</td><td>Reporte semanal</td><td>Generar reporte semanal del consumo energético en PDF.</td><td>4h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US13</td><td>UT22</td><td>Comparación entre periodos</td><td>Permitir comparar consumo entre semanas o meses con gráficos.</td><td>3h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td>US14</td><td>UT23</td><td>Proyección de factura</td><td>Estimar factura mensual según consumo actual.</td><td>3h</td><td>Andrés Torres</td><td>Done</td></tr>
+  <tr><td>US15</td><td>UT24</td><td>Historial de consumo mensual</td><td>Mostrar historial mensual de consumo y descarga en PDF.</td><td>3h</td><td>Alexis Encalada</td><td>Done</td></tr>
+
+  <!-- EP05 -->
+  <tr><td colspan="7"><b>EP05 – Metas y Ahorro Energético</b></td></tr>
+  <tr><td>US16</td><td>UT25</td><td>Recomendaciones personalizadas</td><td>Mostrar consejos adaptados al patrón de consumo del usuario.</td><td>3h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td>US17</td><td>UT26</td><td>Metas de ahorro</td><td>Configurar metas mensuales y seguimiento de progreso.</td><td>4h</td><td>Iker Barturen</td><td>Done</td></tr>
+  <tr><td>US18</td><td>UT27</td><td>Comparar consumo con otros usuarios</td><td>Mostrar comparación con hogares similares y ranking de eficiencia.</td><td>3h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US19</td><td>UT28</td><td>Programar encendido automático</td><td>Permitir programación de horarios de encendido de dispositivos.</td><td>3h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td>US20</td><td>UT29</td><td>Programar apagado automático</td><td>Implementar apagado programado para reducir consumo innecesario.</td><td>3h</td><td>Andrés Torres</td><td>Done</td></tr>
+
+  <!-- EP06 -->
+  <tr><td colspan="7"><b>EP06 – Soporte y Asesoría</b></td></tr>
+  <tr><td>US21</td><td>UT30</td><td>Solicitar asesoría</td><td>Permitir al usuario agendar sesiones con especialistas.</td><td>3h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td>US22</td><td>UT31</td><td>Centro de ayuda</td><td>Implementar sección con guías y artículos de ayuda.</td><td>3h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US23</td><td>UT32</td><td>Contactar soporte</td><td>Crear formulario de contacto y recepción de respuestas.</td><td>3h</td><td>Iker Barturen</td><td>Done</td></tr>
+
+  <!-- EP07 -->
+  <tr><td colspan="7"><b>EP07 – Gestión de Categorías de Dispositivos</b></td></tr>
+  <tr><td>US24</td><td>UT33</td><td>Agrupar dispositivos</td><td>Permitir al usuario crear categorías personalizadas de dispositivos.</td><td>3h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td>US25</td><td>UT34</td><td>Consumo por categoría</td><td>Mostrar consumo agrupado y comparativo por categoría.</td><td>4h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td>US26</td><td>UT35</td><td>Dispositivos de alto consumo</td><td>Identificar y alertar sobre los dispositivos con mayor gasto energético.</td><td>3h</td><td>Andrés Torres</td><td>Done</td></tr>
+
+  <!-- EP08 -->
+  <tr><td colspan="7"><b>EP08 – Multiusuario y Roles</b></td></tr>
+  <tr><td>US27</td><td>UT36</td><td>Administrar múltiples cuentas</td><td>Permitir agregar miembros al hogar y compartir gestión.</td><td>3h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US28</td><td>UT37</td><td>Definir roles de acceso</td><td>Implementar control de permisos (administrador/invitado).</td><td>3h</td><td>Iker Barturen</td><td>Done</td></tr>
+
+  <!-- EP09 -->
+  <tr><td colspan="7"><b>EP09 – Noticias e Internacionalización</b></td></tr>
+  <tr><td>US29</td><td>UT38</td><td>Cambiar idioma de la aplicación</td><td>Implementar selector de idioma con persistencia de preferencia.</td><td>3h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td>US30</td><td>UT39</td><td>Noticias y consejos</td><td>Agregar sección de noticias con artículos y recomendaciones.</td><td>4h</td><td>Alexis Encalada</td><td>Done</td></tr>
 </table>
+
+
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
 En esta sección se demuestran los commits relacionados con los principales avances en la implementación.
-Estos commits provienen del repositorio del Landing Page de la organización de GitHub.
+Estos commits provienen del repositorio de la aplicación web de la organización de GitHub.
 
-Enlace al repositorio de la Landing Page: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page#
+Enlace al repositorio de la aplicación web: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
 
 | Repository                                        | Branch                      | Commit Id                                  | Commit Message                  | Commit Message Body | Commited on (Date) |
 |---------------------------------------------------|-----------------------------|--------------------------------------------|---------------------------------|---------------------|--------------------|
@@ -739,15 +705,15 @@ Conectamos nuestro repositorio de GitHub para habilitar el despliegue automátic
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-Durante este Sprint, se completó el desarrollo de la Landing Page y se realizó su despliegue utilizando GitHub Pages como plataforma de publicación gratuita. El objetivo fue contar con una primera versión accesible en línea del producto digital para revisión y retroalimentación.
+Durante este Sprint, se completó el desarrollo de la aplicación web y se realizó su despliegue utilizando vercel app como plataforma de publicación gratuita. El objetivo fue contar con una primera versión accesible en línea del producto digital para revisión y retroalimentación.
 
-Actividades realizadas: Se creó el repositorio en GitHub: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page#
+Actividades realizadas: Se creó el repositorio en Git hub: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
 
-Se subió el código fuente de la Landing Page, incluyendo los archivos HTML, CSS necesarios.
+Se subió el código fuente de la aplicación, incluyendo los archivos html, .Vue, CSS, ts, .json  necesarios.
 
-Se configuró GitHub Pages desde la pestaña Settings > Pages, seleccionando la rama principal y la carpeta raíz.
+Se configuró en vercel app para el deploy de la app web.
 
-Se verificó la correcta publicación de la Landing Page en la siguiente URL: https://energixlp.netlify.app
+Se verificó la correcta publicación de la aplicación web en la siguiente URL: https://frontend-sems.vercel.app
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
