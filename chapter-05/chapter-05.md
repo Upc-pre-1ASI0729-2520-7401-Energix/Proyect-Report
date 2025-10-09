@@ -199,3 +199,290 @@ El código no debe exceder las 80 columnas por líneas. En caso de necesitar má
 2. **Acceso a las configuraciones**: Una vez dentro de Netifly, haz click en la pestaña Get Started en el centro de la pantalla, te loqueas con Git Hub, buscas la organización y el repositorio de tu landign page y la selecciones.
 3. **Selección de la Configuración**: Selecciona la configuración y carga los archivos del repositorio. Esta opción permite generar el link de la landing page, con el nombre Energix.
 4. **Acceso a la página**: Finalmente, podrás acceder a la Landing Page desde el enlace que se generó al finalizar el deploy. Aquí está el enlace para el proyecto ENERGIX: https://energixlp.netlify.app
+
+### 5.2.1. Sprint 1
+
+#### 5.2.1.1. Sprint Planning 1
+
+Para este primer sprint nos enfocaremos en los tasks para la
+elaboración de la Landing Page. Nos dividiremos entre nosotros cada
+una de las tareas identificadas para el sprint.
+
+<table>
+<tr>
+    <th colspan="5">Sprint 1</th>
+    <th colspan="9">Sprint 1</th>
+  </tr>
+      <tr>
+    <td colspan="13">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8">2025-09-15</td>
+</tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8">4:30 PM</td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">Via Discord</td>
+<tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8">Iker Gabriel Barturen Panez</td>
+</tr>
+<tr>
+    <td colspan="5">Attendees (to planning meeting)</td>
+    <td colspan="8">Alexis Encalada Salazar, Yeira Shari Huaman Olivos, Andrés Rodrigo Torres Lavandera, Iker Gabriel Barturen Panez, Mateo Italo Loechle Arias</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint  1 Review Summary</td>
+    <td colspan="8">En esta primera sección se planteo el desarrollo de la Landing Page y planeación de aplicación para el proyecto de Energix.</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 1 Retrospective Summary</td>
+    <td colspan="8">En esta sección todos los integrantes mencionaron tener aciertos en partes del codigo y en otras partes poder mejorar sus habilidades realizando la Landing Page</td>
+</tr>
+<tr>
+    <td colspan="13">Sprint Goal & User Stories</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 1 Goal</td>
+    <td colspan="8">Desarrollar y desplegar una landing page que presente información a los usuarios a través de imágenes y texto. La página debe ser completamente adaptable a cualquier tipo de dispositivo que utilicen los usuarios, garantizando una experiencia de usuario fluida y responsiva.</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 1 Velocity</td>
+    <td colspan="8">5 story points</td>
+</tr>
+<tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8">5 Story Points</td>
+</tr>
+</table>
+
+#### 5.2.X.2. Aspect Leaders and Collaborators
+
+Con la finalidad de mejorar la colaboración en equipo a cada integrante se asignó un rol de líder por cada aspecto. Los aspectos están relacionados con los entregables.
+
+| Team member (LastName, First Name) | GitHub UserName       | Aspect 1: Landing Page Leader (L) / Collaborator (C) | Aspect 2: Diseños Figma: Leader (L) / Collaborator (C) | Aspect 3: Reporte (L) / Collaborator (C) |
+|------------------------------------|-----------------------|------------------------------------------------------|--------------------------------------------------------|------------------------------------------|
+| Alexis Encalada                    | Alexiz248             | C                                                    | C                                                      | L                                        |
+| Yeira Sharia                       | YeiShari              | L                                                    | L                                                      | L                                        |
+| Andrés Torres                      | AndresTorres202312557 | C                                                    | L                                                      | L                                        |
+| Iker Barturen                      | krxxg04               | L                                                    | L                                                      | L                                        |
+| Mateo Loechle                      | LowMathzzz            | C                                                    | C                                                      | L                                        |
+
+#### 5.2.1.3. Sprint Backlog 1
+
+<table border="1">
+  <tr>
+    <th colspan="3">Sprint 1</th>
+    <th colspan="10">Sprint 1</th>
+  </tr>
+  <tr>
+    <td colspan="3">User Story</td>
+    <td colspan="10">Work-Item/Task</td>
+  </tr>
+  <tr>
+    <td>ID</td>
+    <td colspan="2">Title</td>
+    <td>ID</td>
+    <td colspan="2">Title</td>
+    <td colspan="3">Description</td>
+    <td>Estimation</td>
+    <td colspan="2">Assigned to</td>
+    <td>Status</td>
+  </tr>
+  <tr>
+    <td>US31</td>
+    <td colspan="2">Consultar la propuesta de valor</td>
+    <td>UT01</td>
+    <td colspan="2">Redactar contenido de propuesta de valor</td>
+    <td colspan="3">Crear el texto que explique los beneficios y el valor de la plataforma.</td>
+    <td>2h</td>
+    <td colspan="2">Iker Barturen</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan="2"></td>
+    <td>UT02</td>
+    <td colspan="2">Diseñar sección de propuesta de valor</td>
+    <td colspan="3">Implementar la sección en la landing page con diseño atractivo y responsivo.</td>
+    <td>2h</td>
+    <td colspan="2">Iker Barturen</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US32</td>
+    <td colspan="2">Acceder a preguntas frecuentes (FAQ)</td>
+    <td>UT03</td>
+    <td colspan="2">Redactar preguntas y respuestas frecuentes</td>
+    <td colspan="3">Crear listado de dudas comunes y sus respuestas.</td>
+    <td>2h</td>
+    <td colspan="2">Yeira Huaman</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan="2"></td>
+    <td>UT04</td>
+    <td colspan="2">Implementar sección FAQ</td>
+    <td colspan="3">Desarrollar componente visual (acordeón/collapsible) para mostrar las preguntas frecuentes.</td>
+    <td>2h</td>
+    <td colspan="2">Yeira Huaman</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US33</td>
+    <td colspan="2">Revisar planes de suscripción</td>
+    <td>UT05</td>
+    <td colspan="2">Redactar información de planes</td>
+    <td colspan="3">Crear contenido sobre los distintos planes, precios y beneficios.</td>
+    <td>3h</td>
+    <td colspan="2">Andrés Torres</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan="2"></td>
+    <td>UT06</td>
+    <td colspan="2">Implementar sección de comparación de planes</td>
+    <td colspan="3">Diseñar tabla o cards para comparar los planes en la landing page.</td>
+    <td>3h</td>
+    <td colspan="2">Andrés Torres</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US34</td>
+    <td colspan="2">Consultar información del equipo</td>
+    <td>UT07</td>
+    <td colspan="2">Redactar información del equipo</td>
+    <td colspan="3">Crear contenido sobre la misión, visión y miembros del equipo.</td>
+    <td>2h</td>
+    <td colspan="2">Alexis Encalada</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan="2"></td>
+    <td>UT08</td>
+    <td colspan="2">Implementar sección del equipo</td>
+    <td colspan="3">Diseñar e integrar la sección del equipo en la landing page.</td>
+    <td>2h</td>
+    <td colspan="2">Alexis Encalada</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US35</td>
+    <td colspan="2">Cambiar idioma</td>
+    <td>UT09</td>
+    <td colspan="2">Implementar selector de idioma</td>
+    <td colspan="3">Desarrollar funcionalidad para cambiar entre español e inglés en la landing page.</td>
+    <td>4h</td>
+    <td colspan="2">Mateo Italo</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+#### 5.2.1.4. Development Evidence for Sprint Review
+
+En esta sección se demuestran los commits relacionados con los principales avances en la implementación.
+Estos commits provienen del repositorio del Landing Page de la organización de GitHub.
+
+Enlace al repositorio de la Landing Page: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page# 
+
+| Repository                                              | Branch                | Commit Id                                  | Commit Message            | Commit Message Body | Commited on (Date) |
+|---------------------------------------------------------|-----------------------|--------------------------------------------|---------------------------|---------------------|--------------------|
+| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/start         | 692024b93d68e539d1cc5cbb6de3cd176d562b7c   | feat: add start.          |                     | 19/09/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/products      | 1eeb09c177966f93ac491cbd9b80a6e4ba81bc90   | feat: add products.       |                     | 19/09/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/subscriptions | 45f25028afb713b93cb8673a1ee5abdc9fe53594   | feat: add subscriptions.  |                     | 19/09/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/our-team      | d29df95ef29cdf224c966d07c8e8a15704647854   | feat: add our-team.       |                     | 19/09/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/Faqs          | 37f3b8c28d521878663c72a6ae046432deea790e   | feat: add Faqs.           |                     | 19/09/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/footer        | d09da40ecc996d11a3d84e31c003e4fa9d7bcf75   | feat: add footer.         |                     | 19/09/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/payment       | ff27629a30c625d174ef98b16b47b0a8ce97370a   | feat: add payment.        |                     | 19/09/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/js            | f83045d6a61811aab992b009689c67e2a3ed24e6   | feat: add files js.       |                     | 19/09/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/image         | f6cf2c1f36b63ab62729127683830a22fa1be8ba   | feat: add image.          |                     | 19/09/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/responsive    | 5d38b6997ae8e5326d8a96f618a460612610a6af   | feat: add responsive.     |                     | 20/09/2025         |
+
+#### 5.2.1.5. Execution Evidence for Sprint Review
+
+Durante el desarrollo del sprint se lograron completar todos los puntos planteados. A continuación se muestran evidencias del landing page logrado.
+
+
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+Como se mencionó previamente, Este sprint solo tuvo como objetivo el desarrollo de Landing Page. Aún no se han implementado ni documentado Endpoints con OpenAPI, ya que el desarrollo de los servicios web está planificado para los siguientes Sprints, conforme al roadmap del proyecto.
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint, se completó el desarrollo de la Landing Page y se realizó su despliegue utilizando GitHub Pages como plataforma de publicación gratuita. El objetivo fue contar con una primera versión accesible en línea del producto digital para revisión y retroalimentación.
+
+Actividades realizadas: Se creó el repositorio en GitHub: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page#
+
+Se subió el código fuente de la Landing Page, incluyendo los archivos HTML, CSS necesarios.
+
+Se configuró GitHub Pages desde la pestaña Settings > Pages, seleccionando la rama principal y la carpeta raíz.
+
+Se verificó la correcta publicación de la Landing Page en la siguiente URL: https://energixlp.netlify.app
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint
+
+En esta sección se evidencia la colaboración de cada integrante en el repositorio de la Landing Page.
+
+Repositorio de Landing Page: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page#
+
+| **Integrante**                       | **Actividad**                                                                                          |  
+|--------------------------------------|--------------------------------------------------------------------------------------------------------|
+| **Huaman Olivos, Yeira Shari**       | Implementación de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Loechle Arias, Mateo Ítalo**       | Implementación de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Barturen Panez, Iker Gabriel**     | Implementación de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Encalada Salazar, Alexis**         | Implementación de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Torres Lavandera, Andrés Rodrigo** | Implementación de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+
+**chapter 1, 2, 3, 4, 5.md**
+
+
+
+**Landing Page**
+
+
+
+# Conclusiones
+
+### Conclusiones
+
+El desarrollo del primer entregable del proyecto Energix ha permitido establecer una base metodológica, técnica y colaborativa sólida para la evolución del sistema SEMS. Se validaron hipótesis de diseño y se definió una visión clara de los objetivos, articulando un ecosistema funcional para la gestión inteligente de energía.
+
+El enfoque Lean UX facilitó la identificación precisa de los principales retos de los usuarios propietarios de vivienda, estudiantes y soporte técnico, permitiendo comprender sus necesidades y expectativas mediante entrevistas, mapas de empatía, user personas y scenario mapping. Esto guió la propuesta de valor centrada en la experiencia del usuario.
+
+La especificación y análisis de requisitos se realizó de forma rigurosa, aplicando técnicas modernas como To-Be Scenario Mapping, Impact Mapping, backlog grooming y user stories con criterios de aceptación. Esto permitió descomponer la solución en funcionalidades concretas y alineadas con los objetivos del negocio.
+
+En cuanto al diseño visual y arquitectónico, se implementaron style guidelines, una arquitectura de información clara y una estructura modular basada en bounded contexts, siguiendo principios de Domain-Driven Design. Esto garantiza escalabilidad, mantenibilidad y separación de responsabilidades, reforzando la calidad técnica y la sostenibilidad del proyecto.
+
+Durante el Sprint 1, se completaron las historias de usuario planificadas para la landing page, UI responsive, internacionalización y accesibilidad. El equipo demostró alta colaboración y cumplimiento de estándares técnicos, utilizando herramientas como GitHub, Figma, PlantUML y Netlify. La landing page fue desplegada y validada funcionalmente bajo criterios de usabilidad y accesibilidad.
+
+Este primer sprint, centrado en la interfaz gráfica y experiencia inicial, sienta las bases para la futura implementación de servicios backend, APIs RESTful y microservicios modulares que conformarán el núcleo transaccional de la plataforma.
+
+---
+
+### Recomendaciones
+
+- Mantener la sistematización en la gestión de requisitos y la validación continua con usuarios reales para asegurar la alineación con sus necesidades.
+- Priorizar la escalabilidad y mantenibilidad en el diseño arquitectónico, reforzando la modularidad y separación de responsabilidades.
+- Continuar aplicando principios de Lean UX y Domain-Driven Design en los siguientes sprints, especialmente en la integración de servicios backend y APIs.
+- Fortalecer la colaboración y comunicación del equipo, promoviendo el uso de herramientas ágiles y buenas prácticas de desarrollo.
+- Realizar pruebas de usabilidad y accesibilidad en cada iteración para garantizar una experiencia inclusiva y eficiente.
+- Documentar exhaustivamente los avances y decisiones técnicas para facilitar la transferencia de conocimiento y el onboarding de nuevos miembros.
+
+# Bibliografía
+
+
+
+# Anexos
+
+- Link de la Organización
+  https://github.com/Upc-pre-1ASI0729-2520-7401-Energix
+- Link del Figma
+  https://www.figma.com/design/tmJAly092Cbckme5PFfA6Z/Energix?node-id=26-4210&t=4xEBZLNYgT1IM6IQ-1
