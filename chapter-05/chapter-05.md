@@ -630,18 +630,28 @@ Estos commits provienen del repositorio del Landing Page de la organización de 
 
 Enlace al repositorio de la Landing Page: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page#
 
-| Repository                                              | Branch                | Commit Id                                  | Commit Message            | Commit Message Body | Commited on (Date) |
-|---------------------------------------------------------|-----------------------|--------------------------------------------|---------------------------|---------------------|--------------------|
-| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/start         | 692024b93d68e539d1cc5cbb6de3cd176d562b7c   | feat: add start.          |                     | 19/09/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/products      | 1eeb09c177966f93ac491cbd9b80a6e4ba81bc90   | feat: add products.       |                     | 19/09/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/subscriptions | 45f25028afb713b93cb8673a1ee5abdc9fe53594   | feat: add subscriptions.  |                     | 19/09/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/our-team      | d29df95ef29cdf224c966d07c8e8a15704647854   | feat: add our-team.       |                     | 19/09/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/Faqs          | 37f3b8c28d521878663c72a6ae046432deea790e   | feat: add Faqs.           |                     | 19/09/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/footer        | d09da40ecc996d11a3d84e31c003e4fa9d7bcf75   | feat: add footer.         |                     | 19/09/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/payment       | ff27629a30c625d174ef98b16b47b0a8ce97370a   | feat: add payment.        |                     | 19/09/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/js            | f83045d6a61811aab992b009689c67e2a3ed24e6   | feat: add files js.       |                     | 19/09/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/image         | f6cf2c1f36b63ab62729127683830a22fa1be8ba   | feat: add image.          |                     | 19/09/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/responsive    | 5d38b6997ae8e5326d8a96f618a460612610a6af   | feat: add responsive.     |                     | 20/09/2025         |
+| Repository                                        | Branch                      | Commit Id                                  | Commit Message                  | Commit Message Body | Commited on (Date) |
+|---------------------------------------------------|-----------------------------|--------------------------------------------|---------------------------------|---------------------|--------------------|
+| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/ddd                 | 069e2cb5286f9ad8d996f8924e67be96575b5b09   | feat: add domain driven desing. |                     | 02/10/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/addAunthentication  | 5ea94a4d17e60a53db5830b42eb1a989d9d38e03   | feat: add aunthentication.      |                     | 03/10/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/update-login        | 48d68c1ff07a03a224a3dd4b0f2603be367f48a6   | feat: add update login.         |                     | 03/10/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/add-dashboard       | 3dc92d1346c082774d9853a2fffa1d8f483a24fd   | feat: add dashboard.            |                     | 04/10/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/server              | a3bfb8dd3bf8e2192dacd74ae6eaa5e7be0d4dae   | feat: add server.               |                     | 04/10/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/server              | 430f5da64e6b67c5fa64716becd212675678e94e   | feat: add config server.        |                     | 05/10/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/reports             | 87102a704126e9ba3d7f0302ae489a3d5f3d1db1   | feat: add device chart.         |                     | 05/10/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/config-app-routes   | c21124db6bc7563e1421f46e6f139a6f545d5e74   | feat: add config routes.        |                     | 05/10/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/consumption         | d8ab0155901192167c0d100b4558ac43ff596b25   | Feature/consumption             |                     | 05/10/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/notification        | 86fde845c4afdd0b68dd2887bc2a0d2ec55c2be8   | Feature/notification merging.   |                     | 05/10/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/devices             | 38c0aea980d68cc380d86847fabf9f01d0325d97   | feat:add devices window.        |                     | 05/10/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/devices-preferences | 375acbac860fa2204dd7db6f6c0f42959937ff6a   | feat: add devices preferences.  |                     | 06/10/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/settings            | 07cb159ed1c5af5df5312a2ef30b9c950302ebe0   | Feature/settings                |                     | 06/10/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/profile             | 64f6e18251d73801245b50c243d8dda88fb6e3e3   | Feature/profile                 |                     | 07/10/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/export-report       | bbd27b1cd2ba3b987ecb1b3a3cb026053e9bb661   | feat: update export report      |                     | 07/10/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/db.config           | d563c430f96bdc863fb30ef0742154c4de920735   | feat: config httpclient.        |                     | 08/10/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/home-translation    | 15c6f68e4ced7c9c7519d43ee1074ab6b205a8b0   | feat: update home.              |                     | 08/10/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/-deploy-api         | 09765b5d78094dba4715ad95fb7afab260b0e3c7   | feat: update json-server.       |                     | 09/10/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/update-fakeapi      | 0c9d780777036f6c43edb15a8401b533fb31bf04   | feat: changed .env api url      |                     | 09/10/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/realese-1.0         | d56c76e06c621c06de108b7db4c78dc89c4b490f   | feat: update api_url            |                     | 09/10/2025         |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
@@ -745,13 +755,13 @@ En esta sección se evidencia la colaboración de cada integrante en el reposito
 
 Repositorio del Frontend de la Aplicación Web: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
 
-| **Integrante**                       | **Actividad**                                                                                          |  
-|--------------------------------------|--------------------------------------------------------------------------------------------------------|
-| **Huaman Olivos, Yeira Shari**       | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
-| **Loechle Arias, Mateo Ítalo**       | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
-| **Barturen Panez, Iker Gabriel**     | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
-| **Encalada Salazar, Alexis**         | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
-| **Torres Lavandera, Andrés Rodrigo** | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Integrante**                        | **Actividad**                                                                                                         |  
+|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| **Huaman Olivos, Yeira Shari**        | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Loechle Arias, Mateo Ítalo**        | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Barturen Panez, Iker Gabriel**      | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Encalada Salazar, Alexis**          | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Torres Lavandera, Andrés Rodrigo**  | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
 
 
 # Conclusiones
