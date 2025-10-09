@@ -729,6 +729,15 @@ Repositorio del Frontend de la Aplicación Web: https://github.com/Upc-pre-1ASI0
 | **Encalada Salazar, Alexis**          | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
 | **Torres Lavandera, Andrés Rodrigo**  | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
 
+![commits.png](assets/commits.png)
+
+![contributors.png](assets/contributors.png)
+
+![gitflow1.png](assets/gitflow1.png)
+
+![gitflow2.png](assets/gitflow2.png)
+
+![gitflow3.png](assets/gitflow3.png)
 
 # Conclusiones
 
