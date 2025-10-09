@@ -260,7 +260,7 @@ una de las tareas identificadas para el sprint.
 </tr>
 </table>
 
-#### 5.2.X.2. Aspect Leaders and Collaborators
+#### 5.2.1.2. Aspect Leaders and Collaborators
 
 Con la finalidad de mejorar la colaboración en equipo a cada integrante se asignó un rol de líder por cada aspecto. Los aspectos están relacionados con los entregables.
 
@@ -447,6 +447,311 @@ Repositorio de Landing Page: https://github.com/Upc-pre-1ASI0729-2520-7401-Energ
 
 **Landing Page**
 
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1. Sprint Planning 2
+
+Durante el Sprint 2 se estableció el desarrollo de la aplicación web de la plataforma Energix, enfocándose en la implementación de las principales vistas y funcionalidades orientadas a los perfiles propietarios de viviendas y universitarios que alquilan. El trabajo incluyó la integración de la interfaz con la base de datos, la gestión dinámica de la información de usuario y la mejora de la experiencia visual y de navegación. Asimismo, se priorizó la internacionalización (i18n) y la coherencia del diseño, consolidando una versión funcional y estable del sistema.
+
+<table>
+<tr>
+    <th colspan="5">Sprint 2</th>
+    <th colspan="9">Sprint 2</th>
+  </tr>
+      <tr>
+    <td colspan="13">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8">2025-09-29</td>
+</tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8">6:30 PM</td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">Via Discord</td>
+<tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8">Iker Gabriel Barturen Panez</td>
+</tr>
+<tr>
+    <td colspan="5">Attendees (to planning meeting)</td>
+    <td colspan="8">Alexis Encalada Salazar, Yeira Shari Huaman Olivos, Andrés Rodrigo Torres Lavandera, Iker Gabriel Barturen Panez, Mateo Italo Loechle Arias</td>
+</tr>
+
+<tr>
+    <td colspan="13">Sprint Goal & User Stories</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 2 Goal</td>
+    <td colspan="8">Implementar y estabilizar la arquitectura fundamental de la aplicación web Energix, entregando la capa de presentación funcionalmente integrada a la base de datos para las vistas centrales y la gestión de datos de los perfiles de usuario (propietarios de viviendas y universitarios que alquilan), con soporte inicial para internacionalización (i18n).</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 2 Velocity</td>
+    <td colspan="8"></td>
+</tr>
+<tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8"></td>
+</tr>
+</table>
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+Con la finalidad de mejorar la colaboración en equipo a cada integrante se asignó un rol de líder por cada aspecto. Los aspectos están relacionados con los entregables.
+
+| Team member (LastName, First Name) | GitHub UserName       | Aspect 1: Dashboard & Devices View | Aspect 2: Profile View and UI Design | Aspect 3: Reports View | Aspect 4: Notifications View | Aspect 5: Settings View |
+|------------------------------------|-----------------------|------------------------------------|--------------------------------------------------------------------|------------------------|------------------------------|-------------------------|
+| Alexis Encalada                    | Alexiz248             | C                                  | C                                                                  | C                      | C                            | L                       |
+| Yeira Sharia                       | YeiShari              | C                                  | L                                                                  | C                      | C                            | C                       |
+| Andrés Torres                      | AndresTorres202312557 | C                                  | C                                                                  | L                      | C                            | C                       |
+| Iker Barturen                      | krxxg04               | L                                  | C                                                                  | C                      | C                            | C                       |
+| Mateo Loechle                      | LowMathzzz            | C                                  | C                                                                  | C                      | L                            | C                       |
+
+#### 5.2.2.3. Sprint Backlog 2
+
+<table border="1">
+  <tr>
+    <th colspan="3">Sprint 1</th>
+    <th colspan="10">Sprint 1</th>
+  </tr>
+  <tr>
+    <td colspan="3">User Story</td>
+    <td colspan="10">Work-Item/Task</td>
+  </tr>
+  <tr>
+    <td>ID</td>
+    <td colspan="2">Title</td>
+    <td>ID</td>
+    <td colspan="2">Title</td>
+    <td colspan="3">Description</td>
+    <td>Estimation</td>
+    <td colspan="2">Assigned to</td>
+    <td>Status</td>
+  </tr>
+  <tr>
+    <td>US31</td>
+    <td colspan="2">Consultar la propuesta de valor</td>
+    <td>UT01</td>
+    <td colspan="2">Redactar contenido de propuesta de valor</td>
+    <td colspan="3">Crear el texto que explique los beneficios y el valor de la plataforma.</td>
+    <td>2h</td>
+    <td colspan="2">Iker Barturen</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan="2"></td>
+    <td>UT02</td>
+    <td colspan="2">Diseñar sección de propuesta de valor</td>
+    <td colspan="3">Implementar la sección en la landing page con diseño atractivo y responsivo.</td>
+    <td>2h</td>
+    <td colspan="2">Iker Barturen</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US32</td>
+    <td colspan="2">Acceder a preguntas frecuentes (FAQ)</td>
+    <td>UT03</td>
+    <td colspan="2">Redactar preguntas y respuestas frecuentes</td>
+    <td colspan="3">Crear listado de dudas comunes y sus respuestas.</td>
+    <td>2h</td>
+    <td colspan="2">Yeira Huaman</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan="2"></td>
+    <td>UT04</td>
+    <td colspan="2">Implementar sección FAQ</td>
+    <td colspan="3">Desarrollar componente visual (acordeón/collapsible) para mostrar las preguntas frecuentes.</td>
+    <td>2h</td>
+    <td colspan="2">Yeira Huaman</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US33</td>
+    <td colspan="2">Revisar planes de suscripción</td>
+    <td>UT05</td>
+    <td colspan="2">Redactar información de planes</td>
+    <td colspan="3">Crear contenido sobre los distintos planes, precios y beneficios.</td>
+    <td>3h</td>
+    <td colspan="2">Andrés Torres</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan="2"></td>
+    <td>UT06</td>
+    <td colspan="2">Implementar sección de comparación de planes</td>
+    <td colspan="3">Diseñar tabla o cards para comparar los planes en la landing page.</td>
+    <td>3h</td>
+    <td colspan="2">Andrés Torres</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US34</td>
+    <td colspan="2">Consultar información del equipo</td>
+    <td>UT07</td>
+    <td colspan="2">Redactar información del equipo</td>
+    <td colspan="3">Crear contenido sobre la misión, visión y miembros del equipo.</td>
+    <td>2h</td>
+    <td colspan="2">Alexis Encalada</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td colspan="2"></td>
+    <td>UT08</td>
+    <td colspan="2">Implementar sección del equipo</td>
+    <td colspan="3">Diseñar e integrar la sección del equipo en la landing page.</td>
+    <td>2h</td>
+    <td colspan="2">Alexis Encalada</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>US35</td>
+    <td colspan="2">Cambiar idioma</td>
+    <td>UT09</td>
+    <td colspan="2">Implementar selector de idioma</td>
+    <td colspan="3">Desarrollar funcionalidad para cambiar entre español e inglés en la landing page.</td>
+    <td>4h</td>
+    <td colspan="2">Mateo Italo</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+En esta sección se demuestran los commits relacionados con los principales avances en la implementación.
+Estos commits provienen del repositorio del Landing Page de la organización de GitHub.
+
+Enlace al repositorio de la Landing Page: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page#
+
+| Repository                                              | Branch                | Commit Id                                  | Commit Message            | Commit Message Body | Commited on (Date) |
+|---------------------------------------------------------|-----------------------|--------------------------------------------|---------------------------|---------------------|--------------------|
+| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/start         | 692024b93d68e539d1cc5cbb6de3cd176d562b7c   | feat: add start.          |                     | 19/09/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/products      | 1eeb09c177966f93ac491cbd9b80a6e4ba81bc90   | feat: add products.       |                     | 19/09/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/subscriptions | 45f25028afb713b93cb8673a1ee5abdc9fe53594   | feat: add subscriptions.  |                     | 19/09/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/our-team      | d29df95ef29cdf224c966d07c8e8a15704647854   | feat: add our-team.       |                     | 19/09/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/Faqs          | 37f3b8c28d521878663c72a6ae046432deea790e   | feat: add Faqs.           |                     | 19/09/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/footer        | d09da40ecc996d11a3d84e31c003e4fa9d7bcf75   | feat: add footer.         |                     | 19/09/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/payment       | ff27629a30c625d174ef98b16b47b0a8ce97370a   | feat: add payment.        |                     | 19/09/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/js            | f83045d6a61811aab992b009689c67e2a3ed24e6   | feat: add files js.       |                     | 19/09/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/image         | f6cf2c1f36b63ab62729127683830a22fa1be8ba   | feat: add image.          |                     | 19/09/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page | feature/responsive    | 5d38b6997ae8e5326d8a96f618a460612610a6af   | feat: add responsive.     |                     | 20/09/2025         |
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+Durante el desarrollo del sprint se lograron completar todos los puntos para la implementación de las funcionalidades esenciales para el sistema de gestión Energix, estableciendo una base sólida para la administración de energía en los hogares. Las principales características desarrolladas fueron:
+
+1. Sistema de autenticación completo con diferentes campos para rellenar según el rol del usuario, si es dueño o estudiante.
+
+2. Personalización de perfil, permitiendo al usaurio modificar a su preferencia su experiencia en la aplicación.    
+
+3. Visualización y descarga de reportes, con la posibilidad de filtrar por fecha y tipo de reporte y poder descargar los datos acumulados en diferentes formatos.
+
+4. Gestión de dispositivos, facilitando el control entre los diferentes dispositivos registrados.
+
+5. Internalización (i18n) para soportar dos idiomas en la plataforma.
+
+6. Cierre se sesión seguro, permitiendo al usuario salir de la aplicación de manera segura y facil, dandole la optortunidad al usaurio de inicar sesión con las mismas credenciales.   
+
+7. Sistema de navegación robusto entre páginas con manejo de rutas protegidas y página 4040 personalizada. 
+
+**Capturas de pantalla de las principales vistas**
+
+
+Login y Auntenticación
+
+![login.png](assets/login.png)
+
+Dashboard principal
+
+![dashboard.png](assets/dashboard.png)
+
+Mis dispositivos
+
+![devices.png](assets/devices.png)
+
+Reportes
+
+![reports.png](assets/reports.png)
+
+Configuración
+
+![configuration.png](assets/configuration.png)
+
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Introducción
+
+Durante el sprint 2, hemos implementado una estrategia de despliegue completa para el sistema de Energix, abarcando tanto el frontend como los servicios de backend que soportan la aplicación. Nuestro enfoque principal ha sido crear una infraestuctura robusta y unificada que facilite tanto el desarrollo como la experiencia del usuario final.
+
+**Implementación de API centralizada en render**
+
+Decidimos migrar de una arquitectura distribuida con multiples enpoints a una solución más centralizada y más robusta utilizando Render. Esta desición nos permitió superar las limitaciones al momento de llamar a la API y tener un mayor control sobre nuestra infraestructura.
+
+La URL base para todos los recurso de nuestra API ahora es:
+
+https://sems-fake-api.onrender.com/
+
+Esta URL base sirve como punto de entrada principal para todos los recursos del sistema, simplificando considerablemente la configuración y mantenimiento de la aplicación.
+
+**Configuración del servidor en Render**
+
+El proceso de implementación en Render involucró varias etapas para asegurar un despliegue exitoso. Comenzamos creando una nueva cuenta y proyecto en la plataforma, configurándolo específicamente para trabajar con Node.js como entorno de ejecución.
+
+Conectamos nuestro repositorio de GitHub para habilitar el despliegue automático, lo que nos permite mantener sincronizado el entorno de producción con la rama principal del proyecto. Esto ha resultado en un flujo de trabajo más eficiente, donde cada merge a la rama principal actualiza automáticamente nuestra API.
+
+| Método HTTP | Endpoint               | Descripción                                            | Ejemplo de uso                             |
+|-------------|------------------------|--------------------------------------------------------|--------------------------------------------|
+| GET         | /users                 | Obtiene todos los usuarios                             | Listar supervisores o técnicos registrados |
+| GET         | /users/:id             | Obtiene un usuario específico                          | Consultar datos de un usuario              |
+| POST        | /users                 | Crea un nuevo usuario                                  | Registrar nuevo supervisor o técnico       |
+| PUT         | /users/:id             | Actualiza datos de un usuario                          | Modificar información de contacto          |
+| DELETE      | /users/:id             | Elimina un usuario existente                           | Dar de baja a un supervisor                |
+| GET         | /dashboardStas         | Obtiene estadísticas del panel principal               | Visualizar métricas generales del sistema  |
+| GET         | /deilyConsumption      | Obtiene consumo diario de energía o recursos           | Mostrar gráfico de consumo del día         |
+| GET         | /consumptionByCategory | Obtiene consumo dividido por categorías                | Comparar consumo entre áreas o tipos       |
+| GET         | /monthlyComparasion    | Obtiene comparación mensual de consumo                 | Ver evolución del consumo mes a mes        |
+| GET         | /devices               | Obtiene lista de dispositivos registrados              | Listar sensores o equipos conectados       |
+| POST        | /devices               | Agrega un nuevo dispositivo                            | Registrar sensor o medidor nuevo           |
+| PUT         | /device/:id            | Actualiza un dispositivo existente                     | Editar nombre o estado de un dispositivo   |
+| DELETE      | /device/:id            | Elimina un dispositivo                                 | Dar de baja un sensor fuera de servicio    |
+| GET         | /alerts                | Obtiene lista de alertas activas                       | Mostrar alertas de consumo o fallos        |
+| GET         | /notification          | Obtiene notificaciones generadas                       | Mostrar avisos al usuario                  |
+| GET         | /devicePreferences     | Obtiene configuración de preferencias por dispositivo  | Mostrar ajustes personalizados             |
+
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint, se completó el desarrollo de la Landing Page y se realizó su despliegue utilizando GitHub Pages como plataforma de publicación gratuita. El objetivo fue contar con una primera versión accesible en línea del producto digital para revisión y retroalimentación.
+
+Actividades realizadas: Se creó el repositorio en GitHub: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page#
+
+Se subió el código fuente de la Landing Page, incluyendo los archivos HTML, CSS necesarios.
+
+Se configuró GitHub Pages desde la pestaña Settings > Pages, seleccionando la rama principal y la carpeta raíz.
+
+Se verificó la correcta publicación de la Landing Page en la siguiente URL: https://energixlp.netlify.app
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+En esta sección se evidencia la colaboración de cada integrante en el repositorio del Frontend de la Aplicación Web.
+
+Repositorio del Frontend de la Aplicación Web: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
+
+| **Integrante**                       | **Actividad**                                                                                          |  
+|--------------------------------------|--------------------------------------------------------------------------------------------------------|
+| **Huaman Olivos, Yeira Shari**       | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Loechle Arias, Mateo Ítalo**       | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Barturen Panez, Iker Gabriel**     | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Encalada Salazar, Alexis**         | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Torres Lavandera, Andrés Rodrigo** | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
 
 
 # Conclusiones
