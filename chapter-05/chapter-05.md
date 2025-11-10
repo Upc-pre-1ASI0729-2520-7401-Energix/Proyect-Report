@@ -767,7 +767,7 @@ El diseño de las entrevistas de validación se estructura en torno a la evaluac
 
 #### Preguntas para Segmento #2: Estudiantes que Alquilan
 
-1. ¿La interfaz le parece amigable para alguien de su edad y perfil tecnológico?
+1. ¿La interfaz le parece amigable para alguien de su perfil tecnológico?
 2. ¿Puede entender rápidamente cómo esta aplicación le ayudaría a gestionar sus gastos de luz?
 3. ¿La información se presenta de una manera que le resulte familiar y fácil de procesar?
 4. ¿Los datos de consumo le ayudan a entender mejor en qué se va su dinero de electricidad?
@@ -776,8 +776,8 @@ El diseño de las entrevistas de validación se estructura en torno a la evaluac
 7. ¿La función de monitoreo en tiempo real le resulta práctica para su estilo de vida?
 8. ¿Esta herramienta le ayudaría a mantenerse dentro de su presupuesto mensual?
 9. ¿Qué característica considera más importante para su situación como estudiante?
-10. ¿El ahorro promedio mostrado (20-30%) le parece realista y atractivo?
-11. ¿Puede usar la aplicación fácilmente desde su dispositivo móvil?
+10. ¿El ahorro promedio mostrado le parece realista y atractivo?
+11. Al ser una aplicación responsive, ¿Puede usar la aplicación fácilmente desde su dispositivo móvil?
 12. ¿Hay algo que le parezca confuso o complicado de entender?
 13. ¿Con qué frecuencia cree que usaría esta plataforma?
 14. ¿Se siente motivado(a) a cambiar sus hábitos de consumo después de ver esta herramienta?
