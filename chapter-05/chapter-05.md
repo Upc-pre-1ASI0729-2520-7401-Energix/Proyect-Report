@@ -739,6 +739,61 @@ Repositorio del Frontend de la Aplicación Web: https://github.com/Upc-pre-1ASI0
 
 ![gitflow3.png](assets/gitflow3.png)
 
+#### 5.3. Validation Interviews
+
+Las entrevistas de validación representan una fase crucial en el proceso de desarrollo del producto SEMS (Sistema de Monitoreo Energético Inteligente). Esta metodología nos permite evaluar la efectividad, usabilidad y aceptación de la solución implementada por parte de nuestros segmentos objetivo identificados en el capítulo anterior.
+
+#### 5.3.1. Diseño de Entrevistas
+
+El diseño de las entrevistas de validación se estructura en torno a la evaluación práctica del producto SEMS desarrollado. Las entrevistas están dirigidas a los mismos segmentos objetivo identificados en el capítulo 2: propietarios de vivienda y estudiantes que alquilan, con el fin de validar si la solución implementada satisface sus necesidades específicas de monitoreo energético.
+
+#### Preguntas para Segmento #1: Propietarios de Vivienda
+
+1. Al ingresar a la plataforma, ¿qué es lo primero que llama su atención?
+2. Sin leer instrucciones, ¿puede identificar cuál es el propósito principal de esta aplicación?
+3. ¿La información presentada en el dashboard le resulta clara y comprensible?
+4. ¿Puede localizar fácilmente la información sobre su consumo energético actual?
+5. ¿Qué opina sobre la forma en que se presentan los datos de consumo (gráficos, números, alertas)?
+6. ¿Las alertas de consumo le resultan útiles y fáciles de entender?
+7. ¿La función de control remoto de dispositivos le parece intuitiva de usar?
+8. ¿Considera que esta herramienta podría ayudarle realmente a reducir sus gastos de electricidad?
+9. ¿Qué funcionalidad le resulta más valiosa de las que ha visto?
+10. ¿El diseño y colores le transmiten confianza y profesionalismo?
+11. ¿Encuentra alguna dificultad para navegar entre las diferentes secciones?
+12. ¿Los íconos y botones son claros en su función?
+13. Basándose en lo que ha visto, ¿estaría dispuesto(a) a usar esta plataforma regularmente?
+14. ¿Recomendaría esta solución a otros propietarios de vivienda?
+15. ¿Qué mejoraría para que la plataforma sea perfecta para sus necesidades?
+
+#### Preguntas para Segmento #2: Estudiantes que Alquilan
+
+1. ¿La interfaz le parece amigable para alguien de su edad y perfil tecnológico?
+2. ¿Puede entender rápidamente cómo esta aplicación le ayudaría a gestionar sus gastos de luz?
+3. ¿La información se presenta de una manera que le resulte familiar y fácil de procesar?
+4. ¿Los datos de consumo le ayudan a entender mejor en qué se va su dinero de electricidad?
+5. ¿Las alertas le parecen útiles para controlar mejor sus gastos mensuales?
+6. ¿Puede identificar fácilmente cuánto podría ahorrar usando esta herramienta?
+7. ¿La función de monitoreo en tiempo real le resulta práctica para su estilo de vida?
+8. ¿Esta herramienta le ayudaría a mantenerse dentro de su presupuesto mensual?
+9. ¿Qué característica considera más importante para su situación como estudiante?
+10. ¿El ahorro promedio mostrado (20-30%) le parece realista y atractivo?
+11. ¿Puede usar la aplicación fácilmente desde su dispositivo móvil?
+12. ¿Hay algo que le parezca confuso o complicado de entender?
+13. ¿Con qué frecuencia cree que usaría esta plataforma?
+14. ¿Se siente motivado(a) a cambiar sus hábitos de consumo después de ver esta herramienta?
+
+
+#### 5.3.2. Registro de Entrevistas
+
+
+
+#### 5.3.3. Evaluaciones según heurísticas
+
+
+
+#### 5.4. Video About-the-Product
+
+
 # Conclusiones
 
 ### Conclusiones
