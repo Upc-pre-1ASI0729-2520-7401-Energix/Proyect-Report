@@ -785,7 +785,111 @@ El diseño de las entrevistas de validación se estructura en torno a la evaluac
 
 #### 5.3.2. Registro de Entrevistas
 
+Esta sección se dedica a la documentación sistemática de cada entrevista con los segmentos objetivo. Se organiza la información para presentar el perfil de cada entrevistado, junto con sus respuestas directas y los hallazgos más significativos. Este registro es crucial para comprender la perspectiva del usuario y validar nuestro proyecto.
 
+**ENTREVISTAS SEGMENTO OBJETIVO 1: PROPIETARIOS DE VIVIENDA**
+
+**ENTREVISTA 1**
+
+Link de las entrevistas
+
+Foto de la entrevista
+
+Inicia:
+
+Duración:
+
+Nombre: 
+
+Edad: 
+
+Distrito: 
+
+Resumen: 
+
+
+**ENTREVISTA 2**
+
+Foto de la entrevista
+
+Inicia:
+
+Duración:
+
+Nombre:
+
+Edad:
+
+Distrito:
+
+Resumen:
+
+**ENTREVISTA 3**
+
+Foto de la entrevista
+
+Inicia:
+
+Duración:
+
+Nombre:
+
+Edad:
+
+Distrito:
+
+Resumen:
+
+**ENTREVISTAS SEGMENTO OBJETIVO 2: ESTUDIANTES QUE ALQUILAN**
+
+**ENTREVISTA 1**
+
+![Entrevista-1-Estudiantes.png](assets/Entrevista-1-Estudiantes.png)
+
+Inicia: 
+
+Duración: 
+
+Nombre: Johnny Ricardo Mallqui Cueva
+
+Edad: 19
+
+Distrito: Chorrillos
+
+Resumen: Johnny Mallqui (19 años) estudia en la UPC y alquila un cuarto en Chorrillos, se relaciaona a menudo con la tecnología ya que estudia ingeniería de Sistemas. Al probar nuestra herramienta nos comento que fue de su agrado y qeu si la usaria, mas que nada si esta se puede usar en un dispositivo movil ya que si una herramienta que solo esta disponible para laptop o PC, nos comento que no valdria la pena, en su caso si esta dispuesto a usarla, ya que al usar tantos dispositivos, seria una herramienta que facilite el ahorro de consumo energetico, tambien nos menciono que la aplicacion es intuitiva y que es muy facil de usar. 
+
+**ENTREVISTA 2**
+
+Foto de la entrevista
+
+Inicia:
+
+Duración:
+
+Nombre:
+
+Edad:
+
+Distrito:
+
+Resumen:
+
+
+**ENTREVISTA 3**
+
+Foto de la entrevista
+
+Inicia:
+
+Duración:
+
+Nombre:
+
+Edad:
+
+Distrito:
+
+Resumen:
 
 #### 5.3.3. Evaluaciones según heurísticas
 
@@ -794,7 +898,6 @@ El diseño de las entrevistas de validación se estructura en torno a la evaluac
 #### 5.4. Video About-the-Product
 
 
-# Conclusiones
 
 ### Conclusiones
 
