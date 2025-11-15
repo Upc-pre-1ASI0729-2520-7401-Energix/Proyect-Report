@@ -719,7 +719,7 @@ Se verificó la correcta publicación de la aplicación web en la siguiente URL:
 
 En esta sección se evidencia la colaboración de cada integrante en el repositorio del Frontend de la Aplicación Web.
 
-Repositorio del Frontend de la Aplicación Web: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
+Repositorio del Frontend de la Aplicación Web: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS
 
 | **Integrante**                        | **Actividad**                                                                                                         |  
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
