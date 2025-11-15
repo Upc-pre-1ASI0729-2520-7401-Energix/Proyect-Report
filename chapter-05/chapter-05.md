@@ -719,7 +719,7 @@ Se verificó la correcta publicación de la aplicación web en la siguiente URL:
 
 En esta sección se evidencia la colaboración de cada integrante en el repositorio del Frontend de la Aplicación Web.
 
-Repositorio del Frontend de la Aplicación Web: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS
+Repositorio del Frontend de la Aplicación Web: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
 
 | **Integrante**                        | **Actividad**                                                                                                         |  
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
@@ -875,7 +875,7 @@ Con la finalidad de mejorar la colaboración en equipo a cada integrante se asig
 En esta sección se demuestran los commits relacionados con los principales avances en la implementación.
 Estos commits provienen del repositorio de la aplicación web de la organización de GitHub.
 
-Enlace al repositorio de la aplicación web: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
+Enlace al repositorio de la aplicación web: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS
 
 | Repository                                        | Branch                      | Commit Id                                  | Commit Message                  | Commit Message Body | Commited on (Date) |
 |---------------------------------------------------|-----------------------------|--------------------------------------------|---------------------------------|---------------------|--------------------|
@@ -920,7 +920,7 @@ Durante el desarrollo del sprint se lograron completar todos los puntos para la 
 
 **Deployment en Render del Backend**
 
-[text](chapter-05.md)
+![Deploy-API.png](assets/Deploy-API.png)
 
 **SEMS API**
 
