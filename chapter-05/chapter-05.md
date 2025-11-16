@@ -24,21 +24,22 @@ En este apartado se mencionan los distintos productos de software empleados por 
 
 6. **GitHub**: https://github.com/Plataforma de control de versiones utilizada para la gestión del código fuente, aplicando el flujo de trabajo GitFlow para garantizar un desarrollo ordenado.
 
+7. IntelliJ IDEA ultimate: https://www.jetbrains.com/es-es/idea/ Entorno de desarrollo utilizado para trabajar con Java, proporcionando una base escalable y robusta.
 **Project Management and Collaboration**
 
-7. **WhatsApp**: https://web.whatsapp.com/Aplicación de mensajería utilizada para la coordinación y discusión de temas relacionados con el proyecto en tiempo real.
+8. **WhatsApp**: https://web.whatsapp.com/Aplicación de mensajería utilizada para la coordinación y discusión de temas relacionados con el proyecto en tiempo real.
 
-8. **Discord**: https://discord.com/ Aplicación de mensajería utilizada para la coordinación y discusión de temas relacionados con el proyecto en tiempo real
+9. **Discord**: https://discord.com/ Aplicación de mensajería utilizada para la coordinación y discusión de temas relacionados con el proyecto en tiempo real
 
 **Software Documentation**
 
-9. **LucidChart**: https://lucid.app/Plataforma utilizada para la creación de diagramas UML, wireflows y user flows, facilitando la visualización y planificación del sistema.
+10. **LucidChart**: https://lucid.app/Plataforma utilizada para la creación de diagramas UML, wireflows y user flows, facilitando la visualización y planificación del sistema.
 
-10. **Structurizr**: https://www.structurizr.com/ Herramienta utilizada para modelar la arquitectura de software mediante diagramas C4, permitiendo un modelado claro de la estructura del proyecto.
+11. **Structurizr**: https://www.structurizr.com/ Herramienta utilizada para modelar la arquitectura de software mediante diagramas C4, permitiendo un modelado claro de la estructura del proyecto.
 
 **Software Testiong**
 
-11. **Markdown**: Lenguaje de marcado ligero utilizado para documentar el proyecto y en los archivos README del repositorio de la organización.
+12. **Markdown**: Lenguaje de marcado ligero utilizado para documentar el proyecto y en los archivos README del repositorio de la organización.
 
 ### 5.1.2. Source Code Management
 
@@ -49,6 +50,8 @@ La gestión del código fuente es parte fundamental del desarrollo de cualquier 
 - **Organization:** https://github.com/Upc-pre-1ASI0729-2520-7401-Energix
 - **Reporte:** https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Energix-Proyect-Report
 - **Landing Page:** https://energixlp.netlify.app
+- **Frontend:** https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS 
+- **Backend:** https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS 
 
 **Commits Convencionales**
 
@@ -409,6 +412,15 @@ Enlace al repositorio de la Landing Page: https://github.com/Upc-pre-1ASI0729-25
 
 Durante el desarrollo del sprint se lograron completar todos los puntos planteados. A continuación se muestran evidencias del landing page logrado.
 
+![Barra-de-Navegacion.png](../chapter-04/assets/Barra-de-Navegacion.png)
+![Inicio.png](../chapter-04/assets/Inicio.png)
+![Beneficios.png](../chapter-04/assets/Beneficios.png)
+![Producto.png](../chapter-04/assets/Producto.png)
+![Suscripciones.png](../chapter-04/assets/Suscripciones.png)
+![About-the-Team.png](../chapter-04/assets/About-the-Team.png)
+![Nuestro-Equipo.png](../chapter-04/assets/Nuestro-Equipo.png)
+![Preguntas-Frecuentes.png](../chapter-04/assets/Preguntas-Frecuentes.png)
+![Footer.png](../chapter-04/assets/Footer.png)
 
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
@@ -441,7 +453,7 @@ Repositorio de Landing Page: https://github.com/Upc-pre-1ASI0729-2520-7401-Energ
 | **Encalada Salazar, Alexis**         | Implementación de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
 | **Torres Lavandera, Andrés Rodrigo** | Implementación de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
 
-
+![NetLP.png](assets/NetLP.png) 
 ### 5.2.2. Sprint 2
 
 #### 5.2.2.1. Sprint Planning 2
@@ -873,32 +885,25 @@ Con la finalidad de mejorar la colaboración en equipo a cada integrante se asig
 #### 5.2.3.4. Development Evidence for Sprint Review
 
 En esta sección se demuestran los commits relacionados con los principales avances en la implementación.
-Estos commits provienen del repositorio de la aplicación web de la organización de GitHub.
+Estos commits provienen del repositorio del proyecto backend de la organización de GitHub.
 
-Enlace al repositorio de la aplicación web: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS
+Enlace al repositorio del proyecto backend: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS
 
-| Repository                                        | Branch                      | Commit Id                                  | Commit Message                  | Commit Message Body | Commited on (Date) |
-|---------------------------------------------------|-----------------------------|--------------------------------------------|---------------------------------|---------------------|--------------------|
-| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/ddd                 | 069e2cb5286f9ad8d996f8924e67be96575b5b09   | feat: add domain driven desing. |                     | 02/10/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/addAunthentication  | 5ea94a4d17e60a53db5830b42eb1a989d9d38e03   | feat: add aunthentication.      |                     | 03/10/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/update-login        | 48d68c1ff07a03a224a3dd4b0f2603be367f48a6   | feat: add update login.         |                     | 03/10/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/add-dashboard       | 3dc92d1346c082774d9853a2fffa1d8f483a24fd   | feat: add dashboard.            |                     | 04/10/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/server              | a3bfb8dd3bf8e2192dacd74ae6eaa5e7be0d4dae   | feat: add server.               |                     | 04/10/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/server              | 430f5da64e6b67c5fa64716becd212675678e94e   | feat: add config server.        |                     | 05/10/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/reports             | 87102a704126e9ba3d7f0302ae489a3d5f3d1db1   | feat: add device chart.         |                     | 05/10/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/config-app-routes   | c21124db6bc7563e1421f46e6f139a6f545d5e74   | feat: add config routes.        |                     | 05/10/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/consumption         | d8ab0155901192167c0d100b4558ac43ff596b25   | Feature/consumption             |                     | 05/10/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/notification        | 86fde845c4afdd0b68dd2887bc2a0d2ec55c2be8   | Feature/notification merging.   |                     | 05/10/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/devices             | 38c0aea980d68cc380d86847fabf9f01d0325d97   | feat:add devices window.        |                     | 05/10/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/devices-preferences | 375acbac860fa2204dd7db6f6c0f42959937ff6a   | feat: add devices preferences.  |                     | 06/10/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/settings            | 07cb159ed1c5af5df5312a2ef30b9c950302ebe0   | Feature/settings                |                     | 06/10/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/profile             | 64f6e18251d73801245b50c243d8dda88fb6e3e3   | Feature/profile                 |                     | 07/10/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/export-report       | bbd27b1cd2ba3b987ecb1b3a3cb026053e9bb661   | feat: update export report      |                     | 07/10/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/db.config           | d563c430f96bdc863fb30ef0742154c4de920735   | feat: config httpclient.        |                     | 08/10/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/home-translation    | 15c6f68e4ced7c9c7519d43ee1074ab6b205a8b0   | feat: update home.              |                     | 08/10/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/-deploy-api         | 09765b5d78094dba4715ad95fb7afab260b0e3c7   | feat: update json-server.       |                     | 09/10/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/update-fakeapi      | 0c9d780777036f6c43edb15a8401b533fb31bf04   | feat: changed .env api url      |                     | 09/10/2025         |
-| Upc-pre-1ASI0729-2520-7401-Energix/Fronten-SEMS   | feature/realese-1.0         | d56c76e06c621c06de108b7db4c78dc89c4b490f   | feat: update api_url            |                     | 09/10/2025         |
+| Repository                                         | Branch                           | Commit Id                                 | Commit Message                                                           | Commit Message Body | Commited on (Date) |
+|----------------------------------------------------|----------------------------------|-------------------------------------------|--------------------------------------------------------------------------|---------------------|--------------------|
+| Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS    | feature/add-project              | 65d26a57c1fb30780c9db3a55dc3f302eab64082  | Feature/add project                                                      |                     | 29/10/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS    | feature/config-backend           | 0e50511fdc7a99b4f60ac9e78fc236332d488708  | feat: add first version                                                  |                     | 03/11/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS    | feature/profile-init-config      | e9e4e3353c73a0b2301b319c35404c8bc20fade7  | Feat/profile init config                                                 |                     | 06/11/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS    | feature/connection               | 5cc751029426a07941fba60d2735b51363bb834c  | feat(auth): Connect Frontend Authentication With Backend API.            |                     | 07/11/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS    | feature/settings                 | b68c96252d5583f0ff3d7826c89b08ca204f441b  | feat(settings): Implemente User Settings Management With CRUD Operations |                     | 09/11/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS    | feature/add-new-endpoints        | 702447a7b428d61c3cd76a2e0373102990b53515  | Feature/add new endpoints                                                |                     | 13/11/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS    | feature/reports                  | 705573e1ea7091ee0c8a40e87b88b7c95bbd4371  | feat: create reports.                                                    |                     | 13/11/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS    | feature/reports-update           | fb5da2038951b1b1a9068f1012d29064edeec621  | feat: update reports.                                                    |                     | 13/11/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS    | feature/authentication           | b32f475b1eac274a81a18850c109e171f03685ad  | feat: add login credentials.                                             |                     | 13/11/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS    | feature/reports-parameters       | 29a7d839e6481ba5598c7aa17c21b08a4d1887b5  | Feature/reports parameters                                               |                     | 13/11/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS    | feature/repositoryfix            | 4b8073537ccdbc5b6fbd206651b2caa1483fcc0e  | Feature/repositoryfix merged finally.                                    |                     | 14/11/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS    | feature/add-deploy-config        | 333098292deac7dfb546ce1c307ed9b29fc25068  | feat: Feature/add deploy config                                          |                     | 15/11/2025         |
+| Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS    | feature/add-deploy-config        | e8ac569ad61685f27637b215afcbd2c70cb24e4f  | feat: remove .env file copy instruction from Dockerfile                  |                     | 15/11/2025         |
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
@@ -950,26 +955,26 @@ El proceso de implementación en Render involucró varias etapas para asegurar u
 
 Conectamos nuestro repositorio de GitHub para habilitar el despliegue automático, lo que nos permite mantener sincronizado el entorno de producción con la rama principal del proyecto. Esto ha resultado en un flujo de trabajo más eficiente, donde cada merge a la rama principal actualiza automáticamente nuestra API.
 
-| Método HTTP | Endpoint                          | Descripción                                            | Ejemplo de uso                             |
-|-------------|-----------------------------------|--------------------------------------------------------|--------------------------------------------|
-| POST        | /api/v1/auth/register             | Registra un nuevo usuario                              | Crear cuenta de propietario o estudiante   |
-| POST        | /api/v1/auth/login                | Autentica un usuario                                   | Iniciar sesión                             |
-| GET         | /api/v1/auth/validate             | Valida la sesión activa                                | Verificar token JWT                        |
-| GET         | /api/profile/{userId}             | Obtiene el perfil de un usuario                        | Mostrar datos del perfil                   |
-| PUT         | /api/profile/{userId}             | Actualiza el perfil de un usuario                      | Modificar información personal             |
-| GET         | /api/v1/devices                   | Obtiene lista de dispositivos                           | Listar dispositivos registrados            |
-| POST        | /api/v1/devices                   | Crea un nuevo dispositivo                              | Agregar dispositivo                        |
-| GET         | /api/v1/devices/{deviceId}        | Obtiene un dispositivo específico                       | Ver detalles de dispositivo                |
-| PUT         | /api/v1/devices/{deviceId}        | Actualiza un dispositivo                               | Editar configuración                       |
-| DELETE      | /api/v1/devices/{deviceId}        | Elimina un dispositivo                                 | Remover dispositivo                        |
-| POST        | /api/v1/devices/{deviceId}/toggle | Cambia el estado de un dispositivo                     | Encender/apagar dispositivo                |
-| GET         | /api/v1/alerts                    | Obtiene lista de alertas                               | Mostrar alertas activas                    |
-| POST        | /api/v1/alerts                    | Crea una nueva alerta                                  | Generar alerta de consumo                  |
-| GET         | /api/v1/notifications             | Obtiene notificaciones                                 | Listar notificaciones del usuario          |
-| GET         | /api/v1/consumption/daily         | Obtiene consumo diario                                 | Mostrar gráfico de consumo diario          |
-| GET         | /api/v1/consumption/monthly       | Obtiene consumo mensual                                | Ver resumen mensual                        |
-| GET         | /api/v1/reports/weeklyConsumption | Obtiene reporte semanal de consumo                     | Generar y descargar reporte semanal        |
-| GET         | /api/v1/dashboard/stats           | Obtiene estadísticas del dashboard                     | Mostrar métricas generales                 |
+| Método HTTP | Endpoint                          | Descripción                                        | Ejemplo de uso                             |
+|-------------|-----------------------------------|----------------------------------------------------|--------------------------------------------|
+| POST        | /api/v1/auth/register             | Registra un nuevo usuario                          | Crear cuenta de propietario o estudiante   |
+| POST        | /api/v1/auth/login                | Autentica un usuario                               | Iniciar sesión                             |
+| GET         | /api/v1/auth/validate             | Valida la sesión activa                            | Verificar token JWT                        |
+| GET         | /api/profile/{userId}             | Obtiene el perfil de un usuario                    | Mostrar datos del perfil                   |
+| PUT         | /api/profile/{userId}             | Actualiza el perfil de un usuario                  | Modificar información personal             |
+| GET         | /api/v1/devices                   | Obtiene lista de dispositivos                      | Listar dispositivos registrados            |
+| POST        | /api/v1/devices                   | Crea un nuevo dispositivo                          | Agregar dispositivo                        |
+| GET         | /api/v1/devices/{deviceId}        | Obtiene un dispositivo específico                  | Ver detalles de dispositivo                |
+| PUT         | /api/v1/devices/{deviceId}        | Actualiza un dispositivo                           | Editar configuración                       |
+| DELETE      | /api/v1/devices/{deviceId}        | Elimina un dispositivo                             | Remover dispositivo                        |
+| POST        | /api/v1/devices/{deviceId}/toggle | Cambia el estado de un dispositivo                 | Encender/apagar dispositivo                |
+| GET         | /api/v1/alerts                    | Obtiene lista de alertas                           | Mostrar alertas activas                    |
+| POST        | /api/v1/alerts                    | Crea una nueva alerta                              | Generar alerta de consumo                  |
+| GET         | /api/v1/notifications             | Obtiene notificaciones                             | Listar notificaciones del usuario          |
+| GET         | /api/v1/consumption/daily         | Obtiene consumo diario                             | Mostrar gráfico de consumo diario          |
+| GET         | /api/v1/consumption/monthly       | Obtiene consumo mensual                            | Ver resumen mensual                        |
+| GET         | /api/v1/reports/weeklyConsumption | Obtiene reporte semanal de consumo                 | Generar y descargar reporte semanal        |
+| GET         | /api/v1/dashboard/stats           | Obtiene estadísticas del dashboard                 | Mostrar métricas generales                 |
 
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
@@ -990,24 +995,19 @@ En esta sección se evidencia la colaboración de cada integrante en el reposito
 
 Repositorio del Backend de la Aplicación: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS
 
-| **Integrante**                        | **Actividad**                                                                                                         |  
-|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| **Huaman Olivos, Yeira Shari**        | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
-| **Loechle Arias, Mateo Ítalo**        | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
-| **Barturen Panez, Iker Gabriel**      | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
-| **Encalada Salazar, Alexis**          | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
-| **Torres Lavandera, Andrés Rodrigo**  | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Integrante**                         | **Actividad**                                                                                            |  
+|----------------------------------------|----------------------------------------------------------------------------------------------------------|
+| **Huaman Olivos, Yeira Shari**         | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Loechle Arias, Mateo Ítalo**         | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Barturen Panez, Iker Gabriel**       | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Encalada Salazar, Alexis**           | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Torres Lavandera, Andrés Rodrigo**   | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
 
-![commits.png](assets/commits.png)
+![CommitsBK.png](assets/CommitsBK.png)
 
-![contributors.png](assets/contributors.png)
+![NetBK1.png](assets/NetBK1.png)
 
-![gitflow1.png](assets/gitflow1.png)
-
-![gitflow2.png](assets/gitflow2.png)
-
-![gitflow3.png](assets/gitflow3.png)
-
+![NetBK2.png](assets/NetBK2.png)
 #### 5.3. Validation Interviews
 
 Las entrevistas de validación representan una fase crucial en el proceso de desarrollo del producto SEMS (Sistema de Monitoreo Energético Inteligente). Esta metodología nos permite evaluar la efectividad, usabilidad y aceptación de la solución implementada por parte de nuestros segmentos objetivo identificados en el capítulo anterior.
@@ -1063,51 +1063,38 @@ Esta sección se dedica a la documentación sistemática de cada entrevista con 
 Link de las entrevistas
 
 Foto de la entrevista
+![EntrevistaEmpe.png](assets/EntrevistaEmpe.png)
 
-Inicia:
+Inicia:00.00
 
-Duración:
+Duración:10:07
 
-Nombre: 
+Nombre: Emperatriz Sessarego
 
-Edad: 
+Edad: 57
 
-Distrito: 
+Distrito: Jesús María
+ 
+Resumen: La propietaria de vivienda Emperatriz regresa para ser presentada ante la página web junto a beneficios que ofrecemos y luego es redirigida hacia la aplicación web donde se le hizo un recurrido sobre las diferentes herramientas que ofrece la aplicación. Emperatriz resume su experiencia como agradeble, cree que la plataforma le será uitl al momento de controlar su consumo energético. Define la aplicación como fácile de enterder y navegar y concluye que si usaría la aplicación y la recomendaría a otros propietarios de vivienda.
 
-Resumen: 
 
 
 **ENTREVISTA 2**
 
 Foto de la entrevista
+![EntrevistaAna.png](assets/EntrevistaAna.png)
+Inicia:00:00
 
-Inicia:
+Duración: 05:43
 
-Duración:
+Nombre: Ana Vivar
 
-Nombre:
+Edad: 28 
 
-Edad:
+Distrito: San Miguel 
 
-Distrito:
+Resumen: La propietaria de vivienda Ana Vivar evaluó la aplicación web y afirmó que sí estaría dispuesta a utilizarla, resaltando que le pareció intuitiva, clara y fácil de navegar. Destacó que los datos detallados sobre el consumo energético le serían muy útiles para optimizar el uso de energía en su hogar y reducir su factura eléctrica, y que el diseño de la plataforma transmite profesionalismo, con botones bien definidos y un dashboard especialmente valioso por la forma en que presenta la información. Además, mencionó que recomendaría la aplicación a amigos que, como ella, son propietarios de vivienda.
 
-Resumen:
-
-**ENTREVISTA 3**
-
-Foto de la entrevista
-
-Inicia:
-
-Duración:
-
-Nombre:
-
-Edad:
-
-Distrito:
-
-Resumen:
 
 **ENTREVISTAS SEGMENTO OBJETIVO 2: ESTUDIANTES QUE ALQUILAN**
 
@@ -1115,7 +1102,7 @@ Resumen:
 
 ![Entrevista-1-Estudiantes.png](assets/Entrevista-1-Estudiantes.png)
 
-Inicia: 
+Inicia: 00:00
 
 Duración: 
 
@@ -1129,68 +1116,122 @@ Resumen: Johnny Mallqui (19 años) estudia en la UPC y alquila un cuarto en Chor
 
 **ENTREVISTA 2**
 
-Foto de la entrevista
+Foto de la entrevista 
+![EntrevistaSimon.png](assets/EntrevistaSimon.png)
+Inicia: 00:00
 
-Inicia:
+Duración: 04:21 
 
-Duración:
+Nombre: Simón Gabriel Molina Chirinos
 
-Nombre:
+Edad: 19
 
-Edad:
+Distrito: Pueblo Libre
 
-Distrito:
-
-Resumen:
-
-
-**ENTREVISTA 3**
-
-Foto de la entrevista
-
-Inicia:
-
-Duración:
-
-Nombre:
-
-Edad:
-
-Distrito:
-
-Resumen:
+Resumen:Simón es un estudiante que alquila un cuarto. Según sus propias palabras, la interfaz de la aplicación le parece amigable, ay que todo está bien distribuido y es intuitivo. Además, el diseño de la aplicación le resulta cómodo para entender los datos. Asmimismo, comprende de qué manera los datos se relacionan con sus gastos en sí. Menciona que las alertas de la aplicación le parecen útiles para identificar alguna anomalía en sus consumos. También, se siente motivado al ver que puede visualizar una estimación de ahorros. Le resulta útil el monitoreo constante, ya que puede corregir malos hábitos al momento. Además, considera que esta aplicación tendría un impacto positivo en cuanto al recibo mensual de luz. También, considera que lo más importante de esta aplicación es el apartado visual, ya que le ayuda a entender mejor los datos y gestionar su consumo. Asimismo, considera que los iconos de la aplicación podrían tener alguna breve explicación sobre su uso. Finalmente, el entrevistado declara que la aplicación le beneficiaría totalmente a mejorar sus hábitos y su consumo energético.
 
 #### 5.3.3. Evaluaciones según heurísticas
+
+                  **UX Heuristicis & Principles Evaluation**
+            **Usability - Inclusive Desing - Information Architecture**
+
+Carrera : Ingeniería de Software
+
+Curso : Desarrollo de Aplicaciones Open Source
+
+Sección : 7401
+
+Profesor : Hugo Allan Mori Paiva 
+
+Auditor : ENERGIX - SEMS
+
+Clientes(S):
+
+
+Site O APP a evaluar : ENERGIX - SEMS
+
+Tareas a evaluar: 
+
+El enlace de esta evaluación incluye la revisión de la usabilidad de las sigueintes tareas:
+
+1. Visualicación de la Landing Page
+2. Comprensión del valor ofrecido por Energix
+3. Proceso de registro
+4. Primera navegación dentro de la aplicación 
+5. Comprensión de métricas (promedios, consumos)
+6. Vinculación de dispositivos
+7. Percepción general del flujo de uso
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Integración con dispositivos físicos reales
+2. Gestión avanzada del perfil
+3. Personalización de alertas y notificaciones
+4. Flujos administrativos o de facturación 
+5. Visualicación de consumo hitórico a profundidad
+
+ **Escala de Severidad:**
+
+Los errores serán puntuados tomando en cuenta las siguiente escala de severidad
+
+| **Nivel** | **Descripción**                                                                                                                                                    |  
+|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1         | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado salvo que exista tiempo disponible. |
+| 2         | Problema menor: puede ocurrir un poco más frecuentemente o es ligeramente más difícil de superar. Se recomienda atenderlo en el siguiente release.                 |
+| 3         | Problema mayor: ocurre con frecuencia o los usuarios no pueden resolverlo por sí mismos. Se debe corregir con prioridad alta                                       |
+| 4         | Problema muy grave: impide al usuario continuar. Debe corregirse antes del lanzamiento.                                                                            |
+
+
+**Tabla Resumen:**
+
+| # | **Problema**                                                                                                                                                                                                              | **Escala de severidad** | **Heurística/Principio violada(o)**                                                                                               |
+|---|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| 1 | Complicaciones al momento de ingresar un dispositivo y rellenar el campo de consumo de energía, al no saber el número exacto que consumió ese dispositivo por lo que no podrá ingresar de manera correcta su dispositivo  | 2                       | Flexibilidad y eficiencia del uso / Conocer al usaurio (el sistema no se adapta completamente a los hábitos reales del segmento)  |
+
+**Problema #1**
+
+Seriedad: 2
+
+Heurística violada: Flexibilidad y eficiencia de uso / Conocer al usuario
+
+Problema: Complicaciones al momento de ingresar un dispositivo y rellenar el campo de consumo de energía, al no saber el número exacto que consumió ese dispositivo por lo que no podrá ingresar de manera correcta su dispositivo
+
+Figura: 
+
+![Heurística.png](assets/Heur%C3%ADstica.png)
+
+Nota. Elaboración propia.
+
+**Recomendación**
+
+Cambiar el campo de relleno de dispositivos o guiar al usuario a como saber el consumo exacto, o un aproximado, de su dispositivo para que así pueda ingresarlo de manera correcta.
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQDtm0AcL_c0QKGTVb4n202MARBQ2nAm9br2eGLkukIA7Uo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=HHs7jm
 
 
 
 #### 5.4. Video About-the-Product
 
-
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQBMBgRkkbaZQoNKZogSwzK7ASTIv5MFKZhfDqUM_oBKvvU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=6NmzRb
 
 ### Conclusiones
 
-El desarrollo del primer entregable del proyecto Energix ha permitido establecer una base metodológica, técnica y colaborativa sólida para la evolución del sistema SEMS. Se validaron hipótesis de diseño y se definió una visión clara de los objetivos, articulando un ecosistema funcional para la gestión inteligente de energía.
+El desarrollo del tercer entragrable del proyecto Energix nos permitió establecer una base metodológica, técnica y colaborativa sólida para la evolución del sistema SEMS. Se estableció una arquitectura sólida en Java, implementamos correctamente la estructura backedn, usando buenas prácticas de organización de paquetes y recurso, del mismo modo utilizando Domain Driven Desing.
 
-El enfoque Lean UX facilitó la identificación precisa de los principales retos de los usuarios propietarios de vivienda, estudiantes y soporte técnico, permitiendo comprender sus necesidades y expectativas mediante entrevistas, mapas de empatía, user personas y scenario mapping. Esto guió la propuesta de valor centrada en la experiencia del usuario.
+La exposición de APIs REST, facilitó la interacción entre nuestro proyecto frontend con nuestro proyecto backend mediante pruebas externas.
 
-La especificación y análisis de requisitos se realizó de forma rigurosa, aplicando técnicas modernas como To-Be Scenario Mapping, Impact Mapping, backlog grooming y user stories con criterios de aceptación. Esto permitió descomponer la solución en funcionalidades concretas y alineadas con los objetivos del negocio.
+En cuanto al tema de la seguridad se incluyeron mecanismos para la auntenticación  y autorización, resguardando los recursos y asegurando que solo los usuarios apropiados puedan acceder a cada módulo, esto fue gracias a las implementaciones de Spring Security y de los tokens JwT.
 
-En cuanto al diseño visual y arquitectónico, se implementaron style guidelines, una arquitectura de información clara y una estructura modular basada en bounded contexts, siguiendo principios de Domain-Driven Design. Esto garantiza escalabilidad, mantenibilidad y separación de responsabilidades, reforzando la calidad técnica y la sostenibilidad del proyecto.
+Durante el sprint 3, se completaron las historias de usaurio planificadas para el backend y accesibilidad del usuario a la aplicacióm. El equipo demostró una alta colaboración y cumplimiento de estándares técnicos, utilizando herramientas como GitHub, Swagger y Render. El backend fue desplegado y validado funcionalmente bajo criterios de usabilidad y accesibilidad.
 
-Durante el Sprint 1, se completaron las historias de usuario planificadas para la landing page, UI responsive, internacionalización y accesibilidad. El equipo demostró alta colaboración y cumplimiento de estándares técnicos, utilizando herramientas como GitHub, Figma, PlantUML y Netlify. La landing page fue desplegada y validada funcionalmente bajo criterios de usabilidad y accesibilidad.
-
-Este primer sprint, centrado en la interfaz gráfica y experiencia inicial, sienta las bases para la futura implementación de servicios backend, APIs RESTful y microservicios modulares que conformarán el núcleo transaccional de la plataforma.
-
+Este tercer sprint, centrado en la implementación de la API para el proyecto del sistema SEMS, sienta las bases para la futura conexión entre el frontend y backend, permitiendo la interacción y gestión de datos de manera segura y eficiente.
 ---
 
 ### Recomendaciones
 
-- Optimizar la experiencia de usuario en las vistas principales, incorporando mejoras de navegación, internacionalización y accesibilidad conforme a los estándares actuales.
-- Implementar pruebas automatizadas para los componentes clave del frontend y los endpoints del backend, garantizando la calidad y estabilidad de la plataforma.
-- Documentar los procesos de despliegue y configuración de la infraestructura (Vercel, Render), facilitando la replicabilidad y el mantenimiento del entorno productivo.
-- Promover la revisión cruzada de código y la actualización continua de las guías de estilo, reforzando la coherencia técnica y la colaboración entre los miembros del equipo.
-- Monitorear el rendimiento de la aplicación web y los servicios, aplicando métricas y herramientas de observabilidad para anticipar posibles incidencias y escalar la solución.
+- Completar y documenta casos deprueba, aumentar la cobertura de pruebas unitarias y escribir una guía breve sobre como ejecutar las pruebas nos ayudará a detectar errores.
+- Automatizar el despliegue continuo (CI/CD) para agilizar las actualizaciones y garantizar la calidad del código en cada lanzamiento. Agregar pipelines de integración y despliegue continuo.
+- Enriquecer la documentación funcional. Escribiendo un documento README amplio con la documentación de Swaggger/OpenAPI para los endpoints facilitando el consumo de las APIs. 
 
 # Bibliografía
 
@@ -1234,3 +1275,15 @@ Este primer sprint, centrado en la interfaz gráfica y experiencia inicial, sien
   https://www.figma.com/design/tmJAly092Cbckme5PFfA6Z/Energix?node-id=26-4210&t=4xEBZLNYgT1IM6IQ-1
 - Link del video de la presentación
   https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/EatERr_u0z9PsPV9zBCf2qMBBoBO00PC-Phz8dJyZh1iqw?e=RAb0qG
+- Link entrevista sector propietario de vivienda #1
+  https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQDtm0AcL_c0QKGTVb4n202MARBQ2nAm9br2eGLkukIA7Uo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=HHs7jm
+- Link entrevista sector propietario de vivienda #2
+  https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQAXsgGxJZCwR5eFhUh0CMDWAWvq2dZPMMWJKTpcCTocupY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=xPgl48
+- Link entrevista sector estudiante #1
+  https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQADaQcdzzp0Qqm_tbgwlU7CAaav4-E6-z39dvRS6P2YqWY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7zcGoF
+- Link entrevista sector estudiante #2
+  https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQDqn_-FIILbRKryQAhvq9DbAciKO12cO4dR5XIu6PgI-7Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=PPthd0
+- Link video-about-team
+  https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQC00BXTE4A6SbyrQPvdosB6AZM1EWFJ8cu5V_esCS3jf7Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=fdv3jR
+- Link video about-the-product
+  https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQBMBgRkkbaZQoNKZogSwzK7ASTIv5MFKZhfDqUM_oBKvvU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=6NmzRb
