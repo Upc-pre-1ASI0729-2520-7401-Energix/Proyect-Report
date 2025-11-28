@@ -48,6 +48,10 @@
       <td>Torres Lavandera, Andrés Rodrigo</td>
       <td>u202312557</td>
     </tr>
+    <tr>
+      <td>Ynga Amado, Jafeth Worren</td>
+      <td>u202314715</td>
+    </tr>
   </tbody>
 </table>
 

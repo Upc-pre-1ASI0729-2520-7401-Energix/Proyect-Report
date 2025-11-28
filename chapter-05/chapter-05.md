@@ -274,6 +274,7 @@ Con la finalidad de mejorar la colaboración en equipo a cada integrante se asig
 | Andrés Torres                      | AndresTorres202312557 | C                                                    | L                                                      | L                                        |
 | Iker Barturen                      | krxxg04               | L                                                    | L                                                      | L                                        |
 | Mateo Loechle                      | LowMathzzz            | C                                                    | C                                                      | L                                        |
+| Jafeth Ynga                        | Jafeth-MV             | C                                                    | C                                                      | C                                        |
 
 #### 5.2.1.3. Sprint Backlog 1
 
@@ -452,6 +453,7 @@ Repositorio de Landing Page: https://github.com/Upc-pre-1ASI0729-2520-7401-Energ
 | **Barturen Panez, Iker Gabriel**     | Implementación de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
 | **Encalada Salazar, Alexis**         | Implementación de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
 | **Torres Lavandera, Andrés Rodrigo** | Implementación de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Ynga Amado, Jafeth Worren**        | Implementación de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
 
 ![NetLP.png](assets/NetLP.png) 
 ### 5.2.2. Sprint 2
@@ -516,6 +518,7 @@ Con la finalidad de mejorar la colaboración en equipo a cada integrante se asig
 | Andrés Torres                      | AndresTorres202312557 | C                                  | C                                                                  | L                      | C                            | C                       |
 | Iker Barturen                      | krxxg04               | L                                  | C                                                                  | C                      | C                            | C                       |
 | Mateo Loechle                      | LowMathzzz            | C                                  | C                                                                  | C                      | L                            | C                       |
+| Jafeth Ynga                        | Jafeth-MV             | C                                  | C                                                                  | C                      | C                            | C                       |
 
 #### 5.2.2.3. Sprint Backlog 2
 <table>
@@ -733,13 +736,14 @@ En esta sección se evidencia la colaboración de cada integrante en el reposito
 
 Repositorio del Frontend de la Aplicación Web: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
 
-| **Integrante**                        | **Actividad**                                                                                                         |  
-|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| **Huaman Olivos, Yeira Shari**        | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
-| **Loechle Arias, Mateo Ítalo**        | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
-| **Barturen Panez, Iker Gabriel**      | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
-| **Encalada Salazar, Alexis**          | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
-| **Torres Lavandera, Andrés Rodrigo**  | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Integrante**                       | **Actividad**                                                                                                         |  
+|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| **Huaman Olivos, Yeira Shari**       | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Loechle Arias, Mateo Ítalo**       | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Barturen Panez, Iker Gabriel**     | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Encalada Salazar, Alexis**         | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Torres Lavandera, Andrés Rodrigo** | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Ynga Amado, Jafeth Worren**        | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
 
 ![commits.png](assets/commits.png)
 
@@ -995,13 +999,14 @@ En esta sección se evidencia la colaboración de cada integrante en el reposito
 
 Repositorio del Backend de la Aplicación: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS
 
-| **Integrante**                         | **Actividad**                                                                                            |  
-|----------------------------------------|----------------------------------------------------------------------------------------------------------|
-| **Huaman Olivos, Yeira Shari**         | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
-| **Loechle Arias, Mateo Ítalo**         | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
-| **Barturen Panez, Iker Gabriel**       | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
-| **Encalada Salazar, Alexis**           | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
-| **Torres Lavandera, Andrés Rodrigo**   | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Integrante**                       | **Actividad**                                                                                            |  
+|--------------------------------------|----------------------------------------------------------------------------------------------------------|
+| **Huaman Olivos, Yeira Shari**       | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Loechle Arias, Mateo Ítalo**       | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Barturen Panez, Iker Gabriel**     | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Encalada Salazar, Alexis**         | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Torres Lavandera, Andrés Rodrigo** | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Ynga Amado, Jafeth Worren**        | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
 
 ![CommitsBK.png](assets/CommitsBK.png)
 
