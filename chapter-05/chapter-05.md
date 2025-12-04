@@ -945,13 +945,15 @@ Durante el sprint 3, hemos implementado el despliegue del backend del sistema de
 
 Decidimos utilizar Render para el despliegue del backend, asegurando una infraestructura centralizada y escalable. Esta decisión nos permitió tener un mayor control sobre la API y facilitar la integración con el frontend.
 
+Por motivos de seguridad, implementamos un proxy utilizando Cloudflare Tunnel para ocultar la dirección IP real del servidor, ya que exponer públicamente la URL directa en GitHub representa un riesgo de seguridad. Esta medida de protección es fundamental para prevenir ataques directos al servidor.
+
 La URL base para todos los recursos de nuestra API es:
 
-https://backend-sems-40cb.onrender.com/
+https://theft-muscles-inner-protection.trycloudflare.com
 
 La documentación interactiva de la API está disponible en Swagger UI en:
 
-https://backend-sems-40cb.onrender.com/swagger-ui/index.html#
+https://theft-muscles-inner-protection.trycloudflare.com/swagger-ui/index.html
 
 **Configuración del servidor en Render**
 
@@ -1013,6 +1015,360 @@ Repositorio del Backend de la Aplicación: https://github.com/Upc-pre-1ASI0729-2
 ![NetBK1.png](assets/NetBK1.png)
 
 ![NetBK2.png](assets/NetBK2.png)
+
+### 5.2.4. Sprint 4
+
+#### 5.2.4.1. Sprint Planning 4
+
+Durante el Sprint 4 se implementó la integración completa entre el frontend y el backend de la plataforma SEMS, enfocándose en la comunicación efectiva entre ambas capas para asegurar una experiencia de usuario fluida. El trabajo incluyó la conexión de APIs, sincronización de datos, manejo de estados y la validación de la funcionalidad, consolidando una versión integrada y funcional del sistema.
+
+<table>
+<tr>
+    <th colspan="5">Sprint 4</th>
+    <th colspan="9">Sprint 4</th>
+  </tr>
+      <tr>
+    <td colspan="13">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8">2025-11-29</td>
+</tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8">2:30 PM</td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">Via Discord</td>
+<tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8">Iker Gabriel Barturen Panez</td>
+</tr>
+<tr>
+    <td colspan="5">Attendees (to a planning meeting)</td>
+    <td colspan="8">Alexis Encalada Salazar, Yeira Shari Huaman Olivos, Andrés Rodrigo Torres Lavandera, Iker Gabriel Barturen Panez, Mateo Italo Loechle Arias, Jafeth Worren Ynga Amado</td>
+</tr>
+
+<tr>
+    <td colspan="13">Sprint Goal & User Stories</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 4 Goal</td>
+    <td colspan="8">Implementar la integración completa entre frontend y backend de la aplicación web Energix, asegurando la comunicación efectiva de APIs, sincronización de datos y validación para una experiencia de usuario fluida.</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 4 Velocity</td>
+    <td colspan="8">10</td>
+</tr>
+<tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8">89</td>
+</tr>
+</table>
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+Con la finalidad de mejorar la colaboración en equipo a cada integrante se asignó un rol de líder por cada aspecto. Los aspectos están relacionados con los entregables.
+
+| Team member (LastName, First Name) | GitHub UserName       | Aspect 1: Connection of Devices & Authentication | Aspect 2: Profile Connection   | Aspect 3: Connection for Reports   | Aspect 4: Backend for Notifications | Aspect 5: Connection for Settings  | Aspect 6:Connection for Dashboard |
+|------------------------------------|-----------------------|--------------------------------------------------|--------------------------------|------------------------------------|-------------------------------------|------------------------------------|-----------------------------------|
+| Alexis Encalada                    | Alexiz248             | C                                                | C                              | C                                  | C                                   | L                                  | C                                 |
+| Yeira Sharia                       | YeiShari              | C                                                | L                              | C                                  | C                                   | C                                  | C                                 |
+| Andrés Torres                      | AndresTorres202312557 | C                                                | C                              | L                                  | C                                   | C                                  | C                                 |
+| Iker Barturen                      | krxxg04               | L                                                | C                              | C                                  | C                                   | C                                  | C                                 |
+| Mateo Loechle                      | LowMathzzz            | C                                                | C                              | C                                  | L                                   | C                                  | C                                 |
+| Jafeth Ynga                        | Jafeth-MV             | C                                                | C                              | C                                  | L                                   | C                                  | L                                 |
+
+#### 5.2.4.3. Sprint Backlog 4
+
+<table>
+  <tr>
+    <th colspan="7">Sprint 4 – Work Items / Tasks (Web Service SEMS)</th>
+  </tr>
+  <tr>
+    <th>User Story ID</th>
+    <th>Task ID</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation</th>
+    <th>Assigned To</th>
+    <th>Status</th>
+  </tr>
+
+  <!-- EP01 -->
+  <tr><td colspan="7"><b>EP01 – Autenticación y Perfil de Usuario</b></td></tr>
+  <tr><td>US01</td><td>UT01</td><td>Registro de usuario</td><td>Implementar componente de registro en frontend que conecte con endpoint POST /api/v1/auth/register con validaciones de correo y contraseña.</td><td>4h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td></td><td>UT02</td><td>Validar correo duplicado en registro</td><td>Implementar verificación en frontend de que el correo no esté registrado previamente conectando con el backend.</td><td>2h</td><td>Jafeth Ynga</td><td>Done</td></tr>
+  <tr><td>US02</td><td>UT03</td><td>Inicio de sesión</td><td>Implementar formulario de login en frontend que conecte con endpoint POST /api/v1/auth/login con autenticación JWT.</td><td>3h</td><td>Iker Barturen</td><td>Done</td></tr>
+  <tr><td></td><td>UT04</td><td>Manejo de errores en autenticación</td><td>Implementar manejo de errores en frontend para credenciales inválidas o usuario inexistente conectando con el backend.</td><td>2h</td><td>Jafeth Ynga</td><td>Done</td></tr>
+  <tr><td>US03</td><td>UT05</td><td>Gestión de perfil</td><td>Implementar vista de perfil en frontend que conecte con endpoints GET/PUT /api/profile/{userId} para obtener y actualizar perfil.</td><td>3h</td><td>Andrés Torres</td><td>Done</td></tr>
+  <tr><td></td><td>UT06</td><td>Implementar subida de foto de perfil</td><td>Implementar funcionalidad de subida de foto en frontend que conecte con endpoint POST /api/profile/{userId}/photo.</td><td>2h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td>US04</td><td>UT07</td><td>Recuperación de contraseña</td><td>Implementar formulario de recuperación en frontend que conecte con endpoint POST /api/v1/settings/{userId}/reset.</td><td>3h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td></td><td>UT08</td><td>Implementar actualización de contraseña</td><td>Implementar funcionalidad de cambio de contraseña en frontend que conecte con endpoint POST /api/v1/settings/{userId}/password.</td><td>2h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US05</td><td>UT09</td><td>Validación de sesión</td><td>Implementar validación de sesión activa en frontend conectando con endpoint GET /api/v1/auth/validate.</td><td>3h</td><td>Iker Barturen</td><td>Done</td></tr>
+
+  <!-- EP02 -->
+  <tr><td colspan="7"><b>EP02 – Conexión y Monitoreo de Dispositivos</b></td></tr>
+  <tr><td>US06</td><td>UT10</td><td>Gestión de dispositivos</td><td>Implementar interfaz de gestión de dispositivos en frontend que conecte con endpoints GET/POST /api/v1/devices y GET/PUT/DELETE /api/v1/devices/{deviceId}.</td><td>4h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td></td><td>UT11</td><td>Validar compatibilidad de dispositivos</td><td>Implementar validación de compatibilidad en frontend conectando con lógica del backend.</td><td>2h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US07</td><td>UT12</td><td>Toggle de dispositivos</td><td>Implementar control de encendido/apagado en frontend que conecte con endpoint POST /api/v1/devices/{deviceId}/toggle.</td><td>3h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td></td><td>UT13</td><td>Implementar preferencias de dispositivos</td><td>Implementar configuración de preferencias en frontend conectando con endpoints GET/PUT /api/v1/preferences/devices.</td><td>2h</td><td>Iker Barturen</td><td>Done</td></tr>
+  <tr><td>US08</td><td>UT14</td><td>Monitoreo de dispositivos activos</td><td>Implementar vista de monitoreo en frontend que conecte con endpoint GET /api/v1/devices/active.</td><td>4h</td><td>Iker Barturen</td><td>Done</td></tr>
+  <tr><td></td><td>UT15</td><td>Manejo de desconexiones</td><td>Implementar notificaciones de desconexión en frontend conectando con el backend.</td><td>2h</td><td>Yeira Huamán</td><td>Done</td></tr>
+
+  <!-- EP03 -->
+  <tr><td colspan="7"><b>EP03 – Alertas y Recordatorios de Consumo</b></td></tr>
+  <tr><td>US09</td><td>UT16</td><td>Gestión de alertas</td><td>Implementar gestión de alertas en frontend que conecte con endpoints GET/POST /api/v1/alerts y PUT /api/v1/alerts/{alertId}/read.</td><td>3h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td></td><td>UT17</td><td>Implementar conteo de alertas no leídas</td><td>Implementar contador de alertas no leídas en frontend conectando con endpoint GET /api/v1/alerts/count/unread.</td><td>2h</td><td>Jafeth Ynga</td><td>Done</td></tr>
+  <tr><td>US10</td><td>UT18</td><td>Gestión de notificaciones</td><td>Implementar gestión de notificaciones en frontend que conecte con endpoints GET/POST /api/v1/notifications y PUT /api/v1/notifications/{notificationId}/read.</td><td>3h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td></td><td>UT19</td><td>Implementar conteo de notificaciones no leídas</td><td>Implementar contador de notificaciones no leídas en frontend conectando con endpoint GET /api/v1/notifications/count/unread.</td><td>2h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US11</td><td>UT20</td><td>Configuración de umbrales</td><td>Implementar configuración de umbrales en frontend que permita definir límites conectando con el backend.</td><td>4h</td><td>Iker Barturen</td><td>Done</td></tr>
+
+  <!-- EP04 -->
+  <tr><td colspan="7"><b>EP04 – Reportes y Facturación</b></td></tr>
+  <tr><td>US12</td><td>UT21</td><td>Generación de reportes semanales</td><td>Implementar generación de reportes semanales en frontend que conecte con endpoints POST /api/v1/reports/weeklyConsumption/generate-sample y GET /api/v1/reports/weeklyConsumption.</td><td>4h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US13</td><td>UT22</td><td>Consulta de consumo diario</td><td>Implementar vista de consumo diario en frontend que conecte con endpoints GET /api/v1/consumption/daily y GET /api/v1/consumption/daily/{date}.</td><td>3h</td><td>Jafeth Ynga</td><td>Done</td></tr>
+  <tr><td>US14</td><td>UT23</td><td>Consulta de consumo mensual</td><td>Implementar vista de consumo mensual en frontend que conecte con endpoint GET /api/v1/consumption/monthly.</td><td>3h</td><td>Andrés Torres</td><td>Done</td></tr>
+  <tr><td>US15</td><td>UT24</td><td>Consulta de consumo por categorías</td><td>Implementar vista de consumo por categorías en frontend que conecte con endpoint GET /api/v1/consumption/categories.</td><td>3h</td><td>Alexis Encalada</td><td>Done</td></tr>
+
+  <!-- EP05 -->
+  <tr><td colspan="7"><b>EP05 – Metas y Ahorro Energético</b></td></tr>
+  <tr><td>US16</td><td>UT25</td><td>Estadísticas del dashboard</td><td>Implementar estadísticas del dashboard en frontend que conecte con endpoints GET/PUT /api/v1/dashboard/stats.</td><td>3h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td>US17</td><td>UT26</td><td>Inicialización de datos</td><td>Implementar inicialización de datos en frontend que conecte con endpoint POST /api/v1/data/initialize.</td><td>4h</td><td>Iker Barturen</td><td>Done</td></tr>
+  <tr><td>US18</td><td>UT27</td><td>Resumen de datos</td><td>Implementar resumen de datos en frontend que conecte con endpoint GET /api/v1/data/summary.</td><td>3h</td><td>Jafeth Ynga</td><td>Done</td></tr>
+  <tr><td>US19</td><td>UT28</td><td>Configuración de metas</td><td>Implementar configuración de metas en frontend que permita configurar metas mensuales conectando con el backend.</td><td>3h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td>US20</td><td>UT29</td><td>Comparación de consumo</td><td>Implementar comparación de consumo en frontend que muestre comparación con otros usuarios conectando con el backend.</td><td>3h</td><td>Andrés Torres</td><td>Done</td></tr>
+
+  <!-- EP07 -->
+  <tr><td colspan="7"><b>EP07 – Gestión de Categorías de Dispositivos</b></td></tr>
+  <tr><td>US24</td><td>UT33</td><td>Consulta por categoría</td><td>Implementar consulta por categoría en frontend que conecte con endpoint GET /api/v1/devices/category/{category}.</td><td>3h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td>US25</td><td>UT34</td><td>Consumo por categoría</td><td>Implementar vista de consumo por categoría en frontend que muestre consumo agrupado conectando con el backend.</td><td>4h</td><td>Jafeth Ynga</td><td>Done</td></tr>
+  <tr><td>US26</td><td>UT35</td><td>Identificación de dispositivos de alto consumo</td><td>Implementar identificación de dispositivos de alto consumo en frontend conectando con lógica del backend.</td><td>3h</td><td>Andrés Torres</td><td>Done</td></tr>
+</table>
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+En esta sección se demuestran los commits relacionados con los principales avances en la implementación.
+Estos commits provienen del repositorio del proyecto backend de la organización de GitHub.
+
+Enlace al repositorio del proyecto backend: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS
+
+| Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
+|-----------|--------|-----------|----------------|---------------------|
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | fad3594 | feat: update SnakeCase. | Nov 13, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 99a6886 | feat: add post by swagger. | Nov 13, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 705573e | Merge pull request #7 from Upc-pre-1ASI0729-2520-7401-Energix/feature/reports | Nov 13, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 546ddae | feat: add repository and DTO fixes | Nov 14, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | f481f5c | feat: add Javadoc documentation for DashboardStatsRepository and fixed identation | Nov 14, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | d28ac10 | feat: add Javadoc documentation for DailyConsumptionRepository and fixed maven dependencie | Nov 14, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 4b80735 | Merge pull request #11 from Upc-pre-1ASI0729-2520-7401-Energix/feature/repositoryfix | Nov 14, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 53399ed | feat: update Java version, add Dockerfile, and refactor UserSettings entity to use OneToMany relationships for report frequencies and formats | Nov 15, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 3330982 | Merge pull request #12 from Upc-pre-1ASI0729-2520-7401-Energix/feature/add-deploy-config | Nov 15, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | fix/profile-management | de8265d | feat: Refactor authentication and profile management services. | Nov 24, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | cbc2e49 | Merge pull request #14 from Upc-pre-1ASI0729-2520-7401-Energix/feature/update-Authentication | Nov 24, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/settings | 8d7e29f | feat: remove SettingsController and related classes. | Nov 30, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 7bd6ab2 | feat: Remove unused service and repository files. | Nov 30, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/notification | ef1df3d | feat: Implement notification system with command and query services, event handling, and REST API endpoints. | Nov 30, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/notification | 5ce91b3 | feat: Refactor device and notification handling, update command structures, and enhance user profile integration. | Nov 30, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/dashboard | 6aa1db3 | feat(alert): add AlertResource record for alert data structure. | Dec 1, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/dashboard | eea2882 | feat(dashboard): add CategoryConsumptionResource record for category consumption data structure. | Dec 1, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/dashboard | 8ad47c7 | feat: add ConsumptionByHourResource record for hourly consumption data structure. | Dec 1, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/dashboard | c204343 | feat(dashboard): add DashboardQueryService interface for querying dashboard data by user ID. | Dec 1, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/authentication | 00ffb7c | feat(authentication): enhance sign-up process with error logging and role handling improvements. | Dec 2, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | fix/profile | d29ccdb | feat(profile): enhance Profile aggregate with profile photo handling and update related resources. | Dec 2, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feature/new-api | 358bcc4 | Merge pull request #15 from Upc-pre-1ASI0729-2520-7401-Energix/feature/new-API | Dec 2, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/dashboard | 56cf65a | feat(dashboard): enhance dashboard query service with detailed consumption calculations and alerts. | Dec 3, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/docker | 0bf1e38 | feat(docker): update base images to Maven 3.9.9 and Oracle JDK 25 for improved performance. | Dec 3, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 7ba01a7 | Merge pull request #16 from Upc-pre-1ASI0729-2520-7401-Energix/feature/fix-dashboard | Dec 3, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/user | d53568c | feat(user): implement email update functionality and secure user retrieval endpoints. | Dec 3, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 32f5656 | feat(preferences): refactor preferences handling to support global user preferences and enhance logging. | Dec 3, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 31120c0 | feat(profile): synchronize email updates with users table and enhance logging. | Dec 3, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 57fa8d2 | Merge pull request #17 from Upc-pre-1ASI0729-2520-7401-Energix/feature/fix-profiles | Dec 3, 2025         |
+
+Enlace al repositorio del proyecto frontend: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
+
+| Repository | Branch | Commit Id | Commit Message | Commited on (Date) |
+|-----------|--------|-----------|----------------|---------------------|
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS | develop | c83edd3 | feat: Update authentication to use email and improve token management. | Nov 15, 2025 |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS | fix/profile | ac1dd5b | feat(header.ts): optimize profile fetching with distinctUntilChanged operator | Nov 15, 2025 |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS | fix/profile | e405d2e | feat(profile): enhance profile update logic and user ID retrieval from token | Nov 15, 2025 |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS | fix/profile | 618f24e | feat: enhance profile management with additional fields and loading states. | Nov 28, 2025 |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS | feature/release-1.0 | 04144f5 | feat: add brand and model fields to device management and update related components. | Nov 29, 2025 |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS | feature/release-1.0 | 29efdb0 | feat: update category-chart.ts | Nov 30, 2025 |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS | feature/release-1.0 | 5164cb | feat: update device-chart. | Nov 30, 2025 |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS | feature/release-1.0 | 2e6ae6f | feat: update notifications. | Nov 30, 2025 |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS | feature/release-1.0 | 4f82b96 | feat: enhance device management by updating form fields and improving data handling. | Dec 03, 2025 |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS | feature/release-1.0 | 20022d2 | feat(settings): Add Support Modals for FAQs and help. | Dec 03, 2025 |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS | feature/release-1.0 | dbf3277 | Merge branch 'feature/release-1.0' of https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS into feature/release-1.0 | Dec 03, 2025 |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS | feature/release-1.0 | a66f6c5 | feat(monthly-chart): enhance monthly chart with Chart.js integration and static data display. | Dec 03, 2025 |
+
+
+
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+Durante el desarrollo del sprint 4 se lograron completar todos los puntos para la integración completa entre frontend y backend de la aplicación SEMS, estableciendo una conexión fluida entre las capas del sistema para la gestión de energía en los hogares. Las principales características integradas fueron:
+
+1. Integración de autenticación completa conectando frontend con endpoints de registro, login y validación de sesión.
+
+2. Gestión de perfiles integrada, permitiendo obtener, actualizar y subir foto de perfil desde el frontend.
+
+3. Generación y consulta de reportes integrada, con soporte para reportes semanales y consultas de consumo diario, mensual y por categorías.
+
+4. CRUD de dispositivos integrado, incluyendo monitoreo en tiempo real, toggle, preferencias y gestión por categorías desde la interfaz.
+
+5. Validación de sesiones y manejo de errores en autenticación integrada.
+
+6. Arquitectura completa con frontend, backend, base de datos y despliegues en plataformas en línea para una experiencia de usuario completa.
+
+**Capturas de pantalla de los diferentes despliegues**
+
+**Deployment de Landing Page en Netlify**
+
+![LandingPage-Netlify.png](chapter-05/assets/LandingPage.png)
+
+**Deployment de Frontend en Vercel**
+
+![Frontend-Vercel.png](chapter-05/assets/Frontend-Login.png)
+
+**Deployment en Render del Backend**
+
+![alt text](assets/Deploy-New-API.png)
+![alt text](assets/Deploy-Proxy.jpeg)
+
+**SEMS API**
+
+![alt text](assets/SEMS-API-Documentation.png)
+
+**Database hosted on Aiven**
+
+![db-Aiven.png](assets/db-Aiven.png)
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+**Introducción**
+
+Durante el sprint 4, hemos implementado la integración completa del sistema de Energix, desplegando landing page en Netlify, frontend en Vercel, backend en Render y la base de datos en Aiven, creando una aplicación completa y funcional para la gestión de energía en los hogares.
+
+**Implementación de landing page en Netlify**
+
+Utilizamos Netlify para el despliegue de la landing page, asegurando una presentación atractiva y accesible del proyecto.
+
+La URL de la landing page es:
+
+https://energixlp.netlify.app
+
+**Implementación de frontend en Vercel**
+
+Desplegamos el frontend en Vercel, facilitando la interacción del usuario con la aplicación web integrada.
+
+La URL del frontend es:
+
+https://frontend-sems.vercel.app
+
+**Implementación de API centralizada en Render**
+
+Decidimos utilizar Render para el despliegue del backend, asegurando una infraestructura centralizada y escalable. Esta decisión nos permitió tener un mayor control sobre la API y facilitar la integración con el frontend.
+
+Por motivos de seguridad y para proteger la dirección IP pública del servidor, hemos implementado un proxy utilizando Cloudflare Tunnel que oculta la dirección real del servidor Render. Esto es especialmente importante cuando se publican URLs en repositorios públicos de GitHub, ya que exponer directamente las IPs representar un riesgo de seguridad.
+
+La URL base para todos los recursos de nuestra API a través del proxy seguro es:
+
+https://theft-muscles-inner-protection.trycloudflare.com
+
+La documentación interactiva de la API está disponible en Swagger UI en:
+
+https://theft-muscles-inner-protection.trycloudflare.com/swagger-ui/index.html
+
+**Configuración de base de datos en Aiven**
+
+La base de datos se aloja en Aiven, proporcionando un servicio de base de datos en la nube confiable y escalable para almacenar y gestionar los datos del sistema.
+
+| **Parámetro** | **Valor** |
+|---------------|-----------|
+| Service URI   | mysql://avnadmin:[REDACTED]@sems-semsv01.i.aivencloud.com:11867/defaultdb?ssl-mode=REQUIRED |
+| Database name | defaultdb |
+| Host          | sems-semsv01.i.aivencloud.com |
+| Port          | 11867 |
+| User          | avnadmin |
+| Password      | [REDACTED] |
+| SSL mode      | REQUIRED |
+
+**Configuración del servidor en Render**
+
+El proceso de implementación en Render involucró varias etapas para asegurar un despliegue exitoso. Comenzamos creando una nueva cuenta y proyecto en la plataforma, configurándolo específicamente para trabajar con Java/Spring Boot como entorno de ejecución.
+
+Conectamos nuestro repositorio de GitHub para habilitar el despliegue automático, lo que nos permite mantener sincronizado el entorno de producción con la rama principal del proyecto. Esto ha resultado en un flujo de trabajo más eficiente, donde cada merge a la rama principal actualiza automáticamente nuestra API.
+
+| Método HTTP | Endpoint                                      | Descripción                                        | Ejemplo de uso                             |
+|-------------|-----------------------------------------------|----------------------------------------------------|--------------------------------------------|
+| POST        | /api/v1/authentication/sign-up                | Registra un nuevo usuario                          | Crear cuenta de propietario o estudiante   |
+| POST        | /api/v1/authentication/sign-in                | Autentica un usuario                               | Iniciar sesión                             |
+| GET         | /api/v1/profiles/{profileId}                  | Obtiene el perfil por ID                           | Mostrar datos del perfil específico        |
+| PUT         | /api/v1/profiles/{profileId}                  | Actualiza el perfil por ID                         | Modificar información personal             |
+| GET         | /api/v1/profiles/me                           | Obtiene el perfil del usuario actual               | Mostrar datos del perfil propio            |
+| PUT         | /api/v1/profiles/me                           | Actualiza el perfil del usuario actual             | Editar información personal propia         |
+| GET         | /api/v1/devices                               | Obtiene lista de dispositivos                      | Listar todos los dispositivos              |
+| POST        | /api/v1/devices                               | Crea un nuevo dispositivo                          | Agregar dispositivo                        |
+| GET         | /api/v1/devices/{deviceId}                    | Obtiene un dispositivo específico                  | Ver detalles de dispositivo                |
+| DELETE      | /api/v1/devices/{deviceId}                    | Elimina un dispositivo                             | Remover dispositivo                        |
+| GET         | /api/v1/devices/{deviceId}/consumption        | Obtiene el consumo de un dispositivo               | Ver consumo específico del dispositivo     |
+| GET         | /api/v1/devices/users/{userId}                | Obtiene dispositivos por ID de usuario             | Listar dispositivos de un usuario          |
+| GET         | /api/v1/notifications                         | Obtiene todas las notificaciones                   | Listar todas las notificaciones            |
+| POST        | /api/v1/notifications                         | Crea una nueva notificación                        | Generar nueva notificación                 |
+| GET         | /api/v1/notifications/user/{userId}           | Obtiene notificaciones por ID de usuario           | Ver notificaciones de usuario específico   |
+| GET         | /api/v1/notifications/device/{deviceId}       | Obtiene notificaciones por ID de dispositivo       | Ver notificaciones de dispositivo          |
+| GET         | /api/v1/settings                              | Obtiene configuraciones del usuario                | Ver configuraciones actuales               |
+| PUT         | /api/v1/settings                              | Actualiza configuraciones del usuario              | Modificar configuraciones                  |
+| POST        | /api/v1/settings/rules                        | Añade regla de ahorro                              | Crear nueva regla de ahorro                |
+| PUT         | /api/v1/settings/rules/{ruleId}               | Actualiza regla de ahorro                          | Editar regla existente                     |
+| DELETE      | /api/v1/settings/rules/{ruleId}               | Elimina regla de ahorro                            | Remover regla de ahorro                    |
+| GET         | /api/v1/reports/weekly-consumption            | Obtiene reporte de consumo semanal                 | Generar reporte semanal                    |
+| GET         | /api/v1/reports/top-devices                   | Obtiene los 3 dispositivos que más consumen        | Ver dispositivos con mayor consumo         |
+| GET         | /api/v1/users                                 | Obtiene lista de usuarios                          | Listar todos los usuarios                  |
+| GET         | /api/v1/users/{id}                            | Obtiene usuario por ID                             | Ver datos de usuario específico            |
+| GET         | /api/v1/users/{userId}/preferences            | Obtiene preferencias del usuario                   | Ver preferencias del usuario               |
+| PUT         | /api/v1/users/{userId}/preferences            | Actualiza preferencias del usuario                 | Modificar preferencias                     |
+| GET         | /api/v1/roles                                 | Obtiene lista de roles                             | Listar roles disponibles                   |
+| GET         | /api/v1/roles/{id}                            | Obtiene rol por ID                                 | Ver detalles del rol específico            |
+| GET         | /api/v1/dashboard                             | Obtiene datos del dashboard                        | Mostrar métricas del dashboard             |
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint 4, se completó la integración completa del sistema Energix, incluyendo el despliegue de la landing page, frontend, backend y base de datos en plataformas en línea. El objetivo fue contar con una versión funcional y accesible del sistema completo para revisión y retroalimentación.
+
+Actividades realizadas:
+
+- Se desplegó la landing page en Netlify: https://energixlp.netlify.app
+
+- Se desplegó el frontend en Vercel: https://frontend-sems.vercel.app
+
+- Se desplegó el backend en Render utilizando un proxy seguro de Cloudflare: https://theft-muscles-inner-protection.trycloudflare.com
+
+- Se configuró la base de datos en Aiven con los parámetros necesarios para la integración completa.
+
+Se verificó la correcta publicación de todos los componentes del sistema.
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+En esta sección se evidencia la colaboración de cada integrante en los repositorios de la aplicación.
+
+Repositorio de la Landing Page: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page
+
+Repositorio del Frontend de la Aplicación: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
+
+Repositorio del Backend de la Aplicación: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS
+
+| **Integrante**                       | **Actividad**                                                                                            |  
+|--------------------------------------|----------------------------------------------------------------------------------------------------------|
+| **Huaman Olivos, Yeira Shari**       | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Loechle Arias, Mateo Ítalo**       | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Barturen Panez, Iker Gabriel**     | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Encalada Salazar, Alexis**         | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Torres Lavandera, Andrés Rodrigo** | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Ynga Amado, Jafeth Worren**        | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+
 #### 5.3. Validation Interviews
 
 Las entrevistas de validación representan una fase crucial en el proceso de desarrollo del producto SEMS (Sistema de Monitoreo Energético Inteligente). Esta metodología nos permite evaluar la efectividad, usabilidad y aceptación de la solución implementada por parte de nuestros segmentos objetivo identificados en el capítulo anterior.
@@ -1150,7 +1506,7 @@ Profesor : Hugo Allan Mori Paiva
 
 Auditor : ENERGIX - SEMS
 
-Clientes(S):
+Clientes(S): Emperatriz Sessarego
 
 
 Site O APP a evaluar : ENERGIX - SEMS
@@ -1213,30 +1569,29 @@ Cambiar el campo de relleno de dispositivos o guiar al usuario a como saber el c
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQDtm0AcL_c0QKGTVb4n202MARBQ2nAm9br2eGLkukIA7Uo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=HHs7jm
 
-
-
 #### 5.4. Video About-the-Product
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQBMBgRkkbaZQoNKZogSwzK7ASTIv5MFKZhfDqUM_oBKvvU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=6NmzRb
 
 ### Conclusiones
 
-El desarrollo del tercer entragrable del proyecto Energix nos permitió establecer una base metodológica, técnica y colaborativa sólida para la evolución del sistema SEMS. Se estableció una arquitectura sólida en Java, implementamos correctamente la estructura backedn, usando buenas prácticas de organización de paquetes y recurso, del mismo modo utilizando Domain Driven Desing.
+Nuestro proyecto durante el desarrollo de los diferentes sprints ha logrado cumplir con los objetivos planteados al inicio de nuestro proyecto, llegando a alcanzar un MVP funcional y despliegue: frontend, backend, landing page y base de datos, lo que permite demostraciones y pruebas end-to-end.
+Hemos implementado una solución integral que aborda las necesidades de monitoreo y gestión energética para nuestros segmentos objetivo, propietarios de vivienda y estudiantes que alquilan. La integración completa entre el frontend y backend ha sido un logro significativo, permitiendo una experiencia de usuario fluida y eficiente.
+Las entrevistas de validación han proporcionado información valiosa sobre la usabilidad y aceptación de nuestra solución, confirmando que nuestra aplicación es intuitiva y útil para nuestros usuarios. Los comentarios recibidos nos han ayudado a identificar áreas de mejora y a validar que estamos en el camino correcto para satisfacer las necesidades de nuestros usuarios.
+El despliegue en plataformas en línea ha sido exitoso, permitiendo el acceso a nuestra aplicación desde cualquier lugar y facilitando la demostración de nuestras funcionalidades. Esto ha sido crucial para validar nuestro producto en un entorno real.
+En resumen, el desarrollo de nuestro proyecto ha sido exitoso, logrando una integración completa y funcional que satisface las necesidades de nuestros usuarios. Estamos satisfechos con los resultados obtenidos y confiamos en que nuestra solución tendrá un impacto positivo en la gestión energética de nuestros segmentos objetivo.
 
-La exposición de APIs REST, facilitó la interacción entre nuestro proyecto frontend con nuestro proyecto backend mediante pruebas externas.
 
-En cuanto al tema de la seguridad se incluyeron mecanismos para la auntenticación  y autorización, resguardando los recursos y asegurando que solo los usuarios apropiados puedan acceder a cada módulo, esto fue gracias a las implementaciones de Spring Security y de los tokens JwT.
-
-Durante el sprint 3, se completaron las historias de usaurio planificadas para el backend y accesibilidad del usuario a la aplicacióm. El equipo demostró una alta colaboración y cumplimiento de estándares técnicos, utilizando herramientas como GitHub, Swagger y Render. El backend fue desplegado y validado funcionalmente bajo criterios de usabilidad y accesibilidad.
-
-Este tercer sprint, centrado en la implementación de la API para el proyecto del sistema SEMS, sienta las bases para la futura conexión entre el frontend y backend, permitiendo la interacción y gestión de datos de manera segura y eficiente.
 ---
 
 ### Recomendaciones
 
-- Completar y documenta casos deprueba, aumentar la cobertura de pruebas unitarias y escribir una guía breve sobre como ejecutar las pruebas nos ayudará a detectar errores.
-- Automatizar el despliegue continuo (CI/CD) para agilizar las actualizaciones y garantizar la calidad del código en cada lanzamiento. Agregar pipelines de integración y despliegue continuo.
-- Enriquecer la documentación funcional. Escribiendo un documento README amplio con la documentación de Swaggger/OpenAPI para los endpoints facilitando el consumo de las APIs. 
+Mejorar los campos al momento de ingresar un dispositivo, ya que algunos usuarios no saben el consumo exacto de su dispositivo y esto puede generar confusión al momento de registrar un nuevo dispositivo en la aplicación.
+Implementar tutoriales o guías interactivas dentro de la aplicación para ayudar a los usuarios a familiarizarse con las funcionalidades y maximizar el uso de la plataforma.
+Implementar opciones de ayuda para las personas con discapacidad visual, auditiva o motriz, para hacer la aplicación más inclusiva.
+Realizar pruebas de usabilidad adicionales con una muestra más amplia de usuarios para identificar posibles mejoras en la experiencia de usuario.
+Continuar recopilando comentarios de los usuarios después del lanzamiento para iterar y mejorar continuamente la aplicación.
+Explorar la integración con dispositivos inteligentes y tecnologías IoT para automatizar el monitoreo y control del consumo energético.
 
 # Bibliografía
 
@@ -1268,14 +1623,20 @@ Este tercer sprint, centrado en la implementación de la API para el proyecto de
   https://github.com/Upc-pre-1ASI0729-2520-7401-Energix
 - Link del Repositorio del Reporte
   https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Proyect-Report
-- Link de la Repositorio de la landing Page
+- Link del Repositorio de la landing Page
   https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page
-- Link de la Repositorio del Frontend de la Aplicación Web
+- Link del Repositorio del Frontend de la Aplicación Web
   https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
+- link del Repositorio del Backend de la Aplicación Web
+  https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS 
 - Link de la landing page
   https://energixlp.netlify.app
 - Link del Frontend de la Aplicación Web
   https://frontend-sems.vercel.app
+- Link del Backend de la Aplicación Web
+  https://theft-muscles-inner-protection.trycloudflare.com
+- Link de la Documentación de la API
+  https://theft-muscles-inner-protection.trycloudflare.com/swagger-ui/index.html
 - Link del Figma
   https://www.figma.com/design/tmJAly092Cbckme5PFfA6Z/Energix?node-id=26-4210&t=4xEBZLNYgT1IM6IQ-1
 - Link del video de la presentación
