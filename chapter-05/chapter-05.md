@@ -1226,11 +1226,11 @@ Durante el desarrollo del sprint 4 se lograron completar todos los puntos para l
 
 **Deployment de Landing Page en Netlify**
 
-![LandingPage-Netlify.png](chapter-05/assets/LandingPage.png)
+![LandingPage-Netlify.png](assets/LandingPage.png)
 
 **Deployment de Frontend en Vercel**
 
-![Frontend-Vercel.png](chapter-05/assets/Frontend-Login.png)
+![Frontend-Vercel.png](assets/Frontend-Login.png)
 
 ![vercel.png](assets/vercel.png)
 
