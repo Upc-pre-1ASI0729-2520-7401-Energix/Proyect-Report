@@ -1,49 +1,49 @@
-﻿# CapÃ­tulo V: Product Implementation, Validation & Deployment
+﻿# Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management
 
-En esta secciÃ³n, nuestro equipo establece las decisiones y convenciones para mantener una consistencia durante todo el desarrollo del proyecto. Estas convenciones son cruciales para asegurar que todos los miembros del equipo estÃ©n alineados en tÃ©rminos de uso de herramientas, buenas prÃ¡cticas y procesos de despliegue.
+En esta sección, nuestro equipo establece las decisiones y convenciones para mantener una consistencia durante todo el desarrollo del proyecto. Estas convenciones son cruciales para asegurar que todos los miembros del equipo estén alineados en términos de uso de herramientas, buenas prácticas y procesos de despliegue.
 
 ### 5.1.1. Software Development Environment Configuration
 
-En este apartado se mencionan los distintos productos de software empleados por el equipo para llevar a cabo las actividades relacionadas con la elaboraciÃ³n del proyecto.
+En este apartado se mencionan los distintos productos de software empleados por el equipo para llevar a cabo las actividades relacionadas con la elaboración del proyecto.
 
 **Product UX/UI Desing**
 
-1. **UXPressia:** https://uxpressia.com/Se utilizÃ³ para la creaciÃ³n de User Personas, Empathy Maps, Journey Maps e Impact Maps, proporcionando una visiÃ³n centrada en el usuario.
+1. **UXPressia:** https://uxpressia.com/Se utilizó para la creación de User Personas, Empathy Maps, Journey Maps e Impact Maps, proporcionando una visión centrada en el usuario.
 
-2. **Figma**: https://www.figma.com/Herramienta de diseÃ±o colaborativo utilizada para la creaciÃ³n de wireframes, mock-ups y prototipos de aplicaciones mÃ³viles y de escritorio.
+2. **Figma**: https://www.figma.com/Herramienta de diseño colaborativo utilizada para la creación de wireframes, mock-ups y prototipos de aplicaciones móviles y de escritorio.
 
 **Software Development**
 
-3. **Visual Studio Code**: https://code.visualstudio.com/Entorno de desarrollo ligero empleado para la creaciÃ³n del landing page y las aplicaciones web, utilizando HTML5, CSS3, JavaScript y TypeScript.
+3. **Visual Studio Code**: https://code.visualstudio.com/Entorno de desarrollo ligero empleado para la creación del landing page y las aplicaciones web, utilizando HTML5, CSS3, JavaScript y TypeScript.
 
 4. **WebStorm**: Entorno de desarrollo utilizado para trabajar con HTML, CSS, JavaScript y frameworks como Vue y Angular.
 
 5. **Spring Boot Framework**:Framework utilizado para desarrollar servicios web RESTful en Java, proporcionando una base escalable y robusta.
 
-6. **GitHub**: https://github.com/Plataforma de control de versiones utilizada para la gestiÃ³n del cÃ³digo fuente, aplicando el flujo de trabajo GitFlow para garantizar un desarrollo ordenado.
+6. **GitHub**: https://github.com/Plataforma de control de versiones utilizada para la gestión del código fuente, aplicando el flujo de trabajo GitFlow para garantizar un desarrollo ordenado.
 
 7. IntelliJ IDEA ultimate: https://www.jetbrains.com/es-es/idea/ Entorno de desarrollo utilizado para trabajar con Java, proporcionando una base escalable y robusta.
 **Project Management and Collaboration**
 
-8. **WhatsApp**: https://web.whatsapp.com/AplicaciÃ³n de mensajerÃ­a utilizada para la coordinaciÃ³n y discusiÃ³n de temas relacionados con el proyecto en tiempo real.
+8. **WhatsApp**: https://web.whatsapp.com/Aplicación de mensajería utilizada para la coordinación y discusión de temas relacionados con el proyecto en tiempo real.
 
-9. **Discord**: https://discord.com/ AplicaciÃ³n de mensajerÃ­a utilizada para la coordinaciÃ³n y discusiÃ³n de temas relacionados con el proyecto en tiempo real
+9. **Discord**: https://discord.com/ Aplicación de mensajería utilizada para la coordinación y discusión de temas relacionados con el proyecto en tiempo real
 
 **Software Documentation**
 
-10. **LucidChart**: https://lucid.app/Plataforma utilizada para la creaciÃ³n de diagramas UML, wireflows y user flows, facilitando la visualizaciÃ³n y planificaciÃ³n del sistema.
+10. **LucidChart**: https://lucid.app/Plataforma utilizada para la creación de diagramas UML, wireflows y user flows, facilitando la visualización y planificación del sistema.
 
 11. **Structurizr**: https://www.structurizr.com/ Herramienta utilizada para modelar la arquitectura de software mediante diagramas C4, permitiendo un modelado claro de la estructura del proyecto.
 
 **Software Testiong**
 
-12. **Markdown**: Lenguaje de marcado ligero utilizado para documentar el proyecto y en los archivos README del repositorio de la organizaciÃ³n.
+12. **Markdown**: Lenguaje de marcado ligero utilizado para documentar el proyecto y en los archivos README del repositorio de la organización.
 
 ### 5.1.2. Source Code Management
 
-La gestiÃ³n del cÃ³digo fuente es parte fundamental del desarrollo de cualquier proyecto de software, ya que nos permitirÃ¡ rastrear cambios, revertir versionas y coordinar a los diferentes integrantes del equipo a la misma vez. En ENERGIX, utilizaremos **GitHub** como plataforma para alojar nuestros repositorios.
+La gestión del código fuente es parte fundamental del desarrollo de cualquier proyecto de software, ya que nos permitirá rastrear cambios, revertir versionas y coordinar a los diferentes integrantes del equipo a la misma vez. En ENERGIX, utilizaremos **GitHub** como plataforma para alojar nuestros repositorios.
 
 **URL de los Repositorios**
 
@@ -55,7 +55,7 @@ La gestiÃ³n del cÃ³digo fuente es parte fundamental del desarrollo de cualqu
 
 **Commits Convencionales**
 
-Para los mensajes de commit en el proyecto ENERGIX, se sigue la convenciÃ³n **Coventional Commits**. Estos mensajes deben seguir el formato estÃ¡ndar para facilitar la lectura y entendimiento del historial del proyecto:
+Para los mensajes de commit en el proyecto ENERGIX, se sigue la convención **Coventional Commits**. Estos mensajes deben seguir el formato estándar para facilitar la lectura y entendimiento del historial del proyecto:
 
 ``` githubexpressionlanguage
 <type>[optional scope]:<decription>
@@ -66,14 +66,14 @@ Para los mensajes de commit en el proyecto ENERGIX, se sigue la convenciÃ³n **
 ```
 
 - **Type**
--  -  ```feat```: Se usa cuando se aÃ±ade una nueva catacterÃ­stica.
--  -  ```fix```: Para la correciÃ³n de errores.
--  -  ```docs```: Modificaciones en la documentaciÃ³n.
--  -  ```style```: Cambios que no afectan la lÃ³gica del cÃ³digo, como los formatos o estilos.
--  -  ```refactor```: Modificaciones que no aÃ±aden caracterÃ­sticas ni corrigen errores.
--  -  ```test```: AddicÃ³n o modificaciÃ³n de pruebas.
+-  -  ```feat```: Se usa cuando se añade una nueva catacterística.
+-  -  ```fix```: Para la correción de errores.
+-  -  ```docs```: Modificaciones en la documentación.
+-  -  ```style```: Cambios que no afectan la lógica del código, como los formatos o estilos.
+-  -  ```refactor```: Modificaciones que no añaden características ni corrigen errores.
+-  -  ```test```: Addicón o modificación de pruebas.
 
-- **Scope:** Proporciona informaciÃ³n adicional sobre el Ã¡rea del cÃ³digo afectada.
+- **Scope:** Proporciona información adicional sobre el área del código afectada.
 
 **Ejemplos de commits**
 
@@ -81,20 +81,20 @@ Para los mensajes de commit en el proyecto ENERGIX, se sigue la convenciÃ³n **
 - ```fix(payment): resolve payment gateway issue```
 - ```docs(README): update setup instructions```
 
-Con estas estructuras, ENERGIX se puede gestionar eficientemente el flujo de trabajo del desarrollo, asegurÃ¡ndonos una integraciÃ³n continua y una organizaciÃ³n clara del cÃ³digo.
+Con estas estructuras, ENERGIX se puede gestionar eficientemente el flujo de trabajo del desarrollo, asegurándonos una integración continua y una organización clara del código.
 
 ### 5.1.3. Source Code Style Guide & Conventions
-En el proyecto ENERGIX, hemos implementaado una serie de guÃ­as de estilo y convenciones para asegurar que todo el equipo de desarrollo siga una estructura consistente y clara en todo el desarrollo del proyecto. Facilitando la legibidad del cÃ³digo, mejorando la colaboraciÃ³n entre los integrantes asegurando que el cÃ³digo sea mantenible a largo plazo.
+En el proyecto ENERGIX, hemos implementaado una serie de guías de estilo y convenciones para asegurar que todo el equipo de desarrollo siga una estructura consistente y clara en todo el desarrollo del proyecto. Facilitando la legibidad del código, mejorando la colaboración entre los integrantes asegurando que el código sea mantenible a largo plazo.
 
 **Nomenclatura General**
 
-Para asegurar la coherencia en todo el cÃ³digo, seguiremos las siguientes directrices:
+Para asegurar la coherencia en todo el código, seguiremos las siguientes directrices:
 
-- Los nombres de variables, funciones y mÃ©todos deben utilizar **camelCase**.
-- Los nombres de clases y componentes seguirÃ¡n la convenciÃ³n **PascalCase**.
-- Para los archivos y carpetas, se emplearÃ¡ la convenciÃ³n **kebab-Case**.
+- Los nombres de variables, funciones y métodos deben utilizar **camelCase**.
+- Los nombres de clases y componentes seguirán la convención **PascalCase**.
+- Para los archivos y carpetas, se empleará la convención **kebab-Case**.
 
-El uso de **ingles** para todos los nombres es obligatorio, con el fin de asegurar la comprensiÃ³n entre los miembros del equipo y seguir las buenas prÃ¡cticas.
+El uso de **ingles** para todos los nombres es obligatorio, con el fin de asegurar la comprensión entre los miembros del equipo y seguir las buenas prácticas.
 
 **Ejemplo**
 
@@ -102,14 +102,14 @@ El uso de **ingles** para todos los nombres es obligatorio, con el fin de asegur
 - **Clases:** ``` HomeOwner```,```user```
 - **Archivos:** ```home-owner.service.js```,```user.controller.js```
 
-**Espacios y SangrÃ­as**
+**Espacios y Sangrías**
 
-La sangrÃ­a de cÃ³digo en ENERGIX seguirÃ¡ las siguientes reglas para asegurar la claridad y el orden del cÃ³digo:
+La sangría de código en ENERGIX seguirá las siguientes reglas para asegurar la claridad y el orden del código:
 
-- Se utilizarÃ¡n **2 espacios** para la sangrÃ­a en archivos HTML, CSS, JavaScript, y TypeScript.
-- En archivos **Java**, se utilizarÃ¡n **4 espacios** para la sangrÃ­a.
+- Se utilizarán **2 espacios** para la sangría en archivos HTML, CSS, JavaScript, y TypeScript.
+- En archivos **Java**, se utilizarán **4 espacios** para la sangría.
 
-Esta convenciÃ³n ayuda a mantener la consistencia en todos los lenguajes empleados en el proyecto, facilitando la colaboraciÃ³n entre los diferentes miembros del equipo.
+Esta convención ayuda a mantener la consistencia en todos los lenguajes empleados en el proyecto, facilitando la colaboración entre los diferentes miembros del equipo.
 
 ``` html
 <!DOCTYPE html>
@@ -119,7 +119,7 @@ Esta convenciÃ³n ayuda a mantener la consistencia en todos los lenguajes emple
   </head>
   <body>
     <h1>Registros Disponible</h1>
-    <p>Registra tus dispositivos fÃ¡cilmente</p>
+    <p>Registra tus dispositivos fácilmente</p>
   </body>
 </html>
 ```
@@ -128,18 +128,18 @@ Esta convenciÃ³n ayuda a mantener la consistencia en todos los lenguajes emple
 
 1. HTML/CSS/JavaScript:
 
-- - Se utilizarÃ¡ la Google HTML/CSS Style Guide (https://google.github.io/styleguide/htmlcssguide.html) para asegurar la consistencia en la estructura y la presentaciÃ³n de los archivos HTML y CSS.
+- - Se utilizará la Google HTML/CSS Style Guide (https://google.github.io/styleguide/htmlcssguide.html) para asegurar la consistencia en la estructura y la presentación de los archivos HTML y CSS.
 - - Para JavaScript, adoptamos la Airbnb JavaScript Style Guide (https://google.github.io/styleguide/htmlcssguide.html), ampliamente conocida y utilizada en la industria.
 
 2. TypeScript:
 
-- - Angular es el framework elegido para el frontend de PARKINGNOW, por lo que seguimos la Angular Style Guide (https://v17.angular.io/guide/styleguide), que dicta cÃ³mo deben estructurarse los mÃ³dulos, servicios y componentes.
-- - TambiÃ©n seguimos la Google TypeScript Style Guide (https://google.github.io/styleguide/tsguide.html) para garantizar la correcta tipificaciÃ³n y legibilidad del cÃ³digo.
+- - Angular es el framework elegido para el frontend de PARKINGNOW, por lo que seguimos la Angular Style Guide (https://v17.angular.io/guide/styleguide), que dicta cómo deben estructurarse los módulos, servicios y componentes.
+- - También seguimos la Google TypeScript Style Guide (https://google.github.io/styleguide/tsguide.html) para garantizar la correcta tipificación y legibilidad del código.
 
 3. Java:
 
-- - En el backend, utilizamos Spring Boot para crear APIs y servicios web. Seguimos la Google Java Style Guide (https://google.github.io/styleguide/javaguide.html) para mantener consistencia en la estructura de las clases y los mÃ©todos.
-- - Los nombres de clases serÃ¡n descriptivos, utilizando sustantivos para clases y verbos para mÃ©todos.
+- - En el backend, utilizamos Spring Boot para crear APIs y servicios web. Seguimos la Google Java Style Guide (https://google.github.io/styleguide/javaguide.html) para mantener consistencia en la estructura de las clases y los métodos.
+- - Los nombres de clases serán descriptivos, utilizando sustantivos para clases y verbos para métodos.
 
 **Ejemplo de una clase Java**
 
@@ -160,7 +160,7 @@ public class HomeOwner {
 ```
 
 4. **Gherkin**
-- - Para escribir los tests automatizados, seguimos la convenciÃ³n de Gherkin Syntax. (https://cucumber.io/docs/gherkin/) Esto permite una descripciÃ³n clara y precisa de los escenarios de prueba en los archivos .feature.
+- - Para escribir los tests automatizados, seguimos la convención de Gherkin Syntax. (https://cucumber.io/docs/gherkin/) Esto permite una descripción clara y precisa de los escenarios de prueba en los archivos .feature.
 - - Utilizamos Given-When-Then para describir el comportamiento esperado en cada escenario.
 
 **Ejemplo de Gherkin**
@@ -169,8 +169,8 @@ public class HomeOwner {
 Feature: Registro de dispositivo 
 
   Scenario: Registro exitosa
-    Given el usuario ha iniciado sesiÃ³n
-    When selecciona la opciÃ³n de dispositivos
+    Given el usuario ha iniciado sesión
+    When selecciona la opción de dispositivos
     Then el usuario debe configurar el dispositivo a registrar
     Then el sistema debe confirmar el registro
     
@@ -178,7 +178,7 @@ Feature: Registro de dispositivo
 
 **Espacios y Comillas**
 
-- **Espacios:** Siempre se debe colocar un espacio alrededor de los operadores y entre los parÃ¡metros en las funciones.
+- **Espacios:** Siempre se debe colocar un espacio alrededor de los operadores y entre los parámetros en las funciones.
 
 **Ejemplo:**
 
@@ -191,50 +191,87 @@ let availableSpace = totalDevices - devicesRegistered;
 ```
 - **Commillas:** En **JavaScript** y **TypeScript**, se utilizan comillas simples ```(')``` para cadenas, mientras que en **HTML** se prefieren las comillas dobles ```(")```.
 
-**Limite de Longitud de LÃ­nea**
+**Limite de Longitud de Línea**
 
-El cÃ³digo no debe exceder las 80 columnas por lÃ­neas. En caso de necesitar mÃ¡s espacios, se recomienda dividir la lÃ­nea de cÃ³digo para mejorar la legibilidad.
+El código no debe exceder las 80 columnas por líneas. En caso de necesitar más espacios, se recomienda dividir la línea de código para mejorar la legibilidad.
 ### 5.1.4. Software Deployment Configuration
-- En esta secciÃ³n se detalla la configuraciÃ³n necesaria para el despliegue de la soluciÃ³n ENERGIX, incluyendo los pasos claves para lograr la publicaciÃ³n satisfactoria de la Landing Page, Servicios Web y Aplicaciones Web Frontend utilizando Netlify para visualizar cada commit del Landing Page.
+- En esta sección se detalla la configuración necesaria para el despliegue de la solución ENERGIX, incluyendo los pasos claves para lograr la publicación satisfactoria de la Landing Page, Servicios Web y Aplicaciones Web Frontend utilizando Netlify para visualizar cada commit del Landing Page.
 
-- A continuaciÃ³n, se describen los pasos para realizar el despliegue de la Landing Page del proyecto ENERGIX.- 1- **ActualizaciÃ³n de Ramas**: AsegÃºrate de que todas las ramas del repositorio estÃ©n actualizadas. Luego, ingresa a Github y dirÃ­gete al repositorio del proyecto ENERGIX.
-1. **ActualizaciÃ³n de Ramas**: AsegÃºrate de que todas las ramas del repositorio estÃ©n actualizadas. Luego, ingresa a Netlify y dirÃ­gete al repositorio del proyecto ENERGIX.
-2. **Acceso a las configuraciones**: Una vez dentro de Netifly, haz click en la pestaÃ±a Get Started en el centro de la pantalla, te loqueas con Git Hub, buscas la organizaciÃ³n y el repositorio de tu landign page y la selecciones.
-3. **SelecciÃ³n de la ConfiguraciÃ³n**: Selecciona la configuraciÃ³n y carga los archivos del repositorio. Esta opciÃ³n permite generar el link de la landing page, con el nombre Energix.
-4. **Acceso a la pÃ¡gina**: Finalmente, podrÃ¡s acceder a la Landing Page desde el enlace que se generÃ³ al finalizar el deploy. AquÃ­ estÃ¡ el enlace para el proyecto ENERGIX: https://energixlp.netlify.app
+- A continuación, se describen los pasos para realizar el despliegue de la Landing Page del proyecto ENERGIX.- 1- **Actualización de Ramas**: Asegúrate de que todas las ramas del repositorio estén actualizadas. Luego, ingresa a Github y dirígete al repositorio del proyecto ENERGIX.
+1. **Actualización de Ramas**: Asegúrate de que todas las ramas del repositorio estén actualizadas. Luego, ingresa a Netlify y dirígete al repositorio del proyecto ENERGIX.
+2. **Acceso a las configuraciones**: Una vez dentro de Netifly, haz click en la pestaña Get Started en el centro de la pantalla, te loqueas con Git Hub, buscas la organización y el repositorio de tu landign page y la selecciones.
+3. **Selección de la Configuración**: Selecciona la configuración y carga los archivos del repositorio. Esta opción permite generar el link de la landing page, con el nombre Energix.
+4. **Acceso a la página**: Finalmente, podrás acceder a la Landing Page desde el enlace que se generó al finalizar el deploy. Aquí está el enlace para el proyecto ENERGIX: https://energixlp.netlify.app
 
 ### 5.2.1. Sprint 1
 
 #### 5.2.1.1. Sprint Planning 1
 
 Para este primer sprint nos enfocaremos en los tasks para la
-elaboraciÃ³n de la Landing Page. Nos dividiremos entre nosotros cada
+elaboración de la Landing Page. Nos dividiremos entre nosotros cada
 una de las tareas identificadas para el sprint.
 
-| Sprint 1 | Sprint 1 |
-| :--- | :--- |
-| **Sprint Planning Background** | |
-| **Date** | 2025-09-15 |
-| **Time** | 4:30 PM |
-| **Location** | Via Discord |
-| **Prepared By** | Iker Gabriel Barturen Panez |
-| **Attendees (to planning meeting)** | Alexis Encalada Salazar, Yeira Shari Huaman Olivos, AndrÃ©s Rodrigo Torres Lavandera, Iker Gabriel Barturen Panez, Mateo Italo Loechle Arias |
-| **Sprint 1 Review Summary** | En esta primera secciÃ³n se planteo el desarrollo de la Landing Page y planeaciÃ³n de aplicaciÃ³n para el proyecto de Energix. |
-| **Sprint 1 Retrospective Summary** | En esta secciÃ³n todos los integrantes mencionaron tener aciertos en partes del codigo y en otras partes poder mejorar sus habilidades realizando la Landing Page |
-| **Sprint Goal & User Stories** | |
-| **Sprint 1 Goal** | Desarrollar y desplegar una landing page que presente informaciÃ³n a los usuarios a travÃ©s de imÃ¡genes y texto. La pÃ¡gina debe ser completamente adaptable a cualquier tipo de dispositivo que utilicen los usuarios, garantizando una experiencia de usuario fluida y responsiva. |
-| **Sprint 1 Velocity** | 5 story points |
-| **Sum of Story Points** | 5 Story Points |
+<table>
+<tr>
+    <th colspan="5">Sprint 1</th>
+    <th colspan="9">Sprint 1</th>
+  </tr>
+      <tr>
+    <td colspan="13">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8">2025-09-15</td>
+</tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8">4:30 PM</td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">Via Discord</td>
+<tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8">Iker Gabriel Barturen Panez</td>
+</tr>
+<tr>
+    <td colspan="5">Attendees (to planning meeting)</td>
+    <td colspan="8">Alexis Encalada Salazar, Yeira Shari Huaman Olivos, Andrés Rodrigo Torres Lavandera, Iker Gabriel Barturen Panez, Mateo Italo Loechle Arias</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint  1 Review Summary</td>
+    <td colspan="8">En esta primera sección se planteo el desarrollo de la Landing Page y planeación de aplicación para el proyecto de Energix.</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 1 Retrospective Summary</td>
+    <td colspan="8">En esta sección todos los integrantes mencionaron tener aciertos en partes del codigo y en otras partes poder mejorar sus habilidades realizando la Landing Page</td>
+</tr>
+<tr>
+    <td colspan="13">Sprint Goal & User Stories</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 1 Goal</td>
+    <td colspan="8">Desarrollar y desplegar una landing page que presente información a los usuarios a través de imágenes y texto. La página debe ser completamente adaptable a cualquier tipo de dispositivo que utilicen los usuarios, garantizando una experiencia de usuario fluida y responsiva.</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 1 Velocity</td>
+    <td colspan="8">5 story points</td>
+</tr>
+<tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8">5 Story Points</td>
+</tr>
+</table>
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
-Con la finalidad de mejorar la colaboraciÃ³n en equipo a cada integrante se asignÃ³ un rol de lÃ­der por cada aspecto. Los aspectos estÃ¡n relacionados con los entregables.
+Con la finalidad de mejorar la colaboración en equipo a cada integrante se asignó un rol de líder por cada aspecto. Los aspectos están relacionados con los entregables.
 
-| Team member (LastName, First Name) | GitHub UserName       | Aspect 1: Landing Page Leader (L) / Collaborator (C) | Aspect 2: DiseÃ±os Figma: Leader (L) / Collaborator (C) | Aspect 3: Reporte (L) / Collaborator (C) |
+| Team member (LastName, First Name) | GitHub UserName       | Aspect 1: Landing Page Leader (L) / Collaborator (C) | Aspect 2: Diseños Figma: Leader (L) / Collaborator (C) | Aspect 3: Reporte (L) / Collaborator (C) |
 |------------------------------------|-----------------------|------------------------------------------------------|--------------------------------------------------------|------------------------------------------|
 | Alexis Encalada                    | Alexiz248             | C                                                    | C                                                      | L                                        |
 | Yeira Sharia                       | YeiShari              | L                                                    | L                                                      | L                                        |
-| AndrÃ©s Torres                      | AndresTorres202312557 | C                                                    | L                                                      | L                                        |
+| Andrés Torres                      | AndresTorres202312557 | C                                                    | L                                                      | L                                        |
 | Iker Barturen                      | krxxg04               | L                                                    | L                                                      | L                                        |
 | Mateo Loechle                      | LowMathzzz            | C                                                    | C                                                      | L                                        |
 | Jafeth Ynga                        | Jafeth-MV             | C                                                    | C                                                      | C                                        |
@@ -274,8 +311,8 @@ Con la finalidad de mejorar la colaboraciÃ³n en equipo a cada integrante se as
     <td></td>
     <td colspan="2"></td>
     <td>UT02</td>
-    <td colspan="2">DiseÃ±ar secciÃ³n de propuesta de valor</td>
-    <td colspan="3">Implementar la secciÃ³n en la landing page con diseÃ±o atractivo y responsivo.</td>
+    <td colspan="2">Diseñar sección de propuesta de valor</td>
+    <td colspan="3">Implementar la sección en la landing page con diseño atractivo y responsivo.</td>
     <td>2h</td>
     <td colspan="2">Iker Barturen</td>
     <td>Done</td>
@@ -294,38 +331,38 @@ Con la finalidad de mejorar la colaboraciÃ³n en equipo a cada integrante se as
     <td></td>
     <td colspan="2"></td>
     <td>UT04</td>
-    <td colspan="2">Implementar secciÃ³n FAQ</td>
-    <td colspan="3">Desarrollar componente visual (acordeÃ³n/collapsible) para mostrar las preguntas frecuentes.</td>
+    <td colspan="2">Implementar sección FAQ</td>
+    <td colspan="3">Desarrollar componente visual (acordeón/collapsible) para mostrar las preguntas frecuentes.</td>
     <td>2h</td>
     <td colspan="2">Yeira Huaman</td>
     <td>Done</td>
   </tr>
   <tr>
     <td>US33</td>
-    <td colspan="2">Revisar planes de suscripciÃ³n</td>
+    <td colspan="2">Revisar planes de suscripción</td>
     <td>UT05</td>
-    <td colspan="2">Redactar informaciÃ³n de planes</td>
+    <td colspan="2">Redactar información de planes</td>
     <td colspan="3">Crear contenido sobre los distintos planes, precios y beneficios.</td>
     <td>3h</td>
-    <td colspan="2">AndrÃ©s Torres</td>
+    <td colspan="2">Andrés Torres</td>
     <td>Done</td>
   </tr>
   <tr>
     <td></td>
     <td colspan="2"></td>
     <td>UT06</td>
-    <td colspan="2">Implementar secciÃ³n de comparaciÃ³n de planes</td>
-    <td colspan="3">DiseÃ±ar tabla o cards para comparar los planes en la landing page.</td>
+    <td colspan="2">Implementar sección de comparación de planes</td>
+    <td colspan="3">Diseñar tabla o cards para comparar los planes en la landing page.</td>
     <td>3h</td>
-    <td colspan="2">AndrÃ©s Torres</td>
+    <td colspan="2">Andrés Torres</td>
     <td>Done</td>
   </tr>
   <tr>
     <td>US34</td>
-    <td colspan="2">Consultar informaciÃ³n del equipo</td>
+    <td colspan="2">Consultar información del equipo</td>
     <td>UT07</td>
-    <td colspan="2">Redactar informaciÃ³n del equipo</td>
-    <td colspan="3">Crear contenido sobre la misiÃ³n, visiÃ³n y miembros del equipo.</td>
+    <td colspan="2">Redactar información del equipo</td>
+    <td colspan="3">Crear contenido sobre la misión, visión y miembros del equipo.</td>
     <td>2h</td>
     <td colspan="2">Alexis Encalada</td>
     <td>Done</td>
@@ -334,8 +371,8 @@ Con la finalidad de mejorar la colaboraciÃ³n en equipo a cada integrante se as
     <td></td>
     <td colspan="2"></td>
     <td>UT08</td>
-    <td colspan="2">Implementar secciÃ³n del equipo</td>
-    <td colspan="3">DiseÃ±ar e integrar la secciÃ³n del equipo en la landing page.</td>
+    <td colspan="2">Implementar sección del equipo</td>
+    <td colspan="3">Diseñar e integrar la sección del equipo en la landing page.</td>
     <td>2h</td>
     <td colspan="2">Alexis Encalada</td>
     <td>Done</td>
@@ -345,7 +382,7 @@ Con la finalidad de mejorar la colaboraciÃ³n en equipo a cada integrante se as
     <td colspan="2">Cambiar idioma</td>
     <td>UT09</td>
     <td colspan="2">Implementar selector de idioma</td>
-    <td colspan="3">Desarrollar funcionalidad para cambiar entre espaÃ±ol e inglÃ©s en la landing page.</td>
+    <td colspan="3">Desarrollar funcionalidad para cambiar entre español e inglés en la landing page.</td>
     <td>4h</td>
     <td colspan="2">Mateo Italo</td>
     <td>Done</td>
@@ -354,8 +391,8 @@ Con la finalidad de mejorar la colaboraciÃ³n en equipo a cada integrante se as
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
-En esta secciÃ³n se demuestran los commits relacionados con los principales avances en la implementaciÃ³n.
-Estos commits provienen del repositorio del Landing Page de la organizaciÃ³n de GitHub.
+En esta sección se demuestran los commits relacionados con los principales avances en la implementación.
+Estos commits provienen del repositorio del Landing Page de la organización de GitHub.
 
 Enlace al repositorio de la Landing Page: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page# 
 
@@ -374,7 +411,7 @@ Enlace al repositorio de la Landing Page: https://github.com/Upc-pre-1ASI0729-25
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-Durante el desarrollo del sprint se lograron completar todos los puntos planteados. A continuaciÃ³n se muestran evidencias del landing page logrado.
+Durante el desarrollo del sprint se lograron completar todos los puntos planteados. A continuación se muestran evidencias del landing page logrado.
 
 ![Barra-de-Navegacion.png](../chapter-04/assets/Barra-de-Navegacion.png)
 ![Inicio.png](../chapter-04/assets/Inicio.png)
@@ -389,129 +426,190 @@ Durante el desarrollo del sprint se lograron completar todos los puntos plantead
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-Como se mencionÃ³ previamente, Este sprint solo tuvo como objetivo el desarrollo de Landing Page. AÃºn no se han implementado ni documentado Endpoints con OpenAPI, ya que el desarrollo de los servicios web estÃ¡ planificado para los siguientes Sprints, conforme al roadmap del proyecto.
+Como se mencionó previamente, Este sprint solo tuvo como objetivo el desarrollo de Landing Page. Aún no se han implementado ni documentado Endpoints con OpenAPI, ya que el desarrollo de los servicios web está planificado para los siguientes Sprints, conforme al roadmap del proyecto.
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-Durante este Sprint, se completÃ³ el desarrollo de la Landing Page y se realizÃ³ su despliegue utilizando GitHub Pages como plataforma de publicaciÃ³n gratuita. El objetivo fue contar con una primera versiÃ³n accesible en lÃ­nea del producto digital para revisiÃ³n y retroalimentaciÃ³n.
+Durante este Sprint, se completó el desarrollo de la Landing Page y se realizó su despliegue utilizando GitHub Pages como plataforma de publicación gratuita. El objetivo fue contar con una primera versión accesible en línea del producto digital para revisión y retroalimentación.
 
-Actividades realizadas: Se creÃ³ el repositorio en GitHub: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page#
+Actividades realizadas: Se creó el repositorio en GitHub: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page#
 
-Se subiÃ³ el cÃ³digo fuente de la Landing Page, incluyendo los archivos HTML, CSS necesarios.
+Se subió el código fuente de la Landing Page, incluyendo los archivos HTML, CSS necesarios.
 
-Se configurÃ³ GitHub Pages desde la pestaÃ±a Settings > Pages, seleccionando la rama principal y la carpeta raÃ­z.
+Se configuró GitHub Pages desde la pestaña Settings > Pages, seleccionando la rama principal y la carpeta raíz.
 
-Se verificÃ³ la correcta publicaciÃ³n de la Landing Page en la siguiente URL: https://energixlp.netlify.app
+Se verificó la correcta publicación de la Landing Page en la siguiente URL: https://energixlp.netlify.app
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
-En esta secciÃ³n se evidencia la colaboraciÃ³n de cada integrante en el repositorio de la Landing Page.
+En esta sección se evidencia la colaboración de cada integrante en el repositorio de la Landing Page.
 
 Repositorio de Landing Page: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page#
 
 | **Integrante**                       | **Actividad**                                                                                          |  
 |--------------------------------------|--------------------------------------------------------------------------------------------------------|
-| **Huaman Olivos, Yeira Shari**       | ImplementaciÃ³n de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
-| **Loechle Arias, Mateo Ãtalo**       | ImplementaciÃ³n de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
-| **Barturen Panez, Iker Gabriel**     | ImplementaciÃ³n de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
-| **Encalada Salazar, Alexis**         | ImplementaciÃ³n de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
-| **Torres Lavandera, AndrÃ©s Rodrigo** | ImplementaciÃ³n de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
-| **Ynga Amado, Jafeth Worren**        | ImplementaciÃ³n de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Huaman Olivos, Yeira Shari**       | Implementación de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Loechle Arias, Mateo Ítalo**       | Implementación de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Barturen Panez, Iker Gabriel**     | Implementación de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Encalada Salazar, Alexis**         | Implementación de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Torres Lavandera, Andrés Rodrigo** | Implementación de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Ynga Amado, Jafeth Worren**        | Implementación de secciones de la **landing page** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
 
 ![NetLP.png](assets/NetLP.png) 
 ### 5.2.2. Sprint 2
 
 #### 5.2.2.1. Sprint Planning 2
 
-Durante el Sprint 2 se estableciÃ³ el desarrollo de la aplicaciÃ³n web de la plataforma Energix, enfocÃ¡ndose en la implementaciÃ³n de las principales vistas y funcionalidades orientadas a los perfiles propietarios de viviendas y universitarios que alquilan. El trabajo incluyÃ³ la integraciÃ³n de la interfaz con la base de datos, la gestiÃ³n dinÃ¡mica de la informaciÃ³n de usuario y la mejora de la experiencia visual y de navegaciÃ³n. Asimismo, se priorizÃ³ la internacionalizaciÃ³n (i18n) y la coherencia del diseÃ±o, consolidando una versiÃ³n funcional y estable del sistema.
+Durante el Sprint 2 se estableció el desarrollo de la aplicación web de la plataforma Energix, enfocándose en la implementación de las principales vistas y funcionalidades orientadas a los perfiles propietarios de viviendas y universitarios que alquilan. El trabajo incluyó la integración de la interfaz con la base de datos, la gestión dinámica de la información de usuario y la mejora de la experiencia visual y de navegación. Asimismo, se priorizó la internacionalización (i18n) y la coherencia del diseño, consolidando una versión funcional y estable del sistema.
 
-| Sprint 2 | Sprint 2 |
-| :--- | :--- |
-| **Sprint Planning Background** | |
-| **Date** | 2025-09-29 |
-| **Time** | 6:30 PM |
-| **Location** | Via Discord |
-| **Prepared By** | Iker Gabriel Barturen Panez |
-| **Attendees (to a planning meeting)** | Alexis Encalada Salazar, Yeira Shari Huaman Olivos, Andrés Rodrigo Torres Lavandera, Iker Gabriel Barturen Panez, Mateo Italo Loechle Arias |
-| **Sprint Goal & User Stories** | |
-| **Sprint 2 Goal** | Implementar y estabilizar la arquitectura fundamental de la aplicación web Energix, entregando la capa de presentación funcionalmente integrada a la base de datos para las vistas centrales y la gestión de datos de los perfiles de usuario (propietarios de viviendas y universitarios que alquilan), con soporte inicial para internacionalización (i18n). |
-| **Sprint 2 Velocity** | 10 |
-| **Sum of Story Points** | 89 |
+<table>
+<tr>
+    <th colspan="5">Sprint 2</th>
+    <th colspan="9">Sprint 2</th>
+  </tr>
+      <tr>
+    <td colspan="13">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8">2025-09-29</td>
+</tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8">6:30 PM</td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">Via Discord</td>
+<tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8">Iker Gabriel Barturen Panez</td>
+</tr>
+<tr>
+    <td colspan="5">Attendees (to a planning meeting)</td>
+    <td colspan="8">Alexis Encalada Salazar, Yeira Shari Huaman Olivos, Andrés Rodrigo Torres Lavandera, Iker Gabriel Barturen Panez, Mateo Italo Loechle Arias</td>
+</tr>
+
+<tr>
+    <td colspan="13">Sprint Goal & User Stories</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 2 Goal</td>
+    <td colspan="8">Implementar y estabilizar la arquitectura fundamental de la aplicación web Energix, entregando la capa de presentación funcionalmente integrada a la base de datos para las vistas centrales y la gestión de datos de los perfiles de usuario (propietarios de viviendas y universitarios que alquilan), con soporte inicial para internacionalización (i18n).</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 2 Velocity</td>
+    <td colspan="8">10</td>
+</tr>
+<tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8">89</td>
+</tr>
+</table>
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
-Con la finalidad de mejorar la colaboraciÃ³n en equipo a cada integrante se asignÃ³ un rol de lÃ­der por cada aspecto. Los aspectos estÃ¡n relacionados con los entregables.
+Con la finalidad de mejorar la colaboración en equipo a cada integrante se asignó un rol de líder por cada aspecto. Los aspectos están relacionados con los entregables.
 
 | Team member (LastName, First Name) | GitHub UserName       | Aspect 1: Dashboard & Devices View | Aspect 2: Profile View and UI Design | Aspect 3: Reports View | Aspect 4: Notifications View | Aspect 5: Settings View |
 |------------------------------------|-----------------------|------------------------------------|--------------------------------------------------------------------|------------------------|------------------------------|-------------------------|
 | Alexis Encalada                    | Alexiz248             | C                                  | C                                                                  | C                      | C                            | L                       |
 | Yeira Sharia                       | YeiShari              | C                                  | L                                                                  | C                      | C                            | C                       |
-| AndrÃ©s Torres                      | AndresTorres202312557 | C                                  | C                                                                  | L                      | C                            | C                       |
+| Andrés Torres                      | AndresTorres202312557 | C                                  | C                                                                  | L                      | C                            | C                       |
 | Iker Barturen                      | krxxg04               | L                                  | C                                                                  | C                      | C                            | C                       |
 | Mateo Loechle                      | LowMathzzz            | C                                  | C                                                                  | C                      | L                            | C                       |
 | Jafeth Ynga                        | Jafeth-MV             | C                                  | C                                                                  | C                      | C                            | C                       |
 
 #### 5.2.2.3. Sprint Backlog 2
-| Sprint 2 – Work Items / Tasks (Aplicación Web Energix) | | | | | | |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **User Story ID** | **Task ID** | **Title** | **Description** | **Estimation** | **Assigned To** | **Status** |
-| **EP01 – Autenticación y Perfil de Usuario** | | | | | | |
-| US01 | UT01 | Diseñar formulario de registro | Diseñar el formulario con campos de correo, contraseña y validación. | 3h | Yeira Huamán | Done |
-| | UT02 | Implementar backend de registro | Crear endpoint de registro y validaciones de correo duplicado. | 4h | Mateo Loechle | Done |
-| US02 | UT03 | Implementar inicio de sesión | Crear pantalla de login y autenticación JWT. | 3h | Iker Barturen | Done |
-| | UT04 | Manejo de errores en login | Mostrar mensajes por credenciales inválidas o usuario inexistente. | 2h | Yeira Huamán | Done |
-| US03 | UT05 | Configurar perfil inicial | Crear formulario de configuración inicial (tipo de vivienda, dispositivos). | 3h | Andrés Torres | Done |
-| | UT06 | Validar configuración | Verificar información incompleta en perfil inicial. | 2h | Alexis Encalada | Done |
-| US04 | UT07 | Flujo de recuperación de contraseña | Crear formulario para restablecer contraseña y envío de correo. | 3h | Yeira Huamán | Done |
-| | UT08 | Actualizar contraseña desde enlace | Implementar vista para establecer nueva contraseña. | 2h | Mateo Loechle | Done |
-| US05 | UT09 | Implementar cierre de sesión | Desarrollar logout seguro y cierre automático por inactividad. | 3h | Iker Barturen | Done |
-| **EP02 – Conexión y Monitoreo de Dispositivos** | | | | | | |
-| US06 | UT10 | Vincular dispositivos | Crear flujo para conectar dispositivos compatibles con la plataforma. | 4h | Alexis Encalada | Done |
-| | UT11 | Validar compatibilidad | Mostrar error si el dispositivo no es compatible. | 2h | Mateo Loechle | Done |
-| US07 | UT12 | Identificación automática | Implementar reconocimiento automático de dispositivos conectados. | 3h | Yeira Huamán | Done |
-| | UT13 | Definición manual | Permitir al usuario definir dispositivo si no se identifica. | 2h | Alexis Encalada | Done |
-| US08 | UT14 | Monitoreo en tiempo real | Mostrar consumo en tiempo real de dispositivos conectados. | 4h | Iker Barturen | Done |
-| | UT15 | Manejo de desconexiones | Notificar al usuario cuando un dispositivo se desconecta. | 2h | Yeira Huamán | Done |
-| **EP03 – Alertas y Recordatorios de Consumo** | | | | | | |
-| US09 | UT16 | Alertas de consumo elevado | Configurar sistema de alertas automáticas por exceso de consumo. | 3h | Mateo Loechle | Done |
-| | UT17 | Registrar alertas | Guardar las alertas generadas con fecha y hora. | 2h | Andrés Torres | Done |
-| US10 | UT18 | Recordatorios por inactividad | Enviar notificaciones para desconectar dispositivos en reposo. | 3h | Alexis Encalada | Done |
-| | UT19 | Configuración de recordatorios | Permitir ajustar frecuencia de avisos. | 2h | Yeira Huamán | Done |
-| US11 | UT20 | Configurar umbrales personalizados | Definir límites de consumo por usuario y restablecimiento a valores predeterminados. | 4h | Iker Barturen | Done |
-| **EP04 – Reportes y Facturación** | | | | | | |
-| US12 | UT21 | Reporte semanal | Generar reporte semanal del consumo energético en PDF. | 4h | Mateo Loechle | Done |
-| US13 | UT22 | Comparación entre periodos | Permitir comparar consumo entre semanas o meses con gráficos. | 3h | Yeira Huamán | Done |
-| US14 | UT23 | Proyección de factura | Estimar factura mensual según consumo actual. | 3h | Andrés Torres | Done |
-| US15 | UT24 | Historial de consumo mensual | Mostrar historial mensual de consumo y descarga en PDF. | 3h | Alexis Encalada | Done |
-| **EP05 – Metas y Ahorro Energético** | | | | | | |
-| US16 | UT25 | Recomendaciones personalizadas | Mostrar consejos adaptados al patrón de consumo del usuario. | 3h | Yeira Huamán | Done |
-| US17 | UT26 | Metas de ahorro | Configurar metas mensuales y seguimiento de progreso. | 4h | Iker Barturen | Done |
-| US18 | UT27 | Comparar consumo con otros usuarios | Mostrar comparación con hogares similares y ranking de eficiencia. | 3h | Mateo Loechle | Done |
-| US19 | UT28 | Programar encendido automático | Permitir programación de horarios de encendido de dispositivos. | 3h | Alexis Encalada | Done |
-| US20 | UT29 | Programar apagado automático | Implementar apagado programado para reducir consumo innecesario. | 3h | Andrés Torres | Done |
-| **EP06 – Soporte y Asesoría** | | | | | | |
-| US21 | UT30 | Solicitar asesoría | Permitir al usuario agendar sesiones con especialistas. | 3h | Yeira Huamán | Done |
-| US22 | UT31 | Centro de ayuda | Implementar sección con guías y artículos de ayuda. | 3h | Mateo Loechle | Done |
-| US23 | UT32 | Contactar soporte | Crear formulario de contacto y recepción de respuestas. | 3h | Iker Barturen | Done |
-| **EP07 – Gestión de Categorías de Dispositivos** | | | | | | |
-| US24 | UT33 | Agrupar dispositivos | Permitir al usuario crear categorías personalizadas de dispositivos. | 3h | Alexis Encalada | Done |
-| US25 | UT34 | Consumo por categoría | Mostrar consumo agrupado y comparativo por categoría. | 4h | Yeira Huamán | Done |
-| US26 | UT35 | Dispositivos de alto consumo | Identificar y alertar sobre los dispositivos con mayor gasto energético. | 3h | Andrés Torres | Done |
-| **EP08 – Multiusuario y Roles** | | | | | | |
-| US27 | UT36 | Administrar múltiples cuentas | Permitir agregar miembros al hogar y compartir gestión. | 3h | Mateo Loechle | Done |
-| US28 | UT37 | Definir roles de acceso | Implementar control de permisos (administrador/invitado). | 3h | Iker Barturen | Done |
-| **EP09 – Noticias e Internacionalización** | | | | | | |
-| US29 | UT38 | Cambiar idioma de la aplicación | Implementar selector de idioma con persistencia de preferencia. | 3h | Yeira Huamán | Done |
-| US30 | UT39 | Noticias y consejos | Agregar sección de noticias con artículos y recomendaciones. | 4h | Alexis Encalada | Done |
+<table>
+  <tr>
+    <th colspan="7">Sprint 2 – Work Items / Tasks (Aplicación Web Energix)</th>
+  </tr>
+  <tr>
+    <th>User Story ID</th>
+    <th>Task ID</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation</th>
+    <th>Assigned To</th>
+    <th>Status</th>
+  </tr>
+
+  <!-- EP01 -->
+  <tr><td colspan="7"><b>EP01 – Autenticación y Perfil de Usuario</b></td></tr>
+  <tr><td>US01</td><td>UT01</td><td>Diseñar formulario de registro</td><td>Diseñar el formulario con campos de correo, contraseña y validación.</td><td>3h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td></td><td>UT02</td><td>Implementar backend de registro</td><td>Crear endpoint de registro y validaciones de correo duplicado.</td><td>4h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US02</td><td>UT03</td><td>Implementar inicio de sesión</td><td>Crear pantalla de login y autenticación JWT.</td><td>3h</td><td>Iker Barturen</td><td>Done</td></tr>
+  <tr><td></td><td>UT04</td><td>Manejo de errores en login</td><td>Mostrar mensajes por credenciales inválidas o usuario inexistente.</td><td>2h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td>US03</td><td>UT05</td><td>Configurar perfil inicial</td><td>Crear formulario de configuración inicial (tipo de vivienda, dispositivos).</td><td>3h</td><td>Andrés Torres</td><td>Done</td></tr>
+  <tr><td></td><td>UT06</td><td>Validar configuración</td><td>Verificar información incompleta en perfil inicial.</td><td>2h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td>US04</td><td>UT07</td><td>Flujo de recuperación de contraseña</td><td>Crear formulario para restablecer contraseña y envío de correo.</td><td>3h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td></td><td>UT08</td><td>Actualizar contraseña desde enlace</td><td>Implementar vista para establecer nueva contraseña.</td><td>2h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US05</td><td>UT09</td><td>Implementar cierre de sesión</td><td>Desarrollar logout seguro y cierre automático por inactividad.</td><td>3h</td><td>Iker Barturen</td><td>Done</td></tr>
+
+  <!-- EP02 -->
+  <tr><td colspan="7"><b>EP02 – Conexión y Monitoreo de Dispositivos</b></td></tr>
+  <tr><td>US06</td><td>UT10</td><td>Vincular dispositivos</td><td>Crear flujo para conectar dispositivos compatibles con la plataforma.</td><td>4h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td></td><td>UT11</td><td>Validar compatibilidad</td><td>Mostrar error si el dispositivo no es compatible.</td><td>2h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US07</td><td>UT12</td><td>Identificación automática</td><td>Implementar reconocimiento automático de dispositivos conectados.</td><td>3h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td></td><td>UT13</td><td>Definición manual</td><td>Permitir al usuario definir dispositivo si no se identifica.</td><td>2h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td>US08</td><td>UT14</td><td>Monitoreo en tiempo real</td><td>Mostrar consumo en tiempo real de dispositivos conectados.</td><td>4h</td><td>Iker Barturen</td><td>Done</td></tr>
+  <tr><td></td><td>UT15</td><td>Manejo de desconexiones</td><td>Notificar al usuario cuando un dispositivo se desconecta.</td><td>2h</td><td>Yeira Huamán</td><td>Done</td></tr>
+
+  <!-- EP03 -->
+  <tr><td colspan="7"><b>EP03 – Alertas y Recordatorios de Consumo</b></td></tr>
+  <tr><td>US09</td><td>UT16</td><td>Alertas de consumo elevado</td><td>Configurar sistema de alertas automáticas por exceso de consumo.</td><td>3h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td></td><td>UT17</td><td>Registrar alertas</td><td>Guardar las alertas generadas con fecha y hora.</td><td>2h</td><td>Andrés Torres</td><td>Done</td></tr>
+  <tr><td>US10</td><td>UT18</td><td>Recordatorios por inactividad</td><td>Enviar notificaciones para desconectar dispositivos en reposo.</td><td>3h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td></td><td>UT19</td><td>Configuración de recordatorios</td><td>Permitir ajustar frecuencia de avisos.</td><td>2h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td>US11</td><td>UT20</td><td>Configurar umbrales personalizados</td><td>Definir límites de consumo por usuario y restablecimiento a valores predeterminados.</td><td>4h</td><td>Iker Barturen</td><td>Done</td></tr>
+
+  <!-- EP04 -->
+  <tr><td colspan="7"><b>EP04 – Reportes y Facturación</b></td></tr>
+  <tr><td>US12</td><td>UT21</td><td>Reporte semanal</td><td>Generar reporte semanal del consumo energético en PDF.</td><td>4h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US13</td><td>UT22</td><td>Comparación entre periodos</td><td>Permitir comparar consumo entre semanas o meses con gráficos.</td><td>3h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td>US14</td><td>UT23</td><td>Proyección de factura</td><td>Estimar factura mensual según consumo actual.</td><td>3h</td><td>Andrés Torres</td><td>Done</td></tr>
+  <tr><td>US15</td><td>UT24</td><td>Historial de consumo mensual</td><td>Mostrar historial mensual de consumo y descarga en PDF.</td><td>3h</td><td>Alexis Encalada</td><td>Done</td></tr>
+
+  <!-- EP05 -->
+  <tr><td colspan="7"><b>EP05 – Metas y Ahorro Energético</b></td></tr>
+  <tr><td>US16</td><td>UT25</td><td>Recomendaciones personalizadas</td><td>Mostrar consejos adaptados al patrón de consumo del usuario.</td><td>3h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td>US17</td><td>UT26</td><td>Metas de ahorro</td><td>Configurar metas mensuales y seguimiento de progreso.</td><td>4h</td><td>Iker Barturen</td><td>Done</td></tr>
+  <tr><td>US18</td><td>UT27</td><td>Comparar consumo con otros usuarios</td><td>Mostrar comparación con hogares similares y ranking de eficiencia.</td><td>3h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US19</td><td>UT28</td><td>Programar encendido automático</td><td>Permitir programación de horarios de encendido de dispositivos.</td><td>3h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td>US20</td><td>UT29</td><td>Programar apagado automático</td><td>Implementar apagado programado para reducir consumo innecesario.</td><td>3h</td><td>Andrés Torres</td><td>Done</td></tr>
+
+  <!-- EP06 -->
+  <tr><td colspan="7"><b>EP06 – Soporte y Asesoría</b></td></tr>
+  <tr><td>US21</td><td>UT30</td><td>Solicitar asesoría</td><td>Permitir al usuario agendar sesiones con especialistas.</td><td>3h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td>US22</td><td>UT31</td><td>Centro de ayuda</td><td>Implementar sección con guías y artículos de ayuda.</td><td>3h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US23</td><td>UT32</td><td>Contactar soporte</td><td>Crear formulario de contacto y recepción de respuestas.</td><td>3h</td><td>Iker Barturen</td><td>Done</td></tr>
+
+  <!-- EP07 -->
+  <tr><td colspan="7"><b>EP07 – Gestión de Categorías de Dispositivos</b></td></tr>
+  <tr><td>US24</td><td>UT33</td><td>Agrupar dispositivos</td><td>Permitir al usuario crear categorías personalizadas de dispositivos.</td><td>3h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td>US25</td><td>UT34</td><td>Consumo por categoría</td><td>Mostrar consumo agrupado y comparativo por categoría.</td><td>4h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td>US26</td><td>UT35</td><td>Dispositivos de alto consumo</td><td>Identificar y alertar sobre los dispositivos con mayor gasto energético.</td><td>3h</td><td>Andrés Torres</td><td>Done</td></tr>
+
+  <!-- EP08 -->
+  <tr><td colspan="7"><b>EP08 – Multiusuario y Roles</b></td></tr>
+  <tr><td>US27</td><td>UT36</td><td>Administrar múltiples cuentas</td><td>Permitir agregar miembros al hogar y compartir gestión.</td><td>3h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US28</td><td>UT37</td><td>Definir roles de acceso</td><td>Implementar control de permisos (administrador/invitado).</td><td>3h</td><td>Iker Barturen</td><td>Done</td></tr>
+
+  <!-- EP09 -->
+  <tr><td colspan="7"><b>EP09 – Noticias e Internacionalización</b></td></tr>
+  <tr><td>US29</td><td>UT38</td><td>Cambiar idioma de la aplicación</td><td>Implementar selector de idioma con persistencia de preferencia.</td><td>3h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td>US30</td><td>UT39</td><td>Noticias y consejos</td><td>Agregar sección de noticias con artículos y recomendaciones.</td><td>4h</td><td>Alexis Encalada</td><td>Done</td></tr>
+</table>
 
 
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
-En esta secciÃ³n se demuestran los commits relacionados con los principales avances en la implementaciÃ³n.
-Estos commits provienen del repositorio de la aplicaciÃ³n web de la organizaciÃ³n de GitHub.
+En esta sección se demuestran los commits relacionados con los principales avances en la implementación.
+Estos commits provienen del repositorio de la aplicación web de la organización de GitHub.
 
-Enlace al repositorio de la aplicaciÃ³n web: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
+Enlace al repositorio de la aplicación web: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
 
 | Repository                                        | Branch                      | Commit Id                                  | Commit Message                  | Commit Message Body | Commited on (Date) |
 |---------------------------------------------------|-----------------------------|--------------------------------------------|---------------------------------|---------------------|--------------------|
@@ -538,26 +636,26 @@ Enlace al repositorio de la aplicaciÃ³n web: https://github.com/Upc-pre-1ASI07
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
-Durante el desarrollo del sprint se lograron completar todos los puntos para la implementaciÃ³n de las funcionalidades esenciales para el sistema de gestiÃ³n Energix, estableciendo una base sÃ³lida para la administraciÃ³n de energÃ­a en los hogares. Las principales caracterÃ­sticas desarrolladas fueron:
+Durante el desarrollo del sprint se lograron completar todos los puntos para la implementación de las funcionalidades esenciales para el sistema de gestión Energix, estableciendo una base sólida para la administración de energía en los hogares. Las principales características desarrolladas fueron:
 
-1. Sistema de autenticaciÃ³n completo con diferentes campos para rellenar segÃºn el rol del usuario, si es dueÃ±o o estudiante.
+1. Sistema de autenticación completo con diferentes campos para rellenar según el rol del usuario, si es dueño o estudiante.
 
-2. PersonalizaciÃ³n de perfil, permitiendo al usaurio modificar a su preferencia su experiencia en la aplicaciÃ³n.    
+2. Personalización de perfil, permitiendo al usaurio modificar a su preferencia su experiencia en la aplicación.    
 
-3. VisualizaciÃ³n y descarga de reportes, con la posibilidad de filtrar por fecha y tipo de reporte y poder descargar los datos acumulados en diferentes formatos.
+3. Visualización y descarga de reportes, con la posibilidad de filtrar por fecha y tipo de reporte y poder descargar los datos acumulados en diferentes formatos.
 
-4. GestiÃ³n de dispositivos, facilitando el control entre los diferentes dispositivos registrados.
+4. Gestión de dispositivos, facilitando el control entre los diferentes dispositivos registrados.
 
-5. InternalizaciÃ³n (i18n) para soportar dos idiomas en la plataforma.
+5. Internalización (i18n) para soportar dos idiomas en la plataforma.
 
-6. Cierre se sesiÃ³n seguro, permitiendo al usuario salir de la aplicaciÃ³n de manera segura y facil, dandole la optortunidad al usaurio de inicar sesiÃ³n con las mismas credenciales.   
+6. Cierre se sesión seguro, permitiendo al usuario salir de la aplicación de manera segura y facil, dandole la optortunidad al usaurio de inicar sesión con las mismas credenciales.   
 
-7. Sistema de navegaciÃ³n robusto entre pÃ¡ginas con manejo de rutas protegidas y pÃ¡gina 4040 personalizada. 
+7. Sistema de navegación robusto entre páginas con manejo de rutas protegidas y página 4040 personalizada. 
 
 **Capturas de pantalla de las principales vistas**
 
 
-Login y AuntenticaciÃ³n
+Login y Auntenticación
 
 ![login.png](assets/login.png)
 
@@ -573,79 +671,79 @@ Reportes
 
 ![reports.png](assets/reports.png)
 
-ConfiguraciÃ³n
+Configuración
 
 ![configuration.png](assets/configuration.png)
 
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-IntroducciÃ³n
+Introducción
 
-Durante el sprint 2, hemos implementado una estrategia de despliegue completa para el sistema de Energix, abarcando tanto el frontend como los servicios de backend que soportan la aplicaciÃ³n. Nuestro enfoque principal ha sido crear una infraestuctura robusta y unificada que facilite tanto el desarrollo como la experiencia del usuario final.
+Durante el sprint 2, hemos implementado una estrategia de despliegue completa para el sistema de Energix, abarcando tanto el frontend como los servicios de backend que soportan la aplicación. Nuestro enfoque principal ha sido crear una infraestuctura robusta y unificada que facilite tanto el desarrollo como la experiencia del usuario final.
 
-**ImplementaciÃ³n de API centralizada en render**
+**Implementación de API centralizada en render**
 
-Decidimos migrar de una arquitectura distribuida con multiples enpoints a una soluciÃ³n mÃ¡s centralizada y mÃ¡s robusta utilizando Render. Esta desiciÃ³n nos permitiÃ³ superar las limitaciones al momento de llamar a la API y tener un mayor control sobre nuestra infraestructura.
+Decidimos migrar de una arquitectura distribuida con multiples enpoints a una solución más centralizada y más robusta utilizando Render. Esta desición nos permitió superar las limitaciones al momento de llamar a la API y tener un mayor control sobre nuestra infraestructura.
 
 La URL base para todos los recurso de nuestra API ahora es:
 
 https://sems-fake-api.onrender.com/
 
-Esta URL base sirve como punto de entrada principal para todos los recursos del sistema, simplificando considerablemente la configuraciÃ³n y mantenimiento de la aplicaciÃ³n.
+Esta URL base sirve como punto de entrada principal para todos los recursos del sistema, simplificando considerablemente la configuración y mantenimiento de la aplicación.
 
-**ConfiguraciÃ³n del servidor en Render**
+**Configuración del servidor en Render**
 
-El proceso de implementaciÃ³n en Render involucrÃ³ varias etapas para asegurar un despliegue exitoso. Comenzamos creando una nueva cuenta y proyecto en la plataforma, configurÃ¡ndolo especÃ­ficamente para trabajar con Node.js como entorno de ejecuciÃ³n.
+El proceso de implementación en Render involucró varias etapas para asegurar un despliegue exitoso. Comenzamos creando una nueva cuenta y proyecto en la plataforma, configurándolo específicamente para trabajar con Node.js como entorno de ejecución.
 
-Conectamos nuestro repositorio de GitHub para habilitar el despliegue automÃ¡tico, lo que nos permite mantener sincronizado el entorno de producciÃ³n con la rama principal del proyecto. Esto ha resultado en un flujo de trabajo mÃ¡s eficiente, donde cada merge a la rama principal actualiza automÃ¡ticamente nuestra API.
+Conectamos nuestro repositorio de GitHub para habilitar el despliegue automático, lo que nos permite mantener sincronizado el entorno de producción con la rama principal del proyecto. Esto ha resultado en un flujo de trabajo más eficiente, donde cada merge a la rama principal actualiza automáticamente nuestra API.
 
-| MÃ©todo HTTP | Endpoint               | DescripciÃ³n                                            | Ejemplo de uso                             |
+| Método HTTP | Endpoint               | Descripción                                            | Ejemplo de uso                             |
 |-------------|------------------------|--------------------------------------------------------|--------------------------------------------|
-| GET         | /users                 | Obtiene todos los usuarios                             | Listar supervisores o tÃ©cnicos registrados |
-| GET         | /users/:id             | Obtiene un usuario especÃ­fico                          | Consultar datos de un usuario              |
-| POST        | /users                 | Crea un nuevo usuario                                  | Registrar nuevo supervisor o tÃ©cnico       |
-| PUT         | /users/:id             | Actualiza datos de un usuario                          | Modificar informaciÃ³n de contacto          |
+| GET         | /users                 | Obtiene todos los usuarios                             | Listar supervisores o técnicos registrados |
+| GET         | /users/:id             | Obtiene un usuario específico                          | Consultar datos de un usuario              |
+| POST        | /users                 | Crea un nuevo usuario                                  | Registrar nuevo supervisor o técnico       |
+| PUT         | /users/:id             | Actualiza datos de un usuario                          | Modificar información de contacto          |
 | DELETE      | /users/:id             | Elimina un usuario existente                           | Dar de baja a un supervisor                |
-| GET         | /dashboardStas         | Obtiene estadÃ­sticas del panel principal               | Visualizar mÃ©tricas generales del sistema  |
-| GET         | /deilyConsumption      | Obtiene consumo diario de energÃ­a o recursos           | Mostrar grÃ¡fico de consumo del dÃ­a         |
-| GET         | /consumptionByCategory | Obtiene consumo dividido por categorÃ­as                | Comparar consumo entre Ã¡reas o tipos       |
-| GET         | /monthlyComparasion    | Obtiene comparaciÃ³n mensual de consumo                 | Ver evoluciÃ³n del consumo mes a mes        |
+| GET         | /dashboardStas         | Obtiene estadísticas del panel principal               | Visualizar métricas generales del sistema  |
+| GET         | /deilyConsumption      | Obtiene consumo diario de energía o recursos           | Mostrar gráfico de consumo del día         |
+| GET         | /consumptionByCategory | Obtiene consumo dividido por categorías                | Comparar consumo entre áreas o tipos       |
+| GET         | /monthlyComparasion    | Obtiene comparación mensual de consumo                 | Ver evolución del consumo mes a mes        |
 | GET         | /devices               | Obtiene lista de dispositivos registrados              | Listar sensores o equipos conectados       |
 | POST        | /devices               | Agrega un nuevo dispositivo                            | Registrar sensor o medidor nuevo           |
 | PUT         | /device/:id            | Actualiza un dispositivo existente                     | Editar nombre o estado de un dispositivo   |
 | DELETE      | /device/:id            | Elimina un dispositivo                                 | Dar de baja un sensor fuera de servicio    |
 | GET         | /alerts                | Obtiene lista de alertas activas                       | Mostrar alertas de consumo o fallos        |
 | GET         | /notification          | Obtiene notificaciones generadas                       | Mostrar avisos al usuario                  |
-| GET         | /devicePreferences     | Obtiene configuraciÃ³n de preferencias por dispositivo  | Mostrar ajustes personalizados             |
+| GET         | /devicePreferences     | Obtiene configuración de preferencias por dispositivo  | Mostrar ajustes personalizados             |
 
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-Durante este Sprint, se completÃ³ el desarrollo de la aplicaciÃ³n web y se realizÃ³ su despliegue utilizando vercel app como plataforma de publicaciÃ³n gratuita. El objetivo fue contar con una primera versiÃ³n accesible en lÃ­nea del producto digital para revisiÃ³n y retroalimentaciÃ³n.
+Durante este Sprint, se completó el desarrollo de la aplicación web y se realizó su despliegue utilizando vercel app como plataforma de publicación gratuita. El objetivo fue contar con una primera versión accesible en línea del producto digital para revisión y retroalimentación.
 
-Actividades realizadas: Se creÃ³ el repositorio en Git hub: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
+Actividades realizadas: Se creó el repositorio en Git hub: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
 
-Se subiÃ³ el cÃ³digo fuente de la aplicaciÃ³n, incluyendo los archivos html, .Vue, CSS, ts, .json  necesarios.
+Se subió el código fuente de la aplicación, incluyendo los archivos html, .Vue, CSS, ts, .json  necesarios.
 
-Se configurÃ³ en vercel app para el deploy de la app web.
+Se configuró en vercel app para el deploy de la app web.
 
-Se verificÃ³ la correcta publicaciÃ³n de la aplicaciÃ³n web en la siguiente URL: https://frontend-sems.vercel.app
+Se verificó la correcta publicación de la aplicación web en la siguiente URL: https://frontend-sems.vercel.app
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
-En esta secciÃ³n se evidencia la colaboraciÃ³n de cada integrante en el repositorio del Frontend de la AplicaciÃ³n Web.
+En esta sección se evidencia la colaboración de cada integrante en el repositorio del Frontend de la Aplicación Web.
 
-Repositorio del Frontend de la AplicaciÃ³n Web: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
+Repositorio del Frontend de la Aplicación Web: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
 
 | **Integrante**                       | **Actividad**                                                                                                         |  
 |--------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| **Huaman Olivos, Yeira Shari**       | ImplementaciÃ³n de secciones del **Frontend de la AplicaciÃ³n Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
-| **Loechle Arias, Mateo Ãtalo**       | ImplementaciÃ³n de secciones del **Frontend de la AplicaciÃ³n Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
-| **Barturen Panez, Iker Gabriel**     | ImplementaciÃ³n de secciones del **Frontend de la AplicaciÃ³n Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
-| **Encalada Salazar, Alexis**         | ImplementaciÃ³n de secciones del **Frontend de la AplicaciÃ³n Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
-| **Torres Lavandera, AndrÃ©s Rodrigo** | ImplementaciÃ³n de secciones del **Frontend de la AplicaciÃ³n Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
-| **Ynga Amado, Jafeth Worren**        | ImplementaciÃ³n de secciones del **Frontend de la AplicaciÃ³n Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Huaman Olivos, Yeira Shari**       | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Loechle Arias, Mateo Ítalo**       | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Barturen Panez, Iker Gabriel**     | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Encalada Salazar, Alexis**         | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Torres Lavandera, Andrés Rodrigo** | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
+| **Ynga Amado, Jafeth Worren**        | Implementación de secciones del **Frontend de la Aplicación Web** y contribuciones a los **chapter 1, 2, 3, 4, 5.md** |
 
 ![commits.png](assets/commits.png)
 
@@ -661,82 +759,137 @@ Repositorio del Frontend de la AplicaciÃ³n Web: https://github.com/Upc-pre-1AS
 
 #### 5.2.3.1. Sprint Planning 3
 
-Durante el Sprint 3 se desarrollÃ³ el backend correspondiente al frontend implementado en el Sprint 2 de la plataforma SEMS, enfocÃ¡ndose en la implementaciÃ³n de las APIs principales y funcionalidades del servidor orientadas a los perfiles propietarios de viviendas y universitarios que alquilan. El trabajo incluyÃ³ la integraciÃ³n con la base de datos, la gestiÃ³n dinÃ¡mica de la informaciÃ³n de usuario a travÃ©s del backend y la consolidaciÃ³n de una versiÃ³n funcional y estable del sistema, desplegado en Render.
+Durante el Sprint 3 se desarrolló el backend correspondiente al frontend implementado en el Sprint 2 de la plataforma SEMS, enfocándose en la implementación de las APIs principales y funcionalidades del servidor orientadas a los perfiles propietarios de viviendas y universitarios que alquilan. El trabajo incluyó la integración con la base de datos, la gestión dinámica de la información de usuario a través del backend y la consolidación de una versión funcional y estable del sistema, desplegado en Render.
 
-| Sprint 3 | Sprint 3 |
-| :--- | :--- |
-| **Sprint Planning Background** | |
-| **Date** | 2025-11-07 |
-| **Time** | 4:30 PM |
-| **Location** | Via Discord |
-| **Prepared By** | Iker Gabriel Barturen Panez |
-| **Attendees (to a planning meeting)** | Alexis Encalada Salazar, Yeira Shari Huaman Olivos, Andrés Rodrigo Torres Lavandera, Iker Gabriel Barturen Panez, Mateo Italo Loechle Arias |
-| **Sprint Goal & User Stories** | |
-| **Sprint 3 Goal** | Implementar y estabilizar la arquitectura fundamental del backend de la aplicación web Energix, entregando la capa de servidor funcionalmente integrada a la base de datos para las APIs centrales y la gestión de datos de los perfiles de usuario (propietarios de viviendas y universitarios que alquilan), con soporte inicial. |
-| **Sprint 3 Velocity** | 10 |
-| **Sum of Story Points** | 89 |
+<table>
+<tr>
+    <th colspan="5">Sprint 3</th>
+    <th colspan="9">Sprint 3</th>
+  </tr>
+      <tr>
+    <td colspan="13">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8">2025-11-07</td>
+</tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8">4:30 PM</td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">Via Discord</td>
+<tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8">Iker Gabriel Barturen Panez</td>
+</tr>
+<tr>
+    <td colspan="5">Attendees (to a planning meeting)</td>
+    <td colspan="8">Alexis Encalada Salazar, Yeira Shari Huaman Olivos, Andrés Rodrigo Torres Lavandera, Iker Gabriel Barturen Panez, Mateo Italo Loechle Arias</td>
+</tr>
+
+<tr>
+    <td colspan="13">Sprint Goal & User Stories</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 3 Goal</td>
+    <td colspan="8">Implementar y estabilizar la arquitectura fundamental del backend de la aplicación web Energix, entregando la capa de servidor funcionalmente integrada a la base de datos para las APIs centrales y la gestión de datos de los perfiles de usuario (propietarios de viviendas y universitarios que alquilan), con soporte inicial.</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 3 Velocity</td>
+    <td colspan="8">10</td>
+</tr>
+<tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8">89</td>
+</tr>
+</table>
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
-Con la finalidad de mejorar la colaboraciÃ³n en equipo a cada integrante se asignÃ³ un rol de lÃ­der por cada aspecto. Los aspectos estÃ¡n relacionados con los entregables.
+Con la finalidad de mejorar la colaboración en equipo a cada integrante se asignó un rol de líder por cada aspecto. Los aspectos están relacionados con los entregables.
 
 | Team member (LastName, First Name) | GitHub UserName       | Aspect 1: Backend for Dashboard, Devices & Authentication | Aspect 2: Profile View  | Aspect 3: Backend for Reports | Aspect 4: Backend for Notifications | Aspect 5: Backend for Settings |
 |------------------------------------|-----------------------|-----------------------------------------------------------|-------------------------|-------------------------------|-------------------------------------|--------------------------------|
 | Alexis Encalada                    | Alexiz248             | C                                                         | C                       | C                             | C                                   | L                              |
 | Yeira Sharia                       | YeiShari              | C                                                         | L                       | C                             | C                                   | C                              |
-| AndrÃ©s Torres                      | AndresTorres202312557 | C                                                         | C                       | L                             | C                                   | C                              |
+| Andrés Torres                      | AndresTorres202312557 | C                                                         | C                       | L                             | C                                   | C                              |
 | Iker Barturen                      | krxxg04               | L                                                         | C                       | C                             | C                                   | C                              |
 | Mateo Loechle                      | LowMathzzz            | C                                                         | C                       | C                             | L                                   | C                              |
 
 #### 5.2.3.3. Sprint Backlog 3
-| Sprint 3 – Work Items / Tasks (Web Service SEMS) | | | | | | |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **User Story ID** | **Task ID** | **Title** | **Description** | **Estimation** | **Assigned To** | **Status** |
-| **EP01 – Autenticación y Perfil de Usuario** | | | | | | |
-| US01 | UT01 | Registro de usuario | Crear endpoint POST /api/v1/auth/register con validaciones de correo y contraseña. | 4h | Mateo Loechle | Done |
-| | UT02 | Validar correo duplicado en registro | Implementar verificación de que el correo no esté registrado previamente. | 2h | Yeira Huamán | Done |
-| US02 | UT03 | Inicio de sesión | Crear endpoint POST /api/v1/auth/login con autenticación JWT. | 3h | Iker Barturen | Done |
-| | UT04 | Manejo de errores en autenticación | Retornar mensajes de error para credenciales inválidas o usuario inexistente. | 2h | Yeira Huamán | Done |
-| US03 | UT05 | Gestión de perfil | Crear endpoints GET/PUT /api/profile/{userId} para obtener y actualizar perfil. | 3h | Andrés Torres | Done |
-| | UT06 | Implementar subida de foto de perfil | Crear endpoint POST /api/profile/{userId}/photo para actualizar foto. | 2h | Alexis Encalada | Done |
-| US04 | UT07 | Recuperación de contraseña | Crear endpoint POST /api/v1/settings/{userId}/reset para iniciar reset. | 3h | Yeira Huamán | Done |
-| | UT08 | Implementar actualización de contraseña | Crear endpoint POST /api/v1/settings/{userId}/password para cambiar contraseña. | 2h | Mateo Loechle | Done |
-| US05 | UT09 | Validación de sesión | Crear endpoint GET /api/v1/auth/validate para verificar sesión activa. | 3h | Iker Barturen | Done |
-| **EP02 – Conexión y Monitoreo de Dispositivos** | | | | | | |
-| US06 | UT10 | Gestión de dispositivos | Crear endpoints GET/POST /api/v1/devices y GET/PUT/DELETE /api/v1/devices/{deviceId}. | 4h | Alexis Encalada | Done |
-| | UT11 | Validar compatibilidad de dispositivos | Implementar lógica para verificar si un dispositivo es compatible. | 2h | Mateo Loechle | Done |
-| US07 | UT12 | Toggle de dispositivos | Crear endpoint POST /api/v1/devices/{deviceId}/toggle para encender/apagar. | 3h | Yeira Huamán | Done |
-| | UT13 | Implementar preferencias de dispositivos | Crear endpoints GET/PUT /api/v1/preferences/devices. | 2h | Alexis Encalada | Done |
-| US08 | UT14 | Monitoreo de dispositivos activos | Crear endpoint GET /api/v1/devices/active para listar dispositivos conectados. | 4h | Iker Barturen | Done |
-| | UT15 | Manejo de desconexiones | Implementar notificaciones cuando un dispositivo se desconecta. | 2h | Yeira Huamán | Done |
-| **EP03 – Alertas y Recordatorios de Consumo** | | | | | | |
-| US09 | UT16 | Gestión de alertas | Crear endpoints GET/POST /api/v1/alerts y PUT /api/v1/alerts/{alertId}/read. | 3h | Mateo Loechle | Done |
-| | UT17 | Implementar conteo de alertas no leídas | Crear endpoint GET /api/v1/alerts/count/unread. | 2h | Andrés Torres | Done |
-| US10 | UT18 | Gestión de notificaciones | Crear endpoints GET/POST /api/v1/notifications y PUT /api/v1/notifications/{notificationId}/read. | 3h | Alexis Encalada | Done |
-| | UT19 | Implementar conteo de notificaciones no leídas | Crear endpoint GET /api/v1/notifications/count/unread. | 2h | Yeira Huamán | Done |
-| US11 | UT20 | Configuración de umbrales | Permitir definir límites de consumo y restablecer a predeterminados. | 4h | Iker Barturen | Done |
-| **EP04 – Reportes y Facturación** | | | | | | |
-| US12 | UT21 | Generación de reportes semanales | Crear endpoints POST /api/v1/reports/weeklyConsumption/generate-sample y GET /api/v1/reports/weeklyConsumption. | 4h | Mateo Loechle | Done |
-| US13 | UT22 | Consulta de consumo diario | Crear endpoints GET /api/v1/consumption/daily y GET /api/v1/consumption/daily/{date}. | 3h | Yeira Huamán | Done |
-| US14 | UT23 | Consulta de consumo mensual | Crear endpoint GET /api/v1/consumption/monthly. | 3h | Andrés Torres | Done |
-| US15 | UT24 | Consulta de consumo por categorías | Crear endpoint GET /api/v1/consumption/categories. | 3h | Alexis Encalada | Done |
-| **EP05 – Metas y Ahorro Energético** | | | | | | |
-| US16 | UT25 | Estadísticas del dashboard | Crear endpoints GET/PUT /api/v1/dashboard/stats. | 3h | Yeira Huamán | Done |
-| US17 | UT26 | Inicialización de datos | Crear endpoint POST /api/v1/data/initialize. | 4h | Iker Barturen | Done |
-| US18 | UT27 | Resumen de datos | Crear endpoint GET /api/v1/data/summary. | 3h | Mateo Loechle | Done |
-| US19 | UT28 | Configuración de metas | Permitir configurar metas mensuales y seguimiento. | 3h | Alexis Encalada | Done |
-| US20 | UT29 | Comparación de consumo | Mostrar comparación con otros usuarios y ranking. | 3h | Andrés Torres | Done |
-| **EP07 – Gestión de Categorías de Dispositivos** | | | | | | |
-| US24 | UT33 | Consulta por categoría | Crear endpoint GET /api/v1/devices/category/{category}. | 3h | Alexis Encalada | Done |
-| US25 | UT34 | Consumo por categoría | Mostrar consumo agrupado por categoría. | 4h | Yeira Huamán | Done |
-| US26 | UT35 | Identificación de dispositivos de alto consumo | Implementar lógica para alertar sobre dispositivos con mayor gasto. | 3h | Andrés Torres | Done |
+<table>
+  <tr>
+    <th colspan="7">Sprint 3 – Work Items / Tasks (Web Service SEMS)</th>
+  </tr>
+  <tr>
+    <th>User Story ID</th>
+    <th>Task ID</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation</th>
+    <th>Assigned To</th>
+    <th>Status</th>
+  </tr>
+
+  <!-- EP01 -->
+  <tr><td colspan="7"><b>EP01 – Autenticación y Perfil de Usuario</b></td></tr>
+  <tr><td>US01</td><td>UT01</td><td>Registro de usuario</td><td>Crear endpoint POST /api/v1/auth/register con validaciones de correo y contraseña.</td><td>4h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td></td><td>UT02</td><td>Validar correo duplicado en registro</td><td>Implementar verificación de que el correo no esté registrado previamente.</td><td>2h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td>US02</td><td>UT03</td><td>Inicio de sesión</td><td>Crear endpoint POST /api/v1/auth/login con autenticación JWT.</td><td>3h</td><td>Iker Barturen</td><td>Done</td></tr>
+  <tr><td></td><td>UT04</td><td>Manejo de errores en autenticación</td><td>Retornar mensajes de error para credenciales inválidas o usuario inexistente.</td><td>2h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td>US03</td><td>UT05</td><td>Gestión de perfil</td><td>Crear endpoints GET/PUT /api/profile/{userId} para obtener y actualizar perfil.</td><td>3h</td><td>Andrés Torres</td><td>Done</td></tr>
+  <tr><td></td><td>UT06</td><td>Implementar subida de foto de perfil</td><td>Crear endpoint POST /api/profile/{userId}/photo para actualizar foto.</td><td>2h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td>US04</td><td>UT07</td><td>Recuperación de contraseña</td><td>Crear endpoint POST /api/v1/settings/{userId}/reset para iniciar reset.</td><td>3h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td></td><td>UT08</td><td>Implementar actualización de contraseña</td><td>Crear endpoint POST /api/v1/settings/{userId}/password para cambiar contraseña.</td><td>2h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US05</td><td>UT09</td><td>Validación de sesión</td><td>Crear endpoint GET /api/v1/auth/validate para verificar sesión activa.</td><td>3h</td><td>Iker Barturen</td><td>Done</td></tr>
+
+  <!-- EP02 -->
+  <tr><td colspan="7"><b>EP02 – Conexión y Monitoreo de Dispositivos</b></td></tr>
+  <tr><td>US06</td><td>UT10</td><td>Gestión de dispositivos</td><td>Crear endpoints GET/POST /api/v1/devices y GET/PUT/DELETE /api/v1/devices/{deviceId}.</td><td>4h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td></td><td>UT11</td><td>Validar compatibilidad de dispositivos</td><td>Implementar lógica para verificar si un dispositivo es compatible.</td><td>2h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US07</td><td>UT12</td><td>Toggle de dispositivos</td><td>Crear endpoint POST /api/v1/devices/{deviceId}/toggle para encender/apagar.</td><td>3h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td></td><td>UT13</td><td>Implementar preferencias de dispositivos</td><td>Crear endpoints GET/PUT /api/v1/preferences/devices.</td><td>2h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td>US08</td><td>UT14</td><td>Monitoreo de dispositivos activos</td><td>Crear endpoint GET /api/v1/devices/active para listar dispositivos conectados.</td><td>4h</td><td>Iker Barturen</td><td>Done</td></tr>
+  <tr><td></td><td>UT15</td><td>Manejo de desconexiones</td><td>Implementar notificaciones cuando un dispositivo se desconecta.</td><td>2h</td><td>Yeira Huamán</td><td>Done</td></tr>
+
+  <!-- EP03 -->
+  <tr><td colspan="7"><b>EP03 – Alertas y Recordatorios de Consumo</b></td></tr>
+  <tr><td>US09</td><td>UT16</td><td>Gestión de alertas</td><td>Crear endpoints GET/POST /api/v1/alerts y PUT /api/v1/alerts/{alertId}/read.</td><td>3h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td></td><td>UT17</td><td>Implementar conteo de alertas no leídas</td><td>Crear endpoint GET /api/v1/alerts/count/unread.</td><td>2h</td><td>Andrés Torres</td><td>Done</td></tr>
+  <tr><td>US10</td><td>UT18</td><td>Gestión de notificaciones</td><td>Crear endpoints GET/POST /api/v1/notifications y PUT /api/v1/notifications/{notificationId}/read.</td><td>3h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td></td><td>UT19</td><td>Implementar conteo de notificaciones no leídas</td><td>Crear endpoint GET /api/v1/notifications/count/unread.</td><td>2h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td>US11</td><td>UT20</td><td>Configuración de umbrales</td><td>Permitir definir límites de consumo y restablecer a predeterminados.</td><td>4h</td><td>Iker Barturen</td><td>Done</td></tr>
+
+  <!-- EP04 -->
+  <tr><td colspan="7"><b>EP04 – Reportes y Facturación</b></td></tr>
+  <tr><td>US12</td><td>UT21</td><td>Generación de reportes semanales</td><td>Crear endpoints POST /api/v1/reports/weeklyConsumption/generate-sample y GET /api/v1/reports/weeklyConsumption.</td><td>4h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US13</td><td>UT22</td><td>Consulta de consumo diario</td><td>Crear endpoints GET /api/v1/consumption/daily y GET /api/v1/consumption/daily/{date}.</td><td>3h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td>US14</td><td>UT23</td><td>Consulta de consumo mensual</td><td>Crear endpoint GET /api/v1/consumption/monthly.</td><td>3h</td><td>Andrés Torres</td><td>Done</td></tr>
+  <tr><td>US15</td><td>UT24</td><td>Consulta de consumo por categorías</td><td>Crear endpoint GET /api/v1/consumption/categories.</td><td>3h</td><td>Alexis Encalada</td><td>Done</td></tr>
+
+  <!-- EP05 -->
+  <tr><td colspan="7"><b>EP05 – Metas y Ahorro Energético</b></td></tr>
+  <tr><td>US16</td><td>UT25</td><td>Estadísticas del dashboard</td><td>Crear endpoints GET/PUT /api/v1/dashboard/stats.</td><td>3h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td>US17</td><td>UT26</td><td>Inicialización de datos</td><td>Crear endpoint POST /api/v1/data/initialize.</td><td>4h</td><td>Iker Barturen</td><td>Done</td></tr>
+  <tr><td>US18</td><td>UT27</td><td>Resumen de datos</td><td>Crear endpoint GET /api/v1/data/summary.</td><td>3h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US19</td><td>UT28</td><td>Configuración de metas</td><td>Permitir configurar metas mensuales y seguimiento.</td><td>3h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td>US20</td><td>UT29</td><td>Comparación de consumo</td><td>Mostrar comparación con otros usuarios y ranking.</td><td>3h</td><td>Andrés Torres</td><td>Done</td></tr>
+
+  <!-- EP07 -->
+  <tr><td colspan="7"><b>EP07 – Gestión de Categorías de Dispositivos</b></td></tr>
+  <tr><td>US24</td><td>UT33</td><td>Consulta por categoría</td><td>Crear endpoint GET /api/v1/devices/category/{category}.</td><td>3h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td>US25</td><td>UT34</td><td>Consumo por categoría</td><td>Mostrar consumo agrupado por categoría.</td><td>4h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td>US26</td><td>UT35</td><td>Identificación de dispositivos de alto consumo</td><td>Implementar lógica para alertar sobre dispositivos con mayor gasto.</td><td>3h</td><td>Andrés Torres</td><td>Done</td></tr>
+</table>
 
 
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
-En esta secciÃ³n se demuestran los commits relacionados con los principales avances en la implementaciÃ³n.
-Estos commits provienen del repositorio del proyecto backend de la organizaciÃ³n de GitHub.
+En esta sección se demuestran los commits relacionados con los principales avances en la implementación.
+Estos commits provienen del repositorio del proyecto backend de la organización de GitHub.
 
 Enlace al repositorio del proyecto backend: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS
 
@@ -758,19 +911,19 @@ Enlace al repositorio del proyecto backend: https://github.com/Upc-pre-1ASI0729-
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
-Durante el desarrollo del sprint se lograron completar todos los puntos para la implementaciÃ³n de las funcionalidades esenciales del backend para el sistema de gestiÃ³n Energix, estableciendo una base sÃ³lida para la administraciÃ³n de energÃ­a en los hogares. Las principales caracterÃ­sticas desarrolladas fueron:
+Durante el desarrollo del sprint se lograron completar todos los puntos para la implementación de las funcionalidades esenciales del backend para el sistema de gestión Energix, estableciendo una base sólida para la administración de energía en los hogares. Las principales características desarrolladas fueron:
 
-1. API de autenticaciÃ³n completa con endpoints para registro, login y validaciÃ³n de sesiÃ³n.
+1. API de autenticación completa con endpoints para registro, login y validación de sesión.
 
-2. GestiÃ³n de perfiles a travÃ©s de API, permitiendo obtener, actualizar y subir foto de perfil.
+2. Gestión de perfiles a través de API, permitiendo obtener, actualizar y subir foto de perfil.
 
-3. GeneraciÃ³n y consulta de reportes vÃ­a API, con soporte para reportes semanales y consultas de consumo diario, mensual y por categorÃ­as.
+3. Generación y consulta de reportes vía API, con soporte para reportes semanales y consultas de consumo diario, mensual y por categorías.
 
-4. CRUD de dispositivos, incluyendo monitoreo en tiempo real, toggle, preferencias y gestiÃ³n por categorÃ­as.
+4. CRUD de dispositivos, incluyendo monitoreo en tiempo real, toggle, preferencias y gestión por categorías.
 
-5. ValidaciÃ³n de sesiones y logout seguro, con manejo de errores en autenticaciÃ³n.
+5. Validación de sesiones y logout seguro, con manejo de errores en autenticación.
 
-6. Arquitectura robusta del backend con integraciÃ³n a base de datos, manejo de alertas y notificaciones, y despliegue en Render con documentaciÃ³n Swagger.
+6. Arquitectura robusta del backend con integración a base de datos, manejo de alertas y notificaciones, y despliegue en Render con documentación Swagger.
 
 **Capturas de pantalla de la documentacion en Swagger**
 
@@ -784,78 +937,78 @@ Durante el desarrollo del sprint se lograron completar todos los puntos para la 
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
-IntroducciÃ³n
+Introducción
 
-Durante el sprint 3, hemos implementado el despliegue del backend del sistema de Energix en Render, creando una API robusta y documentada con Swagger que soporta todas las funcionalidades esenciales para la gestiÃ³n de energÃ­a en los hogares.
+Durante el sprint 3, hemos implementado el despliegue del backend del sistema de Energix en Render, creando una API robusta y documentada con Swagger que soporta todas las funcionalidades esenciales para la gestión de energía en los hogares.
 
-**ImplementaciÃ³n de API centralizada en Render**
+**Implementación de API centralizada en Render**
 
-Decidimos utilizar Render para el despliegue del backend, asegurando una infraestructura centralizada y escalable. Esta decisiÃ³n nos permitiÃ³ tener un mayor control sobre la API y facilitar la integraciÃ³n con el frontend.
+Decidimos utilizar Render para el despliegue del backend, asegurando una infraestructura centralizada y escalable. Esta decisión nos permitió tener un mayor control sobre la API y facilitar la integración con el frontend.
 
-Por motivos de seguridad, implementamos un proxy utilizando Cloudflare Tunnel para ocultar la direcciÃ³n IP real del servidor, ya que exponer pÃºblicamente la URL directa en GitHub representa un riesgo de seguridad. Esta medida de protecciÃ³n es fundamental para prevenir ataques directos al servidor.
+Por motivos de seguridad, implementamos un proxy utilizando Cloudflare Tunnel para ocultar la dirección IP real del servidor, ya que exponer públicamente la URL directa en GitHub representa un riesgo de seguridad. Esta medida de protección es fundamental para prevenir ataques directos al servidor.
 
 La URL base para todos los recursos de nuestra API es:
 
 https://theft-muscles-inner-protection.trycloudflare.com
 
-La documentaciÃ³n interactiva de la API estÃ¡ disponible en Swagger UI en:
+La documentación interactiva de la API está disponible en Swagger UI en:
 
 https://theft-muscles-inner-protection.trycloudflare.com/swagger-ui/index.html
 
-**ConfiguraciÃ³n del servidor en Render**
+**Configuración del servidor en Render**
 
-El proceso de implementaciÃ³n en Render involucrÃ³ varias etapas para asegurar un despliegue exitoso. Comenzamos creando una nueva cuenta y proyecto en la plataforma, configurÃ¡ndolo especÃ­ficamente para trabajar con Java/Spring Boot como entorno de ejecuciÃ³n.
+El proceso de implementación en Render involucró varias etapas para asegurar un despliegue exitoso. Comenzamos creando una nueva cuenta y proyecto en la plataforma, configurándolo específicamente para trabajar con Java/Spring Boot como entorno de ejecución.
 
-Conectamos nuestro repositorio de GitHub para habilitar el despliegue automÃ¡tico, lo que nos permite mantener sincronizado el entorno de producciÃ³n con la rama principal del proyecto. Esto ha resultado en un flujo de trabajo mÃ¡s eficiente, donde cada merge a la rama principal actualiza automÃ¡ticamente nuestra API.
+Conectamos nuestro repositorio de GitHub para habilitar el despliegue automático, lo que nos permite mantener sincronizado el entorno de producción con la rama principal del proyecto. Esto ha resultado en un flujo de trabajo más eficiente, donde cada merge a la rama principal actualiza automáticamente nuestra API.
 
-| MÃ©todo HTTP | Endpoint                          | DescripciÃ³n                                        | Ejemplo de uso                             |
+| Método HTTP | Endpoint                          | Descripción                                        | Ejemplo de uso                             |
 |-------------|-----------------------------------|----------------------------------------------------|--------------------------------------------|
 | POST        | /api/v1/auth/register             | Registra un nuevo usuario                          | Crear cuenta de propietario o estudiante   |
-| POST        | /api/v1/auth/login                | Autentica un usuario                               | Iniciar sesiÃ³n                             |
-| GET         | /api/v1/auth/validate             | Valida la sesiÃ³n activa                            | Verificar token JWT                        |
+| POST        | /api/v1/auth/login                | Autentica un usuario                               | Iniciar sesión                             |
+| GET         | /api/v1/auth/validate             | Valida la sesión activa                            | Verificar token JWT                        |
 | GET         | /api/profile/{userId}             | Obtiene el perfil de un usuario                    | Mostrar datos del perfil                   |
-| PUT         | /api/profile/{userId}             | Actualiza el perfil de un usuario                  | Modificar informaciÃ³n personal             |
+| PUT         | /api/profile/{userId}             | Actualiza el perfil de un usuario                  | Modificar información personal             |
 | GET         | /api/v1/devices                   | Obtiene lista de dispositivos                      | Listar dispositivos registrados            |
 | POST        | /api/v1/devices                   | Crea un nuevo dispositivo                          | Agregar dispositivo                        |
-| GET         | /api/v1/devices/{deviceId}        | Obtiene un dispositivo especÃ­fico                  | Ver detalles de dispositivo                |
-| PUT         | /api/v1/devices/{deviceId}        | Actualiza un dispositivo                           | Editar configuraciÃ³n                       |
+| GET         | /api/v1/devices/{deviceId}        | Obtiene un dispositivo específico                  | Ver detalles de dispositivo                |
+| PUT         | /api/v1/devices/{deviceId}        | Actualiza un dispositivo                           | Editar configuración                       |
 | DELETE      | /api/v1/devices/{deviceId}        | Elimina un dispositivo                             | Remover dispositivo                        |
 | POST        | /api/v1/devices/{deviceId}/toggle | Cambia el estado de un dispositivo                 | Encender/apagar dispositivo                |
 | GET         | /api/v1/alerts                    | Obtiene lista de alertas                           | Mostrar alertas activas                    |
 | POST        | /api/v1/alerts                    | Crea una nueva alerta                              | Generar alerta de consumo                  |
 | GET         | /api/v1/notifications             | Obtiene notificaciones                             | Listar notificaciones del usuario          |
-| GET         | /api/v1/consumption/daily         | Obtiene consumo diario                             | Mostrar grÃ¡fico de consumo diario          |
+| GET         | /api/v1/consumption/daily         | Obtiene consumo diario                             | Mostrar gráfico de consumo diario          |
 | GET         | /api/v1/consumption/monthly       | Obtiene consumo mensual                            | Ver resumen mensual                        |
 | GET         | /api/v1/reports/weeklyConsumption | Obtiene reporte semanal de consumo                 | Generar y descargar reporte semanal        |
-| GET         | /api/v1/dashboard/stats           | Obtiene estadÃ­sticas del dashboard                 | Mostrar mÃ©tricas generales                 |
+| GET         | /api/v1/dashboard/stats           | Obtiene estadísticas del dashboard                 | Mostrar métricas generales                 |
 
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-Durante este Sprint, se completÃ³ el desarrollo del backend del Web Service y se realizÃ³ su despliegue utilizando Render como plataforma de publicaciÃ³n. El objetivo fue contar con una primera versiÃ³n accesible en lÃ­nea de la API backend para revisiÃ³n y retroalimentaciÃ³n.
+Durante este Sprint, se completó el desarrollo del backend del Web Service y se realizó su despliegue utilizando Render como plataforma de publicación. El objetivo fue contar con una primera versión accesible en línea de la API backend para revisión y retroalimentación.
 
-Actividades realizadas: Se creÃ³ el repositorio en GitHub: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS
+Actividades realizadas: Se creó el repositorio en GitHub: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS
 
-Se subiÃ³ el cÃ³digo fuente del backend, incluyendo los archivos Java, Spring Boot, configuraciÃ³n de base de datos y dependencias necesarias.
+Se subió el código fuente del backend, incluyendo los archivos Java, Spring Boot, configuración de base de datos y dependencias necesarias.
 
-Se configurÃ³ en Render para el despliegue del backend API.
+Se configuró en Render para el despliegue del backend API.
 
-Se verificÃ³ la correcta publicaciÃ³n del backend en la siguiente URL: https://backend-sems-40cb.onrender.com/
+Se verificó la correcta publicación del backend en la siguiente URL: https://backend-sems-40cb.onrender.com/
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
-En esta secciÃ³n se evidencia la colaboraciÃ³n de cada integrante en el repositorio del Backend de la AplicaciÃ³n.
+En esta sección se evidencia la colaboración de cada integrante en el repositorio del Backend de la Aplicación.
 
-Repositorio del Backend de la AplicaciÃ³n: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS
+Repositorio del Backend de la Aplicación: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS
 
 | **Integrante**                       | **Actividad**                                                                                            |  
 |--------------------------------------|----------------------------------------------------------------------------------------------------------|
-| **Huaman Olivos, Yeira Shari**       | ImplementaciÃ³n de secciones del **Backend de la AplicaciÃ³n** y contribuciones a los **chapter 5.md**     |
-| **Loechle Arias, Mateo Ãtalo**       | ImplementaciÃ³n de secciones del **Backend de la AplicaciÃ³n** y contribuciones a los **chapter 5.md**     |
-| **Barturen Panez, Iker Gabriel**     | ImplementaciÃ³n de secciones del **Backend de la AplicaciÃ³n** y contribuciones a los **chapter 5.md**     |
-| **Encalada Salazar, Alexis**         | ImplementaciÃ³n de secciones del **Backend de la AplicaciÃ³n** y contribuciones a los **chapter 5.md**     |
-| **Torres Lavandera, AndrÃ©s Rodrigo** | ImplementaciÃ³n de secciones del **Backend de la AplicaciÃ³n** y contribuciones a los **chapter 5.md**     |
-| **Ynga Amado, Jafeth Worren**        | ImplementaciÃ³n de secciones del **Backend de la AplicaciÃ³n** y contribuciones a los **chapter 5.md**     |
+| **Huaman Olivos, Yeira Shari**       | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Loechle Arias, Mateo Ítalo**       | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Barturen Panez, Iker Gabriel**     | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Encalada Salazar, Alexis**         | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Torres Lavandera, Andrés Rodrigo** | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Ynga Amado, Jafeth Worren**        | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
 
 ![CommitsBK.png](assets/CommitsBK.png)
 
@@ -867,82 +1020,137 @@ Repositorio del Backend de la AplicaciÃ³n: https://github.com/Upc-pre-1ASI0729
 
 #### 5.2.4.1. Sprint Planning 4
 
-Durante el Sprint 4 se implementÃ³ la integraciÃ³n completa entre el frontend y el backend de la plataforma SEMS, enfocÃ¡ndose en la comunicaciÃ³n efectiva entre ambas capas para asegurar una experiencia de usuario fluida. El trabajo incluyÃ³ la conexiÃ³n de APIs, sincronizaciÃ³n de datos, manejo de estados y la validaciÃ³n de la funcionalidad, consolidando una versiÃ³n integrada y funcional del sistema.
+Durante el Sprint 4 se implementó la integración completa entre el frontend y el backend de la plataforma SEMS, enfocándose en la comunicación efectiva entre ambas capas para asegurar una experiencia de usuario fluida. El trabajo incluyó la conexión de APIs, sincronización de datos, manejo de estados y la validación de la funcionalidad, consolidando una versión integrada y funcional del sistema.
 
-| Sprint 4 | Sprint 4 |
-| :--- | :--- |
-| **Sprint Planning Background** | |
-| **Date** | 2025-11-29 |
-| **Time** | 2:30 PM |
-| **Location** | Via Discord |
-| **Prepared By** | Iker Gabriel Barturen Panez |
-| **Attendees (to a planning meeting)** | Alexis Encalada Salazar, Yeira Shari Huaman Olivos, Andrés Rodrigo Torres Lavandera, Iker Gabriel Barturen Panez, Mateo Italo Loechle Arias, Jafeth Worren Ynga Amado |
-| **Sprint Goal & User Stories** | |
-| **Sprint 4 Goal** | Implementar la integración completa entre frontend y backend de la aplicación web Energix, asegurando la comunicación efectiva de APIs, sincronización de datos y validación para una experiencia de usuario fluida. |
-| **Sprint 4 Velocity** | 10 |
-| **Sum of Story Points** | 89 |
+<table>
+<tr>
+    <th colspan="5">Sprint 4</th>
+    <th colspan="9">Sprint 4</th>
+  </tr>
+      <tr>
+    <td colspan="13">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8">2025-11-29</td>
+</tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8">2:30 PM</td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">Via Discord</td>
+<tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8">Iker Gabriel Barturen Panez</td>
+</tr>
+<tr>
+    <td colspan="5">Attendees (to a planning meeting)</td>
+    <td colspan="8">Alexis Encalada Salazar, Yeira Shari Huaman Olivos, Andrés Rodrigo Torres Lavandera, Iker Gabriel Barturen Panez, Mateo Italo Loechle Arias, Jafeth Worren Ynga Amado</td>
+</tr>
+
+<tr>
+    <td colspan="13">Sprint Goal & User Stories</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 4 Goal</td>
+    <td colspan="8">Implementar la integración completa entre frontend y backend de la aplicación web Energix, asegurando la comunicación efectiva de APIs, sincronización de datos y validación para una experiencia de usuario fluida.</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 4 Velocity</td>
+    <td colspan="8">10</td>
+</tr>
+<tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8">89</td>
+</tr>
+</table>
 
 #### 5.2.4.2. Aspect Leaders and Collaborators
 
-Con la finalidad de mejorar la colaboraciÃ³n en equipo a cada integrante se asignÃ³ un rol de lÃ­der por cada aspecto. Los aspectos estÃ¡n relacionados con los entregables.
+Con la finalidad de mejorar la colaboración en equipo a cada integrante se asignó un rol de líder por cada aspecto. Los aspectos están relacionados con los entregables.
 
 | Team member (LastName, First Name) | GitHub UserName       | Aspect 1: Connection of Devices & Authentication | Aspect 2: Profile Connection   | Aspect 3: Connection for Reports   | Aspect 4: Backend for Notifications | Aspect 5: Connection for Settings  | Aspect 6:Connection for Dashboard |
 |------------------------------------|-----------------------|--------------------------------------------------|--------------------------------|------------------------------------|-------------------------------------|------------------------------------|-----------------------------------|
 | Alexis Encalada                    | Alexiz248             | C                                                | C                              | C                                  | C                                   | L                                  | C                                 |
 | Yeira Sharia                       | YeiShari              | C                                                | L                              | C                                  | C                                   | C                                  | C                                 |
-| AndrÃ©s Torres                      | AndresTorres202312557 | C                                                | C                              | L                                  | C                                   | C                                  | C                                 |
+| Andrés Torres                      | AndresTorres202312557 | C                                                | C                              | L                                  | C                                   | C                                  | C                                 |
 | Iker Barturen                      | krxxg04               | L                                                | C                              | C                                  | C                                   | C                                  | C                                 |
 | Mateo Loechle                      | LowMathzzz            | C                                                | C                              | C                                  | L                                   | C                                  | C                                 |
 | Jafeth Ynga                        | Jafeth-MV             | C                                                | C                              | C                                  | L                                   | C                                  | L                                 |
 
 #### 5.2.4.3. Sprint Backlog 4
 
-| Sprint 4 – Work Items / Tasks (Web Service SEMS) | | | | | | |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **User Story ID** | **Task ID** | **Title** | **Description** | **Estimation** | **Assigned To** | **Status** |
-| **EP01 – Autenticación y Perfil de Usuario** | | | | | | |
-| US01 | UT01 | Registro de usuario | Implementar componente de registro en frontend que conecte con endpoint POST /api/v1/auth/register con validaciones de correo y contraseña. | 4h | Mateo Loechle | Done |
-| | UT02 | Validar correo duplicado en registro | Implementar verificación en frontend de que el correo no esté registrado previamente conectando con el backend. | 2h | Jafeth Ynga | Done |
-| US02 | UT03 | Inicio de sesión | Implementar formulario de login en frontend que conecte con endpoint POST /api/v1/auth/login con autenticación JWT. | 3h | Iker Barturen | Done |
-| | UT04 | Manejo de errores en autenticación | Implementar manejo de errores en frontend para credenciales inválidas o usuario inexistente conectando con el backend. | 2h | Jafeth Ynga | Done |
-| US03 | UT05 | Gestión de perfil | Implementar vista de perfil en frontend que conecte con endpoints GET/PUT /api/profile/{userId} para obtener y actualizar perfil. | 3h | Andrés Torres | Done |
-| | UT06 | Implementar subida de foto de perfil | Implementar funcionalidad de subida de foto en frontend que conecte con endpoint POST /api/profile/{userId}/photo. | 2h | Alexis Encalada | Done |
-| US04 | UT07 | Recuperación de contraseña | Implementar formulario de recuperación en frontend que conecte con endpoint POST /api/v1/settings/{userId}/reset. | 3h | Yeira Huamán | Done |
-| | UT08 | Implementar actualización de contraseña | Implementar funcionalidad de cambio de contraseña en frontend que conecte con endpoint POST /api/v1/settings/{userId}/password. | 2h | Mateo Loechle | Done |
-| US05 | UT09 | Validación de sesión | Implementar validación de sesión activa en frontend conectando con endpoint GET /api/v1/auth/validate. | 3h | Iker Barturen | Done |
-| **EP02 – Conexión y Monitoreo de Dispositivos** | | | | | | |
-| US06 | UT10 | Gestión de dispositivos | Implementar interfaz de gestión de dispositivos en frontend que conecte con endpoints GET/POST /api/v1/devices y GET/PUT/DELETE /api/v1/devices/{deviceId}. | 4h | Alexis Encalada | Done |
-| | UT11 | Validar compatibilidad de dispositivos | Implementar validación de compatibilidad en frontend conectando con lógica del backend. | 2h | Mateo Loechle | Done |
-| US07 | UT12 | Toggle de dispositivos | Implementar control de encendido/apagado en frontend que conecte con endpoint POST /api/v1/devices/{deviceId}/toggle. | 3h | Yeira Huamán | Done |
-| | UT13 | Implementar preferencias de dispositivos | Implementar configuración de preferencias en frontend conectando con endpoints GET/PUT /api/v1/preferences/devices. | 2h | Iker Barturen | Done |
-| US08 | UT14 | Monitoreo de dispositivos activos | Implementar vista de monitoreo en frontend que conecte con endpoint GET /api/v1/devices/active. | 4h | Iker Barturen | Done |
-| | UT15 | Manejo de desconexiones | Implementar notificaciones de desconexión en frontend conectando con el backend. | 2h | Yeira Huamán | Done |
-| **EP03 – Alertas y Recordatorios de Consumo** | | | | | | |
-| US09 | UT16 | Gestión de alertas | Implementar gestión de alertas en frontend que conecte con endpoints GET/POST /api/v1/alerts y PUT /api/v1/alerts/{alertId}/read. | 3h | Mateo Loechle | Done |
-| | UT17 | Implementar conteo de alertas no leídas | Implementar contador de alertas no leídas en frontend conectando con endpoint GET /api/v1/alerts/count/unread. | 2h | Jafeth Ynga | Done |
-| US10 | UT18 | Gestión de notificaciones | Implementar gestión de notificaciones en frontend que conecte con endpoints GET/POST /api/v1/notifications y PUT /api/v1/notifications/{notificationId}/read. | 3h | Alexis Encalada | Done |
-| | UT19 | Implementar conteo de notificaciones no leídas | Implementar contador de notificaciones no leídas en frontend conectando con endpoint GET /api/v1/notifications/count/unread. | 2h | Mateo Loechle | Done |
-| US11 | UT20 | Configuración de umbrales | Implementar configuración de umbrales en frontend que permita definir límites conectando con el backend. | 4h | Iker Barturen | Done |
-| **EP04 – Reportes y Facturación** | | | | | | |
-| US12 | UT21 | Generación de reportes semanales | Implementar generación de reportes semanales en frontend que conecte con endpoints POST /api/v1/reports/weeklyConsumption/generate-sample y GET /api/v1/reports/weeklyConsumption. | 4h | Mateo Loechle | Done |
-| US13 | UT22 | Consulta de consumo diario | Implementar vista de consumo diario en frontend que conecte con endpoints GET /api/v1/consumption/daily y GET /api/v1/consumption/daily/{date}. | 3h | Jafeth Ynga | Done |
-| US14 | UT23 | Consulta de consumo mensual | Implementar vista de consumo mensual en frontend que conecte con endpoint GET /api/v1/consumption/monthly. | 3h | Andrés Torres | Done |
-| US15 | UT24 | Consulta de consumo por categorías | Implementar vista de consumo por categorías en frontend que conecte con endpoint GET /api/v1/consumption/categories. | 3h | Alexis Encalada | Done |
-| **EP05 – Metas y Ahorro Energético** | | | | | | |
-| US16 | UT25 | Estadísticas del dashboard | Implementar estadísticas del dashboard en frontend que conecte con endpoints GET/PUT /api/v1/dashboard/stats. | 3h | Yeira Huamán | Done |
-| US17 | UT26 | Inicialización de datos | Implementar inicialización de datos en frontend que conecte con endpoint POST /api/v1/data/initialize. | 4h | Iker Barturen | Done |
-| US18 | UT27 | Resumen de datos | Implementar resumen de datos en frontend que conecte con endpoint GET /api/v1/data/summary. | 3h | Jafeth Ynga | Done |
-| US19 | UT28 | Configuración de metas | Implementar configuración de metas en frontend que permita configurar metas mensuales conectando con el backend. | 3h | Alexis Encalada | Done |
-| US20 | UT29 | Comparación de consumo | Implementar comparación de consumo en frontend que muestre comparación con otros usuarios conectando con el backend. | 3h | Andrés Torres | Done |
-| **EP07 – Gestión de Categorías de Dispositivos** | | | | | | |
-| US24 | UT33 | Consulta por categoría | Implementar consulta por categoría en frontend que conecte con endpoint GET /api/v1/devices/category/{category}. | 3h | Alexis Encalada | Done |
-| US25 | UT34 | Consumo por categoría | Implementar vista de consumo por categoría en frontend que muestre consumo agrupado conectando con el backend. | 4h | Jafeth Ynga | Done |
-| US26 | UT35 | Identificación de dispositivos de alto consumo | Implementar identificación de dispositivos de alto consumo en frontend conectando con lógica del backend. | 3h | Andrés Torres | Done |
+<table>
+  <tr>
+    <th colspan="7">Sprint 4 – Work Items / Tasks (Web Service SEMS)</th>
+  </tr>
+  <tr>
+    <th>User Story ID</th>
+    <th>Task ID</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation</th>
+    <th>Assigned To</th>
+    <th>Status</th>
+  </tr>
+
+  <!-- EP01 -->
+  <tr><td colspan="7"><b>EP01 – Autenticación y Perfil de Usuario</b></td></tr>
+  <tr><td>US01</td><td>UT01</td><td>Registro de usuario</td><td>Implementar componente de registro en frontend que conecte con endpoint POST /api/v1/auth/register con validaciones de correo y contraseña.</td><td>4h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td></td><td>UT02</td><td>Validar correo duplicado en registro</td><td>Implementar verificación en frontend de que el correo no esté registrado previamente conectando con el backend.</td><td>2h</td><td>Jafeth Ynga</td><td>Done</td></tr>
+  <tr><td>US02</td><td>UT03</td><td>Inicio de sesión</td><td>Implementar formulario de login en frontend que conecte con endpoint POST /api/v1/auth/login con autenticación JWT.</td><td>3h</td><td>Iker Barturen</td><td>Done</td></tr>
+  <tr><td></td><td>UT04</td><td>Manejo de errores en autenticación</td><td>Implementar manejo de errores en frontend para credenciales inválidas o usuario inexistente conectando con el backend.</td><td>2h</td><td>Jafeth Ynga</td><td>Done</td></tr>
+  <tr><td>US03</td><td>UT05</td><td>Gestión de perfil</td><td>Implementar vista de perfil en frontend que conecte con endpoints GET/PUT /api/profile/{userId} para obtener y actualizar perfil.</td><td>3h</td><td>Andrés Torres</td><td>Done</td></tr>
+  <tr><td></td><td>UT06</td><td>Implementar subida de foto de perfil</td><td>Implementar funcionalidad de subida de foto en frontend que conecte con endpoint POST /api/profile/{userId}/photo.</td><td>2h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td>US04</td><td>UT07</td><td>Recuperación de contraseña</td><td>Implementar formulario de recuperación en frontend que conecte con endpoint POST /api/v1/settings/{userId}/reset.</td><td>3h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td></td><td>UT08</td><td>Implementar actualización de contraseña</td><td>Implementar funcionalidad de cambio de contraseña en frontend que conecte con endpoint POST /api/v1/settings/{userId}/password.</td><td>2h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US05</td><td>UT09</td><td>Validación de sesión</td><td>Implementar validación de sesión activa en frontend conectando con endpoint GET /api/v1/auth/validate.</td><td>3h</td><td>Iker Barturen</td><td>Done</td></tr>
+
+  <!-- EP02 -->
+  <tr><td colspan="7"><b>EP02 – Conexión y Monitoreo de Dispositivos</b></td></tr>
+  <tr><td>US06</td><td>UT10</td><td>Gestión de dispositivos</td><td>Implementar interfaz de gestión de dispositivos en frontend que conecte con endpoints GET/POST /api/v1/devices y GET/PUT/DELETE /api/v1/devices/{deviceId}.</td><td>4h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td></td><td>UT11</td><td>Validar compatibilidad de dispositivos</td><td>Implementar validación de compatibilidad en frontend conectando con lógica del backend.</td><td>2h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US07</td><td>UT12</td><td>Toggle de dispositivos</td><td>Implementar control de encendido/apagado en frontend que conecte con endpoint POST /api/v1/devices/{deviceId}/toggle.</td><td>3h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td></td><td>UT13</td><td>Implementar preferencias de dispositivos</td><td>Implementar configuración de preferencias en frontend conectando con endpoints GET/PUT /api/v1/preferences/devices.</td><td>2h</td><td>Iker Barturen</td><td>Done</td></tr>
+  <tr><td>US08</td><td>UT14</td><td>Monitoreo de dispositivos activos</td><td>Implementar vista de monitoreo en frontend que conecte con endpoint GET /api/v1/devices/active.</td><td>4h</td><td>Iker Barturen</td><td>Done</td></tr>
+  <tr><td></td><td>UT15</td><td>Manejo de desconexiones</td><td>Implementar notificaciones de desconexión en frontend conectando con el backend.</td><td>2h</td><td>Yeira Huamán</td><td>Done</td></tr>
+
+  <!-- EP03 -->
+  <tr><td colspan="7"><b>EP03 – Alertas y Recordatorios de Consumo</b></td></tr>
+  <tr><td>US09</td><td>UT16</td><td>Gestión de alertas</td><td>Implementar gestión de alertas en frontend que conecte con endpoints GET/POST /api/v1/alerts y PUT /api/v1/alerts/{alertId}/read.</td><td>3h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td></td><td>UT17</td><td>Implementar conteo de alertas no leídas</td><td>Implementar contador de alertas no leídas en frontend conectando con endpoint GET /api/v1/alerts/count/unread.</td><td>2h</td><td>Jafeth Ynga</td><td>Done</td></tr>
+  <tr><td>US10</td><td>UT18</td><td>Gestión de notificaciones</td><td>Implementar gestión de notificaciones en frontend que conecte con endpoints GET/POST /api/v1/notifications y PUT /api/v1/notifications/{notificationId}/read.</td><td>3h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td></td><td>UT19</td><td>Implementar conteo de notificaciones no leídas</td><td>Implementar contador de notificaciones no leídas en frontend conectando con endpoint GET /api/v1/notifications/count/unread.</td><td>2h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US11</td><td>UT20</td><td>Configuración de umbrales</td><td>Implementar configuración de umbrales en frontend que permita definir límites conectando con el backend.</td><td>4h</td><td>Iker Barturen</td><td>Done</td></tr>
+
+  <!-- EP04 -->
+  <tr><td colspan="7"><b>EP04 – Reportes y Facturación</b></td></tr>
+  <tr><td>US12</td><td>UT21</td><td>Generación de reportes semanales</td><td>Implementar generación de reportes semanales en frontend que conecte con endpoints POST /api/v1/reports/weeklyConsumption/generate-sample y GET /api/v1/reports/weeklyConsumption.</td><td>4h</td><td>Mateo Loechle</td><td>Done</td></tr>
+  <tr><td>US13</td><td>UT22</td><td>Consulta de consumo diario</td><td>Implementar vista de consumo diario en frontend que conecte con endpoints GET /api/v1/consumption/daily y GET /api/v1/consumption/daily/{date}.</td><td>3h</td><td>Jafeth Ynga</td><td>Done</td></tr>
+  <tr><td>US14</td><td>UT23</td><td>Consulta de consumo mensual</td><td>Implementar vista de consumo mensual en frontend que conecte con endpoint GET /api/v1/consumption/monthly.</td><td>3h</td><td>Andrés Torres</td><td>Done</td></tr>
+  <tr><td>US15</td><td>UT24</td><td>Consulta de consumo por categorías</td><td>Implementar vista de consumo por categorías en frontend que conecte con endpoint GET /api/v1/consumption/categories.</td><td>3h</td><td>Alexis Encalada</td><td>Done</td></tr>
+
+  <!-- EP05 -->
+  <tr><td colspan="7"><b>EP05 – Metas y Ahorro Energético</b></td></tr>
+  <tr><td>US16</td><td>UT25</td><td>Estadísticas del dashboard</td><td>Implementar estadísticas del dashboard en frontend que conecte con endpoints GET/PUT /api/v1/dashboard/stats.</td><td>3h</td><td>Yeira Huamán</td><td>Done</td></tr>
+  <tr><td>US17</td><td>UT26</td><td>Inicialización de datos</td><td>Implementar inicialización de datos en frontend que conecte con endpoint POST /api/v1/data/initialize.</td><td>4h</td><td>Iker Barturen</td><td>Done</td></tr>
+  <tr><td>US18</td><td>UT27</td><td>Resumen de datos</td><td>Implementar resumen de datos en frontend que conecte con endpoint GET /api/v1/data/summary.</td><td>3h</td><td>Jafeth Ynga</td><td>Done</td></tr>
+  <tr><td>US19</td><td>UT28</td><td>Configuración de metas</td><td>Implementar configuración de metas en frontend que permita configurar metas mensuales conectando con el backend.</td><td>3h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td>US20</td><td>UT29</td><td>Comparación de consumo</td><td>Implementar comparación de consumo en frontend que muestre comparación con otros usuarios conectando con el backend.</td><td>3h</td><td>Andrés Torres</td><td>Done</td></tr>
+
+  <!-- EP07 -->
+  <tr><td colspan="7"><b>EP07 – Gestión de Categorías de Dispositivos</b></td></tr>
+  <tr><td>US24</td><td>UT33</td><td>Consulta por categoría</td><td>Implementar consulta por categoría en frontend que conecte con endpoint GET /api/v1/devices/category/{category}.</td><td>3h</td><td>Alexis Encalada</td><td>Done</td></tr>
+  <tr><td>US25</td><td>UT34</td><td>Consumo por categoría</td><td>Implementar vista de consumo por categoría en frontend que muestre consumo agrupado conectando con el backend.</td><td>4h</td><td>Jafeth Ynga</td><td>Done</td></tr>
+  <tr><td>US26</td><td>UT35</td><td>Identificación de dispositivos de alto consumo</td><td>Implementar identificación de dispositivos de alto consumo en frontend conectando con lógica del backend.</td><td>3h</td><td>Andrés Torres</td><td>Done</td></tr>
+</table>
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 
-En esta secciÃ³n se demuestran los commits relacionados con los principales avances en la implementaciÃ³n.
-Estos commits provienen del repositorio del proyecto backend de la organizaciÃ³n de GitHub.
+En esta sección se demuestran los commits relacionados con los principales avances en la implementación.
+Estos commits provienen del repositorio del proyecto backend de la organización de GitHub.
 
 Enlace al repositorio del proyecto backend: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS
 
@@ -1000,19 +1208,19 @@ Enlace al repositorio del proyecto frontend: https://github.com/Upc-pre-1ASI0729
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
-Durante el desarrollo del sprint 4 se lograron completar todos los puntos para la integraciÃ³n completa entre frontend y backend de la aplicaciÃ³n SEMS, estableciendo una conexiÃ³n fluida entre las capas del sistema para la gestiÃ³n de energÃ­a en los hogares. Las principales caracterÃ­sticas integradas fueron:
+Durante el desarrollo del sprint 4 se lograron completar todos los puntos para la integración completa entre frontend y backend de la aplicación SEMS, estableciendo una conexión fluida entre las capas del sistema para la gestión de energía en los hogares. Las principales características integradas fueron:
 
-1. IntegraciÃ³n de autenticaciÃ³n completa conectando frontend con endpoints de registro, login y validaciÃ³n de sesiÃ³n.
+1. Integración de autenticación completa conectando frontend con endpoints de registro, login y validación de sesión.
 
-2. GestiÃ³n de perfiles integrada, permitiendo obtener, actualizar y subir foto de perfil desde el frontend.
+2. Gestión de perfiles integrada, permitiendo obtener, actualizar y subir foto de perfil desde el frontend.
 
-3. GeneraciÃ³n y consulta de reportes integrada, con soporte para reportes semanales y consultas de consumo diario, mensual y por categorÃ­as.
+3. Generación y consulta de reportes integrada, con soporte para reportes semanales y consultas de consumo diario, mensual y por categorías.
 
-4. CRUD de dispositivos integrado, incluyendo monitoreo en tiempo real, toggle, preferencias y gestiÃ³n por categorÃ­as desde la interfaz.
+4. CRUD de dispositivos integrado, incluyendo monitoreo en tiempo real, toggle, preferencias y gestión por categorías desde la interfaz.
 
-5. ValidaciÃ³n de sesiones y manejo de errores en autenticaciÃ³n integrada.
+5. Validación de sesiones y manejo de errores en autenticación integrada.
 
-6. Arquitectura completa con frontend, backend, base de datos y despliegues en plataformas en lÃ­nea para una experiencia de usuario completa.
+6. Arquitectura completa con frontend, backend, base de datos y despliegues en plataformas en línea para una experiencia de usuario completa.
 
 **Capturas de pantalla de los diferentes despliegues**
 
@@ -1042,45 +1250,45 @@ Durante el desarrollo del sprint 4 se lograron completar todos los puntos para l
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
-**IntroducciÃ³n**
+**Introducción**
 
-Durante el sprint 4, hemos implementado la integraciÃ³n completa del sistema de Energix, desplegando landing page en Netlify, frontend en Vercel, backend en Render y la base de datos en Aiven, creando una aplicaciÃ³n completa y funcional para la gestiÃ³n de energÃ­a en los hogares.
+Durante el sprint 4, hemos implementado la integración completa del sistema de Energix, desplegando landing page en Netlify, frontend en Vercel, backend en Render y la base de datos en Aiven, creando una aplicación completa y funcional para la gestión de energía en los hogares.
 
-**ImplementaciÃ³n de landing page en Netlify**
+**Implementación de landing page en Netlify**
 
-Utilizamos Netlify para el despliegue de la landing page, asegurando una presentaciÃ³n atractiva y accesible del proyecto.
+Utilizamos Netlify para el despliegue de la landing page, asegurando una presentación atractiva y accesible del proyecto.
 
 La URL de la landing page es:
 
 https://energixlp.netlify.app
 
-**ImplementaciÃ³n de frontend en Vercel**
+**Implementación de frontend en Vercel**
 
-Desplegamos el frontend en Vercel, facilitando la interacciÃ³n del usuario con la aplicaciÃ³n web integrada.
+Desplegamos el frontend en Vercel, facilitando la interacción del usuario con la aplicación web integrada.
 
 La URL del frontend es:
 
 https://frontend-sems.vercel.app
 
-**ImplementaciÃ³n de API centralizada en Render**
+**Implementación de API centralizada en Render**
 
-Decidimos utilizar Render para el despliegue del backend, asegurando una infraestructura centralizada y escalable. Esta decisiÃ³n nos permitiÃ³ tener un mayor control sobre la API y facilitar la integraciÃ³n con el frontend.
+Decidimos utilizar Render para el despliegue del backend, asegurando una infraestructura centralizada y escalable. Esta decisión nos permitió tener un mayor control sobre la API y facilitar la integración con el frontend.
 
-Por motivos de seguridad y para proteger la direcciÃ³n IP pÃºblica del servidor, hemos implementado un proxy utilizando Cloudflare Tunnel que oculta la direcciÃ³n real del servidor Render. Esto es especialmente importante cuando se publican URLs en repositorios pÃºblicos de GitHub, ya que exponer directamente las IPs representar un riesgo de seguridad.
+Por motivos de seguridad y para proteger la dirección IP pública del servidor, hemos implementado un proxy utilizando Cloudflare Tunnel que oculta la dirección real del servidor Render. Esto es especialmente importante cuando se publican URLs en repositorios públicos de GitHub, ya que exponer directamente las IPs representar un riesgo de seguridad.
 
-La URL base para todos los recursos de nuestra API a travÃ©s del proxy seguro es:
+La URL base para todos los recursos de nuestra API a través del proxy seguro es:
 
 https://theft-muscles-inner-protection.trycloudflare.com
 
-La documentaciÃ³n interactiva de la API estÃ¡ disponible en Swagger UI en:
+La documentación interactiva de la API está disponible en Swagger UI en:
 
 https://theft-muscles-inner-protection.trycloudflare.com/swagger-ui/index.html
 
-**ConfiguraciÃ³n de base de datos en Aiven**
+**Configuración de base de datos en Aiven**
 
 La base de datos se aloja en Aiven, proporcionando un servicio de base de datos en la nube confiable y escalable para almacenar y gestionar los datos del sistema.
 
-| **ParÃ¡metro** | **Valor** |
+| **Parámetro** | **Valor** |
 |---------------|-----------|
 | Service URI   | mysql://avnadmin:[REDACTED]@sems-semsv01.i.aivencloud.com:11867/defaultdb?ssl-mode=REQUIRED |
 | Database name | defaultdb |
@@ -1090,127 +1298,127 @@ La base de datos se aloja en Aiven, proporcionando un servicio de base de datos 
 | Password      | [REDACTED] |
 | SSL mode      | REQUIRED |
 
-**ConfiguraciÃ³n del servidor en Render**
+**Configuración del servidor en Render**
 
-El proceso de implementaciÃ³n en Render involucrÃ³ varias etapas para asegurar un despliegue exitoso. Comenzamos creando una nueva cuenta y proyecto en la plataforma, configurÃ¡ndolo especÃ­ficamente para trabajar con Java/Spring Boot como entorno de ejecuciÃ³n.
+El proceso de implementación en Render involucró varias etapas para asegurar un despliegue exitoso. Comenzamos creando una nueva cuenta y proyecto en la plataforma, configurándolo específicamente para trabajar con Java/Spring Boot como entorno de ejecución.
 
-Conectamos nuestro repositorio de GitHub para habilitar el despliegue automÃ¡tico, lo que nos permite mantener sincronizado el entorno de producciÃ³n con la rama principal del proyecto. Esto ha resultado en un flujo de trabajo mÃ¡s eficiente, donde cada merge a la rama principal actualiza automÃ¡ticamente nuestra API.
+Conectamos nuestro repositorio de GitHub para habilitar el despliegue automático, lo que nos permite mantener sincronizado el entorno de producción con la rama principal del proyecto. Esto ha resultado en un flujo de trabajo más eficiente, donde cada merge a la rama principal actualiza automáticamente nuestra API.
 
-| MÃ©todo HTTP | Endpoint                                      | DescripciÃ³n                                        | Ejemplo de uso                             |
+| Método HTTP | Endpoint                                      | Descripción                                        | Ejemplo de uso                             |
 |-------------|-----------------------------------------------|----------------------------------------------------|--------------------------------------------|
 | POST        | /api/v1/authentication/sign-up                | Registra un nuevo usuario                          | Crear cuenta de propietario o estudiante   |
-| POST        | /api/v1/authentication/sign-in                | Autentica un usuario                               | Iniciar sesiÃ³n                             |
-| GET         | /api/v1/profiles/{profileId}                  | Obtiene el perfil por ID                           | Mostrar datos del perfil especÃ­fico        |
-| PUT         | /api/v1/profiles/{profileId}                  | Actualiza el perfil por ID                         | Modificar informaciÃ³n personal             |
+| POST        | /api/v1/authentication/sign-in                | Autentica un usuario                               | Iniciar sesión                             |
+| GET         | /api/v1/profiles/{profileId}                  | Obtiene el perfil por ID                           | Mostrar datos del perfil específico        |
+| PUT         | /api/v1/profiles/{profileId}                  | Actualiza el perfil por ID                         | Modificar información personal             |
 | GET         | /api/v1/profiles/me                           | Obtiene el perfil del usuario actual               | Mostrar datos del perfil propio            |
-| PUT         | /api/v1/profiles/me                           | Actualiza el perfil del usuario actual             | Editar informaciÃ³n personal propia         |
+| PUT         | /api/v1/profiles/me                           | Actualiza el perfil del usuario actual             | Editar información personal propia         |
 | GET         | /api/v1/devices                               | Obtiene lista de dispositivos                      | Listar todos los dispositivos              |
 | POST        | /api/v1/devices                               | Crea un nuevo dispositivo                          | Agregar dispositivo                        |
-| GET         | /api/v1/devices/{deviceId}                    | Obtiene un dispositivo especÃ­fico                  | Ver detalles de dispositivo                |
+| GET         | /api/v1/devices/{deviceId}                    | Obtiene un dispositivo específico                  | Ver detalles de dispositivo                |
 | DELETE      | /api/v1/devices/{deviceId}                    | Elimina un dispositivo                             | Remover dispositivo                        |
-| GET         | /api/v1/devices/{deviceId}/consumption        | Obtiene el consumo de un dispositivo               | Ver consumo especÃ­fico del dispositivo     |
+| GET         | /api/v1/devices/{deviceId}/consumption        | Obtiene el consumo de un dispositivo               | Ver consumo específico del dispositivo     |
 | GET         | /api/v1/devices/users/{userId}                | Obtiene dispositivos por ID de usuario             | Listar dispositivos de un usuario          |
 | GET         | /api/v1/notifications                         | Obtiene todas las notificaciones                   | Listar todas las notificaciones            |
-| POST        | /api/v1/notifications                         | Crea una nueva notificaciÃ³n                        | Generar nueva notificaciÃ³n                 |
-| GET         | /api/v1/notifications/user/{userId}           | Obtiene notificaciones por ID de usuario           | Ver notificaciones de usuario especÃ­fico   |
+| POST        | /api/v1/notifications                         | Crea una nueva notificación                        | Generar nueva notificación                 |
+| GET         | /api/v1/notifications/user/{userId}           | Obtiene notificaciones por ID de usuario           | Ver notificaciones de usuario específico   |
 | GET         | /api/v1/notifications/device/{deviceId}       | Obtiene notificaciones por ID de dispositivo       | Ver notificaciones de dispositivo          |
 | GET         | /api/v1/settings                              | Obtiene configuraciones del usuario                | Ver configuraciones actuales               |
 | PUT         | /api/v1/settings                              | Actualiza configuraciones del usuario              | Modificar configuraciones                  |
-| POST        | /api/v1/settings/rules                        | AÃ±ade regla de ahorro                              | Crear nueva regla de ahorro                |
+| POST        | /api/v1/settings/rules                        | Añade regla de ahorro                              | Crear nueva regla de ahorro                |
 | PUT         | /api/v1/settings/rules/{ruleId}               | Actualiza regla de ahorro                          | Editar regla existente                     |
 | DELETE      | /api/v1/settings/rules/{ruleId}               | Elimina regla de ahorro                            | Remover regla de ahorro                    |
 | GET         | /api/v1/reports/weekly-consumption            | Obtiene reporte de consumo semanal                 | Generar reporte semanal                    |
-| GET         | /api/v1/reports/top-devices                   | Obtiene los 3 dispositivos que mÃ¡s consumen        | Ver dispositivos con mayor consumo         |
+| GET         | /api/v1/reports/top-devices                   | Obtiene los 3 dispositivos que más consumen        | Ver dispositivos con mayor consumo         |
 | GET         | /api/v1/users                                 | Obtiene lista de usuarios                          | Listar todos los usuarios                  |
-| GET         | /api/v1/users/{id}                            | Obtiene usuario por ID                             | Ver datos de usuario especÃ­fico            |
+| GET         | /api/v1/users/{id}                            | Obtiene usuario por ID                             | Ver datos de usuario específico            |
 | GET         | /api/v1/users/{userId}/preferences            | Obtiene preferencias del usuario                   | Ver preferencias del usuario               |
 | PUT         | /api/v1/users/{userId}/preferences            | Actualiza preferencias del usuario                 | Modificar preferencias                     |
 | GET         | /api/v1/roles                                 | Obtiene lista de roles                             | Listar roles disponibles                   |
-| GET         | /api/v1/roles/{id}                            | Obtiene rol por ID                                 | Ver detalles del rol especÃ­fico            |
-| GET         | /api/v1/dashboard                             | Obtiene datos del dashboard                        | Mostrar mÃ©tricas del dashboard             |
+| GET         | /api/v1/roles/{id}                            | Obtiene rol por ID                                 | Ver detalles del rol específico            |
+| GET         | /api/v1/dashboard                             | Obtiene datos del dashboard                        | Mostrar métricas del dashboard             |
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
-Durante este Sprint 4, se completÃ³ la integraciÃ³n completa del sistema Energix, incluyendo el despliegue de la landing page, frontend, backend y base de datos en plataformas en lÃ­nea. El objetivo fue contar con una versiÃ³n funcional y accesible del sistema completo para revisiÃ³n y retroalimentaciÃ³n.
+Durante este Sprint 4, se completó la integración completa del sistema Energix, incluyendo el despliegue de la landing page, frontend, backend y base de datos en plataformas en línea. El objetivo fue contar con una versión funcional y accesible del sistema completo para revisión y retroalimentación.
 
 Actividades realizadas:
 
-- Se desplegÃ³ la landing page en Netlify: https://energixlp.netlify.app
+- Se desplegó la landing page en Netlify: https://energixlp.netlify.app
 
-- Se desplegÃ³ el frontend en Vercel: https://frontend-sems.vercel.app
+- Se desplegó el frontend en Vercel: https://frontend-sems.vercel.app
 
-- Se desplegÃ³ el backend en Render utilizando un proxy seguro de Cloudflare: https://theft-muscles-inner-protection.trycloudflare.com
+- Se desplegó el backend en Render utilizando un proxy seguro de Cloudflare: https://theft-muscles-inner-protection.trycloudflare.com
 
-- Se configurÃ³ la base de datos en Aiven con los parÃ¡metros necesarios para la integraciÃ³n completa.
+- Se configuró la base de datos en Aiven con los parámetros necesarios para la integración completa.
 
-Se verificÃ³ la correcta publicaciÃ³n de todos los componentes del sistema.
+Se verificó la correcta publicación de todos los componentes del sistema.
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
-En esta secciÃ³n se evidencia la colaboraciÃ³n de cada integrante en los repositorios de la aplicaciÃ³n.
+En esta sección se evidencia la colaboración de cada integrante en los repositorios de la aplicación.
 
 Repositorio de la Landing Page: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page
 
-Repositorio del Frontend de la AplicaciÃ³n: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
+Repositorio del Frontend de la Aplicación: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
 
-Repositorio del Backend de la AplicaciÃ³n: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS
+Repositorio del Backend de la Aplicación: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS
 
 | **Integrante**                       | **Actividad**                                                                                            |  
 |--------------------------------------|----------------------------------------------------------------------------------------------------------|
-| **Huaman Olivos, Yeira Shari**       | ImplementaciÃ³n de secciones del **Backend de la AplicaciÃ³n** y contribuciones a los **chapter 5.md**     |
-| **Loechle Arias, Mateo Ãtalo**       | ImplementaciÃ³n de secciones del **Backend de la AplicaciÃ³n** y contribuciones a los **chapter 5.md**     |
-| **Barturen Panez, Iker Gabriel**     | ImplementaciÃ³n de secciones del **Backend de la AplicaciÃ³n** y contribuciones a los **chapter 5.md**     |
-| **Encalada Salazar, Alexis**         | ImplementaciÃ³n de secciones del **Backend de la AplicaciÃ³n** y contribuciones a los **chapter 5.md**     |
-| **Torres Lavandera, AndrÃ©s Rodrigo** | ImplementaciÃ³n de secciones del **Backend de la AplicaciÃ³n** y contribuciones a los **chapter 5.md**     |
-| **Ynga Amado, Jafeth Worren**        | ImplementaciÃ³n de secciones del **Backend de la AplicaciÃ³n** y contribuciones a los **chapter 5.md**     |
+| **Huaman Olivos, Yeira Shari**       | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Loechle Arias, Mateo Ítalo**       | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Barturen Panez, Iker Gabriel**     | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Encalada Salazar, Alexis**         | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Torres Lavandera, Andrés Rodrigo** | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
+| **Ynga Amado, Jafeth Worren**        | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
 
 #### 5.3. Validation Interviews
 
-Las entrevistas de validaciÃ³n representan una fase crucial en el proceso de desarrollo del producto SEMS (Sistema de Monitoreo EnergÃ©tico Inteligente). Esta metodologÃ­a nos permite evaluar la efectividad, usabilidad y aceptaciÃ³n de la soluciÃ³n implementada por parte de nuestros segmentos objetivo identificados en el capÃ­tulo anterior.
+Las entrevistas de validación representan una fase crucial en el proceso de desarrollo del producto SEMS (Sistema de Monitoreo Energético Inteligente). Esta metodología nos permite evaluar la efectividad, usabilidad y aceptación de la solución implementada por parte de nuestros segmentos objetivo identificados en el capítulo anterior.
 
-#### 5.3.1. DiseÃ±o de Entrevistas
+#### 5.3.1. Diseño de Entrevistas
 
-El diseÃ±o de las entrevistas de validaciÃ³n se estructura en torno a la evaluaciÃ³n prÃ¡ctica del producto SEMS desarrollado. Las entrevistas estÃ¡n dirigidas a los mismos segmentos objetivo identificados en el capÃ­tulo 2: propietarios de vivienda y estudiantes que alquilan, con el fin de validar si la soluciÃ³n implementada satisface sus necesidades especÃ­ficas de monitoreo energÃ©tico.
+El diseño de las entrevistas de validación se estructura en torno a la evaluación práctica del producto SEMS desarrollado. Las entrevistas están dirigidas a los mismos segmentos objetivo identificados en el capítulo 2: propietarios de vivienda y estudiantes que alquilan, con el fin de validar si la solución implementada satisface sus necesidades específicas de monitoreo energético.
 
 #### Preguntas para Segmento #1: Propietarios de Vivienda
 
-1. Al ingresar a la plataforma, Â¿quÃ© es lo primero que llama su atenciÃ³n?
-2. Sin leer instrucciones, Â¿puede identificar cuÃ¡l es el propÃ³sito principal de esta aplicaciÃ³n?
-3. Â¿La informaciÃ³n presentada en el dashboard le resulta clara y comprensible?
-4. Â¿Puede localizar fÃ¡cilmente la informaciÃ³n sobre su consumo energÃ©tico actual?
-5. Â¿QuÃ© opina sobre la forma en que se presentan los datos de consumo (grÃ¡ficos, nÃºmeros, alertas)?
-6. Â¿Las alertas de consumo le resultan Ãºtiles y fÃ¡ciles de entender?
-7. Â¿La funciÃ³n de control remoto de dispositivos le parece intuitiva de usar?
-8. Â¿Considera que esta herramienta podrÃ­a ayudarle realmente a reducir sus gastos de electricidad?
-9. Â¿QuÃ© funcionalidad le resulta mÃ¡s valiosa de las que ha visto?
-10. Â¿El diseÃ±o y colores le transmiten confianza y profesionalismo?
-11. Â¿Encuentra alguna dificultad para navegar entre las diferentes secciones?
-12. Â¿Los Ã­conos y botones son claros en su funciÃ³n?
-13. BasÃ¡ndose en lo que ha visto, Â¿estarÃ­a dispuesto(a) a usar esta plataforma regularmente?
-14. Â¿RecomendarÃ­a esta soluciÃ³n a otros propietarios de vivienda?
-15. Â¿QuÃ© mejorarÃ­a para que la plataforma sea perfecta para sus necesidades?
+1. Al ingresar a la plataforma, ¿qué es lo primero que llama su atención?
+2. Sin leer instrucciones, ¿puede identificar cuál es el propósito principal de esta aplicación?
+3. ¿La información presentada en el dashboard le resulta clara y comprensible?
+4. ¿Puede localizar fácilmente la información sobre su consumo energético actual?
+5. ¿Qué opina sobre la forma en que se presentan los datos de consumo (gráficos, números, alertas)?
+6. ¿Las alertas de consumo le resultan útiles y fáciles de entender?
+7. ¿La función de control remoto de dispositivos le parece intuitiva de usar?
+8. ¿Considera que esta herramienta podría ayudarle realmente a reducir sus gastos de electricidad?
+9. ¿Qué funcionalidad le resulta más valiosa de las que ha visto?
+10. ¿El diseño y colores le transmiten confianza y profesionalismo?
+11. ¿Encuentra alguna dificultad para navegar entre las diferentes secciones?
+12. ¿Los íconos y botones son claros en su función?
+13. Basándose en lo que ha visto, ¿estaría dispuesto(a) a usar esta plataforma regularmente?
+14. ¿Recomendaría esta solución a otros propietarios de vivienda?
+15. ¿Qué mejoraría para que la plataforma sea perfecta para sus necesidades?
 
 #### Preguntas para Segmento #2: Estudiantes que Alquilan
 
-1. Â¿La interfaz le parece amigable para alguien de su perfil tecnolÃ³gico?
-2. Â¿Puede entender rÃ¡pidamente cÃ³mo esta aplicaciÃ³n le ayudarÃ­a a gestionar sus gastos de luz?
-3. Â¿La informaciÃ³n se presenta de una manera que le resulte familiar y fÃ¡cil de procesar?
-4. Â¿Los datos de consumo le ayudan a entender mejor en quÃ© se va su dinero de electricidad?
-5. Â¿Las alertas le parecen Ãºtiles para controlar mejor sus gastos mensuales?
-6. Â¿Puede identificar fÃ¡cilmente cuÃ¡nto podrÃ­a ahorrar usando esta herramienta?
-7. Â¿La funciÃ³n de monitoreo en tiempo real le resulta prÃ¡ctica para su estilo de vida?
-8. Â¿Esta herramienta le ayudarÃ­a a mantenerse dentro de su presupuesto mensual?
-9. Â¿QuÃ© caracterÃ­stica considera mÃ¡s importante para su situaciÃ³n como estudiante?
-10. Â¿El ahorro promedio mostrado le parece realista y atractivo?
-11. Al ser una aplicaciÃ³n responsive, Â¿Puede usar la aplicaciÃ³n fÃ¡cilmente desde su dispositivo mÃ³vil?
-12. Â¿Hay algo que le parezca confuso o complicado de entender?
-13. Â¿Con quÃ© frecuencia cree que usarÃ­a esta plataforma?
-14. Â¿Se siente motivado(a) a cambiar sus hÃ¡bitos de consumo despuÃ©s de ver esta herramienta?
+1. ¿La interfaz le parece amigable para alguien de su perfil tecnológico?
+2. ¿Puede entender rápidamente cómo esta aplicación le ayudaría a gestionar sus gastos de luz?
+3. ¿La información se presenta de una manera que le resulte familiar y fácil de procesar?
+4. ¿Los datos de consumo le ayudan a entender mejor en qué se va su dinero de electricidad?
+5. ¿Las alertas le parecen útiles para controlar mejor sus gastos mensuales?
+6. ¿Puede identificar fácilmente cuánto podría ahorrar usando esta herramienta?
+7. ¿La función de monitoreo en tiempo real le resulta práctica para su estilo de vida?
+8. ¿Esta herramienta le ayudaría a mantenerse dentro de su presupuesto mensual?
+9. ¿Qué característica considera más importante para su situación como estudiante?
+10. ¿El ahorro promedio mostrado le parece realista y atractivo?
+11. Al ser una aplicación responsive, ¿Puede usar la aplicación fácilmente desde su dispositivo móvil?
+12. ¿Hay algo que le parezca confuso o complicado de entender?
+13. ¿Con qué frecuencia cree que usaría esta plataforma?
+14. ¿Se siente motivado(a) a cambiar sus hábitos de consumo después de ver esta herramienta?
 
 
 #### 5.3.2. Registro de Entrevistas
 
-Esta secciÃ³n se dedica a la documentaciÃ³n sistemÃ¡tica de cada entrevista con los segmentos objetivo. Se organiza la informaciÃ³n para presentar el perfil de cada entrevistado, junto con sus respuestas directas y los hallazgos mÃ¡s significativos. Este registro es crucial para comprender la perspectiva del usuario y validar nuestro proyecto.
+Esta sección se dedica a la documentación sistemática de cada entrevista con los segmentos objetivo. Se organiza la información para presentar el perfil de cada entrevistado, junto con sus respuestas directas y los hallazgos más significativos. Este registro es crucial para comprender la perspectiva del usuario y validar nuestro proyecto.
 
 **ENTREVISTAS SEGMENTO OBJETIVO 1: PROPIETARIOS DE VIVIENDA**
 
@@ -1223,15 +1431,15 @@ Foto de la entrevista
 
 Inicia:00.00
 
-DuraciÃ³n:10:07
+Duración:10:07
 
 Nombre: Emperatriz Sessarego
 
 Edad: 57
 
-Distrito: JesÃºs MarÃ­a
+Distrito: Jesús María
  
-Resumen: La propietaria de vivienda Emperatriz regresa para ser presentada ante la pÃ¡gina web junto a beneficios que ofrecemos y luego es redirigida hacia la aplicaciÃ³n web donde se le hizo un recurrido sobre las diferentes herramientas que ofrece la aplicaciÃ³n. Emperatriz resume su experiencia como agradeble, cree que la plataforma le serÃ¡ uitl al momento de controlar su consumo energÃ©tico. Define la aplicaciÃ³n como fÃ¡cile de enterder y navegar y concluye que si usarÃ­a la aplicaciÃ³n y la recomendarÃ­a a otros propietarios de vivienda.
+Resumen: La propietaria de vivienda Emperatriz regresa para ser presentada ante la página web junto a beneficios que ofrecemos y luego es redirigida hacia la aplicación web donde se le hizo un recurrido sobre las diferentes herramientas que ofrece la aplicación. Emperatriz resume su experiencia como agradeble, cree que la plataforma le será uitl al momento de controlar su consumo energético. Define la aplicación como fácile de enterder y navegar y concluye que si usaría la aplicación y la recomendaría a otros propietarios de vivienda.
 
 
 
@@ -1241,7 +1449,7 @@ Foto de la entrevista
 ![EntrevistaAna.png](assets/EntrevistaAna.png)
 Inicia:00:00
 
-DuraciÃ³n: 05:43
+Duración: 05:43
 
 Nombre: Ana Vivar
 
@@ -1249,7 +1457,7 @@ Edad: 28
 
 Distrito: San Miguel 
 
-Resumen: La propietaria de vivienda Ana Vivar evaluÃ³ la aplicaciÃ³n web y afirmÃ³ que sÃ­ estarÃ­a dispuesta a utilizarla, resaltando que le pareciÃ³ intuitiva, clara y fÃ¡cil de navegar. DestacÃ³ que los datos detallados sobre el consumo energÃ©tico le serÃ­an muy Ãºtiles para optimizar el uso de energÃ­a en su hogar y reducir su factura elÃ©ctrica, y que el diseÃ±o de la plataforma transmite profesionalismo, con botones bien definidos y un dashboard especialmente valioso por la forma en que presenta la informaciÃ³n. AdemÃ¡s, mencionÃ³ que recomendarÃ­a la aplicaciÃ³n a amigos que, como ella, son propietarios de vivienda.
+Resumen: La propietaria de vivienda Ana Vivar evaluó la aplicación web y afirmó que sí estaría dispuesta a utilizarla, resaltando que le pareció intuitiva, clara y fácil de navegar. Destacó que los datos detallados sobre el consumo energético le serían muy útiles para optimizar el uso de energía en su hogar y reducir su factura eléctrica, y que el diseño de la plataforma transmite profesionalismo, con botones bien definidos y un dashboard especialmente valioso por la forma en que presenta la información. Además, mencionó que recomendaría la aplicación a amigos que, como ella, son propietarios de vivienda.
 
 
 **ENTREVISTAS SEGMENTO OBJETIVO 2: ESTUDIANTES QUE ALQUILAN**
@@ -1260,7 +1468,7 @@ Resumen: La propietaria de vivienda Ana Vivar evaluÃ³ la aplicaciÃ³n web y a
 
 Inicia: 00:00
 
-DuraciÃ³n: 
+Duración: 
 
 Nombre: Johnny Ricardo Mallqui Cueva
 
@@ -1268,7 +1476,7 @@ Edad: 19
 
 Distrito: Chorrillos
 
-Resumen: Johnny Mallqui (19 aÃ±os) estudia en la UPC y alquila un cuarto en Chorrillos, se relaciaona a menudo con la tecnologÃ­a ya que estudia ingenierÃ­a de Sistemas. Al probar nuestra herramienta nos comento que fue de su agrado y qeu si la usaria, mas que nada si esta se puede usar en un dispositivo movil ya que si una herramienta que solo esta disponible para laptop o PC, nos comento que no valdria la pena, en su caso si esta dispuesto a usarla, ya que al usar tantos dispositivos, seria una herramienta que facilite el ahorro de consumo energetico, tambien nos menciono que la aplicacion es intuitiva y que es muy facil de usar. 
+Resumen: Johnny Mallqui (19 años) estudia en la UPC y alquila un cuarto en Chorrillos, se relaciaona a menudo con la tecnología ya que estudia ingeniería de Sistemas. Al probar nuestra herramienta nos comento que fue de su agrado y qeu si la usaria, mas que nada si esta se puede usar en un dispositivo movil ya que si una herramienta que solo esta disponible para laptop o PC, nos comento que no valdria la pena, en su caso si esta dispuesto a usarla, ya que al usar tantos dispositivos, seria una herramienta que facilite el ahorro de consumo energetico, tambien nos menciono que la aplicacion es intuitiva y que es muy facil de usar. 
 
 **ENTREVISTA 2**
 
@@ -1276,26 +1484,26 @@ Foto de la entrevista
 ![EntrevistaSimon.png](assets/EntrevistaSimon.png)
 Inicia: 00:00
 
-DuraciÃ³n: 04:21 
+Duración: 04:21 
 
-Nombre: SimÃ³n Gabriel Molina Chirinos
+Nombre: Simón Gabriel Molina Chirinos
 
 Edad: 19
 
 Distrito: Pueblo Libre
 
-Resumen:SimÃ³n es un estudiante que alquila un cuarto. SegÃºn sus propias palabras, la interfaz de la aplicaciÃ³n le parece amigable, ay que todo estÃ¡ bien distribuido y es intuitivo. AdemÃ¡s, el diseÃ±o de la aplicaciÃ³n le resulta cÃ³modo para entender los datos. Asmimismo, comprende de quÃ© manera los datos se relacionan con sus gastos en sÃ­. Menciona que las alertas de la aplicaciÃ³n le parecen Ãºtiles para identificar alguna anomalÃ­a en sus consumos. TambiÃ©n, se siente motivado al ver que puede visualizar una estimaciÃ³n de ahorros. Le resulta Ãºtil el monitoreo constante, ya que puede corregir malos hÃ¡bitos al momento. AdemÃ¡s, considera que esta aplicaciÃ³n tendrÃ­a un impacto positivo en cuanto al recibo mensual de luz. TambiÃ©n, considera que lo mÃ¡s importante de esta aplicaciÃ³n es el apartado visual, ya que le ayuda a entender mejor los datos y gestionar su consumo. Asimismo, considera que los iconos de la aplicaciÃ³n podrÃ­an tener alguna breve explicaciÃ³n sobre su uso. Finalmente, el entrevistado declara que la aplicaciÃ³n le beneficiarÃ­a totalmente a mejorar sus hÃ¡bitos y su consumo energÃ©tico.
+Resumen:Simón es un estudiante que alquila un cuarto. Según sus propias palabras, la interfaz de la aplicación le parece amigable, ay que todo está bien distribuido y es intuitivo. Además, el diseño de la aplicación le resulta cómodo para entender los datos. Asmimismo, comprende de qué manera los datos se relacionan con sus gastos en sí. Menciona que las alertas de la aplicación le parecen útiles para identificar alguna anomalía en sus consumos. También, se siente motivado al ver que puede visualizar una estimación de ahorros. Le resulta útil el monitoreo constante, ya que puede corregir malos hábitos al momento. Además, considera que esta aplicación tendría un impacto positivo en cuanto al recibo mensual de luz. También, considera que lo más importante de esta aplicación es el apartado visual, ya que le ayuda a entender mejor los datos y gestionar su consumo. Asimismo, considera que los iconos de la aplicación podrían tener alguna breve explicación sobre su uso. Finalmente, el entrevistado declara que la aplicación le beneficiaría totalmente a mejorar sus hábitos y su consumo energético.
 
-#### 5.3.3. Evaluaciones segÃºn heurÃ­sticas
+#### 5.3.3. Evaluaciones según heurísticas
 
                   **UX Heuristicis & Principles Evaluation**
             **Usability - Inclusive Desing - Information Architecture**
 
-Carrera : IngenierÃ­a de Software
+Carrera : Ingeniería de Software
 
 Curso : Desarrollo de Aplicaciones Open Source
 
-SecciÃ³n : 7401
+Sección : 7401
 
 Profesor : Hugo Allan Mori Paiva 
 
@@ -1308,59 +1516,59 @@ Site O APP a evaluar : ENERGIX - SEMS
 
 Tareas a evaluar: 
 
-El enlace de esta evaluaciÃ³n incluye la revisiÃ³n de la usabilidad de las sigueintes tareas:
+El enlace de esta evaluación incluye la revisión de la usabilidad de las sigueintes tareas:
 
-1. VisualicaciÃ³n de la Landing Page
-2. ComprensiÃ³n del valor ofrecido por Energix
+1. Visualicación de la Landing Page
+2. Comprensión del valor ofrecido por Energix
 3. Proceso de registro
-4. Primera navegaciÃ³n dentro de la aplicaciÃ³n 
-5. ComprensiÃ³n de mÃ©tricas (promedios, consumos)
-6. VinculaciÃ³n de dispositivos
-7. PercepciÃ³n general del flujo de uso
+4. Primera navegación dentro de la aplicación 
+5. Comprensión de métricas (promedios, consumos)
+6. Vinculación de dispositivos
+7. Percepción general del flujo de uso
 
-No estÃ¡n incluidas en esta versiÃ³n de la evaluaciÃ³n las siguientes tareas:
+No están incluidas en esta versión de la evaluación las siguientes tareas:
 
-1. IntegraciÃ³n con dispositivos fÃ­sicos reales
-2. GestiÃ³n avanzada del perfil
-3. PersonalizaciÃ³n de alertas y notificaciones
-4. Flujos administrativos o de facturaciÃ³n 
-5. VisualicaciÃ³n de consumo hitÃ³rico a profundidad
+1. Integración con dispositivos físicos reales
+2. Gestión avanzada del perfil
+3. Personalización de alertas y notificaciones
+4. Flujos administrativos o de facturación 
+5. Visualicación de consumo hitórico a profundidad
 
  **Escala de Severidad:**
 
-Los errores serÃ¡n puntuados tomando en cuenta las siguiente escala de severidad
+Los errores serán puntuados tomando en cuenta las siguiente escala de severidad
 
-| **Nivel** | **DescripciÃ³n**                                                                                                                                                    |  
+| **Nivel** | **Descripción**                                                                                                                                                    |  
 |-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1         | Problema superficial: puede ser fÃ¡cilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado salvo que exista tiempo disponible. |
-| 2         | Problema menor: puede ocurrir un poco mÃ¡s frecuentemente o es ligeramente mÃ¡s difÃ­cil de superar. Se recomienda atenderlo en el siguiente release.                 |
-| 3         | Problema mayor: ocurre con frecuencia o los usuarios no pueden resolverlo por sÃ­ mismos. Se debe corregir con prioridad alta                                       |
+| 1         | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado salvo que exista tiempo disponible. |
+| 2         | Problema menor: puede ocurrir un poco más frecuentemente o es ligeramente más difícil de superar. Se recomienda atenderlo en el siguiente release.                 |
+| 3         | Problema mayor: ocurre con frecuencia o los usuarios no pueden resolverlo por sí mismos. Se debe corregir con prioridad alta                                       |
 | 4         | Problema muy grave: impide al usuario continuar. Debe corregirse antes del lanzamiento.                                                                            |
 
 
 **Tabla Resumen:**
 
-| # | **Problema**                                                                                                                                                                                                              | **Escala de severidad** | **HeurÃ­stica/Principio violada(o)**                                                                                               |
+| # | **Problema**                                                                                                                                                                                                              | **Escala de severidad** | **Heurística/Principio violada(o)**                                                                                               |
 |---|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| 1 | Complicaciones al momento de ingresar un dispositivo y rellenar el campo de consumo de energÃ­a, al no saber el nÃºmero exacto que consumiÃ³ ese dispositivo por lo que no podrÃ¡ ingresar de manera correcta su dispositivo  | 2                       | Flexibilidad y eficiencia del uso / Conocer al usaurio (el sistema no se adapta completamente a los hÃ¡bitos reales del segmento)  |
+| 1 | Complicaciones al momento de ingresar un dispositivo y rellenar el campo de consumo de energía, al no saber el número exacto que consumió ese dispositivo por lo que no podrá ingresar de manera correcta su dispositivo  | 2                       | Flexibilidad y eficiencia del uso / Conocer al usaurio (el sistema no se adapta completamente a los hábitos reales del segmento)  |
 
 **Problema #1**
 
 Seriedad: 2
 
-HeurÃ­stica violada: Flexibilidad y eficiencia de uso / Conocer al usuario
+Heurística violada: Flexibilidad y eficiencia de uso / Conocer al usuario
 
-Problema: Complicaciones al momento de ingresar un dispositivo y rellenar el campo de consumo de energÃ­a, al no saber el nÃºmero exacto que consumiÃ³ ese dispositivo por lo que no podrÃ¡ ingresar de manera correcta su dispositivo
+Problema: Complicaciones al momento de ingresar un dispositivo y rellenar el campo de consumo de energía, al no saber el número exacto que consumió ese dispositivo por lo que no podrá ingresar de manera correcta su dispositivo
 
 Figura: 
 
-![HeurÃ­stica.png](assets/Heur%C3%ADstica.png)
+![Heurística.png](assets/Heur%C3%ADstica.png)
 
-Nota. ElaboraciÃ³n propia.
+Nota. Elaboración propia.
 
-**RecomendaciÃ³n**
+**Recomendación**
 
-Cambiar el campo de relleno de dispositivos o guiar al usuario a como saber el consumo exacto, o un aproximado, de su dispositivo para que asÃ­ pueda ingresarlo de manera correcta.
+Cambiar el campo de relleno de dispositivos o guiar al usuario a como saber el consumo exacto, o un aproximado, de su dispositivo para que así pueda ingresarlo de manera correcta.
 
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQDtm0AcL_c0QKGTVb4n202MARBQ2nAm9br2eGLkukIA7Uo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=HHs7jm
 
@@ -1371,70 +1579,72 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQBMBgRk
 ### Conclusiones
 
 Nuestro proyecto durante el desarrollo de los diferentes sprints ha logrado cumplir con los objetivos planteados al inicio de nuestro proyecto, llegando a alcanzar un MVP funcional y despliegue: frontend, backend, landing page y base de datos, lo que permite demostraciones y pruebas end-to-end.
-Hemos implementado una soluciÃ³n integral que aborda las necesidades de monitoreo y gestiÃ³n energÃ©tica para nuestros segmentos objetivo, propietarios de vivienda y estudiantes que alquilan. La integraciÃ³n completa entre el frontend y backend ha sido un logro significativo, permitiendo una experiencia de usuario fluida y eficiente.
-Las entrevistas de validaciÃ³n han proporcionado informaciÃ³n valiosa sobre la usabilidad y aceptaciÃ³n de nuestra soluciÃ³n, confirmando que nuestra aplicaciÃ³n es intuitiva y Ãºtil para nuestros usuarios. Los comentarios recibidos nos han ayudado a identificar Ã¡reas de mejora y a validar que estamos en el camino correcto para satisfacer las necesidades de nuestros usuarios.
-El despliegue en plataformas en lÃ­nea ha sido exitoso, permitiendo el acceso a nuestra aplicaciÃ³n desde cualquier lugar y facilitando la demostraciÃ³n de nuestras funcionalidades. Esto ha sido crucial para validar nuestro producto en un entorno real.
-En resumen, el desarrollo de nuestro proyecto ha sido exitoso, logrando una integraciÃ³n completa y funcional que satisface las necesidades de nuestros usuarios. Estamos satisfechos con los resultados obtenidos y confiamos en que nuestra soluciÃ³n tendrÃ¡ un impacto positivo en la gestiÃ³n energÃ©tica de nuestros segmentos objetivo.
+Hemos implementado una solución integral que aborda las necesidades de monitoreo y gestión energética para nuestros segmentos objetivo, propietarios de vivienda y estudiantes que alquilan. La integración completa entre el frontend y backend ha sido un logro significativo, permitiendo una experiencia de usuario fluida y eficiente.
+Las entrevistas de validación han proporcionado información valiosa sobre la usabilidad y aceptación de nuestra solución, confirmando que nuestra aplicación es intuitiva y útil para nuestros usuarios. Los comentarios recibidos nos han ayudado a identificar áreas de mejora y a validar que estamos en el camino correcto para satisfacer las necesidades de nuestros usuarios.
+El despliegue en plataformas en línea ha sido exitoso, permitiendo el acceso a nuestra aplicación desde cualquier lugar y facilitando la demostración de nuestras funcionalidades. Esto ha sido crucial para validar nuestro producto en un entorno real.
+En resumen, el desarrollo de nuestro proyecto ha sido exitoso, logrando una integración completa y funcional que satisface las necesidades de nuestros usuarios. Estamos satisfechos con los resultados obtenidos y confiamos en que nuestra solución tendrá un impacto positivo en la gestión energética de nuestros segmentos objetivo.
 
 
 ---
 
 ### Recomendaciones
 
-Mejorar los campos al momento de ingresar un dispositivo, ya que algunos usuarios no saben el consumo exacto de su dispositivo y esto puede generar confusiÃ³n al momento de registrar un nuevo dispositivo en la aplicaciÃ³n.
-Implementar tutoriales o guÃ­as interactivas dentro de la aplicaciÃ³n para ayudar a los usuarios a familiarizarse con las funcionalidades y maximizar el uso de la plataforma.
-Implementar opciones de ayuda para las personas con discapacidad visual, auditiva o motriz, para hacer la aplicaciÃ³n mÃ¡s inclusiva.
-Realizar pruebas de usabilidad adicionales con una muestra mÃ¡s amplia de usuarios para identificar posibles mejoras en la experiencia de usuario.
-Continuar recopilando comentarios de los usuarios despuÃ©s del lanzamiento para iterar y mejorar continuamente la aplicaciÃ³n.
-Explorar la integraciÃ³n con dispositivos inteligentes y tecnologÃ­as IoT para automatizar el monitoreo y control del consumo energÃ©tico.
+Mejorar los campos al momento de ingresar un dispositivo, ya que algunos usuarios no saben el consumo exacto de su dispositivo y esto puede generar confusión al momento de registrar un nuevo dispositivo en la aplicación.
+Implementar tutoriales o guías interactivas dentro de la aplicación para ayudar a los usuarios a familiarizarse con las funcionalidades y maximizar el uso de la plataforma.
+Implementar opciones de ayuda para las personas con discapacidad visual, auditiva o motriz, para hacer la aplicación más inclusiva.
+Realizar pruebas de usabilidad adicionales con una muestra más amplia de usuarios para identificar posibles mejoras en la experiencia de usuario.
+Continuar recopilando comentarios de los usuarios después del lanzamiento para iterar y mejorar continuamente la aplicación.
+Explorar la integración con dispositivos inteligentes y tecnologías IoT para automatizar el monitoreo y control del consumo energético.
 
-# BibliografÃ­a
+# Bibliografía
 
 **Angular**
-- VersiÃ³n actual: v20
+- Versión actual: v20
 - Angular. (2025). _Angular Documentation_. Recuperado de https://angular.dev
 
 **TypeScript**
 - TypeScript. (2025). _TypeScript Handbook_. Recuperado de https://www.typescriptlang.org
 
 **CSS**
-- VersiÃ³n actual: CSS3
+- Versión actual: CSS3
 - Mozilla Foundation. (2025). _MDN CSS Reference_. Recuperado de https://developer.mozilla.org/es/docs/Web/CSS
 
 **HTML**
-- VersiÃ³n actual: HTML5
+- Versión actual: HTML5
 - Mozilla Foundation. (2025). _MDN HTML Reference_. Recuperado de https://developer.mozilla.org/es/docs/Web/HTML
 
 **JavaScript**
 - Mozilla Foundation. (2025). _MDN JavaScript Reference_. Recuperado de https://developer.mozilla.org/es/docs/Web/JavaScript
 
 **JSON**
-- VersiÃ³n actual: EstÃ¡ndar RFC 8259
+- Versión actual: Estándar RFC 8259
 - JSON.org. (2024). _Introducing JSON_. Recuperado de https://www.json.org/json-es.html
 
 # Anexos
 
-- Link de la OrganizaciÃ³n
+- Link de la Organización
   https://github.com/Upc-pre-1ASI0729-2520-7401-Energix
 - Link del Repositorio del Reporte
   https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Proyect-Report
 - Link del Repositorio de la landing Page
   https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page
-- Link del Repositorio del Frontend de la AplicaciÃ³n Web
+- Link del Repositorio del Frontend de la Aplicación Web
   https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
-- link del Repositorio del Backend de la AplicaciÃ³n Web
+- Link del Repositorio del Backend de la Aplicación Web
   https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS 
 - Link de la landing page
   https://energixlp.netlify.app
-- Link del Frontend de la AplicaciÃ³n Web
+- Link del Frontend de la Aplicación Web
   https://frontend-sems.vercel.app
-- Link del Backend de la AplicaciÃ³n Web
+- Link del Backend de la Aplicación Web
   https://theft-muscles-inner-protection.trycloudflare.com
-- Link de la DocumentaciÃ³n de la API
+- Link de la Documentación de la API
   https://theft-muscles-inner-protection.trycloudflare.com/swagger-ui/index.html
+- Link del API externa
+  https://apistripefinal.onrender.com/
 - Link del Figma
   https://www.figma.com/design/tmJAly092Cbckme5PFfA6Z/Energix?node-id=26-4210&t=4xEBZLNYgT1IM6IQ-1
-- Link del video de la presentaciÃ³n
+- Link del video de la presentación
   https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/EatERr_u0z9PsPV9zBCf2qMBBoBO00PC-Phz8dJyZh1iqw?e=RAb0qG
 - Link entrevista sector propietario de vivienda #1
   https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQDtm0AcL_c0QKGTVb4n202MARBQ2nAm9br2eGLkukIA7Uo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=HHs7jm
@@ -1448,8 +1658,3 @@ Explorar la integraciÃ³n con dispositivos inteligentes y tecnologÃ­as IoT pa
   https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQC00BXTE4A6SbyrQPvdosB6AZM1EWFJ8cu5V_esCS3jf7Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=fdv3jR
 - Link video about-the-product
   https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQBMBgRkkbaZQoNKZogSwzK7ASTIv5MFKZhfDqUM_oBKvvU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=6NmzRb
-
-
-
-
-
