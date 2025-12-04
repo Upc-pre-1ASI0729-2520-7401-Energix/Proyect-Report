@@ -122,6 +122,22 @@
 | 0.5.2   | 14/11/2025 | Iker Barturen   | Implementación del endpoint de auntenticación                                                                                              |
 | 0.5.3   | 14/11/2025 | Mateo Loechle   | Implementación del endpoint de notificaciones                                                                                              |
 | 0.5.4   | 15/11/2025 | Iker Barturen   | Desplegar el proyecto backend en la nube                                                                                                   |
+| 0.5.5   | 01/12/2025 | Jafeth Ynga     | Actualización de los gráficos en el panel informativo                                                                                      |
+| 0.5.5   | 01/12/2025 | Iker Barturen   | Actualización del backend para las respuesta de los endpoints                                                                              |
+| 0.5.5   | 01/12/2025 | Yeira Huaman    | Actualización del backend para las respuesta de  dispositivos                                                                              |
+| 0.5.6   | 03/11/2025 | Iker Barturen   | Actualización del backen y del acceso y registro del usuario                                                                               |
+| 0.5.7   | 03/11/2025 | Alexis Encalada | Actualizacion de los modals en configuración e implementación de los gráficos con Chart.js ng2                                             |
+| 0.5.8   | 04/12/2025 | Andrés Torres   | Actualización de los reportes y de la descarga de reportes                                                                                 |
+| 0.5.9   | 04/12/2025 | Yeira Huaman    | Correción de las traducciones y mejora visual de las pantallas                                                                             |
+| 0.6.0   | 04/12/2025 | Mateo Loechle   | Actuallización y puliemto de la pantalla de notificaciones                                                                                 |
+| 0.6.1   | 04/12/2025 | Jafeth Ynga     | Actualización de la pantalla de configuración                                                                                              |
+| 0.6.2   | 04/12/2025 | Mateo Loechle   | Implementación total de la API externa con su interfaz personalizada                                                                       |
+| 0.6.3   | 04/12/2025 | Jafeth Ynga     | Pulimiento de la pantalla de configuración                                                                                                 |
+| 0.6.4   | 04/12/2025 | Andrés Torres   | Pulimiento de la configuración de los dispositivos                                                                                         |
+| 0.6.5   | 04/12/2025 | Mateo Loechle   | Implementación total de la API externa con su interfaz personalizada                                                                       |
+| 0.6.6   | 04/12/2025 | Mateo Loechle   | Implementación total de la API externa con su interfaz personalizada                                                                       |
+| 0.6.7   | 04/12/2025 | Mateo Loechle   | Implementación total de la API externa con su interfaz personalizada                                                                       |
+| 0.6.8   | 04/12/2025 | Mateo Loechle   | Implementación total de la API externa con su interfaz personalizada                                                                       |
 
 # Project Report Collaboration Insights
 
@@ -132,7 +148,7 @@ El informe del proyecto se encuentra alojado en el siguiente repositorio de la o
 
 Entrega TB1:
 
-A continuación, se detallan las actividades realizadas en cada entrega, la participación de los miembros del equipo, y las evidencias correspondientes.
+A continuación, se detallan las actividades realizadas en esta entrega, la participación de los miembros del equipo, y las evidencias correspondientes.
 
 Analíticos de colaboración:
 
@@ -146,7 +162,7 @@ Commits del equipo:
 
 Entrega TP1:
 
-A continuación, se detallan las actividades realizadas en cada entrega, la participación de los miembros del equipo, y las evidencias correspondientes.
+A continuación, se detallan las actividades realizadas en esta entrega, la participación de los miembros del equipo, y las evidencias correspondientes.
 
 Analíticos de colaboración:
 
@@ -162,7 +178,7 @@ Commits del equipo:
 
 Entrega TB2:
 
-A continuación, se detallan las actividades realizadas en cada entrega, la participación de los miembros del equipo, y las evidencias correspondientes.
+A continuación, se detallan las actividades realizadas en esta entrega, la participación de los miembros del equipo, y las evidencias correspondientes.
 
 Analíticos de colaboración:
 
@@ -175,6 +191,33 @@ Commits del equipo:
 ![CommitsBK2.png](assets/CommitsBK2.png)
 ![CommitsBK1.png](assets/CommitsBK1.png)
 
+
+Entrega TF1:
+
+A continuación, se detallan las actividades realizadas en esta entrega, la participación de los miembros del equipo, y las evidencias correspondientes.
+
+Analíticos de colaboración:
+Backend:![BKF4.png](assets/BKF4.png) 
+![contributors-BKF.png](assets/contributors-BKF.png)
+Frontend:
+![contributors-FDF.png](assets/contributors-FDF.png)
+Commits del equipo:
+Backend:
+![BKF8.png](assets/BKF8.png)
+![BKF7.png](assets/BKF7.png)
+![BKF6.png](assets/BKF6.png)
+![BKF5.png](assets/BKF5.png)
+![BKF4.png](assets/BKF4.png)
+![BKF3.png](assets/BKF3.png)
+![BKF2.png](assets/BKF2.png)
+![BKF1.png](assets/BKF1.png)
+Frontend:
+![FDF6.png](assets/FDF6.png) 
+![FDF5.png](assets/FDF5.png)
+![FDF4.png](assets/FDF4.png)
+![FDF3.png](assets/FDF3.png)
+![FDF2.png](assets/FDF2.png)
+![FDF1.png](assets/FDF1.png)
 # Contenido
 
 ## Tabla de Contenidos
