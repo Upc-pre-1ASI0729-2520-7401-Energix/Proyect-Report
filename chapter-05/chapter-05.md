@@ -1232,9 +1232,12 @@ Durante el desarrollo del sprint 4 se lograron completar todos los puntos para l
 
 ![Frontend-Vercel.png](chapter-05/assets/Frontend-Login.png)
 
+![vercel.png](assets/vercel.png)
+
 **Deployment en Render del Backend**
 
 ![alt text](assets/Deploy-New-API.png)
+
 ![alt text](assets/Deploy-Proxy.jpeg)
 
 **SEMS API**
