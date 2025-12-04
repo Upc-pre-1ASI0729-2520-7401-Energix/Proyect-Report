@@ -13,7 +13,7 @@
 ## INFORME TB1
 ## STARTUP: Energix
 ## PRODUCTO: Smart Energy Management System (SEMS)
-
+   Periodo 202520
 ---
 
 ### INTEGRANTES:
@@ -59,7 +59,7 @@
 
 --- 
 
-### Ciclo 2025-20
+## Diciembre 2025
 
 
 </div>

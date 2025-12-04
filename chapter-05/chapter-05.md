@@ -1208,7 +1208,7 @@ Enlace al repositorio del proyecto frontend: https://github.com/Upc-pre-1ASI0729
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
-Durante el desarrollo del sprint se lograron completar todos los puntos para la integración completa entre frontend y backend de la aplicación SEMS, estableciendo una conexión fluida entre las capas del sistema para la gestión de energía en los hogares. Las principales características integradas fueron:
+Durante el desarrollo del sprint 4 se lograron completar todos los puntos para la integración completa entre frontend y backend de la aplicación SEMS, estableciendo una conexión fluida entre las capas del sistema para la gestión de energía en los hogares. Las principales características integradas fueron:
 
 1. Integración de autenticación completa conectando frontend con endpoints de registro, login y validación de sesión.
 
@@ -1222,7 +1222,7 @@ Durante el desarrollo del sprint se lograron completar todos los puntos para la 
 
 6. Arquitectura completa con frontend, backend, base de datos y despliegues en plataformas en línea para una experiencia de usuario completa.
 
-**Capturas de pantalla de despliegues**
+**Capturas de pantalla de los diferentes despliegues**
 
 **Deployment de Landing Page en Netlify**
 
@@ -1247,9 +1247,9 @@ Durante el desarrollo del sprint se lograron completar todos los puntos para la 
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
-Introducción
+**Introducción**
 
-Durante el sprint 4, hemos implementado la integración completa del sistema de Energix, desplegando landing page en Netlify, frontend en Vercel, backend en Render y base de datos en Aiven, creando una aplicación completa y funcional para la gestión de energía en los hogares.
+Durante el sprint 4, hemos implementado la integración completa del sistema de Energix, desplegando landing page en Netlify, frontend en Vercel, backend en Render y la base de datos en Aiven, creando una aplicación completa y funcional para la gestión de energía en los hogares.
 
 **Implementación de landing page en Netlify**
 
@@ -1271,7 +1271,7 @@ https://frontend-sems.vercel.app
 
 Decidimos utilizar Render para el despliegue del backend, asegurando una infraestructura centralizada y escalable. Esta decisión nos permitió tener un mayor control sobre la API y facilitar la integración con el frontend.
 
-Por motivos de seguridad y para proteger la dirección IP pública del servidor, hemos implementado un proxy utilizando Cloudflare Tunnel que oculta la dirección real del servidor Render. Esto es especialmente importante cuando se publican URLs en repositorios públicos de GitHub, ya que exponer directamente las IPs puede representar un riesgo de seguridad.
+Por motivos de seguridad y para proteger la dirección IP pública del servidor, hemos implementado un proxy utilizando Cloudflare Tunnel que oculta la dirección real del servidor Render. Esto es especialmente importante cuando se publican URLs en repositorios públicos de GitHub, ya que exponer directamente las IPs representar un riesgo de seguridad.
 
 La URL base para todos los recursos de nuestra API a través del proxy seguro es:
 
@@ -1336,7 +1336,7 @@ Conectamos nuestro repositorio de GitHub para habilitar el despliegue automátic
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
-Durante este Sprint, se completó la integración completa del sistema Energix, incluyendo el despliegue de la landing page, frontend, backend y base de datos en plataformas en línea. El objetivo fue contar con una versión funcional y accesible del sistema completo para revisión y retroalimentación.
+Durante este Sprint 4, se completó la integración completa del sistema Energix, incluyendo el despliegue de la landing page, frontend, backend y base de datos en plataformas en línea. El objetivo fue contar con una versión funcional y accesible del sistema completo para revisión y retroalimentación.
 
 Actividades realizadas:
 
@@ -1506,7 +1506,7 @@ Profesor : Hugo Allan Mori Paiva
 
 Auditor : ENERGIX - SEMS
 
-Clientes(S):
+Clientes(S): Emperatriz Sessarego
 
 
 Site O APP a evaluar : ENERGIX - SEMS
@@ -1575,22 +1575,23 @@ https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211g491_upc_edu_pe/IQBMBgRk
 
 ### Conclusiones
 
-El desarrollo del tercer entragrable del proyecto Energix nos permitió establecer una base metodológica, técnica y colaborativa sólida para la evolución del sistema SEMS. Se estableció una arquitectura sólida en Java, implementamos correctamente la estructura backedn, usando buenas prácticas de organización de paquetes y recurso, del mismo modo utilizando Domain Driven Desing.
+Nuestro proyecto durante el desarrollo de los diferentes sprints ha logrado cumplir con los objetivos planteados al inicio de nuestro proyecto, llegando a alcanzar un MVP funcional y despliegue: frontend, backend, landing page y base de datos, lo que permite demostraciones y pruebas end-to-end.
+Hemos implementado una solución integral que aborda las necesidades de monitoreo y gestión energética para nuestros segmentos objetivo, propietarios de vivienda y estudiantes que alquilan. La integración completa entre el frontend y backend ha sido un logro significativo, permitiendo una experiencia de usuario fluida y eficiente.
+Las entrevistas de validación han proporcionado información valiosa sobre la usabilidad y aceptación de nuestra solución, confirmando que nuestra aplicación es intuitiva y útil para nuestros usuarios. Los comentarios recibidos nos han ayudado a identificar áreas de mejora y a validar que estamos en el camino correcto para satisfacer las necesidades de nuestros usuarios.
+El despliegue en plataformas en línea ha sido exitoso, permitiendo el acceso a nuestra aplicación desde cualquier lugar y facilitando la demostración de nuestras funcionalidades. Esto ha sido crucial para validar nuestro producto en un entorno real.
+En resumen, el desarrollo de nuestro proyecto ha sido exitoso, logrando una integración completa y funcional que satisface las necesidades de nuestros usuarios. Estamos satisfechos con los resultados obtenidos y confiamos en que nuestra solución tendrá un impacto positivo en la gestión energética de nuestros segmentos objetivo.
 
-La exposición de APIs REST, facilitó la interacción entre nuestro proyecto frontend con nuestro proyecto backend mediante pruebas externas.
 
-En cuanto al tema de la seguridad se incluyeron mecanismos para la auntenticación  y autorización, resguardando los recursos y asegurando que solo los usuarios apropiados puedan acceder a cada módulo, esto fue gracias a las implementaciones de Spring Security y de los tokens JwT.
-
-Durante el sprint 3, se completaron las historias de usaurio planificadas para el backend y accesibilidad del usuario a la aplicacióm. El equipo demostró una alta colaboración y cumplimiento de estándares técnicos, utilizando herramientas como GitHub, Swagger y Render. El backend fue desplegado y validado funcionalmente bajo criterios de usabilidad y accesibilidad.
-
-Este tercer sprint, centrado en la implementación de la API para el proyecto del sistema SEMS, sienta las bases para la futura conexión entre el frontend y backend, permitiendo la interacción y gestión de datos de manera segura y eficiente.
 ---
 
 ### Recomendaciones
 
-- Completar y documenta casos deprueba, aumentar la cobertura de pruebas unitarias y escribir una guía breve sobre como ejecutar las pruebas nos ayudará a detectar errores.
-- Automatizar el despliegue continuo (CI/CD) para agilizar las actualizaciones y garantizar la calidad del código en cada lanzamiento. Agregar pipelines de integración y despliegue continuo.
-- Enriquecer la documentación funcional. Escribiendo un documento README amplio con la documentación de Swaggger/OpenAPI para los endpoints facilitando el consumo de las APIs. 
+Mejorar los campos al momento de ingresar un dispositivo, ya que algunos usuarios no saben el consumo exacto de su dispositivo y esto puede generar confusión al momento de registrar un nuevo dispositivo en la aplicación.
+Implementar tutoriales o guías interactivas dentro de la aplicación para ayudar a los usuarios a familiarizarse con las funcionalidades y maximizar el uso de la plataforma.
+Implementar opciones de ayuda para las personas con discapacidad visual, auditiva o motriz, para hacer la aplicación más inclusiva.
+Realizar pruebas de usabilidad adicionales con una muestra más amplia de usuarios para identificar posibles mejoras en la experiencia de usuario.
+Continuar recopilando comentarios de los usuarios después del lanzamiento para iterar y mejorar continuamente la aplicación.
+Explorar la integración con dispositivos inteligentes y tecnologías IoT para automatizar el monitoreo y control del consumo energético.
 
 # Bibliografía
 
@@ -1622,14 +1623,20 @@ Este tercer sprint, centrado en la implementación de la API para el proyecto de
   https://github.com/Upc-pre-1ASI0729-2520-7401-Energix
 - Link del Repositorio del Reporte
   https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Proyect-Report
-- Link de la Repositorio de la landing Page
+- Link del Repositorio de la landing Page
   https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page
-- Link de la Repositorio del Frontend de la Aplicación Web
+- Link del Repositorio del Frontend de la Aplicación Web
   https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
+- link del Repositorio del Backend de la Aplicación Web
+  https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS 
 - Link de la landing page
   https://energixlp.netlify.app
 - Link del Frontend de la Aplicación Web
   https://frontend-sems.vercel.app
+- Link del Backend de la Aplicación Web
+  https://theft-muscles-inner-protection.trycloudflare.com
+- Link de la Documentación de la API
+  https://theft-muscles-inner-protection.trycloudflare.com/swagger-ui/index.html
 - Link del Figma
   https://www.figma.com/design/tmJAly092Cbckme5PFfA6Z/Energix?node-id=26-4210&t=4xEBZLNYgT1IM6IQ-1
 - Link del video de la presentación
