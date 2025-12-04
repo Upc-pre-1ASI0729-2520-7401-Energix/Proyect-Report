@@ -945,13 +945,15 @@ Durante el sprint 3, hemos implementado el despliegue del backend del sistema de
 
 Decidimos utilizar Render para el despliegue del backend, asegurando una infraestructura centralizada y escalable. Esta decisión nos permitió tener un mayor control sobre la API y facilitar la integración con el frontend.
 
+Por motivos de seguridad, implementamos un proxy utilizando Cloudflare Tunnel para ocultar la dirección IP real del servidor, ya que exponer públicamente la URL directa en GitHub representa un riesgo de seguridad. Esta medida de protección es fundamental para prevenir ataques directos al servidor.
+
 La URL base para todos los recursos de nuestra API es:
 
-https://backend-sems-40cb.onrender.com/
+https://theft-muscles-inner-protection.trycloudflare.com
 
 La documentación interactiva de la API está disponible en Swagger UI en:
 
-https://backend-sems-40cb.onrender.com/swagger-ui/index.html#
+https://theft-muscles-inner-protection.trycloudflare.com/swagger-ui/index.html
 
 **Configuración del servidor en Render**
 
@@ -1196,11 +1198,12 @@ Durante el desarrollo del sprint se lograron completar todos los puntos para la 
 
 **Deployment en Render del Backend**
 
-![Deploy-API.png](assets/Deploy-API.png)
+![alt text](assets/Deploy-New-API.png)
+![alt text](assets/Deploy-Proxy.jpeg)
 
 **SEMS API**
 
-![alt text](assets/SEMS-API.png)
+![alt text](assets/SEMS-API-Documentation.png)
 
 **Database hosted on Aiven**
 
@@ -1209,7 +1212,7 @@ Durante el desarrollo del sprint se lograron completar todos los puntos para la 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
 Introducción
-  
+
 Durante el sprint 4, hemos implementado la integración completa del sistema de Energix, desplegando landing page en Netlify, frontend en Vercel, backend en Render y base de datos en Aiven, creando una aplicación completa y funcional para la gestión de energía en los hogares.
 
 **Implementación de landing page en Netlify**
@@ -1232,13 +1235,15 @@ https://frontend-sems.vercel.app
 
 Decidimos utilizar Render para el despliegue del backend, asegurando una infraestructura centralizada y escalable. Esta decisión nos permitió tener un mayor control sobre la API y facilitar la integración con el frontend.
 
-La URL base para todos los recursos de nuestra API es:
+Por motivos de seguridad y para proteger la dirección IP pública del servidor, hemos implementado un proxy utilizando Cloudflare Tunnel que oculta la dirección real del servidor Render. Esto es especialmente importante cuando se publican URLs en repositorios públicos de GitHub, ya que exponer directamente las IPs puede representar un riesgo de seguridad.
 
-https://backend-sems-40cb.onrender.com/
+La URL base para todos los recursos de nuestra API a través del proxy seguro es:
+
+https://theft-muscles-inner-protection.trycloudflare.com
 
 La documentación interactiva de la API está disponible en Swagger UI en:
 
-https://backend-sems-40cb.onrender.com/swagger-ui/index.html#
+https://theft-muscles-inner-protection.trycloudflare.com/swagger-ui/index.html
 
 **Configuración de base de datos en Aiven**
 
@@ -1260,27 +1265,38 @@ El proceso de implementación en Render involucró varias etapas para asegurar u
 
 Conectamos nuestro repositorio de GitHub para habilitar el despliegue automático, lo que nos permite mantener sincronizado el entorno de producción con la rama principal del proyecto. Esto ha resultado en un flujo de trabajo más eficiente, donde cada merge a la rama principal actualiza automáticamente nuestra API.
 
-| Método HTTP | Endpoint                          | Descripción                                        | Ejemplo de uso                             |
-|-------------|-----------------------------------|----------------------------------------------------|--------------------------------------------|
-| POST        | /api/v1/auth/register             | Registra un nuevo usuario                          | Crear cuenta de propietario o estudiante   |
-| POST        | /api/v1/auth/login                | Autentica un usuario                               | Iniciar sesión                             |
-| GET         | /api/v1/auth/validate             | Valida la sesión activa                            | Verificar token JWT                        |
-| GET         | /api/profile/{userId}             | Obtiene el perfil de un usuario                    | Mostrar datos del perfil                   |
-| PUT         | /api/profile/{userId}             | Actualiza el perfil de un usuario                  | Modificar información personal             |
-| GET         | /api/v1/devices                   | Obtiene lista de dispositivos                      | Listar dispositivos registrados            |
-| POST        | /api/v1/devices                   | Crea un nuevo dispositivo                          | Agregar dispositivo                        |
-| GET         | /api/v1/devices/{deviceId}        | Obtiene un dispositivo específico                  | Ver detalles de dispositivo                |
-| PUT         | /api/v1/devices/{deviceId}        | Actualiza un dispositivo                           | Editar configuración                       |
-| DELETE      | /api/v1/devices/{deviceId}        | Elimina un dispositivo                             | Remover dispositivo                        |
-| POST        | /api/v1/devices/{deviceId}/toggle | Cambia el estado de un dispositivo                 | Encender/apagar dispositivo                |
-| GET         | /api/v1/alerts                    | Obtiene lista de alertas                           | Mostrar alertas activas                    |
-| POST        | /api/v1/alerts                    | Crea una nueva alerta                              | Generar alerta de consumo                  |
-| GET         | /api/v1/notifications             | Obtiene notificaciones                             | Listar notificaciones del usuario          |
-| GET         | /api/v1/consumption/daily         | Obtiene consumo diario                             | Mostrar gráfico de consumo diario          |
-| GET         | /api/v1/consumption/monthly       | Obtiene consumo mensual                            | Ver resumen mensual                        |
-| GET         | /api/v1/reports/weeklyConsumption | Obtiene reporte semanal de consumo                 | Generar y descargar reporte semanal        |
-| GET         | /api/v1/dashboard/stats           | Obtiene estadísticas del dashboard                 | Mostrar métricas generales                 |
-
+| Método HTTP | Endpoint                                      | Descripción                                        | Ejemplo de uso                             |
+|-------------|-----------------------------------------------|----------------------------------------------------|--------------------------------------------|
+| POST        | /api/v1/authentication/sign-up                | Registra un nuevo usuario                          | Crear cuenta de propietario o estudiante   |
+| POST        | /api/v1/authentication/sign-in                | Autentica un usuario                               | Iniciar sesión                             |
+| GET         | /api/v1/profiles/{profileId}                  | Obtiene el perfil por ID                           | Mostrar datos del perfil específico        |
+| PUT         | /api/v1/profiles/{profileId}                  | Actualiza el perfil por ID                         | Modificar información personal             |
+| GET         | /api/v1/profiles/me                           | Obtiene el perfil del usuario actual               | Mostrar datos del perfil propio            |
+| PUT         | /api/v1/profiles/me                           | Actualiza el perfil del usuario actual             | Editar información personal propia         |
+| GET         | /api/v1/devices                               | Obtiene lista de dispositivos                      | Listar todos los dispositivos              |
+| POST        | /api/v1/devices                               | Crea un nuevo dispositivo                          | Agregar dispositivo                        |
+| GET         | /api/v1/devices/{deviceId}                    | Obtiene un dispositivo específico                  | Ver detalles de dispositivo                |
+| DELETE      | /api/v1/devices/{deviceId}                    | Elimina un dispositivo                             | Remover dispositivo                        |
+| GET         | /api/v1/devices/{deviceId}/consumption        | Obtiene el consumo de un dispositivo               | Ver consumo específico del dispositivo     |
+| GET         | /api/v1/devices/users/{userId}                | Obtiene dispositivos por ID de usuario             | Listar dispositivos de un usuario          |
+| GET         | /api/v1/notifications                         | Obtiene todas las notificaciones                   | Listar todas las notificaciones            |
+| POST        | /api/v1/notifications                         | Crea una nueva notificación                        | Generar nueva notificación                 |
+| GET         | /api/v1/notifications/user/{userId}           | Obtiene notificaciones por ID de usuario           | Ver notificaciones de usuario específico   |
+| GET         | /api/v1/notifications/device/{deviceId}       | Obtiene notificaciones por ID de dispositivo       | Ver notificaciones de dispositivo          |
+| GET         | /api/v1/settings                              | Obtiene configuraciones del usuario                | Ver configuraciones actuales               |
+| PUT         | /api/v1/settings                              | Actualiza configuraciones del usuario              | Modificar configuraciones                  |
+| POST        | /api/v1/settings/rules                        | Añade regla de ahorro                              | Crear nueva regla de ahorro                |
+| PUT         | /api/v1/settings/rules/{ruleId}               | Actualiza regla de ahorro                          | Editar regla existente                     |
+| DELETE      | /api/v1/settings/rules/{ruleId}               | Elimina regla de ahorro                            | Remover regla de ahorro                    |
+| GET         | /api/v1/reports/weekly-consumption            | Obtiene reporte de consumo semanal                 | Generar reporte semanal                    |
+| GET         | /api/v1/reports/top-devices                   | Obtiene los 3 dispositivos que más consumen        | Ver dispositivos con mayor consumo         |
+| GET         | /api/v1/users                                 | Obtiene lista de usuarios                          | Listar todos los usuarios                  |
+| GET         | /api/v1/users/{id}                            | Obtiene usuario por ID                             | Ver datos de usuario específico            |
+| GET         | /api/v1/users/{userId}/preferences            | Obtiene preferencias del usuario                   | Ver preferencias del usuario               |
+| PUT         | /api/v1/users/{userId}/preferences            | Actualiza preferencias del usuario                 | Modificar preferencias                     |
+| GET         | /api/v1/roles                                 | Obtiene lista de roles                             | Listar roles disponibles                   |
+| GET         | /api/v1/roles/{id}                            | Obtiene rol por ID                                 | Ver detalles del rol específico            |
+| GET         | /api/v1/dashboard                             | Obtiene datos del dashboard                        | Mostrar métricas del dashboard             |
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
@@ -1292,7 +1308,7 @@ Actividades realizadas:
 
 - Se desplegó el frontend en Vercel: https://frontend-sems.vercel.app
 
-- Se desplegó el backend en Render: https://backend-sems-40cb.onrender.com/
+- Se desplegó el backend en Render utilizando un proxy seguro de Cloudflare: https://theft-muscles-inner-protection.trycloudflare.com
 
 - Se configuró la base de datos en Aiven con los parámetros necesarios para la integración completa.
 
@@ -1316,8 +1332,6 @@ Repositorio del Backend de la Aplicación: https://github.com/Upc-pre-1ASI0729-2
 | **Encalada Salazar, Alexis**         | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
 | **Torres Lavandera, Andrés Rodrigo** | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
 | **Ynga Amado, Jafeth Worren**        | Implementación de secciones del **Backend de la Aplicación** y contribuciones a los **chapter 5.md**     |
-
-
 
 #### 5.3. Validation Interviews
 
