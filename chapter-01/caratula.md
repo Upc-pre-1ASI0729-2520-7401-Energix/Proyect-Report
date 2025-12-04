@@ -20,40 +20,14 @@
 
 <div align="center">
 
-<table style="text-align:center;">
-  <thead>
-    <tr>
-      <th style="background-color: #333; color: #fff; padding: 8px;">Apellidos y Nombres</th>
-      <th style="background-color: #333; color: #fff; padding: 8px;">Código de Alumno</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Huaman Olivos, Yeira Shari</td>
-      <td>u202210513</td>
-    </tr>
-    <tr>
-      <td>Loechle Arias, Mateo Ítalo</td>
-      <td>u202215004</td>
-    </tr>
-    <tr>
-      <td>Barturen Panez, Iker Gabriel</td>
-      <td>u202312629</td>
-    </tr>
-    <tr>
-      <td>Encalada Salazar, Alexis</td>
-      <td>u20211g491</td>
-    </tr>
-    <tr>
-      <td>Torres Lavandera, Andrés Rodrigo</td>
-      <td>u202312557</td>
-    </tr>
-    <tr>
-      <td>Ynga Amado, Jafeth Worren</td>
-      <td>u202314715</td>
-    </tr>
-  </tbody>
-</table>
+| Apellidos y Nombres | Código de Alumno |
+| :---: | :---: |
+| Huaman Olivos, Yeira Shari | u202210513 |
+| Loechle Arias, Mateo Ítalo | u202215004 |
+| Barturen Panez, Iker Gabriel | u202312629 |
+| Encalada Salazar, Alexis | u20211g491 |
+| Torres Lavandera, Andrés Rodrigo | u202312557 |
+| Ynga Amado, Jafeth Worren | u202314715 |
 
 </div>
 
