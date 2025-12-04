@@ -20,40 +20,14 @@
 
 <div align="center">
 
-<table style="text-align:center;">
-  <thead>
-    <tr>
-      <th style="background-color: #333; color: #fff; padding: 8px;">Apellidos y Nombres</th>
-      <th style="background-color: #333; color: #fff; padding: 8px;">Código de Alumno</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Huaman Olivos, Yeira Shari</td>
-      <td>u202210513</td>
-    </tr>
-    <tr>
-      <td>Loechle Arias, Mateo Ítalo</td>
-      <td>u202215004</td>
-    </tr>
-    <tr>
-      <td>Barturen Panez, Iker Gabriel</td>
-      <td>u202312629</td>
-    </tr>
-    <tr>
-      <td>Encalada Salazar, Alexis</td>
-      <td>u20211g491</td>
-    </tr>
-    <tr>
-      <td>Torres Lavandera, Andrés Rodrigo</td>
-      <td>u202312557</td>
-    </tr>
-    <tr>
-      <td>Ynga Amado, Jafeth Worren</td>
-      <td>u202314715</td>
-    </tr>
-  </tbody>
-</table>
+| Apellidos y Nombres | Código de Alumno |
+| :---: | :---: |
+| Huaman Olivos, Yeira Shari | u202210513 |
+| Loechle Arias, Mateo Ítalo | u202215004 |
+| Barturen Panez, Iker Gabriel | u202312629 |
+| Encalada Salazar, Alexis | u20211g491 |
+| Torres Lavandera, Andrés Rodrigo | u202312557 |
+| Ynga Amado, Jafeth Worren | u202314715 |
 
 </div>
 
@@ -349,5 +323,17 @@ del ABET – EAC - Student Outcome 3.
 | Comunica por escrito con efectividad a diferentes rangos de audiencia   | TB2: Andrés Torres:  Documentó especificaciones funcionales, integración con backend y testing del módulo.                                                                                                                                                                                                                                                                                                                                                       | La documentación generada en las diferentes fases del proyecto refleja un dominio sólido de la comunicación escrita profesional. El equipo elaboró informes técnicos, manuales, guías, análisis funcionales y documentación de despliegue con claridad, estructura y coherencia. Se logró adaptar el nivel de tecnicidad según la audiencia prevista, asegurando que tanto desarrolladores como stakeholders no técnicos pudieran comprender la información presentada                                                                                                                                                                   |
 | Comunica oralmente con efectividad a diferentes rangos de audiencia.    | TB2: Alexis Encalada:  Explicó la pantalla de configuraciones y arquitectura backend final.                                                                                                                                                                                                                                                                                                                                                                      | Durante las distintas etapas de los proyectos (TB1, TP1 y TB2), el equipo demostró una evolución notable en su capacidad de comunicar oralmente de manera efectiva, adaptándose al tipo de audiencia —desde usuarios finales hasta stakeholders técnicos—. En cada presentación se empleó un lenguaje adecuado al nivel de conocimiento requerido, asegurando claridad en conceptos complejos, especialmente durante la explicación de arquitecturas, flujos de trabajo y despliegues                                                                                                                                                    |
 | Comunica por escrito con efectividad a diferentes rangos de audiencia   | TB2: Alexis Encalada:   Documentó Sprint 2, integración del sistema y arquitectura backend.                                                                                                                                                                                                                                                                                                                                                                      | La documentación generada en las diferentes fases del proyecto refleja un dominio sólido de la comunicación escrita profesional. El equipo elaboró informes técnicos, manuales, guías, análisis funcionales y documentación de despliegue con claridad, estructura y coherencia. Se logró adaptar el nivel de tecnicidad según la audiencia prevista, asegurando que tanto desarrolladores como stakeholders no técnicos pudieran comprender la información presentada                                                                                                                                                                   |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | TF1: Mateo Loechle: Explicó el proceso de integración frontend–backend, detallando el flujo de autenticación, el consumo de endpoints y la sincronización entre módulos. | Durante la TF1, el equipo consolidó su habilidad para comunicar oralmente conceptos técnicos vinculados a la integración total del sistema. Las presentaciones mostraron claridad en la explicación de flujos, endpoints, seguridad, manejo de estados y funcionalidad completa entre backend y frontend, adaptando el lenguaje según la audiencia requerida. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | TF1: Mateo Loechle: Documentó flujos de integración, consumo de APIs, manejo de errores y evidencias funcionales del sistema completo. | La comunicación escrita durante la TF1 fue precisa y profesional, presentando documentación clara sobre integración, pruebas, arquitectura y flujos entre frontend y backend. El equipo logró adaptar su redacción según la audiencia, manteniendo coherencia y profundidad técnica en cada entrega. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | TF1: Iker Barturen: Presentó la lógica de conexión con el backend, explicando cómo se gestionan tokens, perfiles, sesiones y peticiones desde el frontend. | Durante la TF1, el equipo consolidó su habilidad para comunicar oralmente conceptos técnicos vinculados a la integración total del sistema. Las presentaciones mostraron claridad en la explicación de flujos, endpoints, seguridad, manejo de estados y funcionalidad completa entre backend y frontend, adaptando el lenguaje según la audiencia requerida. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | TF1: Iker Barturen: Documentó procesos de autenticación, estructura de servicios frontend y validación de los datos obtenidos desde la API. | La comunicación escrita durante la TF1 fue precisa y profesional, presentando documentación clara sobre integración, pruebas, arquitectura y flujos entre frontend y backend. El equipo logró adaptar su redacción según la audiencia, manteniendo coherencia y profundidad técnica en cada entrega. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | TF1: Yeira Huaman: Explicó la integración de perfiles, ajustes visuales y estados obtenidos desde el backend, y cómo se sincronizaron con el frontend. | Durante la TF1, el equipo consolidó su habilidad para comunicar oralmente conceptos técnicos vinculados a la integración total del sistema. Las presentaciones mostraron claridad en la explicación de flujos, endpoints, seguridad, manejo de estados y funcionalidad completa entre backend y frontend, adaptando el lenguaje según la audiencia requerida. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | TF1: Yeira Huaman: Redactó documentación sobre la conexión de perfiles, pruebas de integración y ajustes de interfaz basados en datos provenientes de la API. | La comunicación escrita durante la TF1 fue precisa y profesional, presentando documentación clara sobre integración, pruebas, arquitectura y flujos entre frontend y backend. El equipo logró adaptar su redacción según la audiencia, manteniendo coherencia y profundidad técnica en cada entrega. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | TF1: Andrés Torres: Explicó la conexión entre los gráficos del frontend y los datos entregados por los módulos del backend, incluyendo estructuras y rendimiento. | Durante la TF1, el equipo consolidó su habilidad para comunicar oralmente conceptos técnicos vinculados a la integración total del sistema. Las presentaciones mostraron claridad en la explicación de flujos, endpoints, seguridad, manejo de estados y funcionalidad completa entre backend y frontend, adaptando el lenguaje según la audiencia requerida. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | TF1: Andrés Torres: Documentó especificaciones de consumo de datos, validación de respuestas y uso de servicios para dashboards conectados a la API. | La comunicación escrita durante la TF1 fue precisa y profesional, presentando documentación clara sobre integración, pruebas, arquitectura y flujos entre frontend y backend. El equipo logró adaptar su redacción según la audiencia, manteniendo coherencia y profundidad técnica en cada entrega. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | TF1: Alexis Encalada: Presentó el funcionamiento de los módulos conectados al backend, explicando configuración, manejo de estados y dependencias. | Durante la TF1, el equipo consolidó su habilidad para comunicar oralmente conceptos técnicos vinculados a la integración total del sistema. Las presentaciones mostraron claridad en la explicación de flujos, endpoints, seguridad, manejo de estados y funcionalidad completa entre backend y frontend, adaptando el lenguaje según la audiencia requerida. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | TF1: Alexis Encalada: Redactó documentación técnica del sistema integrado, describiendo arquitectura, servicios, rutas y evidencias finales de la conexión total. | La comunicación escrita durante la TF1 fue precisa y profesional, presentando documentación clara sobre integración, pruebas, arquitectura y flujos entre frontend y backend. El equipo logró adaptar su redacción según la audiencia, manteniendo coherencia y profundidad técnica en cada entrega. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | TF1: Jafeth Ynga: Explicó el funcionamiento final del sistema ya integrado, detallando cómo cada módulo del frontend interactúa con el backend. | Durante la TF1, el equipo consolidó su habilidad para comunicar oralmente conceptos técnicos vinculados a la integración total del sistema. Las presentaciones mostraron claridad en la explicación de flujos, endpoints, seguridad, manejo de estados y funcionalidad completa entre backend y frontend, adaptando el lenguaje según la audiencia requerida. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | TF1: Jafeth Ynga: Documentó la interacción completa del sistema, pruebas finales de integración y estructura de los módulos conectados. | La comunicación escrita durante la TF1 fue precisa y profesional, presentando documentación clara sobre integración, pruebas, arquitectura y flujos entre frontend y backend. El equipo logró adaptar su redacción según la audiencia, manteniendo coherencia y profundidad técnica en cada entrega. |
 
 

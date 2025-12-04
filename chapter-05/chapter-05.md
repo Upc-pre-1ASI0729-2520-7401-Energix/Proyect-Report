@@ -1,4 +1,4 @@
-# Capítulo V: Product Implementation, Validation & Deployment
+﻿# Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management
 
@@ -1226,15 +1226,18 @@ Durante el desarrollo del sprint 4 se lograron completar todos los puntos para l
 
 **Deployment de Landing Page en Netlify**
 
-![LandingPage-Netlify.png](chapter-05/assets/LandingPage.png)
+![LandingPage-Netlify.png](assets/LandingPage.png)
 
 **Deployment de Frontend en Vercel**
 
-![Frontend-Vercel.png](chapter-05/assets/Frontend-Login.png)
+![Frontend-Vercel.png](assets/Frontend-Login.png)
+
+![vercel.png](assets/vercel.png)
 
 **Deployment en Render del Backend**
 
 ![alt text](assets/Deploy-New-API.png)
+
 ![alt text](assets/Deploy-Proxy.jpeg)
 
 **SEMS API**
@@ -1627,7 +1630,7 @@ Explorar la integración con dispositivos inteligentes y tecnologías IoT para a
   https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Energix-Landing-Page
 - Link del Repositorio del Frontend de la Aplicación Web
   https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
-- link del Repositorio del Backend de la Aplicación Web
+- Link del Repositorio del Backend de la Aplicación Web
   https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS 
 - Link de la landing page
   https://energixlp.netlify.app
@@ -1637,6 +1640,8 @@ Explorar la integración con dispositivos inteligentes y tecnologías IoT para a
   https://theft-muscles-inner-protection.trycloudflare.com
 - Link de la Documentación de la API
   https://theft-muscles-inner-protection.trycloudflare.com/swagger-ui/index.html
+- Link del API externa
+  https://apistripefinal.onrender.com/
 - Link del Figma
   https://www.figma.com/design/tmJAly092Cbckme5PFfA6Z/Energix?node-id=26-4210&t=4xEBZLNYgT1IM6IQ-1
 - Link del video de la presentación
