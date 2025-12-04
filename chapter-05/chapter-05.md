@@ -1155,36 +1155,56 @@ Estos commits provienen del repositorio del proyecto backend de la organización
 Enlace al repositorio del proyecto backend: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS
 
 | Repository | Branch | Commit Id | Commit Message | Committed on (Date) |
-|-----------|--------|-----------|----------------|----------------------|
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | fad3594 | feat: update SnakeCase. | Nov 13, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 99a6886 | feat: add post by swagger. | Nov 13, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 705573e | Merge pull request #7 from Upc-pre-1ASI0729-2520-7401-Energix/feature/reports | Nov 13, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 546ddae | feat: add repository and DTO fixes | Nov 14, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | f481f5c | feat: add Javadoc documentation for DashboardStatsRepository and fixed identation | Nov 14, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | d28ac10 | feat: add Javadoc documentation for DailyConsumptionRepository and fixed maven dependencie | Nov 14, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 4b80735 | Merge pull request #11 from Upc-pre-1ASI0729-2520-7401-Energix/feature/repositoryfix | Nov 14, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 53399ed | feat: update Java version, add Dockerfile, and refactor UserSettings entity to use OneToMany relationships for report frequencies and formats | Nov 15, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 3330982 | Merge pull request #12 from Upc-pre-1ASI0729-2520-7401-Energix/feature/add-deploy-config | Nov 15, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | fix/profile-management | de8265d | feat: Refactor authentication and profile management services. | Nov 24, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | cbc2e49 | Merge pull request #14 from Upc-pre-1ASI0729-2520-7401-Energix/feature/update-Authentication | Nov 24, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/settings | 8d7e29f | feat: remove SettingsController and related classes. | Nov 30, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 7bd6ab2 | feat: Remove unused service and repository files. | Nov 30, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/notification | ef1df3d | feat: Implement notification system with command and query services, event handling, and REST API endpoints. | Nov 30, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/notification | 5ce91b3 | feat: Refactor device and notification handling, update command structures, and enhance user profile integration. | Nov 30, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/dashboard | 6aa1db3 | feat(alert): add AlertResource record for alert data structure. | Dic 1, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/dashboard | eea2882 | feat(dashboard): add CategoryConsumptionResource record for category consumption data structure. | Dic 1, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/dashboard | 8ad47c7 | feat: add ConsumptionByHourResource record for hourly consumption data structure. | Dic 1, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/dashboard | c204343 | feat(dashboard): add DashboardQueryService interface for querying dashboard data by user ID. | Dic 1, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/authentication | 00ffb7c | feat(authentication): enhance sign-up process with error logging and role handling improvements. | Dic 2, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | fix/profile | d29ccdb | feat(profile): enhance Profile aggregate with profile photo handling and update related resources. | Dic 2, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feature/new-api | 358bcc4 | Merge pull request #15 from Upc-pre-1ASI0729-2520-7401-Energix/feature/new-API | Dic 2, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/dashboard | 56cf65a | feat(dashboard): enhance dashboard query service with detailed consumption calculations and alerts. | Dic 3, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/docker | 0bf1e38 | feat(docker): update base images to Maven 3.9.9 and Oracle JDK 25 for improved performance. | Dic 3, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 7ba01a7 | Merge pull request #16 from Upc-pre-1ASI0729-2520-7401-Energix/feature/fix-dashboard | Dic 3, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/user | d53568c | feat(user): implement email update functionality and secure user retrieval endpoints. | Dic 3, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 32f5656 | feat(preferences): refactor preferences handling to support global user preferences and enhance logging. | Dic 3, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 31120c0 | feat(profile): synchronize email updates with users table and enhance logging. | Dic 3, 2025 |
-| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 57fa8d2 | Merge pull request #17 from Upc-pre-1ASI0729-2520-7401-Energix/feature/fix-profiles | Dic 3, 2025 |
+|-----------|--------|-----------|----------------|---------------------|
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | fad3594 | feat: update SnakeCase. | Nov 13, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 99a6886 | feat: add post by swagger. | Nov 13, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 705573e | Merge pull request #7 from Upc-pre-1ASI0729-2520-7401-Energix/feature/reports | Nov 13, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 546ddae | feat: add repository and DTO fixes | Nov 14, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | f481f5c | feat: add Javadoc documentation for DashboardStatsRepository and fixed identation | Nov 14, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | d28ac10 | feat: add Javadoc documentation for DailyConsumptionRepository and fixed maven dependencie | Nov 14, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 4b80735 | Merge pull request #11 from Upc-pre-1ASI0729-2520-7401-Energix/feature/repositoryfix | Nov 14, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 53399ed | feat: update Java version, add Dockerfile, and refactor UserSettings entity to use OneToMany relationships for report frequencies and formats | Nov 15, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 3330982 | Merge pull request #12 from Upc-pre-1ASI0729-2520-7401-Energix/feature/add-deploy-config | Nov 15, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | fix/profile-management | de8265d | feat: Refactor authentication and profile management services. | Nov 24, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | cbc2e49 | Merge pull request #14 from Upc-pre-1ASI0729-2520-7401-Energix/feature/update-Authentication | Nov 24, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/settings | 8d7e29f | feat: remove SettingsController and related classes. | Nov 30, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 7bd6ab2 | feat: Remove unused service and repository files. | Nov 30, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/notification | ef1df3d | feat: Implement notification system with command and query services, event handling, and REST API endpoints. | Nov 30, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/notification | 5ce91b3 | feat: Refactor device and notification handling, update command structures, and enhance user profile integration. | Nov 30, 2025        |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/dashboard | 6aa1db3 | feat(alert): add AlertResource record for alert data structure. | Dec 1, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/dashboard | eea2882 | feat(dashboard): add CategoryConsumptionResource record for category consumption data structure. | Dec 1, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/dashboard | 8ad47c7 | feat: add ConsumptionByHourResource record for hourly consumption data structure. | Dec 1, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/dashboard | c204343 | feat(dashboard): add DashboardQueryService interface for querying dashboard data by user ID. | Dec 1, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/authentication | 00ffb7c | feat(authentication): enhance sign-up process with error logging and role handling improvements. | Dec 2, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | fix/profile | d29ccdb | feat(profile): enhance Profile aggregate with profile photo handling and update related resources. | Dec 2, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feature/new-api | 358bcc4 | Merge pull request #15 from Upc-pre-1ASI0729-2520-7401-Energix/feature/new-API | Dec 2, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/dashboard | 56cf65a | feat(dashboard): enhance dashboard query service with detailed consumption calculations and alerts. | Dec 3, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/docker | 0bf1e38 | feat(docker): update base images to Maven 3.9.9 and Oracle JDK 25 for improved performance. | Dec 3, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 7ba01a7 | Merge pull request #16 from Upc-pre-1ASI0729-2520-7401-Energix/feature/fix-dashboard | Dec 3, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | feat/user | d53568c | feat(user): implement email update functionality and secure user retrieval endpoints. | Dec 3, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 32f5656 | feat(preferences): refactor preferences handling to support global user preferences and enhance logging. | Dec 3, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 31120c0 | feat(profile): synchronize email updates with users table and enhance logging. | Dec 3, 2025         |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Backend-SEMS | develop | 57fa8d2 | Merge pull request #17 from Upc-pre-1ASI0729-2520-7401-Energix/feature/fix-profiles | Dec 3, 2025         |
+
+Enlace al repositorio del proyecto frontend: https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS
+
+| Repository | Branch | Commit Id | Commit Message | Commited on (Date) |
+|-----------|--------|-----------|----------------|---------------------|
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS | develop | c83edd3 | feat: Update authentication to use email and improve token management. | Nov 15, 2025 |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS | fix/profile | ac1dd5b | feat(header.ts): optimize profile fetching with distinctUntilChanged operator | Nov 15, 2025 |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS | fix/profile | e405d2e | feat(profile): enhance profile update logic and user ID retrieval from token | Nov 15, 2025 |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS | fix/profile | 618f24e | feat: enhance profile management with additional fields and loading states. | Nov 28, 2025 |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS | feature/release-1.0 | 04144f5 | feat: add brand and model fields to device management and update related components. | Nov 29, 2025 |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS | feature/release-1.0 | 29efdb0 | feat: update category-chart.ts | Nov 30, 2025 |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS | feature/release-1.0 | 5164cb | feat: update device-chart. | Nov 30, 2025 |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS | feature/release-1.0 | 2e6ae6f | feat: update notifications. | Nov 30, 2025 |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS | feature/release-1.0 | 4f82b96 | feat: enhance device management by updating form fields and improving data handling. | Dec 03, 2025 |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS | feature/release-1.0 | 20022d2 | feat(settings): Add Support Modals for FAQs and help. | Dec 03, 2025 |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS | feature/release-1.0 | dbf3277 | Merge branch 'feature/release-1.0' of https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS into feature/release-1.0 | Dec 03, 2025 |
+| https://github.com/Upc-pre-1ASI0729-2520-7401-Energix/Frontend-SEMS | feature/release-1.0 | a66f6c5 | feat(monthly-chart): enhance monthly chart with Chart.js integration and static data display. | Dec 03, 2025 |
+
+
+
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
